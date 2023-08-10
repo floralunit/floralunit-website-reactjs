@@ -1,0 +1,76 @@
+.bloodText  {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Times New Roman";
+    /*background: #badfff;*/
+}
+
+.goo h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 240px;
+    text-align: center;
+    color: #007fed;
+    text-shadow: 2px 2px 0 #002d54;
+}
+
+.goo {
+    position: relative;
+    top: 40%;
+    width: 600px;
+    margin: auto;
+    transform: translateY(-60%);
+    filter: url(#goo);
+}
+
+.drop {
+    opacity: 0;
+    width: 30px;
+    height: 40px;
+    background: #0097ed;
+    border-radius: 1000px;
+    position: absolute;
+    animation: drip 8s infinite;
+    border: 2px solid #002d54;
+    border-top: none;
+    top: 170px;
+    left: 50px;
+}
+.drop:nth-child(2) {
+    left: 150px;
+    animation-delay: 3s;
+}
+.drop:nth-child(3) {
+    left: 170px;
+    animation-delay: 2s;
+}
+.drop:nth-child(4) {
+    left: 203px;
+    animation-delay: 4s;
+}
+.drop:nth-child(5) {
+    left: 415px;
+    animation-delay: 1.5s;
+}
+.drop:nth-child(6) {
+    left: 509px;
+    animation-delay: 5s;
+}
+
+@keyframes drip {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    35% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    50% {
+        transform: translateY(110vh);
+    }
+    100% {
+        transform: translateY(110vh);
+    }
+}

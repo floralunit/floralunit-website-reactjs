@@ -1,9 +1,9 @@
 import Webamp from "webamp"; // eslint-disable-line import/no-unresolved
 // This import gives us a URL to llama.mp3
-import llama from "./bob-tilton-gears-turn-it-just-repeats.mp3";
-import salem from "./Salem_Salem_-_Sick_50538485.mp3";
-import internetArchiveSkin from "./Yunaofffx.wsz";
-import topazSkin from "./Yunaofffx.wsz";
+import llama from "./Salem - Sick.mp3";
+import salem from "./†▼BF▼CK - WH▲T ▲M I.mp3";
+import internetArchiveSkin from "../Yunaofffx.wsz";
+import topazSkin from "../Yunaofffx.wsz";
 
 if (!Webamp.browserIsSupported()) {
     alert("Oh no! Webamp does not work in this browser!");
