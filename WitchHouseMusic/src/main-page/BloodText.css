@@ -1,15 +1,15 @@
-.bloodText  {
+/*.bloodText  {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    font-family: "Times New Roman";
-    /*background: #badfff;*/
-}
+    font-family: "Times New Roman", fantasy;
+    !*background: #badfff;*!
+}*/
 
 .goo h1 {
     margin: 0;
-    font-weight: bold;
-    font-size: 240px;
+    font-family: "Times New Roman", fantasy;
+    font-size: 120px;
     text-align: center;
     color: #007fed;
     text-shadow: 2px 2px 0 #002d54;
@@ -18,7 +18,7 @@
 .goo {
     position: relative;
     top: 40%;
-    width: 600px;
+    width: 800px;
     margin: auto;
     transform: translateY(-60%);
     filter: url(#goo);
@@ -26,16 +26,16 @@
 
 .drop {
     opacity: 0;
-    width: 30px;
-    height: 40px;
+    width: 20px;
+    height: 30px;
     background: #0097ed;
     border-radius: 1000px;
     position: absolute;
     animation: drip 8s infinite;
     border: 2px solid #002d54;
     border-top: none;
-    top: 170px;
-    left: 50px;
+    top: 60px;
+    left: 30px;
 }
 .drop:nth-child(2) {
     left: 150px;
