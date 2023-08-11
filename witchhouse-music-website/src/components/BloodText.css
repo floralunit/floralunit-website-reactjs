@@ -7,12 +7,12 @@
 }*/
 
 .goo h1 {
-    margin: 0;
+    margin-top: 50px;
     font-family: "Times New Roman", fantasy;
     font-size: 120px;
     text-align: center;
-    color: #007fed;
-    text-shadow: 2px 2px 0 #002d54;
+    color: #ffffff;
+    text-shadow: 2px 2px 0 red;
 }
 
 .goo {
@@ -28,11 +28,11 @@
     opacity: 0;
     width: 20px;
     height: 30px;
-    background: #0097ed;
+    background: #ffffff;
     border-radius: 1000px;
     position: absolute;
     animation: drip 8s infinite;
-    border: 2px solid #002d54;
+    border: 2px solid red;
     border-top: none;
     top: 60px;
     left: 30px;

@@ -3,3 +3,31 @@ body
     background-image: url("resources/nurple-static-bright.gif");
     background-repeat: repeat;
 }
+
+.name{
+    text-align: center;
+}
+
+.name img {
+    max-width: 100%;
+    /*border-radius: 10px;*/
+    /*box-shadow: 4px 4px 3px 1px #00000085;*/
+    margin: 30px;
+    /*transition:box-shadow 0.5s ease-in-out;*/
+    object-fit:cover;
+}
+
+.p {
+    height:200px;
+    width:166px;
+}
+
+.l {
+    height:200px;
+    width:300px;
+}
+
+.s {
+    height:400px;
+    width:400px;
+}

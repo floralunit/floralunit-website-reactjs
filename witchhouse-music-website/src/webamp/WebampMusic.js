@@ -1,9 +1,9 @@
 import Webamp from "webamp"; // eslint-disable-line import/no-unresolved
 // This import gives us a URL to llama.mp3
-import llama from "./Salem - Sick.mp3";
-import salem from "./†▼BF▼CK - WH▲T ▲M I.mp3";
-import internetArchiveSkin from "../Yunaofffx.wsz";
-import topazSkin from "../Yunaofffx.wsz";
+import salem from "./music/Salem - Sick.mp3";
+import whatami from "./music/†▼BF▼CK - WH▲T ▲M I.mp3";
+import krishna from "./skins/hare_krishna.wsz";
+import react from "react";
 
 if (!Webamp.browserIsSupported()) {
     alert("Oh no! Webamp does not work in this browser!");
@@ -14,28 +14,29 @@ const webamp = new Webamp({
     initialTracks: [
         {
             metaData: {
-                artist: "salem",
-                title: "sick"
+                artist: "†▼BF▼CK",
+                title: "WH▲T ▲M I"
             },
             // NOTE: Your audio file must be served from the same domain as your HTML
             // file, or served with permissive CORS HTTP headers:
             // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-            url: salem,
-            duration: 5.322286
+            url: whatami,
+            /*duration: 5.322286*/
         },
         {
             metaData: {
-                artist: "Some Artist",
-                title: "Title of Second Track"
+                artist: "Salem",
+                title: "Sick"
             },
-            url: llama,
-            duration: 5.322286
+            url: salem,
+            /*duration: 5.322286*/
         }
     ],
     availableSkins: [
-        { url: internetArchiveSkin, name: "Internet Archvie" },
-        { url: topazSkin, name: "Topaz" }
-    ]
+        /*{ url: internetArchiveSkin, name: "Internet Archvie" },*/
+        { url: krishna, name: "krishna" },
+    ],
+    initialSkin: { url: krishna, name: "krishna" },
 });
 
 // An example of handling the close button and giving a way to reopen WEebamp
@@ -57,6 +58,15 @@ webamp.onWillClose((cancel) => {
         cancel();
     }
 });
+export default class WebampMusic extends react.Component {
 
-// Here we go! Let's show Webamp.
-webamp.renderWhenReady(document.getElementById("app"));
+    webampRef = react.createRef();
+
+    componentDidMount() {
+        webamp.renderWhenReady(this.webampRef.current);
+    }
+
+    render() {
+        return <div ref={this.webampRef} style={{right: 0, top: 0, position: "absolute" }}/>;
+    }
+}

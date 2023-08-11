@@ -17,23 +17,31 @@
     border-bottom: 1px solid #000000;
     text-align: center;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .marquee h3 {
     font-size: 23px;
     font-weight: 700;
-    text-transform: uppercase;
+
     color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 .marquee .marquee-wrapper {
-    width: 100000px;
-    animation: marqueeAnimation 38s linear 0s infinite running;
+    width: 2000px;
+    animation: marqueeAnimation 10s linear 0s infinite running;
+    margin: 0;
+    padding: 0;
 }
 
 .marquee h3 .marquee-title {
     /*margin-right: 20px;*/
     float: left;
+    margin: 0;
+    padding: 0;
 }
 
 .text-stroke-white {
@@ -44,7 +52,7 @@
 
 @keyframes marqueeAnimation {
     100% {
-        transform: translateX(-3300px);
+        transform: translateX(-500px);
     }
 }
 
