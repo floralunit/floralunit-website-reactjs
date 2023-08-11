@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Rubik Wet Paint";
+    src: local("Rubik Wet Paint"),
+    url("../fonts/Rubik_Wet_Paint/RubikWetPaint-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Handjet-Medium";
+    src: local("Handjet-Medium"),
+    url("../fonts/Handjet/static/Handjet-Medium.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Handjet-Light";
+    src: local("Handjet-Light"),
+    url("../fonts/Handjet/static/Handjet-Light.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "deadwax-font";
+    src: local("deadwax-font"),
+    url("../fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "evil-sound-font";
+    src: local("evil-sound-font"),
+    url("../fonts/evil-sound-font/EvilSound-nRM8M.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "jatmika-font";
+    src: local("jatmika-font"),
+    url("../fonts/jatmika-font/JatmikaTypeface-2OYlK.otf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "kings-and-pirates-font";
+    src: local("kings-and-pirates-font"),
+    url("../fonts/kings-and-pirates-font/KingsAndPirates-p7EAK.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "treasure-map-font";
+    src: local("treasure-map-font"),
+    url("../fonts/treasure-map-font/Treasuremap-Ea1vj.ttf") format("truetype");
+    font-weight: normal;
+}

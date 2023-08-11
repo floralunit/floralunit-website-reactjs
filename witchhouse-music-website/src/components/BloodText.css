@@ -7,12 +7,13 @@
 }*/
 
 .goo h1 {
-    margin-top: 50px;
-    font-family: "Times New Roman", fantasy;
-    font-size: 120px;
+    margin-top: 60px;
+    font-family: 'evil-sound-font', serif;
+    font-size: 100px;
     text-align: center;
     color: #ffffff;
-    text-shadow: 2px 2px 0 red;
+    font-weight: lighter;
+
 }
 
 .goo {
@@ -28,14 +29,14 @@
     opacity: 0;
     width: 20px;
     height: 30px;
-    background: #ffffff;
+    background: red;
     border-radius: 1000px;
     position: absolute;
     animation: drip 8s infinite;
-    border: 2px solid red;
+    border: 2px solid black;
     border-top: none;
-    top: 60px;
-    left: 30px;
+    top: 90px;
+    left: 50px;
 }
 .drop:nth-child(2) {
     left: 150px;
