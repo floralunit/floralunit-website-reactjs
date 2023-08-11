@@ -1,4 +1,3 @@
-import './webamp/webamp'
 import './styles/App.css';
 import {BrowserRouter, Route,  Routes, Navigate} from 'react-router-dom';
 import {MainPage} from "./main-page/MainPage";
@@ -9,6 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<MainPage/>}/>
+            <Route path='/radostmoja' element={<MainPage/>}/>
           {/*<Route path='/bobtilton' element={<BobTilton/>}/>*/}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
