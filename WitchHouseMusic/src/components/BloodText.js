@@ -16,7 +16,8 @@ export function BloodText() {
             </svg>
 
             <div className="goo">
-                <h1>Witch House</h1>
+                <div className="witchHeader">Witch House</div>
+                <div className="drop"></div>
                 <div className="drop"></div>
                 <div className="drop"></div>
                 <div className="drop"></div>
