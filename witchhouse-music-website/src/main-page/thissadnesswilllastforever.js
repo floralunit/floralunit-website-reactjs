@@ -1,7 +1,7 @@
 import React from 'react'
-import './MovingText.css';
+import '../styles/MovingText.css';
 
-export function MovingText() {
+export function Thissadnesswilllastforever() {
     return (
         <div className="marqueeBody">
             <div className="marquee">
