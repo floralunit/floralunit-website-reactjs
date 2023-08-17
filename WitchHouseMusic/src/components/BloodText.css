@@ -16,6 +16,7 @@
     width: 800px;
     margin: auto;
     filter: url(#goo);
+    text-shadow: 2px 2px 4px white;
 }
 
 .drop {
@@ -33,14 +34,14 @@
     box-shadow: inset 10px 10px 10px #560e07,
     15px 25px 10px rgba(0,0,0,0.1),
     15px 20px 20px rgba(0,0,0,0.05),
-    inset -10px -10px 15px #560e07;
+    inset -10px -10px 15px #8a0303;
 }
 .drop::before{
     content: '';
     position: absolute;
     top: 25px;
     left: 35px;
-    background:#220000;
+    background:#8a0303;
     width: 20px;
     height: 20px;
     border-radius: 58% 42% 72% 28% / 37% 41% 59% 63%;
@@ -49,7 +50,7 @@
      position: absolute;
      top: 25px;
      left: 65px;
-     background: #220000;
+     background: #8a0303;
      width: 10px;
      height: 10px;
      border-radius: 58% 42% 72% 28% / 37% 41% 59% 63%;

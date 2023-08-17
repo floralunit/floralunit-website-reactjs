@@ -59,15 +59,12 @@
 
 @media (max-width: 992px) {
     .marquee h3 {
-        font-size: 15px;
+        font-size: 22px;
     }
 }
 
 @media (max-width: 549px) {
     .marquee h3 {
-        font-size: 12px;
-    }
-    .marqueeBody {
-        width: 100vh;
+        font-size: 18px;
     }
 }
