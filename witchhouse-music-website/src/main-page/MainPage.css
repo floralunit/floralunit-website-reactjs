@@ -6,33 +6,6 @@ body
     background-attachment:fixed;
 }
 
-.name{
-    text-align: center;
-}
-
-.name img {
-    max-width: 100%;
-    /*border-radius: 10px;*/
-    /*box-shadow: 4px 4px 3px 1px #00000085;*/
-    margin: 30px;
-    /*transition:box-shadow 0.5s ease-in-out;*/
-    object-fit:cover;
-}
-
-.p {
-    height:200px;
-    width:166px;
-}
-
-.l {
-    height:200px;
-    width:300px;
-}
-
-.s {
-    height:400px;
-    width:400px;
-}
 
 .info {
 /*    width: 1024px;
@@ -50,11 +23,10 @@ body
     margin: 0 auto;
 /*    background-image: url("resources/stars5.gif");
     background-repeat: repeat;*/
-    background: black;
 }
 
 .info-text {
-    font-family: "Rubik Wet Paint", serif;
+    font-family: dot, serif;
     font-size: 18px;
     color: white;
     padding: 15px;
@@ -68,7 +40,7 @@ body
 /* A media query for a large screen */
 @media (min-width: 1170px) {
     .container {
-        max-width: 1370px;
+        max-width: 1000px;
     }
 }
 
@@ -96,4 +68,27 @@ div.vv17ch {
     display: flex;
     justify-items: center;
     justify-content: center;
+}
+
+.music-container {
+    display: flex;
+}
+
+.info-container{
+    background: black;
+    margin: 50px 0px;
+    box-shadow: 0 0 20px black;
+}
+
+.head-container{
+    background-image: url("resources/smoke.gif");
+    background-repeat: repeat;
+    box-shadow: 0 0 20px black;
+}
+
+.header-section{
+}
+
+a:hover{
+    color: #8a0303;
 }
