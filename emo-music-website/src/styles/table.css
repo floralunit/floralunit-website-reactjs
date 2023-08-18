@@ -1,0 +1,53 @@
+.table{
+    display: table;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+div>table {
+    float: left;
+}
+/*Заголовок*/
+.tdUp{
+    text-align: left;
+    background: #FFFFFF;
+    width: 200px;
+    vertical-align: top;
+    font-family: Verdana, serif;
+    color: #000000;
+}
+/*Обычные ячейки*/
+.tdLow {
+    text-align: left;
+    background: #333333;
+    width: 200px;
+    vertical-align: top;
+    font-family: Verdana, serif;
+    color: #000000;
+}
+@media (max-width: 1400px) {
+    .table-view{
+        position: relative;
+    }
+    .table{
+        width: 400px;
+        margin:0 auto;
+        text-align: center;
+        top: 0px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    div>table {
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    /*Заголовок*/
+    .tdUp{
+        width: 400px;
+    }
+    /*Обычные ячейки*/
+    .tdLow {
+        width: 400px;
+    }
+}
