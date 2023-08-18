@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "deadwax-font";
+  src: local("deadwax-font"),
+  url("../fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "evil-sound-font";
+  src: local("evil-sound-font"),
+  url("../fonts/evil-sound-font/EvilSound-nRM8M.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: dot;
+  src: url(https://dl.dropbox.com/s/yc748m5thfiveuh/DotGothic16-Regular.ttf);
+}
+@font-face {
+  font-family: infer;
+  src: url(https://dl.dropbox.com/s/t7xyophsghepg05/Infernalda.ttf);
+}
+@font-face {
+  font-family: homicide;
+  src: url(https://dl.dropbox.com/s/yxh8rrh3atj26np/DoubleHomicide.ttf);
+}
