@@ -1,0 +1,106 @@
+.witchHeader {
+    font-family: 'evil-sound-font', serif;
+    font-size: 103px;
+    text-align: center;
+    color: #8a0303;
+    font-weight: lighter;
+    overflow-x: hidden;
+    text-shadow: 1px 0px 0 #560e07;
+    text-decoration: white;
+
+}
+
+.goo {
+    position: relative;
+    top: 40%;
+    width: 800px;
+    margin: auto;
+    filter: url(#goo);
+    text-shadow: 2px 2px 4px white;
+}
+
+.drop {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 52% 48% 30% 70% / 51% 54% 46% 49%;
+    border: 2px solid #220000;
+    position: absolute;
+    animation: drip 8s infinite;
+    background: transparent;
+    border-top: none;
+    top: 90px;
+    left: 60px;
+    box-shadow: inset 10px 10px 10px #560e07,
+    15px 25px 10px rgba(0,0,0,0.1),
+    15px 20px 20px rgba(0,0,0,0.05),
+    inset -10px -10px 15px #8a0303;
+}
+.drop::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    background:#8a0303;
+    width: 20px;
+    height: 20px;
+    border-radius: 58% 42% 72% 28% / 37% 41% 59% 63%;
+}.drop::after{
+     content: '';
+     position: absolute;
+     top: 25px;
+     left: 65px;
+     background: #8a0303;
+     width: 10px;
+     height: 10px;
+     border-radius: 58% 42% 72% 28% / 37% 41% 59% 63%;
+ }
+
+
+.drop:nth-child(2) {
+    left: 170px;
+    animation-delay: 5s;
+    border-radius: 39% 61% 52% 48% / 53% 41% 59% 47%;
+    transform: scale(0.5) translate(-200px,180px);
+}
+.drop:nth-child(3) {
+    left: 220px;
+    animation-delay: 2s;
+}
+.drop:nth-child(4) {
+    left: 366px;
+    animation-delay: 4s;
+}
+.drop:nth-child(5) {
+    left: 468px;
+    animation-delay: 1.5s;
+    border-radius: 53% 47% 46% 54% / 42% 46% 54% 58%;
+    transform: scale(0.5) translate(280px,10px);
+}
+.drop:nth-child(6) {
+    left: 559px;
+    animation-delay: 3s;
+}
+.drop:nth-child(7) {
+    left: 692px;
+    animation-delay: 4s;
+}
+
+@keyframes drip {
+    0% {
+        opacity: 0;
+        transform: translateY(0) scaleX(.85) rotate(45deg);
+        animation-timing-function: ease-out;
+    }
+    35% {
+        opacity: 1;
+        transform: translateY(30px) scaleX(.85) rotate(45deg);
+    }
+    60% {
+        transform: translateY(110vh) scaleX(.85) rotate(45deg);
+        animation-timing-function: ease-in;
+    }
+    80%,100% {
+        transform: translateY(110vh) scaleX(.85) rotate(45deg);
+    }
+}
