@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fonts/DotGothic16-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/DoubleHomicide.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Infernalda.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/witchhouse-music-website/witch-pages/radost-moja/RadostMojaPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/.idea/emo-react-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/back_band.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/back_band.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/BobTilton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/BobTilton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/bobtilton1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/bobtilton1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/bobtilton2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/bobtilton2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/bobtilton3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/bobtilton3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/bobtilton4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/bobtilton4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/bobtilton5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/bobtilton5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/crescent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/crescent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/hotels.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/hotels.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/penknife.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/penknife.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/reiziger.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/reiziger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/images/springtime.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/images/springtime.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/bob-tilton/songs-lyrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/bob-tilton/songs-lyrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/instruments-images/bass-guitar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/instruments-images/bass-guitar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/instruments-images/drums.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/instruments-images/drums.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/instruments-images/guitar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/instruments-images/guitar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/bands/instruments-images/singer.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-bands/instruments-images/singer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/components/BandsTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/components/BandsTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/components/SongLyrics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/components/SongLyrics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/main-page/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-main-page/EmoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/main-page/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-main-page/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/main-page/images/mem.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-main-page/images/mem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/audio-video-image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/audio-video-image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/columns.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/columns.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/tabs(old).css" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/tabs(old).css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo-music-website/src/styles/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/styles/tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/.idea/witch-house-react-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/components/BloodText.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/BloodText.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/components/BloodText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/BloodText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/components/thissadnesswilllastforever.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/thissadnesswilllastforever.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/deadwax-font/DeadwaxDemoExtreme-X3DlZ.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/deadwax-font/DeadwaxDemoExtreme-X3DlZ.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/deadwax-font/DeadwaxDemoHard-gxadp.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/deadwax-font/DeadwaxDemoHard-gxadp.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/deadwax-font/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/deadwax-font/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/deadwax-font/misc/Read me!.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/deadwax-font/misc/Read me!.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/evil-sound-font/EvilSound-nRM8M.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/evil-sound-font/EvilSound-nRM8M.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/evil-sound-font/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/evil-sound-font/info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/fonts/evil-sound-font/misc/Read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/evil-sound-font/misc/Read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/MainPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-page/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/0011-frog.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/0190-hittingfloor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/Demon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/Spider.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/angel-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/angel-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/background038.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/bloodbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/cI9T4LaStOw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/church.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/hWV880Qun8M.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/head-bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/i.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/matrix-red-heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/nurple-static-bright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/radostmoja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/skulls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/smoke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/stars5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/suicidewave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/vedmindom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/main-page/resources/vv17chou7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/styles/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/styles/MovingText.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/styles/MovingText.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/styles/photos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/styles/photos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/WebampMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/WebampMusic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/ANTISKIN.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/ANTISKIN.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/Antagony_-_See_Threw_These_Eyes_2.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/Antagony_-_See_Threw_These_Eyes_2.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/BLACK_OUT.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/BLACK_OUT.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/Cinnamoroll_and_Friends.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/Cinnamoroll_and_Friends.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/Future_DOS.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/Future_DOS.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/Irlen_Skin.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/Irlen_Skin.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/Lord_Shiva_Amp_1.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/Lord_Shiva_Amp_1.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/StealthAmp.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/StealthAmp.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/TooBlu.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/TooBlu.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/Yunaofffx.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/Yunaofffx.wsz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/witchhouse-music-website/src/webamp/skins/hare_krishna.wsz" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/skins/hare_krishna.wsz" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UA0VPcQNaulZEAYMvR6nD01AEC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/main-page&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-page" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\witchhouse-music-website\witch-pages\radost-moja" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\witchhouse-music-website\components" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\witchhouse-music-website\webamp\music" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\emo-music-website" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\witchhouse-music-website" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="" />
+      <created>1692367103363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692367103363</updated>
+      <workItem from="1692367105511" duration="2229000" />
+      <workItem from="1692441004999" duration="4998000" />
+      <workItem from="1692446894498" duration="1645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

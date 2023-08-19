@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "deadwax-font";
+  src: local("deadwax-font"),
+  url("./fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "evil-sound-font";
+  src: local("evil-sound-font"),
+  url("./fonts/evil-sound-font/EvilSound-nRM8M.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: dot;
+  src: url("./fonts/DotGothic16-Regular.ttf");
+}
+@font-face {
+  font-family: infer;
+  src: url("./fonts/Infernalda.ttf");
+}
+@font-face {
+  font-family: homicide;
+  src: url("./fonts/DoubleHomicide.ttf");
+}
+/*
+@font-face {
+  font-family: homicide;
+  src: url(https://dl.dropbox.com/s/yxh8rrh3atj26np/DoubleHomicide.ttf);
+}*/
