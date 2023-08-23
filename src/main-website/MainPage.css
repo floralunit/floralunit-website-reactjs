@@ -1,9 +1,8 @@
-.main-page
-{
+.main-page {
     background-image: url("resources/main-background.png");
     background-repeat: repeat;
     overflow-x: hidden;
-    background-attachment:fixed;
+    background-attachment: fixed;
     min-height: 100vh;
     padding: 0;
     margin: 0;
@@ -13,22 +12,24 @@
 
 }
 
-
 center {
     text-align: center;
 }
+
 .header img {
     border-top: 0px;
 }
+
 .title h1, .title h2, .title h3 {
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
 .main-container {
-    max-width: 900px;
+    max-width: 920px;
     margin: 0 auto;
 }
+
 .flex-container {
     display: flex;
 }
@@ -37,22 +38,24 @@ center {
     margin-left: 10px;
     order: 1;
 }
+
 .sidebar-right {
     order: 3;
 }
 
 aside {
-    width: 200px;
+    width: 230px;
     padding: 20px;
     font-size: smaller;
 }
+
 .main {
     flex: 1;
     padding: 20px;
     order: 2;
 }
 
-.wrapper, .links a {
+.main-container, .links a {
     color: #132a13;
 }
 
@@ -103,26 +106,38 @@ aside {
     font-size: 1.075em;
 }
 
-ol {
+.image-list ul, .image-list ol, .image-list li {
     list-style-type: none;
 }
-
 ul {
-    margin: 0 0 0 32px;
+    margin: 0 0 0 25px;
 }
 
-li img {
-    width: 20px;
+li {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-list li img {
+    width: 22px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 800px) {
-    .wrapper-2 {
+    .flex-container {
         flex-wrap: wrap;
     }
 
     aside {
         width: 100%;
     }
+
     .main {
         order: 1;
     }
@@ -144,4 +159,9 @@ footer {
     padding: 10px;
     text-align: center;
     /* this centers the footer text */
+}
+
+.updates-list{
+    height: 100px;
+    overflow-y: scroll;
 }

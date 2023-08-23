@@ -5,27 +5,27 @@ body {
 @font-face {
   font-family: "deadwax-font";
   src: local("deadwax-font"),
-  url("./fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf") format("truetype");
+  url("common/fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "evil-sound-font";
   src: local("evil-sound-font"),
-  url("./fonts/evil-sound-font/EvilSound-nRM8M.ttf") format("truetype");
+  url("common/fonts/evil-sound-font/EvilSound-nRM8M.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: dot;
-  src: url("./fonts/DotGothic16-Regular.ttf");
+  src: url("common/fonts/DotGothic16-Regular.ttf");
 }
 @font-face {
   font-family: infer;
-  src: url("./fonts/Infernalda.ttf");
+  src: url("common/fonts/Infernalda.ttf");
 }
 @font-face {
   font-family: homicide;
-  src: url("./fonts/DoubleHomicide.ttf");
+  src: url("common/fonts/DoubleHomicide.ttf");
 }
 /*
 @font-face {

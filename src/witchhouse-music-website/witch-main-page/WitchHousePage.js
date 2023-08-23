@@ -1,5 +1,5 @@
 import './WitchHousePage.css';
-import '../styles/photos.css';
+import '../../common/styles/photos.css';
 
 import React, {useState} from 'react'
 import GlitchClip from 'react-glitch-effect/core/GlitchClip';
