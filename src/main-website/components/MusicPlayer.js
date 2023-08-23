@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
 import useSound from "use-sound";
 import "./MusicPlayer.css"
-import song1 from './_△Sco△ - don † cry.mp3';
-import song2 from './₩RØ₦G CHØᛅCΣ - Erase everything inside.mp3';
-import song3 from './△Sco△ - ПРОКЛЯТЫЙ ВЕДЬМИН ДОМ.mp3';
+import song1 from '../resources/_△Sco△ - don † cry.mp3';
+import song2 from '../resources/₩RØ₦G CHØᛅCΣ - Erase everything inside.mp3';
+import song3 from '../resources/△Sco△ - ПРОКЛЯТЫЙ ВЕДЬМИН ДОМ.mp3';
 import {AiFillPlayCircle, AiFillPauseCircle} from "react-icons/ai";
 import {BiSkipNext, BiSkipPrevious} from "react-icons/bi";
 import {IconContext} from "react-icons";

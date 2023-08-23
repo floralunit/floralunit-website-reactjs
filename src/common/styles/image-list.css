@@ -1,0 +1,22 @@
+.image-list ul, .image-list ol, .image-list li {
+    list-style-type: none;
+}
+ul {
+    margin: 0 0 0 25px;
+}
+
+li {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-list li img {
+    width: 22px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}

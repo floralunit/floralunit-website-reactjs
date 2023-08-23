@@ -5,54 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/MusicPlayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/MusicPlayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/ScrollListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/TimeZoneClock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/AestheticsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/CatsFroggiesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/PhotoGaleryPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/resources/pixels/Djab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/updates-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/image-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emo-music-website/EmoRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/MainRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/witchhouse-music-website/WitchRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/DotGothic16-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/DotGothic16-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/DoubleHomicide.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/DoubleHomicide.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Infernalda.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/Infernalda.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/deadwax-font/DeadwaxDemoExtreme-X3DlZ.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/deadwax-font/DeadwaxDemoExtreme-X3DlZ.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/deadwax-font/DeadwaxDemoHard-gxadp.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/deadwax-font/DeadwaxDemoHard-gxadp.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/deadwax-font/DeadwaxDemoRegular-L3Y4E.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/deadwax-font/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/deadwax-font/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/deadwax-font/misc/Read me!.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/deadwax-font/misc/Read me!.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/evil-sound-font/EvilSound-nRM8M.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/evil-sound-font/EvilSound-nRM8M.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/evil-sound-font/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/evil-sound-font/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/evil-sound-font/misc/Read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/fonts/evil-sound-font/misc/Read.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/DUMBFROG.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/DUMBFROG.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/Frog_Croaking.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/Frog_Croaking.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/cats/bouncy-bubbles-avatar-60x60-ak1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/cats/bouncy-bubbles-avatar-60x60-ak1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/cats/cloud.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/cats/cloud.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/cats/cry.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/cats/cry.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/cats/left_right.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/cats/left_right.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/cats/normal.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/cats/normal.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/culbutefrog.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/culbutefrog.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/frogs/FrogAnimation.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/frogs/FrogAnimation.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/frogs/a-frogbigsmall.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/frogs/a-frogbigsmall.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/frogs/breathinfrog.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/frogs/breathinfrog.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/frogs/comfrog.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/frogs/comfrog.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/frogs/frog_hop_divider_md_wht.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/frogs/frog_hop_divider_md_wht.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/frogs/puff_froggy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/frogs/puff_froggy.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/main-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/main-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/piedra-ndego.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/piedra-ndego.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-page/resources/ppl-roses.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/resources/ppl-roses.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/styles/photos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/photos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/MusicPlayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/MusicPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/TimeZoneClock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/TimeZoneClock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainWebsite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/MainPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/updates-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/updates-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/components/BloodText.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/BloodText.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -78,34 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/main-website/resources/pixels&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/emo-music-website",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\emo-music-website" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\resources\pixels" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-page" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\witchhouse-music-website\witch-pages\radost-moja" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common\components" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common\styles" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\main-page" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\witchhouse-music-website\components" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\resources" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\components" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\pages" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\routes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -127,7 +97,7 @@
       <workItem from="1692709276462" duration="12867000" />
       <workItem from="1692743068894" duration="656000" />
       <workItem from="1692788691090" duration="995000" />
-      <workItem from="1692792336202" duration="1396000" />
+      <workItem from="1692792336202" duration="6861000" />
     </task>
     <servers />
   </component>
