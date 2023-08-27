@@ -19,11 +19,13 @@ export function RightSideBar() {
     }, [weatherApiUrl]);
     return (
         <aside className='sidebar-right'>
-            <div className='box'>
+            <div className='box' style={{height: "430px"}}>
                 <h3>My world</h3>
-                <div className='inner'>
+                <div className='inner' style={{display: "flex", alignItems: "center", height: "92%"}}>
                     <ol className="image-list">
-                        <li><img src={require('../resources/pixels/jZvzhTA.gif')}/>
+                        <li><img src={require('../resources/frogs/puff_froggy.gif')}/>
+                            <Link to="/cats-frogs">About</Link></li>
+                        <li className="icon-link"><img src={require('../resources/pixels/jZvzhTA.gif')}/>
                             <Link to="/witch-house">Music</Link>
                             <ul>
                                 <li><img src={require('../resources/pixels/398Yet2.gif')}
@@ -60,7 +62,7 @@ export function RightSideBar() {
                     </ol>
                 </div>
             </div>
-            <div className='box'>
+            <div className='box' style={{height: "80px"}}>
                 <div className='inner'>
                     <p><TimezoneClock timezone={+3} />
                         {apiData.main ? (

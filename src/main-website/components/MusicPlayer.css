@@ -38,7 +38,5 @@ input[type="range"] {
 }
 
 @media (max-width: 900px) {
-    .component {
-        width: 50%;
-    }
+
 }

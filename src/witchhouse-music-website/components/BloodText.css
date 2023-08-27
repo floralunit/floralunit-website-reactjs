@@ -13,7 +13,7 @@
     width: 800px;
     margin: auto;
     filter: url(#goo);
-    text-shadow: 2px 2px 4px white;
+    text-shadow: 2px 2px 4px #220000;
 }
 
 .drop {

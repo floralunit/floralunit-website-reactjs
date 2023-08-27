@@ -23,6 +23,7 @@ center {
 .title h1, .title h2, .title h3 {
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 .main-container {
@@ -74,6 +75,7 @@ aside {
     margin-top: 15px;
     top: 0;
     height: auto;
+    color: white;
 }
 
 .box img {
@@ -95,6 +97,7 @@ aside {
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
     border-bottom: 3px double #333;
+    color: white;
 }
 
 .inner {
@@ -102,25 +105,30 @@ aside {
     font-size: 1.075em;
 }
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 900px) {
     .flex-container {
         flex-wrap: wrap;
+        horiz-align: center;
+        margin: auto 0;
     }
 
-    aside {
-        width: 100%;
-    }
+
 
     .main {
-        order: 1;
+        flex-basis: 70%;
+        order: 0;
+        font-size: 0.7em;
     }
 
     .sidebar-left {
-        order: 3;
+        flex-basis: 48%;
+        margin: 0;
     }
 
     .sidebar-right {
-        order: 2;
+        flex-basis: 52%;
+        margin: 0;
     }
 }
 
@@ -135,6 +143,6 @@ footer {
 }
 
 .updates-list{
-    height: 100px;
+    height: 130px;
     overflow-y: scroll;
 }
