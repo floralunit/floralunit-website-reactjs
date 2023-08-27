@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/styles/image-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/emo-music-website/EmoRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/MainRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/witchhouse-music-website/WitchRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/MusicPlayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/MusicPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/TimeZoneClock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/TimeZoneClock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainWebsite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/MainPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/updates-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/updates-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/components/BloodText.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/BloodText.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/emo-music-website",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/emo-music-website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\emo-music-website" />
@@ -97,7 +83,9 @@
       <workItem from="1692709276462" duration="12867000" />
       <workItem from="1692743068894" duration="656000" />
       <workItem from="1692788691090" duration="995000" />
-      <workItem from="1692792336202" duration="6861000" />
+      <workItem from="1692792336202" duration="16837000" />
+      <workItem from="1692960841830" duration="3181000" />
+      <workItem from="1693156802086" duration="1746000" />
     </task>
     <servers />
   </component>
