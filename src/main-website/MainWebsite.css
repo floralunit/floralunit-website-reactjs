@@ -1,5 +1,5 @@
 .main-page {
-    background-image: url("resources/main-background.png");
+    background-image: var(--main-background);
     background-repeat: repeat;
     overflow-x: hidden;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ center {
 }
 
 .main-container {
-    max-width: 920px;
+/*    max-width: 920px;*/
     margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ aside {
 }
 
 .box h1, .box h2, .box h3, .box h4 {
-    background: #005954;
+    background: var(--box-header-color);
     margin: 0;
     padding: 0.35em 0.25em 0.3em 0.25em;
     text-align: center;
@@ -145,4 +145,7 @@ footer {
 .updates-list{
     height: 130px;
     overflow-y: scroll;
+}
+.pupa {
+    column-count: 5;
 }

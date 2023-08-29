@@ -1,13 +1,13 @@
 import "./MainWebsite.css"
 import React, {useEffect, useState} from "react";
 import {Link, Outlet, Route, Routes} from "react-router-dom";
-
+import "../global-images"
 import {LeftSideBar} from "./components/LeftSideBar";
 import {RightSideBar} from "./components/RightSideBar";
 import {InfoPage} from "./pages/InfoPage";
 import {MoviesPage} from "./pages/MoviesPage";
 import {CatsFroggiesPage} from "./pages/CatsFroggiesPage";
-import {AestheticsPage} from "./pages/AestheticsPage";
+import {AestheticsPage} from "./pages/Aesthetics/AestheticsPage";
 import {PhotoGaleryPage} from "./pages/PhotoGaleryPage";
 
 export function MainRoutes() {
