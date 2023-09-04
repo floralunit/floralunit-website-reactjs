@@ -1,0 +1,105 @@
+.component div a {
+     color: #263A29;
+    font-weight: bold;
+    font-size: smaller;
+ }
+.component div a:hover {
+    color: #E86A33;
+    text-decoration: underline;
+    font-size: smaller;
+}
+
+.component div img {
+    width: 12px;
+    margin-left: auto;
+}
+
+.music-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.musicCover {
+    border-radius: 10%;
+}
+
+.playButton {
+    margin: 5px 0px 0px 0px;
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.subTitle {
+    color: #4f4f4f;
+    font-size: x-small;
+    font-family: LCD5, serif;
+    margin: 5px 0;
+}
+
+.time {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+}
+
+.timeline {
+    width: 100%;
+    background-color: var(--box-header-color);
+}
+
+input[type="range"] {
+    background-color: var(--box-header-color);
+}
+
+@media (max-width: 900px) {
+
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .music-component input[type='range'] {
+        overflow: hidden;
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: 2px double #333;
+    }
+
+    .music-component input[type='range']::-webkit-slider-runnable-track {
+        height: 12px;
+        -webkit-appearance: none;
+        color: var(--box-header-color);
+        margin-top: -1px;
+    }
+
+    .music-component input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance: none;
+        height: 12px;
+        cursor: ew-resize;
+        background: white;
+        box-shadow: -80px 0 0 80px var(--box-header-color);
+        border: 2px double #333;
+    }
+
+}
+/** FF*/
+.music-component input[type="range"]::-moz-range-progress {
+    background-color: var(--box-header-color);
+}
+.music-component input[type="range"]::-moz-range-track {
+    background-color: transparent;
+}
+/* IE*/
+.music-component input[type="range"]::-ms-fill-lower {
+    background-color: var(--box-header-color);
+}
+.music-component input[type="range"]::-ms-fill-upper {
+    background-color: transparent;
+
+}
+

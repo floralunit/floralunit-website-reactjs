@@ -1,7 +1,9 @@
 :root{
     --box-header-color: #005954;
     --box-header-text-color: #ffffff;
-    --main-background: url("common/backgrounds/main-background.png");
+    --box-background: #dad7cd;
+    --main-background: url("common/images/backgrounds/main-background.png");
+    --lisik-image: url("main-website/resources/lisik.jpg");
 }
 
 body {
@@ -32,6 +34,10 @@ body {
 @font-face {
     font-family: homicide;
     src: url("common/fonts/DoubleHomicide.ttf");
+}
+@font-face {
+    font-family: LCD5;
+    src: url("common/fonts/LCD5x8HRU.ttf");
 }
 /*
 @font-face {

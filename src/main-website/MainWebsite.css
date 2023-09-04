@@ -27,7 +27,7 @@ center {
 }
 
 .main-container {
-/*    max-width: 920px;*/
+    /*    max-width: 920px;*/
     margin: 0 auto;
 }
 
@@ -62,9 +62,20 @@ aside {
 
 .box {
     border: 3px double #333;
-    background: #dad7cd;
+    background: var(--box-background);
+    background-repeat: repeat;
     padding: 0;
     margin: 10px 0px 15px 0px;
+
+}
+
+.box-empty {
+    margin: 10px 0px 15px 0px;
+
+}
+
+.box-weather {
+    background: url("../common/images/backgrounds/leaffall.gif") no-repeat;
 
 }
 
@@ -100,20 +111,30 @@ aside {
     color: white;
 }
 
+.box .box-header {
+    background-color: var(--box-header-color);
+    margin: 0;
+    text-align: center;
+    color: white;
+    border-bottom: 3px double #333;
+}
+
 .inner {
     padding: 0.25em 1em 0.3em 1em;
     font-size: 1.075em;
 }
 
+.pupa {
+    column-count: 5;
+}
 
 @media only screen and (max-width: 900px) {
     .flex-container {
         flex-wrap: wrap;
         horiz-align: center;
         margin: auto 0;
+        justify-content: center;
     }
-
-
 
     .main {
         flex-basis: 70%;
@@ -130,6 +151,10 @@ aside {
         flex-basis: 52%;
         margin: 0;
     }
+
+    .pupa {
+        column-count: 3;
+    }
 }
 
 footer {
@@ -142,10 +167,20 @@ footer {
     /* this centers the footer text */
 }
 
-.updates-list{
-    height: 130px;
+.updates-list {
+    height: 110px;
     overflow-y: scroll;
 }
-.pupa {
-    column-count: 5;
+
+.copy-button {
+    width: 88px;
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    height: 31px;
+}
+
+.buttons img{
+    width: 88px;
+    height: 31px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollListener from "../../common/components/ScrollListener";
-import Background from '../../common/backgrounds/main-background.png';
+import Background from '../../common/images/backgrounds/main-background.png';
 import Background1 from '../resources/Frog_Croaking.gif';
 import Background2 from '../resources/ppl-roses.png';
 export function CatsFroggiesPage() {

@@ -1,8 +1,10 @@
 import "../../common/styles/image-list.css"
 import React from "react";
 import {Link} from "react-router-dom";
-import MusicPlayer from "./MusicPlayer";
+import MusicPlayer from "./music-player/MusicPlayer";
 import {updates} from "./updates-list";
+import "../../common/styles/crt-lines.css"
+import "./loading-text.css"
 export function LeftSideBar() {
     const updatesList = updates.map(item =>
         <li>
@@ -13,7 +15,7 @@ export function LeftSideBar() {
         </li>
     );
     return (
-        <aside className='sidebar-left'>
+        <aside className='sidebar-left' >
             <div className='box' style={{height: "140px"}}>
                 <h3>Social Networks</h3>
                 <div className='inner' >
@@ -37,10 +39,25 @@ export function LeftSideBar() {
                 </div>
             </div>
             <div className='box' style={{height: "180px"}}>
-                <div className='inner' ><p>Now Playing</p>
-                    <div style={{display: "flex", alignItems: "center", alignContent: "center", height: "92%"}}>
-                        <MusicPlayer />
+                <div className='inner' >
+                    <div id="preloader">
+                        <div id="text">Now Playing</div>
+                        <div className="wrapper" id="firstWrap">
+                            <div className="dot"></div>
+                        </div>
+                        <div className="wrapper" id="secondWrap">
+                            <div className="dot"></div>
+                        </div>
+                        <div className="wrapper" id="thirdWrap">
+                            <div className="dot"></div>
+                        </div>
+                        <div className="wrapper" id="fourthWrap">
+                            <div className="dot"></div>
+                        </div>
                     </div>
+                    <div >
+                            <MusicPlayer />
+                        </div>
                 </div>
             </div>
             <div className='box' >

@@ -12,6 +12,10 @@ import {BloodText} from "../components/BloodText";
 import WebampMusic from "../components/webamp/WebampMusic"
 
 export function WitchHousePage() {
+    // eslint-disable-next-line no-restricted-globals
+    if (screen.width <= 900) {
+        document.getElementById("viewport").setAttribute("content", "width=865px; initial-scale=1");
+    }
     return (
         <div className="witch-house-page">
             <WebampMusic/>

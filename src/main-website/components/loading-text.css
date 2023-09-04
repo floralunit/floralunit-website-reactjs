@@ -1,0 +1,96 @@
+#preloader {
+    padding: 0;
+    --left: 1%;
+    --init-wrap: calc(var(--left) + 130px);
+    margin: 3px auto;
+    overflow: hidden;
+}
+
+#text {
+    left: calc(var(--left) + 5%);
+    color: #222222;
+    letter-spacing: 0.09rem;
+    font-weight: bolder;
+}
+
+.wrapper, .dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.dot {
+    background-color: black;
+}
+
+.wrapper {
+    position: absolute;
+    margin-top: -6px;
+    left: var(--init-wrap);
+}
+
+#firstWrap {
+    animation: grow 2s infinite;
+}
+
+#secondWrap {
+    animation: slide 2s infinite;
+}
+
+#thirdWrap {
+    left: calc(var(--init-wrap) + 10px);
+    animation: slide 2s infinite;
+}
+
+#fourthWrap {
+    left: calc(var(--init-wrap) + 20px);
+    animation: slideOnDrop 2s linear infinite;
+}
+
+#fourthWrap div {
+    animation: drop 2s ease-in infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50%,100% {
+        transform: translate(10px, 0px);
+    }
+}
+
+@keyframes grow {
+    0%, 50% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideOnDrop {
+    0%, 20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(11px);
+    }
+
+    100% {
+        transform: translateX(80px);
+    }
+}
+
+@keyframes drop {
+    0%, 25% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, calc(90vh - 0.5*90vh));
+    }
+}

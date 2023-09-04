@@ -9,13 +9,13 @@ import {MoviesPage} from "./pages/MoviesPage";
 import {CatsFroggiesPage} from "./pages/CatsFroggiesPage";
 import {AestheticsPage} from "./pages/Aesthetics/AestheticsPage";
 import {PhotoGaleryPage} from "./pages/PhotoGaleryPage";
+import {WebStuffPage} from "./pages/WebStuffPage";
 
 export function MainRoutes() {
-
     return (
         <div className="main-page">
             <div className='main-container'>
-                <div className='flex-container'>
+                <div className='flex-container' style={{justifyContent: "center"}}>
                     <LeftSideBar/>
                     <Routes>
                         <Route path='' element={<InfoPage/>}/>
@@ -23,11 +23,11 @@ export function MainRoutes() {
                         <Route path='cats-frogs' element={<CatsFroggiesPage/>}/>
                         <Route path='aesthetics' element={<AestheticsPage/>}/>
                         <Route path='photos' element={<PhotoGaleryPage/>}/>
+                        <Route path='web' element={<WebStuffPage/>}/>
                     </Routes>
                     <RightSideBar/>
                 </div>
                 <br/>
-                <marquee>pipi pupu</marquee>
             </div>
         </div>
     );

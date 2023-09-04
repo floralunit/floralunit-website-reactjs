@@ -14,8 +14,8 @@ const webamp = new Webamp({
     initialTracks: [
         {
             metaData: {
-                artist: "†▼BF▼CK",
-                title: "WH▲T ▲M I"
+                artist: "SUICIDEWΛVЕ",
+                title: "Люблю Тебя"
             },
             // NOTE: Your audio file must be served from the same domain as your HTML
             // file, or served with permissive CORS HTTP headers:
@@ -23,14 +23,6 @@ const webamp = new Webamp({
             url: whatami,
             /*duration: 5.322286*/
         },
-        {
-            metaData: {
-                artist: "Salem",
-                title: "Sick"
-            },
-            url: salem,
-            /*duration: 5.322286*/
-        }
     ],
     availableSkins: [
         /*{ url: internetArchiveSkin, name: "Internet Archvie" },*/

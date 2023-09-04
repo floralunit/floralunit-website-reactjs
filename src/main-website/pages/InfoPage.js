@@ -1,57 +1,116 @@
 import "../MainWebsite.css"
+import "../../common/styles/photos.css"
+import "../../common/styles/lace-frame.css"
+import lisik from "../resources/lisik.jpg"
 
 import React, {useEffect, useState} from 'react'
 
 export function InfoPage() {
-
+    document.documentElement.style.removeProperty('--box-header-color');
+    document.documentElement.style.removeProperty('--main-background');
+    document.documentElement.style.removeProperty('--box-background');
     return (
-        <div className='main'>
+        <div className='main' style={{maxWidth: "650px", fontSize: 'smaller'}}>
             <div className='box'>
-                <h2 id='section-1'>Welcome to my Website!</h2>
+                {/*                <div id='section-1' className="box-header">
+                    <img src={require('../../common/my-button/tears-ico-white1.png')}
+                         style={{height: '25px', width: 'auto', padding: '5px 0 0 0'}}/>
+                </div>*/}
                 <div className='inner'>
-                    <p>This is the main div.</p>
-                    <p>Honestly this page is mostly just a rehash of the WP-esque "Header Opacity"
-                        stylesheet from a few months ago. I dunno what I'm doing, just having fun. I
-                        guess.</p>
-
-                    <p>This is a paragraph! Here's how you make a link: <a
-                        href="https://neocities.org">Neocities</a>.</p>
-
-                    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
-
-                    <p>Here's how you can add an image:</p>
-                    <img/>
-
-                    <p>Here is a big, wide full-width image:</p>
-                    <img/>
-
-                    <p>Here's how to make a list:</p>
-
-                    <ul>
-                        <li>First thing</li>
-                        <li>Second thing</li>
-                        <li>Third thing</li>
-                    </ul>
-                    <p>
-
-                    </p>
-                    <p>To learn more HTML/CSS, check out these <a
-                        href="https://neocities.org/tutorials">tutorials</a>!</p>
-                </div>
-
-            </div>
-            {/*                                                <div className='box'>
-                            <h2 id='section-2'>Title 2</h2>
-                            <div className='inner'>
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                        <img src={require('../resources/pixels/lb06.gif')}
+                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                        <img src={require('../resources/pixels/l06-ribbon-line.gif')}
+                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                        <img src={require('../resources/pixels/lb06.gif')}
+                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                    </div>
+                    <div className="box08">
+                        <div className="box-top">
+                            <div className="u01"></div>
+                        </div>
+                        <div className="box-center">
+                            <div className="box-inner">
+                                <p>Hi, my name is Anya and welcome to my website!</p>
+                                <p>This place is a reflection of my melancholy world and I invite you to come in.</p>
+                                <br/>
+                                <p>I thought that the individuality of web died in the 00s, until I found neocities and
+                                    lots of cool
+                                    sites, that inspired me to create my own page too.
+                                    This place is my salvation from depression and sad reality I live in.</p>
+                            </div>
+                        </div>
+                        <div className="box-bottom">
+                            <div className="s01"></div>
+                        </div>
+                    </div>
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                        <img src={require('../resources/pixels/gray-flower-line.gif')}
+                             style={{height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                    </div>
+                    <div className="box08">
+                        <div className="box-top">
+                            <div className="u01"></div>
+                        </div>
+                        <div className="box-center">
+                            <div className="box-inner">
+                                <img src={require('../resources/pixels/ee03-icon-cat.gif')}
+                                     style={{float: "right", width: '10%', height: '10%'}}/>
+                                <img src={require('../resources/pixels/ee03-icon-cat.gif')}
+                                     style={{float: "right", width: '10%', height: '10%'}}/>
+                                <p>Some things I like:</p>
+                                <ul>
+                                    <li>programming</li>
+                                    <li>collecting flowers for my herbarium</li>
+                                    <li>music!!!</li>
+                                    <li>taking pictures</li>
+                                    <li>film cameras and audio cassettes</li>
+                                    <li>90s and 00s stuff</li>
+                                    <li>mountains and fog</li>
+                                    <li>soviet architecture</li>
+                                    <li>witch and goth aesthetics, but I also enjoy cute things</li>
+                                    <li>taking care of my froggies and cats</li>
+                                </ul>
 
                             </div>
                         </div>
-                        <div className='box'>
-                            <h2 id='section-3'>Section 3</h2>
-                            <div className='inner'>
+                        <div className="box-bottom">
+                            <div className="s01"></div>
+                        </div>
+                    </div>
 
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                        <img src={require('../resources/pixels/gray-flower-line.gif')}
+                             style={{height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                    </div>
+                    <div className="box08">
+                        <div className="box-top">
+                            <div className="u01"></div>
+                        </div>
+                        <div className="box-center">
+                            <div className="box-inner">
+                                <p>Some pages are in Russian and some in English, I'm sorry...</p>
+                                <p>Enjoy your surfing!</p>
                             </div>
-                        </div>*/}
+                        </div>
+                        <div className="box-bottom">
+                            <div className="s01"></div>
+                        </div>
+                    </div>
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                        <img src={require('../../common/my-button/floralunit-button.gif')}
+                             style={{width: '88px', height: '31px'}}/>
+                    </div>
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                        <img src={require('../resources/pixels/lb06.gif')}
+                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                        <img src={require('../resources/pixels/l06-ribbon-line.gif')}
+                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                        <img src={require('../resources/pixels/lb06.gif')}
+                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

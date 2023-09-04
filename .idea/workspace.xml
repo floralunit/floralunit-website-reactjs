@@ -5,294 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/global-images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/aesthetics-photos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/10_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/11_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/12_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/13_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/14_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/15_─ ･ﾟ✧ ᴮᵃᵐᵇⁱᵖᵉᵃᶜʰᵉˢ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/16_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/17_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/18_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/19_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/1_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/20_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/21_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/22_Tumblr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/23_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/24_nomen est numen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/25_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/26_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/27_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/28_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/29_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/2_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/30_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/31_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/32_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/33_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/34_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/35_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/36_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/37_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/38_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/39_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/3_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/40_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/41_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/42_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/43_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/44_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/45_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/46_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/47_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/48_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/49_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/4_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/50_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/51_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/52_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/53_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/54_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/55_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/56_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/57_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/58_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/59_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/5_#jesus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/60_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/61_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/62_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/63_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/64_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/65_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/66_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/67_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/68_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/69_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/6_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/70_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/71_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/72_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/73_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/74_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/75_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/76_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/77_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/78_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/79_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/7_pink4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/80_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/8_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/angel-photos/9_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/10_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/11_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/12_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/13_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/14_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/15_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/16_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/17_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/18_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/19_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/1_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/20_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/21_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/22_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/23_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/24_.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/25_.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/26_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/27_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/28_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/29_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/2_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/30_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/31_My inner landscape  Photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/32_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/33_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/34_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/35_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/36_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/37_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/38_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/39_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/3_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/40_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/41_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/42_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/43_by Timo Helgert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/44_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/45_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/46_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/47_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/48_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/49_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/4_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/50_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/51_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/52_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/53_И ромашка может быть предметом роскоши, с которым не сравнится никакой бриллиант О сути роскоши #.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/54_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/55_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/56_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/57_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/58_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/59_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/5_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/60_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/61_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/62_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/63_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/64_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/65_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/66_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/67_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/68_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/69_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/6_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/70_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/71_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/72_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/73_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/74_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/75_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/76_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/77_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/78_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/79_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/7_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/80_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/8_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/cottagecore-photos/9_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/10_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/11_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/12_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/13_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/14_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/15_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/16_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/17_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/18_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/19_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/1_Paper size 1375 by 975 inches Kali astride Shiva Vintage-style devotional print Image clean &amp; very.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/20_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/21_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/22_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/23_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/24_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/25_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/26_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/27_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/28_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/29_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/2_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/30_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/31_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/32_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/33_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/34_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/35_小確幸 ' .jpg" afterPathEscaped="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/35_小確幸 𝖈𝖍𝖊𝖗𝖓𝖔𝖇𝖞𝖑'𝖘 𝖕𝖚𝖙𝖆.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/36_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/37_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/38_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/39_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/3_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/40_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/41_.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/42_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/43_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/44_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/45_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/46_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/47_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/48_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/49_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/4_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/50_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/51_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/52_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/53_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/54_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/55_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/56_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/57_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/58_Radha Krishna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/59_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/5_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/60_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/61_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/62_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/63_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/64_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/65_Embracing the Journey Gratitude and Growth in the Twenties – Humana experiencia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/66_The Dark Mother Kali by JanneLawless @DeviantArt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/67_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/68_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/69_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/6_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/70_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/71_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/72_.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/7_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/8_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/hindu-photos/9_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/10_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/11_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/12_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/13_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/14_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/15_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/16_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/17_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/18_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/19_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/1_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/20_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/21_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/22_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/23_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/24_жизка.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/25_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/26_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/27_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/28_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/29_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/2_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/30_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/31_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/32_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/33_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/34_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/35_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/36_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/37_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/3_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/4_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/5_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/6_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/7_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/8_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/shit-photos/9_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/fonts/LCD5x8HRU.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/crt-lines.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/cute-white-frame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/lace-frame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/components/loading-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/components/music-player/MusicPlayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/components/music-player/songs/songs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/pages/WebStuffPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-website/resources/lisik.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/ScrollListener.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/ScrollListener.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Sprite-0002.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/cloud-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/cloud-background.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/cloud1-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/cloud1-background.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/flowerz-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/flowerz-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/main-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/main-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/sky-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/sky-background.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/sky1--background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/sky1--background.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/sunbg-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/sunbg-background.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/trippy-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/trippy-background.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/water-background.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/water-background.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/water.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/water.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global-images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/MainRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/MainWebsite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainWebsite.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/AestheticsPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/music-player/MusicPlayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/simple-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/simple-tabs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/pages/CatsFroggiesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/CatsFroggiesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/pages/PhotoGaleryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/PhotoGaleryPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/resources/main-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/backgrounds/main-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/WitchRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/WitchRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/WebampMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/WebampMusic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,40 +69,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/main-website/pages/Aesthetics",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/floralunit/Documents/GitHub/floralunit-website-reactjs/src/main-website/resources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JavaScript"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\resources" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common\fonts" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\pages\Aesthetics" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\pages\Aesthetics\angel-photos" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\emo-music-website" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\resources\pixels" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common\images" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common\my-button" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\components\music-player\songs" />
+      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\components\music-player" />
       <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\common\backgrounds" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\pages\Aesthetics" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website\resources" />
-      <recent name="C:\Users\floralunit\Documents\GitHub\floralunit-website-reactjs\src\main-website" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -378,7 +129,14 @@
       <workItem from="1693156802086" duration="3990000" />
       <workItem from="1693257416103" duration="1025000" />
       <workItem from="1693317302927" duration="8771000" />
-      <workItem from="1693328460072" duration="10469000" />
+      <workItem from="1693328460072" duration="11028000" />
+      <workItem from="1693395575123" duration="623000" />
+      <workItem from="1693485724142" duration="27443000" />
+      <workItem from="1693576580568" duration="598000" />
+      <workItem from="1693602146222" duration="5984000" />
+      <workItem from="1693694209609" duration="4086000" />
+      <workItem from="1693752496464" duration="21192000" />
+      <workItem from="1693820104219" duration="13036000" />
     </task>
     <servers />
   </component>

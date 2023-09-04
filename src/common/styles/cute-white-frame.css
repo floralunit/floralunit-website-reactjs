@@ -1,0 +1,49 @@
+.box08 {
+    margin:1em 0;
+}
+.u01 {
+    background:url("../images/f-ue.gif") repeat-x;
+    height:32px;
+    margin:0 32px
+}
+.s01 {
+    background:url("../images/f-sita.gif") repeat-x;
+    height:32px;
+    margin:0 32px
+}
+.box-top {
+    background-image:url("../images/f-kado1.gif"), url("../images/f-kado2.gif");
+    background-position:top left, top right;
+    background-repeat:no-repeat, no-repeat;
+    height:32px
+}
+.box-center {
+    background-image:url("../images/f-migi.gif"), url("../images/f-hidari.gif");
+    background-position:top right, top left;
+    background-repeat:repeat-y, repeat-y
+}
+.box-inner {
+    background:#fff; /* 背景色 */
+    margin:0 32px
+}
+.box-bottom {
+    background-image:url("../images/f-kado3.gif"), url("../images/f-kado4.gif");
+    background-position:top left, top right;
+    background-repeat:no-repeat, no-repeat;
+    height:32px
+}
+
+/*
+<div class="box08">
+<div class="box-top">
+<div class="u01"></div>
+</div>
+<div class="box-center">
+<div class="box-inner">
+                      ここに文字
+</div>
+</div>
+<div class="box-bottom">
+<div class="s01"></div>
+</div>
+</div>*/
