@@ -5,44 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/fonts/LCD5x8HRU.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/styles/crt-lines.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/styles/cute-white-frame.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/styles/lace-frame.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/components/loading-text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/components/music-player/MusicPlayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/components/music-player/songs/songs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/pages/WebStuffPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-website/resources/lisik.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Sprite-0002.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/cloud-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/cloud-background.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/cloud1-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/cloud1-background.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/flowerz-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/flowerz-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/main-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/main-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/sky-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/sky-background.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/sky1--background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/sky1--background.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/sunbg-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/sunbg-background.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/trippy-background.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/trippy-background.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/water-background.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/water-background.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/backgrounds/water.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/backgrounds/water.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global-images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/MainRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/MainWebsite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainWebsite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/components/MusicPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/music-player/MusicPlayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/simple-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/simple-tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/CatsFroggiesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/CatsFroggiesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/PhotoGaleryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/PhotoGaleryPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/WitchRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/WitchRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/WebampMusic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/components/webamp/WebampMusic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/WebStuffPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/WebStuffPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +107,17 @@
       <workItem from="1693694209609" duration="4086000" />
       <workItem from="1693752496464" duration="21192000" />
       <workItem from="1693820104219" duration="13036000" />
+      <workItem from="1694088645857" duration="1293000" />
+      <workItem from="1694107684923" duration="1155000" />
+      <workItem from="1694200228510" duration="6871000" />
+      <workItem from="1695834099352" duration="701000" />
+      <workItem from="1695853311330" duration="593000" />
+      <workItem from="1695861475577" duration="771000" />
+      <workItem from="1695947402957" duration="1173000" />
+      <workItem from="1699388566217" duration="600000" />
+      <workItem from="1699806560683" duration="156000" />
+      <workItem from="1699963410331" duration="563000" />
+      <workItem from="1701919324779" duration="1183000" />
     </task>
     <servers />
   </component>

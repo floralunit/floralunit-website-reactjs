@@ -6,10 +6,11 @@ import {LeftSideBar} from "./components/LeftSideBar";
 import {RightSideBar} from "./components/RightSideBar";
 import {InfoPage} from "./pages/InfoPage";
 import {MoviesPage} from "./pages/MoviesPage";
-import {CatsFroggiesPage} from "./pages/CatsFroggiesPage";
+import {CatsFroggiesPage} from "./pages/Photos/CatsFroggiesPage";
 import {AestheticsPage} from "./pages/Aesthetics/AestheticsPage";
-import {PhotoGaleryPage} from "./pages/PhotoGaleryPage";
-import {WebStuffPage} from "./pages/WebStuffPage";
+import {FilmLofiPage} from "./pages/Photos/FilmLofiPage";
+import {MyPhotosPage} from "./pages/Photos/MyPhotosPage";
+import {WebStuffPage} from "./pages/WebStuff/WebStuffPage";
 
 export function MainRoutes() {
     return (
@@ -22,7 +23,8 @@ export function MainRoutes() {
                         <Route path='movies' element={<MoviesPage/>}/>
                         <Route path='cats-frogs' element={<CatsFroggiesPage/>}/>
                         <Route path='aesthetics' element={<AestheticsPage/>}/>
-                        <Route path='photos' element={<PhotoGaleryPage/>}/>
+                        <Route path='films-lofi' element={<FilmLofiPage/>}/>
+                        <Route path='photos' element={<MyPhotosPage/>}/>
                         <Route path='web' element={<WebStuffPage/>}/>
                     </Routes>
                     <RightSideBar/>

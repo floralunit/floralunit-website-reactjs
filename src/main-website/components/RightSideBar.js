@@ -30,13 +30,13 @@ export function RightSideBar() {
                             <Link to="/witch-house">music</Link>
                             <ul>
                                 <li><img src={require('../resources/pixels/398Yet2.gif')}
-                                /> <Link to="/witch-house">witch-house</Link>
+                                /> <Link to="/witch-house" target="_blank" rel="noreferrer">witch-house</Link>
                                 </li>
                                 <li><img src={require('../resources/pixels/zJZuQV8.gif')}
-                                /> <Link to="/emo">emo</Link>
+                                /> <Link to="/emo" target="_blank" rel="noreferrer">emo</Link>
                                 </li>
                                 <li><img src={require('../resources/pixels/rYgMZnK.gif')}
-                                /> <Link to="/post-punk">post-punk</Link>
+                                /> <Link to="/post-punk" target="_blank" rel="noreferrer">post-punk</Link>
                                 </li>
                             </ul>
                         </li>
@@ -62,7 +62,7 @@ export function RightSideBar() {
                             <Link to="/aesthetics">%$$#@1%*</Link></li>
                         <li><img src={require('../resources/Frog_Croaking.gif')}/>
                             <Link to="/photos">photo albums</Link></li>
-                        <li><img src={require('../resources/Frog_Croaking.gif')}/>
+                        <li><img src={require('../resources/pixels/windows.gif')}/>
                             <Link to="/web">web stuff</Link></li>
                     </ol>
                 </div>

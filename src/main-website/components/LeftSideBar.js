@@ -17,7 +17,7 @@ export function LeftSideBar() {
     return (
         <aside className='sidebar-left' >
             <div className='box' style={{height: "140px"}}>
-                <h3>Social Networks</h3>
+                <h3>Socials</h3>
                 <div className='inner' >
                     <ol className="image-list">
                         <li><img src={require('../resources/pixels/yum-soot.gif')} style={{width: "15px"}}
