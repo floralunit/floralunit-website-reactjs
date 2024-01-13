@@ -1,7 +1,7 @@
 import "./MainWebsite.css"
 import React, {useEffect, useState} from "react";
 import {Link, Outlet, Route, Routes} from "react-router-dom";
-import "../global-images"
+import "../global-const"
 import {LeftSideBar} from "./components/LeftSideBar";
 import {RightSideBar} from "./components/RightSideBar";
 import {InfoPage} from "./pages/InfoPage";
@@ -11,6 +11,7 @@ import {AestheticsPage} from "./pages/Aesthetics/AestheticsPage";
 import {FilmLofiPage} from "./pages/Photos/FilmLofiPage";
 import {MyPhotosPage} from "./pages/Photos/MyPhotosPage";
 import {WebStuffPage} from "./pages/WebStuff/WebStuffPage";
+import {GamesPage} from "./pages/GamesPage";
 
 export function MainRoutes() {
     return (
@@ -26,6 +27,7 @@ export function MainRoutes() {
                         <Route path='films-lofi' element={<FilmLofiPage/>}/>
                         <Route path='photos' element={<MyPhotosPage/>}/>
                         <Route path='web' element={<WebStuffPage/>}/>
+                        <Route path='games' element={<GamesPage/>}/>
                     </Routes>
                     <RightSideBar/>
                 </div>

@@ -2,8 +2,8 @@
     --box-header-color: #005954;
     --box-header-text-color: #ffffff;
     --box-background: #dad7cd;
+    --box-text-color: #132a13;
     --main-background: url("common/images/backgrounds/main-background.png");
-    --lisik-image: url("main-website/resources/lisik.jpg");
 }
 
 body {

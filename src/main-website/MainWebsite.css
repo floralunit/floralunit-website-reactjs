@@ -57,7 +57,7 @@ aside {
 }
 
 .main-container, .links a {
-    color: #132a13;
+    color: var(--box-text-color);
 }
 
 .box {
@@ -126,6 +126,10 @@ aside {
 
 .pupa {
     column-count: 5;
+}
+
+.pupa img {
+    min-height: 110px;
 }
 
 @media only screen and (max-width: 900px) {

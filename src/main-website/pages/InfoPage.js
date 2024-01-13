@@ -1,29 +1,29 @@
 import "../MainWebsite.css"
 import "../../common/styles/photos.css"
 import "../../common/styles/lace-frame.css"
-import lisik from "../resources/lisik.jpg"
 
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 
 export function InfoPage() {
     document.documentElement.style.removeProperty('--box-header-color');
     document.documentElement.style.removeProperty('--main-background');
     document.documentElement.style.removeProperty('--box-background');
+    document.documentElement.style.removeProperty('--box-text-color');
     return (
-        <div className='main' style={{maxWidth: "650px", fontSize: 'smaller'}}>
+        <div className='main' style={{ maxWidth: "650px", fontSize: 'smaller' }}>
             <div className='box'>
                 {/*                <div id='section-1' className="box-header">
                     <img src={require('../../common/my-button/tears-ico-white1.png')}
                          style={{height: '25px', width: 'auto', padding: '5px 0 0 0'}}/>
                 </div>*/}
                 <div className='inner'>
-                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <img src={require('../resources/pixels/lb06.gif')}
-                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                            style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                         <img src={require('../resources/pixels/l06-ribbon-line.gif')}
-                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                            style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                         <img src={require('../resources/pixels/lb06.gif')}
-                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                            style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
                         <div className="box-top">
@@ -33,7 +33,7 @@ export function InfoPage() {
                             <div className="box-inner">
                                 <p>Hi, my name is Anya and welcome to my website!</p>
                                 <p>This place is a reflection of my melancholy world and I invite you to come in.</p>
-                                <br/>
+                                <br />
                                 <p>I thought that the individuality of web died in the 00s, until I found neocities and
                                     lots of cool
                                     sites, that inspired me to create my own page too.
@@ -44,9 +44,9 @@ export function InfoPage() {
                             <div className="s01"></div>
                         </div>
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <img src={require('../resources/pixels/gray-flower-line.gif')}
-                             style={{height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                            style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
                         <div className="box-top">
@@ -54,10 +54,8 @@ export function InfoPage() {
                         </div>
                         <div className="box-center">
                             <div className="box-inner">
-                                <img src={require('../resources/pixels/ee03-icon-cat.gif')}
-                                     style={{float: "right", width: '10%', height: '10%'}}/>
-                                <img src={require('../resources/pixels/ee03-icon-cat.gif')}
-                                     style={{float: "right", width: '10%', height: '10%'}}/>
+                                <img src={require('../resources/pixels/IMG_20230731_165019.png')}
+                                    style={{ float: "right", width: '40%', height: '40%' }} />
                                 <p>Some things I like:</p>
                                 <ul>
                                     <li>programming</li>
@@ -69,7 +67,7 @@ export function InfoPage() {
                                     <li>mountains and fog</li>
                                     <li>soviet architecture</li>
                                     <li>witch and goth aesthetics, but I also enjoy cute things</li>
-                                    <li>taking care of my froggies and cats</li>
+                                    <li>my froggies and cats</li>
                                 </ul>
 
                             </div>
@@ -79,9 +77,9 @@ export function InfoPage() {
                         </div>
                     </div>
 
-                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <img src={require('../resources/pixels/gray-flower-line.gif')}
-                             style={{height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
+                            style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
                         <div className="box-top">
@@ -97,18 +95,18 @@ export function InfoPage() {
                             <div className="s01"></div>
                         </div>
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <img src={require('../resources/pixels/lb06.gif')}
+                            style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                        <img src={require('../resources/pixels/l06-ribbon-line.gif')}
+                            style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                        <img src={require('../resources/pixels/lb06.gif')}
+                            style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                    </div>
+                    {/* <div style={{display: 'flex', justifyContent: 'center'}}>
                         <img src={require('../../common/my-button/floralunit-button.gif')}
                              style={{width: '88px', height: '31px'}}/>
-                    </div>
-                    <div style={{display: 'flex', justifyContent: 'center'}}>
-                        <img src={require('../resources/pixels/lb06.gif')}
-                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
-                        <img src={require('../resources/pixels/l06-ribbon-line.gif')}
-                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
-                        <img src={require('../resources/pixels/lb06.gif')}
-                             style={{height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center'}}/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

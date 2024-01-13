@@ -14,7 +14,7 @@ ul {
 
 
 .image-list li a {
-    color: #263A29;
+    color: var(--box-text-color);
     font-weight: bolder;
 }
 .image-list a:hover {

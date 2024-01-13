@@ -129,8 +129,8 @@ export default function MusicPlayer() {
                             </IconContext.Provider>
                         </button>
                     </div>
-                    {currentSong?.genre === "witch" && <div>More on <Link to="witch-house">Witch-House</Link> page</div>}
-                    {currentSong?.genre === "emo" && <div>More on <Link to="emo">Emo</Link> page</div>}
+                    {currentSong?.genre === "witch" && <div>More on <Link to="witch-house" target="_blank" rel="noreferrer">Witch-House</Link> page</div>}
+                    {currentSong?.genre === "emo" && <div>More on <Link to="emo" target="_blank" rel="noreferrer">Emo</Link> page</div>}
                 </>
             )}
         </div>

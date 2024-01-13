@@ -3,8 +3,43 @@ import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import ImageGallery from "react-photo-gallery";
+import {
+  CLOUD1_BACKGROUND,
+  CLOUD_BACKGROUND,
+  COPPER_BACKGROUND, EMO1_BACKGROUND, EMO_BACKGROUND,
+  FLOWER1_BACKGROUND,
+  FLOWER2_BACKGROUND,
+  FLOWER3_BACKGROUND,
+  FLOWER_BACKGROUND, HINDU1_BACKGROUND,
+  HINDU_BACKGROUND,
+  MAIN_BACKGROUND,
+  MARBLE1_BACKGROUND,
+  MARBLE_BACKGROUND,
+  PINK_BACKGROUND,
+  RED_BACKGROUND, SEXY_BACKGROUND,
+  SKY1_BACKGROUND,
+  SKY_BACKGROUND,
+  SUN_BACKGROUND,
+  TRIPPY_BACKGROUND,
+  WATER1_BACKGROUND,
+  WATER_BACKGROUND,
+  WHITE_BACKGROUND,
+  CLOTH_BACKGROUND,
+  BLUEDOTS_BACKGROUND,
+  FRILL_BACKGROUND,
+  ROSES_BACKGROUND,
+  GREEN_BACKGROUND,
+  LEAVE_BACKGROUND,
+  HYDRAGEA_BACKGROUND,
+  API_URL
+} from '../../../global-const';
 
 export function MyPhotosPage() {
+
+  document.documentElement.style.removeProperty('--box-text-color');
+  document.documentElement.style.setProperty('--box-header-color', `#c6506d`);
+  document.documentElement.style.setProperty('--main-background', `url(http://dl10.glitter-graphics.net/pub/2850/2850860nb1sevkfva.gif)`);
+  document.documentElement.style.setProperty('--box-background', `#f1eaed`);
 
   // #region LightBox
   const [currentImage2023, setCurrentImage2023] = useState(0);
@@ -71,7 +106,7 @@ export function MyPhotosPage() {
   const [photos2023, setPhotos2023] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/getMyPhotos') // замените на ваш URL API
+    fetch(`${API_URL}/getMyPhotos`) // замените на ваш URL API
       .then(response => {
         if (!response.ok) {
           throw new Error('Ошибка HTTP: ' + response.status);
@@ -98,40 +133,77 @@ export function MyPhotosPage() {
         console.error('Ошибка при получении фотографий', error);
       });
   }, []);
-  
+
   // #endregion
- 
-  document.documentElement.style.removeProperty('--box-header-color');
-  document.documentElement.style.removeProperty('--main-background');
-  document.documentElement.style.removeProperty('--box-background');
+
 
   return (
     <div className='main'>
+      <div className="box08">
+        <div className="box-top">
+          <div className="u01"></div>
+        </div>
+        <div className="box-center">
+          <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+            2023
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src='https://foollovers.com/mat/line03/j06-cherry_blossom-line.gif'
+                style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+            </div>
+          </div>
+        </div>
+        <div className="box-bottom">
+          <div className="s01"></div>
+        </div>
+      </div>
       <div className='box'>
         <div className='inner'>
           <div className='pupa' id="section2">
             <ImageGallery photos={photos2023} onClick={openLightbox2023} />
-            <ImageGallery photos={photos2022} onClick={openLightbox2022} />
             <ModalGateway>
               {viewerIsOpen2023 ? (
                 <Modal onClose={closeLightbox}>
                   <Carousel
                     images={photos2023}
                     index={currentImage2023}
-                    style={{ height: 600, width: 600 }}
+                    style={{ height: '25em', width: '25em' }}
                     hasMediaButton={false}
                     hasIndexBoard={false}
                   />
                 </Modal>
               ) : null}
             </ModalGateway>
+          </div>
+        </div>
+      </div>
+      <div className="box08">
+        <div className="box-top">
+          <div className="u01"></div>
+        </div>
+        <div className="box-center">
+          <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+            2022
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src='https://foollovers.com/mat/line03/j06-cherry_blossom-line.gif'
+                style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+            </div>
+          </div>
+        </div>
+        <div className="box-bottom">
+          <div className="s01"></div>
+        </div>
+      </div>
+      <div className='box'>
+        <div className='inner'>
+          <div className='pupa' id="section2">
+            <ImageGallery photos={photos2022} onClick={openLightbox2022} />
             <ModalGateway>
               {viewerIsOpen2022 ? (
                 <Modal onClose={closeLightbox}>
                   <Carousel
                     images={photos2022}
                     index={currentImage2022}
-                    style={{ height: 600, width: 600 }}
+                    style={{ height: '25em', width: '25em' }}
                     hasMediaButton={false}
                     hasIndexBoard={false}
                   />
@@ -140,15 +212,154 @@ export function MyPhotosPage() {
             </ModalGateway>
           </div>
         </div>
-        <div className='inner'>
-          <div className='pupa' id="section2">
-            <ImageGallery photos={photos2021} onClick={openLightbox2023} />
-            <ImageGallery photos={photos2020} onClick={openLightbox2023} />
-            <ImageGallery photos={photos2019} onClick={openLightbox2023} />
-            <ImageGallery photos={photos2018} onClick={openLightbox2023} />
+      </div>
+      <div className="box08">
+        <div className="box-top">
+          <div className="u01"></div>
+        </div>
+        <div className="box-center">
+          <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+            2021
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src='https://foollovers.com/mat/line03/j06-cherry_blossom-line.gif'
+                style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+            </div>
           </div>
         </div>
-
+        <div className="box-bottom">
+          <div className="s01"></div>
+        </div>
+      </div>
+      <div className='box'>
+        <div className='inner'>
+          <div className='pupa' id="section2">
+            <ImageGallery photos={photos2021} onClick={openLightbox2021} />
+            <ModalGateway>
+              {viewerIsOpen2021 ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    images={photos2021}
+                    index={currentImage2021}
+                    style={{ height: '25em', width: '25em' }}
+                    hasMediaButton={false}
+                    hasIndexBoard={false}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </div>
+        </div>
+      </div>
+      <div className="box08">
+        <div className="box-top">
+          <div className="u01"></div>
+        </div>
+        <div className="box-center">
+          <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+            2020
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src='https://foollovers.com/mat/line03/j06-cherry_blossom-line.gif'
+                style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+            </div>
+          </div>
+        </div>
+        <div className="box-bottom">
+          <div className="s01"></div>
+        </div>
+      </div>
+      <div className='box'>
+        <div className='inner'>
+          <div className='pupa' id="section2">
+            <ImageGallery photos={photos2020} onClick={openLightbox2020} />
+            <ModalGateway>
+              {viewerIsOpen2020 ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    images={photos2020}
+                    index={currentImage2020}
+                    style={{ height: '25em', width: '25em' }}
+                    hasMediaButton={false}
+                    hasIndexBoard={false}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </div>
+        </div>
+      </div>
+      <div className="box08">
+        <div className="box-top">
+          <div className="u01"></div>
+        </div>
+        <div className="box-center">
+          <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+            2019
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src='https://foollovers.com/mat/line03/j06-cherry_blossom-line.gif'
+                style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+            </div>
+          </div>
+        </div>
+        <div className="box-bottom">
+          <div className="s01"></div>
+        </div>
+      </div>
+      <div className='box'>
+        <div className='inner'>
+          <div className='pupa' id="section2">
+            <ImageGallery photos={photos2019} onClick={openLightbox2019} />
+            <ModalGateway>
+              {viewerIsOpen2019 ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    images={photos2019}
+                    index={currentImage2019}
+                    style={{ height: '25em', width: '25em' }}
+                    hasMediaButton={false}
+                    hasIndexBoard={false}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </div>
+        </div>
+      </div>
+      <div className="box08">
+        <div className="box-top">
+          <div className="u01"></div>
+        </div>
+        <div className="box-center">
+          <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+            2018
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src='https://foollovers.com/mat/line03/j06-cherry_blossom-line.gif'
+                style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+            </div>
+          </div>
+        </div>
+        <div className="box-bottom">
+          <div className="s01"></div>
+        </div>
+      </div>
+      <div className='box'>
+        <div className='inner'>
+          <div className='pupa' id="section2">
+            <ImageGallery photos={photos2018} onClick={openLightbox2018} />
+            <ModalGateway>
+              {viewerIsOpen2018 ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    images={photos2018}
+                    index={currentImage2018}
+                    style={{ height: '25em', width: '25em' }}
+                    hasMediaButton={false}
+                    hasIndexBoard={false}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </div>
+        </div>
       </div>
     </div>
   );

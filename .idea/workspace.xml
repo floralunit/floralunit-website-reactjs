@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="effadae2-00d0-43e8-b567-5e50ac20dfb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/image-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/image-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/lace-frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/lace-frame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emo-music-website/emo-main-page/EmoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/emo-music-website/emo-main-page/EmoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/global-images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/MainWebsite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/MainWebsite.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/LeftSideBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/RightSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main-website/pages/WebStuffPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/WebStuffPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/witchhouse-music-website/witch-main-page/WitchHousePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/components/music-player/MusicPlayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/components/music-player/MusicPlayer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/AestheticsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Aesthetics/simple-tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/InfoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/MoviesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Photos/CatsFroggiesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Photos/CatsFroggiesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Photos/FilmLofiPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Photos/FilmLofiPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/Photos/MyPhotosPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/Photos/MyPhotosPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/pages/WebStuff/WebStuffPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-website/pages/WebStuff/WebStuffPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/resources/cats/normal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-website/resources/pixels/UpQgZfy.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +130,7 @@
       <workItem from="1699806560683" duration="156000" />
       <workItem from="1699963410331" duration="563000" />
       <workItem from="1701919324779" duration="1183000" />
+      <workItem from="1704938163455" duration="2466000" />
     </task>
     <servers />
   </component>

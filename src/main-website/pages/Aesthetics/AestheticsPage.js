@@ -1,9 +1,10 @@
 import "../../MainWebsite.css"
-import "./simple-tabs.scss"
+import "../../../common/styles/simple-tabs.scss"
 import React, { useState, useCallback } from "react";
-import Carousel, { Modal, ModalGateway } from "react-images";
-import { angel_photos } from "./angel-photos/angel-photos";
+import { Modal, ModalGateway } from "react-images";
 import Gallery from "react-photo-gallery";
+import Carousel from 'react-gallery-carousel';
+import ImageGallery from "react-photo-gallery";
 import imgg from "../../../common/images/backgrounds/water-background.webp"
 import {
     CLOUD1_BACKGROUND,
@@ -26,25 +27,15 @@ import {
     WATER1_BACKGROUND,
     WATER_BACKGROUND,
     WHITE_BACKGROUND
-} from '../../../global-images';
-import {cottagecore_photos} from "./cottagecore-photos/cottagecore-photos";
-import {hindu_photos} from "./hindu-photos/hindu-photos";
-import {shit_photos} from "./shit-photos/shit-photos";
+} from '../../../global-const';
+import { angel_photos } from "./angel-photos/angel-photos";
+import { cottagecore_photos } from "./cottagecore-photos/cottagecore-photos";
+import { hindu_photos } from "./hindu-photos/hindu-photos";
+import { shit_photos } from "./shit-photos/shit-photos";
 
 export function AestheticsPage() {
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true);
-    }, []);
-
-    const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false);
-    };
-
+    // #region tabs-page-styles
 
     const [toggleState, setToggleState] = useState(1);
 
@@ -52,25 +43,26 @@ export function AestheticsPage() {
         setToggleState(index);
     };
 
-    if (toggleState === 1){
+    document.documentElement.style.removeProperty('--box-text-color');
+    if (toggleState === 1) {
         document.documentElement.style.setProperty('--box-header-color', '#272829');
-        document.documentElement.style.setProperty('--main-background',  `url(${SUN_BACKGROUND})`);
-        document.documentElement.style.setProperty('--box-background',  `url(${CLOUD_BACKGROUND})`);
+        document.documentElement.style.setProperty('--main-background', `url(${SUN_BACKGROUND})`);
+        document.documentElement.style.setProperty('--box-background', `url(${CLOUD_BACKGROUND})`);
     }
-    else if (toggleState === 2){
+    else if (toggleState === 2) {
         document.documentElement.style.setProperty('--box-header-color', '#263A29');
-        document.documentElement.style.setProperty('--main-background',  `url(${FLOWER1_BACKGROUND})`);
-        document.documentElement.style.setProperty('--box-background',  '#dad7cd');
+        document.documentElement.style.setProperty('--main-background', `url(${FLOWER1_BACKGROUND})`);
+        document.documentElement.style.setProperty('--box-background', '#dad7cd');
     }
-    else if (toggleState === 3){
+    else if (toggleState === 3) {
         document.documentElement.style.setProperty('--box-header-color', '#850000');
-        document.documentElement.style.setProperty('--main-background',  `url(${HINDU_BACKGROUND})`);
-        document.documentElement.style.setProperty('--box-background',  '#FFDBAA');
+        document.documentElement.style.setProperty('--main-background', `url(${HINDU_BACKGROUND})`);
+        document.documentElement.style.setProperty('--box-background', '#FFDBAA');
     }
-    else if (toggleState === 4){
+    else if (toggleState === 4) {
         document.documentElement.style.setProperty('--box-header-color', '#000000');
-        document.documentElement.style.setProperty('--main-background',  `url(${EMO_BACKGROUND})`);
-        document.documentElement.style.setProperty('--box-background',  `url(${EMO1_BACKGROUND})`);
+        document.documentElement.style.setProperty('--main-background', `url(${EMO_BACKGROUND})`);
+        document.documentElement.style.setProperty('--box-background', `url(${EMO1_BACKGROUND})`);
     }
     else {
         document.documentElement.style.removeProperty('--box-header-color');
@@ -78,22 +70,64 @@ export function AestheticsPage() {
         document.documentElement.style.removeProperty('--box-background');
     }
 
+    //#endregion
+
+    // #region LightBox
+    const [currentImageAngel, setCurrentImageAngel] = useState(0);
+    const [currentImageFlower, setCurrentImageFlower] = useState(0);
+    const [currentImageHindu, setCurrentImageHindu] = useState(0);
+    const [currentImageShit, setCurrentImageShit] = useState(0);
+    const [viewerIsOpenAngel, setViewerIsOpenAngel] = useState(false);
+    const [viewerIsOpenFlower, setViewerIsOpenFlower] = useState(false);
+    const [viewerIsOpenHindu, setViewerIsOpenHindu] = useState(false);
+    const [viewerIsOpenShit, setViewerIsOpenShit] = useState(false);
+
+    const openLightboxAngel = useCallback((event, { photo, index }) => {
+        setCurrentImageAngel(index);
+        setViewerIsOpenAngel(true);
+    }, []);
+    const openLightboxFlower = useCallback((event, { photo, index }) => {
+        setCurrentImageFlower(index);
+        setViewerIsOpenFlower(true);
+    }, []);
+    const openLightboxHindu = useCallback((event, { photo, index }) => {
+        setCurrentImageHindu(index);
+        setViewerIsOpenHindu(true);
+    }, []);
+    const openLightboxShit = useCallback((event, { photo, index }) => {
+        setCurrentImageShit(index);
+        setViewerIsOpenShit(true);
+    }, []);
+
+    const closeLightbox = () => {
+        setCurrentImageAngel(0);
+        setCurrentImageFlower(0);
+        setCurrentImageHindu(0);
+        setCurrentImageShit(0);
+        setViewerIsOpenAngel(false);
+        setViewerIsOpenFlower(false);
+        setViewerIsOpenHindu(false);
+        setViewerIsOpenShit(false);
+    };
+    //#endregion
+
+
     return (
         <div className='main'>
             <div className='box'>
-                <div className='inner' style={{backgroundColor: "var(--box-header-color)"}}>
+                <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
                     <div className="simple-tab-bar radius">
                         <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)}>
-                            <span className="icon"><img src={require('../../resources/pixels/wings.gif')} style={{width: "30px"}}/></span>
+                            <span className="icon"><img src={require('../../resources/pixels/wings.gif')} style={{ width: "40px" }} /></span>
                         </button>
                         <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)}>
-                            <span className="icon">Flower</span>
+                            <span className="icon"><img src={require('../../resources/pixels/x02-icon-bee.gif')} style={{ width: "40px" }} /></span>
                         </button>
                         <button className={toggleState === 3 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(3)}>
-                            <span className="icon"><img src={require('../../resources/pixels/hindu.gif')} style={{width: "25px"}}/></span>
+                            <span className="icon"><img src={require('../../resources/pixels/hindu.gif')} style={{ width: "25px" }} /></span>
                         </button>
                         <button className={toggleState === 4 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(4)}>
-                            <span className="icon">####</span>
+                            <span className="icon"><img src={require('../../resources/pixels/blobshades.gif')} style={{ width: "40px" }} /></span>
                         </button>
                     </div>
                 </div>
@@ -105,17 +139,16 @@ export function AestheticsPage() {
                             className={toggleState === 1 ? "simple-content  simple-active-content" : "simple-content"}
                         >
                             <div className='pupa' id="section2">
-                                <Gallery photos={angel_photos} onClick={openLightbox} />
+                                <ImageGallery photos={angel_photos} onClick={openLightboxAngel} />
                                 <ModalGateway>
-                                    {viewerIsOpen ? (
+                                    {viewerIsOpenAngel ? (
                                         <Modal onClose={closeLightbox}>
                                             <Carousel
-                                                      currentIndex={currentImage}
-                                                      views={angel_photos.map(x => ({
-                                                          ...x,
-                                                          srcset: x.srcSet,
-                                                          caption: x.title,
-                                                      }))}
+                                                images={angel_photos}
+                                                index={currentImageAngel}
+                                                style={{ height: '25em', width: '25em' }}
+                                                hasMediaButton={false}
+                                                hasIndexBoard={false}
                                             />
                                         </Modal>
                                     ) : null}
@@ -126,17 +159,16 @@ export function AestheticsPage() {
                             className={toggleState === 2 ? "simple-content  simple-active-content" : "simple-content"}
                         >
                             <div className='pupa' id="section2">
-                                <Gallery photos={cottagecore_photos} onClick={openLightbox} />
+                                <ImageGallery photos={cottagecore_photos} onClick={openLightboxFlower} />
                                 <ModalGateway>
-                                    {viewerIsOpen ? (
+                                    {viewerIsOpenFlower ? (
                                         <Modal onClose={closeLightbox}>
-                                            <Carousel style={{width: "100px", height: "100px"}}
-                                                      currentIndex={currentImage}
-                                                      views={cottagecore_photos.map(x => ({
-                                                          ...x,
-                                                          srcset: x.srcSet,
-                                                          caption: x.title
-                                                      }))}
+                                            <Carousel
+                                                images={cottagecore_photos}
+                                                index={currentImageFlower}
+                                                style={{ height: '25em', width: '25em' }}
+                                                hasMediaButton={false}
+                                                hasIndexBoard={false}
                                             />
                                         </Modal>
                                     ) : null}
@@ -147,17 +179,16 @@ export function AestheticsPage() {
                             className={toggleState === 3 ? "simple-content  simple-active-content" : "simple-content"}
                         >
                             <div className='pupa' id="section2">
-                                <Gallery photos={hindu_photos} onClick={openLightbox} />
+                                <ImageGallery photos={hindu_photos} onClick={openLightboxHindu} />
                                 <ModalGateway>
-                                    {viewerIsOpen ? (
+                                    {viewerIsOpenHindu ? (
                                         <Modal onClose={closeLightbox}>
-                                            <Carousel style={{width: "100px", height: "100px"}}
-                                                      currentIndex={currentImage}
-                                                      views={angel_photos.map(x => ({
-                                                          ...x,
-                                                          srcset: x.srcSet,
-                                                          caption: x.title
-                                                      }))}
+                                            <Carousel
+                                                images={hindu_photos}
+                                                index={currentImageHindu}
+                                                style={{ height: '25em', width: '25em' }}
+                                                hasMediaButton={false}
+                                                hasIndexBoard={false}
                                             />
                                         </Modal>
                                     ) : null}
@@ -169,17 +200,16 @@ export function AestheticsPage() {
                         >
                             <div className='pupa' id="section2">
                                 <div className="crt"></div>
-                                <Gallery photos={shit_photos} onClick={openLightbox} />
+                                <ImageGallery photos={shit_photos} onClick={openLightboxShit} />
                                 <ModalGateway>
-                                    {viewerIsOpen ? (
+                                    {viewerIsOpenShit ? (
                                         <Modal onClose={closeLightbox}>
-                                            <Carousel style={{width: "100px", height: "100px"}}
-                                                      currentIndex={currentImage}
-                                                      views={angel_photos.map(x => ({
-                                                          ...x,
-                                                          srcset: x.srcSet,
-                                                          caption: x.title
-                                                      }))}
+                                            <Carousel
+                                                images={shit_photos}
+                                                index={currentImageShit}
+                                                style={{ height: '25em', width: '25em' }}
+                                                hasMediaButton={false}
+                                                hasIndexBoard={false}
                                             />
                                         </Modal>
                                     ) : null}

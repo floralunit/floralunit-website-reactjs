@@ -1,5 +1,5 @@
 .component div a {
-     color: #263A29;
+     color: var(--box-text-color);
     font-weight: bold;
     font-size: smaller;
  }
