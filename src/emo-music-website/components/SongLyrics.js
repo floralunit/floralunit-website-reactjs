@@ -21,14 +21,14 @@ export const SongLyrics = ({song}) => {
                 <>
                     <div>
                         <h3 className={'albumList'}>
-                            <img src={'https://dannarchy.com/misc/anim/1366.gif'} alt={''}/>
+                            <img src={'https://dannarchy.com/misc/anim/1366.gif'} style={{height: "20px", width: 'auto'}} alt={''}/>
                             {song.name}
                         </h3>
                         {song.artist}
                     </div>
                     <br/>
-                    <audio src={require(`../emo-bands/${song.path}`)} controls="autoplay" className={"audio"}
-                           autoPlay={false} title={song.name}/>
+                    {/* <audio src={require(`../emo-bands/${song.path}`)} controls="autoplay" className={"audio"}
+                           autoPlay={false} title={song.name}/> */}
                     <br/>
                     <div className="tab-bar radius" style={{fontSize: '5px'}}>
                         <button className={toggleState === 1 ? "tab selected" : "tab"} onClick={() => toggleTab(1)}

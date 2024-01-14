@@ -31,4 +31,4 @@ export const GREEN_BACKGROUND = require('./common/images/backgrounds/bgif023.gif
 export const LEAVE_BACKGROUND = require('./common/images/backgrounds/leavesbg.gif');
 export const HYDRAGEA_BACKGROUND = require('./common/images/backgrounds/j02-bg-hydrangea.gif');
 
-export const API_URL = 'http://3.79.72.138:8088';
+export const API_URL = 'https://floral-unit.is-probably.gay';

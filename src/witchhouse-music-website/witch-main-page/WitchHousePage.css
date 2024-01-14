@@ -1,3 +1,9 @@
+html, body {
+    background-image: url("resources/nurple-static-bright.gif");
+    height: 100%;
+    width: 100%;
+}
+
 .witch-house-page
 {
     background-image: url("resources/nurple-static-bright.gif");

@@ -438,9 +438,10 @@ export function WitchHousePage() {
             <section className="music-section">
                 <div className="container">
                     <div className="music-container">
+                        <div className='row'>
                         <div className="row">
                             <div className="column">
-                                <Link to="/radostmoja">
+                                <Link to="radost-moja">
                                     <GlitchClip onHover={false} className="s">
                                         <img src={require('./resources/radostmoja.png')} loading="lazy" className="s"/>
                                     </GlitchClip>
@@ -451,15 +452,51 @@ export function WitchHousePage() {
                                 <br/>
                                 <br/>
                                 <br/>
-                                <Link to="/suicidewave">
-                                    <div style={{fontSize: "100px"}}>SUICIDEWAVE</div>
+                                <Link to="radost-moja">
+                                    <GlitchClip onHover={false} className="s">
+                                        <img src={require('./resources/radostmoja.png')} loading="lazy" className="s"/>
+                                    </GlitchClip>
                                 </Link>
                             </div>
                             <div className="column">
-                                <Link to="/suicidewave">
-                                    <div style={{fontSize: "100px"}}>CAIN</div>
+                            <Link to="witch-house/radost-moja">
+                                    <GlitchClip onHover={false} className="s">
+                                        <img src={require('./resources/radostmoja.png')} loading="lazy" className="s"/>
+                                    </GlitchClip>
                                 </Link>
                             </div>
+                        </div>
+                        <div className="row">
+                            <div className="column">
+                            <br/>
+                                <br/>
+                                <Link to="radost-moja">
+                                    <GlitchClip onHover={false} className="s">
+                                        <img src={require('./resources/radostmoja.png')} loading="lazy" className="s"/>
+                                    </GlitchClip>
+                                </Link>
+                            </div>
+                            <div className="column">
+                                <br/>
+                          
+                                <Link to="radost-moja">
+                                    <GlitchClip onHover={false} className="s">
+                                        <img src={require('./resources/radostmoja.png')} loading="lazy" className="s"/>
+                                    </GlitchClip>
+                                </Link>
+                            </div>
+                            <div className="column">
+                            <br/>
+                                <br/>
+      
+                                <br/>
+                            <Link to="radost-moja">
+                                    <GlitchClip onHover={false} className="s">
+                                        <img src={require('./resources/radostmoja.png')} loading="lazy" className="s"/>
+                                    </GlitchClip>
+                                </Link>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>

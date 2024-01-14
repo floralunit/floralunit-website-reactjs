@@ -53,7 +53,7 @@ export function RightSideBar() {
                                 </li>
                             </ul>*/}
                         <li><img src={require('../resources/pixels/eye.png')} />
-                            <Link to="https://floralunit.github.io/ancient-egyptian-dictionary/" target="_blank" rel="noreferrer">egyptian dictionary</Link></li>
+                            <Link to="https://ancient-egyptian-dictionary.vercel.app/" target="_blank" rel="noreferrer">egyptian dictionary</Link></li>
                         <li><img src={require('../resources/frogs/puff_froggy.gif')} />
                             <Link to="/cats-frogs">my cats & froggies</Link></li>
                         <li><img src={require('../resources/pixels/3spanishmoon_sm.png')} />

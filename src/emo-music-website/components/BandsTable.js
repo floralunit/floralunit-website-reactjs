@@ -14,42 +14,42 @@ export function BandsTable() {
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/bobtilton"}>Bob Tilton</NavLink>
+                        <NavLink to={"bob-tilton"}>Bob Tilton</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/i-hate-myself"}>I Hate Myself</NavLink>
+                        <NavLink to={"bob-tilton"}>I Hate Myself</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/mineral"}>Mineral</NavLink>
+                        <NavLink to={"bob-tilton"}>Mineral</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/kolya"}>Kolya</NavLink>
+                        <NavLink to={"bob-tilton"}>Kolya</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/sleeping-for-sunrise"}>Sleeping for Sunrise</NavLink>
+                        <NavLink to={"bob-tilton"}>Sleeping for Sunrise</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/sleeping-for-sunrise"}>Neil Perry</NavLink>
+                        <NavLink to={"bob-tilton"}>Neil Perry</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/sleeping-for-sunrise"}>You And I</NavLink>
+                        <NavLink to={"bob-tilton"}>You And I</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/sleeping-for-sunrise"}>Yaphet Kotto</NavLink>
+                        <NavLink to={"bob-tilton"}>Yaphet Kotto</NavLink>
                     </td>
                 </tr>
                 </tbody>
@@ -62,22 +62,22 @@ export function BandsTable() {
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/american-football"}>American Football</NavLink>
+                        <NavLink to={"bob-tilton"}>American Football</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/camping-in-alaska"}>Camping in Alaska</NavLink>
+                        <NavLink to={"bob-tilton"}>Camping in Alaska</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/marietta"}>Marietta</NavLink>
+                        <NavLink to={"bob-tilton"}>Marietta</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/tiny-moving-parts"}>Tiny Moving Parts</NavLink>
+                        <NavLink to={"bob-tilton"}>Tiny Moving Parts</NavLink>
                     </td>
                 </tr>
                 </tbody>
@@ -90,32 +90,32 @@ export function BandsTable() {
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/bird-bone"}>Bird Bone</NavLink>
+                        <NavLink to={"bob-tilton"}>Bird Bone</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/botanichesky-sad"}>botanichesky sad</NavLink>
+                        <NavLink to={"bob-tilton"}>botanichesky sad</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/hay-king"}>hay king</NavLink>
+                        <NavLink to={"bob-tilton"}>hay king</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/sostoyanie-ptits"}>состояние птиц</NavLink>
+                        <NavLink to={"bob-tilton"}>состояние птиц</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/eto"}>это</NavLink>
+                        <NavLink to={"bob-tilton"}>это</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/florist"}>флорист</NavLink>
+                        <NavLink to={"bob-tilton"}>флорист</NavLink>
                     </td>
                 </tr>
                 </tbody>
@@ -128,12 +128,12 @@ export function BandsTable() {
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/reasons"}>Reasons</NavLink>
+                        <NavLink to={"bob-tilton"}>Reasons</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"/oakwood"}>Oakwood</NavLink>
+                        <NavLink to={"bob-tilton"}>Oakwood</NavLink>
                     </td>
                 </tr>
                 </tbody>

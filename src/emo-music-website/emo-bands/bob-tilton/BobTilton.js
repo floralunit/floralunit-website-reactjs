@@ -160,7 +160,7 @@ export function BobTilton() {
                                         перевод (если он есть).
                                         <br/>
                                         <img src={'https://cinni.net/images/creatures/sanrio/maru_jump_rope.gif'}
-                                             style={{display: 'block', margin: '0 auto'}} alt={''}/>
+                                             style={{display: 'block', margin: '0 auto', height: "70px", width: 'auto'}} alt={''}/>
                                     </div>
                                     <br/>
                                     <ul type="none">
