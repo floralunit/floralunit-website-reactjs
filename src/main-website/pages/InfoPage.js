@@ -18,11 +18,11 @@ export function InfoPage() {
                 </div>*/}
                 <div className='inner'>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/pixels/lb06.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/pixels/l06-ribbon-line.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/l06-ribbon-line.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/pixels/lb06.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -45,7 +45,7 @@ export function InfoPage() {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/pixels/gray-flower-line.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/gray-flower-line.gif')}
                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -54,7 +54,7 @@ export function InfoPage() {
                         </div>
                         <div className="box-center">
                             <div className="box-inner">
-                                <img src={require('../resources/pixels/IMG_20230731_165019.png')}
+                                <img src={require('../resources/images/IMG_20230731_165019.png')}
                                     style={{ float: "right", width: '40%', height: '40%' }} />
                                 <p>Some things I like:</p>
                                 <ul>
@@ -78,7 +78,7 @@ export function InfoPage() {
                     </div>
 
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/pixels/gray-flower-line.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/gray-flower-line.gif')}
                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -96,11 +96,11 @@ export function InfoPage() {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/pixels/lb06.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/pixels/l06-ribbon-line.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/l06-ribbon-line.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/pixels/lb06.gif')}
+                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     {/* <div style={{display: 'flex', justifyContent: 'center'}}>

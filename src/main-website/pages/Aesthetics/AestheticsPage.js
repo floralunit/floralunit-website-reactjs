@@ -118,16 +118,16 @@ export function AestheticsPage() {
                 <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
                     <div className="simple-tab-bar radius">
                         <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)}>
-                            <span className="icon"><img src={require('../../resources/pixels/wings.gif')} style={{ width: "40px" }} /></span>
+                            <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/wings.gif')} style={{ width: "35px" }} /></span>
                         </button>
                         <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)}>
-                            <span className="icon"><img src={require('../../resources/pixels/x02-icon-bee.gif')} style={{ width: "40px" }} /></span>
+                            <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/x02-icon-bee.gif')} style={{ width: "35px" }} /></span>
                         </button>
                         <button className={toggleState === 3 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(3)}>
-                            <span className="icon"><img src={require('../../resources/pixels/hindu.gif')} style={{ width: "25px" }} /></span>
+                            <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/hindu.gif')} style={{ width: "25px" }} /></span>
                         </button>
                         <button className={toggleState === 4 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(4)}>
-                            <span className="icon"><img src={require('../../resources/pixels/blobshades.gif')} style={{ width: "40px" }} /></span>
+                            <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/blobshades.gif')} style={{ width: "35px" }} /></span>
                         </button>
                     </div>
                 </div>

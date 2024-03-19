@@ -1,9 +1,10 @@
 import "../../MainWebsite.css"
 import "../../../common/styles/simple-tabs.scss"
-import React, {  useState, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
 import ImageGallery from "react-photo-gallery";
+import { LoadingComponent } from "../../components/LoadingComponent"
 
 import {
     CLOUD1_BACKGROUND,
@@ -32,9 +33,10 @@ import {
     FRILL_BACKGROUND,
     HYDRAGEA_BACKGROUND,
     API_URL
-  } from '../../../global-const';
+} from '../../../global-const';
 
 export function FilmLofiPage() {
+    const [isLoaded, setIsLoaded] = useState(false);
 
     // #region LightBox
     const [currentImageFilm, setCurrentImageFilm] = useState(0);
@@ -59,58 +61,63 @@ export function FilmLofiPage() {
     };
     // #endregion
 
-  // #region GetPhotos
-  const [photosFilm, setPhotosFilm] = useState([]);
-  const [photosLofi, setPhotosLofi] = useState([]);
+    // #region GetPhotos
+    const [photosFilm, setPhotosFilm] = useState([]);
+    const [photosLofi, setPhotosLofi] = useState([]);
 
-  useEffect(() => {
-    fetch(`${API_URL}/getFilmPhotos`) // замените на ваш URL API
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Ошибка HTTP: ' + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        const photos = data.response.items.map(photo => ({
-          src: photo.sizes.find(size => size.type === "z").url,
-          width: 4, // замените на нужную ширину фотографии
-          height: 3, // замените на нужную высоту фотографии
-          title: photo.text,
-          comments: photo.comments,
-        }));
-        setPhotosFilm(photos);
-      })
-      .catch(error => {
-        console.error('Ошибка при получении фотографий', error);
-      });
-  }, []);
+    useEffect(() => {
+        fetch(`${API_URL}/getFilmPhotos`) // замените на ваш URL API
+            .then(response => {
+                setIsLoaded(true);
+                if (!response.ok) {
+                    throw new Error('Ошибка HTTP: ' + response.status);
+                }
+                return response.json();
+            })
+            .then(data => {
+                setIsLoaded(true);
+                const photos = data.response.items.map(photo => ({
+                    src: photo.sizes.find(size => size.type === "z").url,
+                    width: 4, // замените на нужную ширину фотографии
+                    height: 3, // замените на нужную высоту фотографии
+                    title: photo.text,
+                    comments: photo.comments,
+                }));
+                setPhotosFilm(photos);
+            })
+            .catch(error => {
+                console.error('Ошибка при получении фотографий', error);
+            });
+    }, []);
 
-  
-  useEffect(() => {
-    fetch(`${API_URL}/getLofiPhotos`) // замените на ваш URL API
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Ошибка HTTP: ' + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        const photos = data.response.items.map(photo => ({
-          src: photo.sizes.find(size => size.type === "z").url,
-          width: 4, // замените на нужную ширину фотографии
-          height: 3, // замените на нужную высоту фотографии
-          title: photo.text,
-          comments: photo.comments,
-        }));
-        setPhotosLofi(photos);
-      })
-      .catch(error => {
-        console.error('Ошибка при получении фотографий', error);
-      });
-  }, []);
-  
-  // #endregion
+
+    useEffect(() => {
+        fetch(`${API_URL}/getLofiPhotos`) // замените на ваш URL API
+            .then(response => {
+                setIsLoaded(true);
+                if (!response.ok) {
+                    setIsLoaded(true);
+                    throw new Error('Ошибка HTTP: ' + response.status);
+                }
+                return response.json();
+            })
+            .then(data => {
+                setIsLoaded(true);
+                const photos = data.response.items.map(photo => ({
+                    src: photo.sizes.find(size => size.type === "z").url,
+                    width: 4, // замените на нужную ширину фотографии
+                    height: 3, // замените на нужную высоту фотографии
+                    title: photo.text,
+                    comments: photo.comments,
+                }));
+                setPhotosLofi(photos);
+            })
+            .catch(error => {
+                console.error('Ошибка при получении фотографий', error);
+            });
+    }, []);
+
+    // #endregion
 
     const [toggleState, setToggleState] = useState(1);
 
@@ -134,25 +141,29 @@ export function FilmLofiPage() {
         document.documentElement.style.removeProperty('--main-background');
         document.documentElement.style.removeProperty('--box-background');
     }
-
-    return (
-        <div className='main'>
-            <div className='box'>
-                <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
-                    <div className="simple-tab-bar radius">
-                        <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)}>
-                            <span className="icon"><img src='https://web.archive.org/web/20091027145538/http://geocities.com/RainForest/Vines/8358/Camera.gif' style={{ height: "30px", padding:'5px' }} /></span>
-                        </button>
-                        <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)}>
-                        <span className="icon"><img src='https://artwork.neocities.org/toybox/cdrom.gif' style={{ width: "25px" }} /></span>
-                        </button>
+    if (!isLoaded) {
+        return <LoadingComponent />;
+    } else {
+        return (
+            <div className='main' style={{ maxWidth: '1000px' }}>
+                <div className='box'>
+                    <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
+                        <div className="simple-tab-bar radius">
+                            <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)} style={{ fontSize: '10px' }}>
+                                <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/Camera.gif')} style={{ height: "20px" }} /></span>films
+                            </button>
+                            <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)} style={{ fontSize: '10px' }}>
+                                <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/cdrom.gif')}
+                                    title="https://artwork.neocities.org"
+                                    style={{ width: "20px" }} /></span>lofi
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-                    <div className="simple-content-tabs">
-                        <div
-                            className={toggleState === 1 ? "simple-content  simple-active-content" : "simple-content"}
-                        >
+                <div className="simple-content-tabs">
+                    <div
+                        className={toggleState === 1 ? "simple-content  simple-active-content" : "simple-content"}
+                    >
                         <div className="box08">
                             <div className="box-top">
                                 <div className="u01"></div>
@@ -166,19 +177,19 @@ export function FilmLofiPage() {
                                             <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
                                                 <div>Film photography / Пленочная фотография</div>
                                             </div>
-                                            <br/>
-                                            <div style={{ fontWeight: 'bold' }}>My film cameras: </div> 
+                                            <br />
+                                            <div style={{ fontWeight: 'bold' }}>My film cameras: </div>
                                             <ul>
                                                 <li>Zenit TTL | Зенит TTL (1979)</li>
                                                 <li>Rekam BF-300 (~2000)</li>
                                             </ul>
-                                            <br/>
-                                            One day in 2021, I found an old soviet camera at my grandfather's house, which my family used in the 80s and 90s. 
-                                            I wondered if it worked, bought a film and tried to shoot and I did it! 
-                                            Since then, I've been taking film photos with this camera for several years now, and sometimes it shoots better than a phone. 
-                                            Also, one day I was given another camera from 00x (мыльница), 
+                                            <br />
+                                            One day in 2021, I found an old soviet camera at my grandfather's house, which my family used in the 80s and 90s.
+                                            I wondered if it worked, bought a film and tried to shoot and I did it!
+                                            Since then, I've been taking film photos with this camera for several years now, and sometimes it shoots better than a phone.
+                                            Also, one day I was given another camera from 00x (мыльница),
                                             I also take pictures with it periodically, but it is automated, so it is too boring to shoot without settings.
-                                            <br/>
+                                            <br />
                                             <div style={{ fontWeight: 'bold' }}>check my film insta @floral.35mm</div>
                                         </div>
                                     </div>
@@ -190,38 +201,38 @@ export function FilmLofiPage() {
                         </div>
                         <div className="box">
                             <div className="inner">
-                            <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                <img src='https://foollovers.com/mat/line03/d10-simple-line.gif'
-                                    style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                                <div>Photo gallery</div>
-                                <img src='https://foollovers.com/mat/line03/d10-simple-line.gif'
-                                    style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                            </div>
-                            <br/>
-                            <div className='pupa' id="section2">
-                                <ImageGallery photos={photosFilm} onClick={openLightboxFilm} />
-                                <ModalGateway>
-                                    {viewerIsOpenFilm ? (
-                                        <Modal onClose={closeLightbox}>
-                                            <Carousel
-                                                images={photosFilm}
-                                                index={currentImageFilm}
-                                                style={{ height: '25em', width: '25em' }}
-                                                hasMediaButton={false}
-                                                hasIndexBoard={false}
-                                            />
-                                        </Modal>
-                                    ) : null}
-                                </ModalGateway>
-                            </div>
-                            </div>
+                                <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                        style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                                    <div>Photo gallery</div>
+                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                        style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                                </div>
+                                <br />
+                                <div className='pupa' id="section2">
+                                    <ImageGallery photos={photosFilm} onClick={openLightboxFilm} />
+                                    <ModalGateway>
+                                        {viewerIsOpenFilm ? (
+                                            <Modal onClose={closeLightbox}>
+                                                <Carousel
+                                                    images={photosFilm}
+                                                    index={currentImageFilm}
+                                                    style={{ height: '25em', width: '25em' }}
+                                                    hasMediaButton={false}
+                                                    hasIndexBoard={false}
+                                                />
+                                            </Modal>
+                                        ) : null}
+                                    </ModalGateway>
+                                </div>
                             </div>
                         </div>
-                        <div
-                            className={toggleState === 2 ? "simple-content  simple-active-content" : "simple-content"}
-                        >
-                            <div className="crt"></div>
-                            <div className="box08">
+                    </div>
+                    <div
+                        className={toggleState === 2 ? "simple-content  simple-active-content" : "simple-content"}
+                    >
+                        <div className="crt"></div>
+                        <div className="box08">
                             <div className="box-top">
                                 <div className="u01"></div>
                             </div>
@@ -229,16 +240,16 @@ export function FilmLofiPage() {
                                 <div className="box-inner">
                                     <div>
                                         <img src='https://dl.glitter-graphics.com/pub/760/760422uovmn3ng0u.gif'
-                                            style={{width: '15%', float: 'right'}} />
+                                            style={{ width: '15%', float: 'right' }} />
                                         <div>
                                             <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
                                                 <div>Lofi photography / всратые фотки</div>
                                             </div>
-                                            <br/>
-                                            I also have a button phone, which I use for taking shitty pictures, shitty videos and playing old java games. 
-                                            <br/>
-                                            <br/>
-                                            <br/>
+                                            <br />
+                                            I also have a button phone, which I use for taking shitty pictures, shitty videos and playing old java games.
+                                            <br />
+                                            <br />
+                                            <br />
                                         </div>
                                     </div>
                                 </div>
@@ -247,36 +258,37 @@ export function FilmLofiPage() {
                                 <div className="s01"></div>
                             </div>
                         </div>
-                            <div className="box">
-                                <div className="inner">
+                        <div className="box">
+                            <div className="inner">
                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                <img src='https://foollovers.com/mat/line03/d10-simple-line.gif'
-                                    style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                                <div>Photo gallery</div>
-                                <img src='https://foollovers.com/mat/line03/d10-simple-line.gif'
-                                    style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                            </div>
-                            <br/>
-                            <div className='pupa' id="section2">
-                                <ImageGallery photos={photosLofi} onClick={openLightboxLofi} />
-                                <ModalGateway>
-                                    {viewerIsOpenLofi ? (
-                                        <Modal onClose={closeLightbox}>
-                                             <Carousel
-                                                images={photosLofi}
-                                                index={currentImageLofi}
-                                                style={{ height: '20em', width: '20em'}}
-                                                hasMediaButton={false}
-                                                hasIndexBoard={false}
-                                            />
-                                        </Modal>
-                                    ) : null}
-                                </ModalGateway>
-                            </div>
-                            </div>
+                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                        style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                                    <div>Photo gallery</div>
+                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                        style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
+                                </div>
+                                <br />
+                                <div className='pupa' id="section2">
+                                    <ImageGallery photos={photosLofi} onClick={openLightboxLofi} />
+                                    <ModalGateway>
+                                        {viewerIsOpenLofi ? (
+                                            <Modal onClose={closeLightbox}>
+                                                <Carousel
+                                                    images={photosLofi}
+                                                    index={currentImageLofi}
+                                                    style={{ height: '20em', width: '20em' }}
+                                                    hasMediaButton={false}
+                                                    hasIndexBoard={false}
+                                                />
+                                            </Modal>
+                                        ) : null}
+                                    </ModalGateway>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-    );
+            </div>
+        );
+    }
 }

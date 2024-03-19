@@ -54,6 +54,7 @@ aside {
     flex: 1;
     padding: 20px;
     order: 2;
+    max-width: '60%';
 }
 
 .main-container, .links a {
@@ -125,12 +126,25 @@ aside {
 }
 
 .pupa {
-    column-count: 5;
+ 
+    grid-gap: 0px;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 .pupa img {
     min-height: 110px;
+    max-height: 150px;
+    min-width:100px;
+    width: 19.5%;
+    object-fit: cover;
+    margin: 0 auto;
 }
+.pupa::before img {
+    content: "";
+    display: block;
+    padding-top: 100%; /* Соотношение сторон 1:1 (100% от ширины фотографии) */
+  }
 
 @media only screen and (max-width: 900px) {
     .flex-container {
@@ -156,8 +170,8 @@ aside {
         margin: 0;
     }
 
-    .pupa {
-        column-count: 3;
+    .pupa img {
+        width: 32%;
     }
 }
 

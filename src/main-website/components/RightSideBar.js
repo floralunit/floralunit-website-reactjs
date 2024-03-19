@@ -24,25 +24,25 @@ export function RightSideBar() {
                 <h3>My world</h3>
                 <div className='inner' style={{ display: "flex", alignItems: "center", height: "92%" }}>
                     <ol className="image-list">
-                        <li><img src={require('../resources/pixels/dancing-moomin-lostletters.png')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/dancing-moomin-lostletters.png')} />
                             <Link to="/">about</Link></li>
-                        <li className="icon-link"><img src={require('../resources/pixels/jZvzhTA.gif')} />music
+                        <li className="icon-link"><img src={require('../resources/tabs_dividers_pixels/jZvzhTA.gif')} />music
                             {/* <Link to="/witch-house">music</Link> */}
                             <ul>
-                                <li><img src={require('../resources/pixels/398Yet2.gif')}
+                                <li><img src={require('../resources/tabs_dividers_pixels/398Yet2.gif')}
                                 /> <Link to="/witch-house" target="_blank" rel="noreferrer">witch-house</Link>
                                 </li>
-                                <li><img src={require('../resources/pixels/zJZuQV8.gif')}
+                                <li><img src={require('../resources/tabs_dividers_pixels/zJZuQV8.gif')}
                                 /> <Link to="/emo" target="_blank" rel="noreferrer">emo</Link>
                                 </li>
-                                <li><img src={require('../resources/pixels/rYgMZnK.gif')} />post-punk
+                                <li><img src={require('../resources/tabs_dividers_pixels/rYgMZnK.gif')} />post-punk
                                     {/* <Link to="/post-punk" target="_blank" rel="noreferrer">post-punk</Link> */}
                                 </li>
                             </ul>
                         </li>
-                        <li><img src={require('../resources/pixels/1dfntQp.gif')} />fav movies
+                        <li><img src={require('../resources/tabs_dividers_pixels/1dfntQp.gif')} />fav movies
                             {/* <Link to="/movies">fav movies</Link> */}</li>
-                        <li><img src={require('../resources/pixels/Animals_Icon.webp')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/Animals_Icon.webp')} />
                             <Link to="/games">games</Link></li>
                         {/*                            <ul>
                                 <li><img src={require('../resources/pixels/Djab.png')}
@@ -52,17 +52,17 @@ export function RightSideBar() {
                                 /> <Link to="/witchhouse">Trash Mermaid</Link>
                                 </li>
                             </ul>*/}
-                        <li><img src={require('../resources/pixels/eye.png')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/eye.png')} />
                             <Link to="https://ancient-egyptian-dictionary.vercel.app/" target="_blank" rel="noreferrer">egyptian dictionary</Link></li>
                         <li><img src={require('../resources/frogs/puff_froggy.gif')} />
                             <Link to="/cats-frogs">my cats & froggies</Link></li>
-                        <li><img src={require('../resources/pixels/3spanishmoon_sm.png')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/3spanishmoon_sm.png')} />
                             <Link to="/aesthetics">my aesthetics</Link></li>
-                        <li><img src={require('../resources/pixels/whv7P5w.gif')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/whv7P5w.gif')} />
                             <Link to="/films-lofi">films & lofi</Link></li>
-                        <li><img src={require('../resources/pixels/a06-icon-girl.gif')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/a06-icon-girl.gif')} />
                             <Link to="/photos">my photo gallery</Link></li>
-                        <li><img src={require('../resources/pixels/windows.gif')} />
+                        <li><img src={require('../resources/tabs_dividers_pixels/windows.gif')} />
                             <Link to="/web">web stuff</Link></li>
                     </ol>
                 </div>
