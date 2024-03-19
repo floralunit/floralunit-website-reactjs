@@ -171,10 +171,10 @@ export function CatsFroggiesPage() {
                                     <div className="box-inner" style={{ height: '100%' }}>
                                         <div>
                                             <img src={require('../../resources/images/стасик.png')}
-                                                style={{ float: "left", width: '25%', height: '25%' }} />
+                                                style={{ float: "left", maxWidth: '110px' }} />
                                             <div>
-                                                <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                                    <div>Stasik (Стасик, Станислав Сердцеедович Лягушкин)</div>
+                                                <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.2em' }}>
+                                                    <div>Stasik <pupa style={{ fontSize: '0.7em' }}>(Стасик, Станислав Сердцеедович Лягушкин)</pupa></div>
                                                 </div>
                                                 <div style={{ fontWeight: 'bold' }}>Species  Name: </div> Pacman frog / Лягушка рогатка
                                                 <div style={{ fontWeight: 'bold' }}>Scientific Name: </div> Ceratophrys cranwelli / Чакская рогатка
@@ -187,34 +187,42 @@ export function CatsFroggiesPage() {
                                     <div className="s01"></div>
                                 </div>
                             </div>
-                            <div className="box08" style={{ width: '100%', order: '2' }}>
-                                <div className="box-top">
-                                    <div className="u01"></div>
-                                </div>
-                                <div className="box-center">
-                                    <div className="box-inner">
-                                        <div>
-                                            <img src={require('../../resources/images/лысик.png')}
-                                                style={{ float: "right", width: '30%', height: '30%' }} />
+                            <div style={{ width: '100%', order: '2', margin: '0 5px' }}>
+                                <div className="box08">
+                                    <div className="box-top">
+                                        <div className="u01"></div>
+                                    </div>
+                                    <div className="box-center">
+                                        <div className="box-inner">
                                             <div>
-                                                <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                                    <div>Lisik (Лысик)</div>
-                                                </div>
-                                                <div >
-                                                    <br />
-                                                    <div style={{ fontWeight: 'bold' }}>Species  Name: </div> Pacman frog / Лягушка рогатка
-                                                    <div style={{ fontWeight: 'bold' }}>Scientific Name: </div> Ceratophrys cornuta / Амазонская рогатка
-                                                    <div style={{ fontWeight: 'bold' }}>Date of birth</div> march 2023
+                                                <img src={require('../../resources/images/лысик.png')}
+                                                    style={{ float: "right", maxWidth: '150px' }} />
+                                                <div>
+                                                    <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+                                                        <div>Lisik (Лысик)</div>
+                                                    </div>
+                                                    <div >
+                                                        <br />
+                                                        <div style={{ fontWeight: 'bold' }}>Species  Name: </div> Pacman frog / Лягушка рогатка
+                                                        <div style={{ fontWeight: 'bold' }}>Scientific Name: </div> Ceratophrys cornuta / Амазонская рогатка
+                                                        <div style={{ fontWeight: 'bold' }}>Date of birth</div> march 2023
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="box-bottom">
-                                    <div className="s01"></div>
+                                    <div className="box-bottom">
+                                        <div className="s01"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div style={{ fontWeight: 'bold', color: '#013220', margin: '0 auto', display: 'table' }}> <img src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
+                            style={{ height: '7px', width: 'auto', alignSelf: 'center' }}
+                            title='https://foollovers.com' />check frogs insta @floral.frogs
+                            <img src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
+                                style={{ height: '7px', width: 'auto', alignSelf: 'center' }}
+                                title='https://foollovers.com' /></div>
                         <div className='box'>
                             <div className='inner'>
                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
@@ -260,7 +268,7 @@ export function CatsFroggiesPage() {
                                     <div className="box-inner" style={{ height: '100%' }}>
                                         <div>
                                             <img src={require('../../resources/images/кузя.png')}
-                                                style={{ float: "left", width: '20%', height: '20%' }} />
+                                                style={{ float: "left", maxWidth: '150px' }} />
                                             <div>
                                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
                                                     <div>Kuzya (Кузя/Кузькин)</div>
@@ -277,6 +285,8 @@ export function CatsFroggiesPage() {
                                 <div className="box-bottom">
                                     <div className="s01"></div>
                                 </div>
+                                <img src={require('../../resources/pixels/cats_divider.gif')}
+                                    style={{ float: "left", padding: '10px' }} />
                             </div>
                             <div className="box08" style={{ width: '100%', order: '2' }}>
                                 <div className="box-top">

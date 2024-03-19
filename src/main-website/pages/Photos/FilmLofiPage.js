@@ -104,7 +104,7 @@ export function FilmLofiPage() {
             .then(data => {
                 setIsLoaded(true);
                 const photos = data.response.items.map(photo => ({
-                    src: photo.sizes.find(size => size.type === "z").url,
+                    src: photo.sizes.find(size => size.type === "y").url,
                     width: 4, // замените на нужную ширину фотографии
                     height: 3, // замените на нужную высоту фотографии
                     title: photo.text,
@@ -172,25 +172,29 @@ export function FilmLofiPage() {
                                 <div className="box-inner">
                                     <div>
                                         <img src={require('../../resources/images/zenit.png')}
-                                            style={{ float: "left", width: '25%' }} />
+                                            style={{ float: "left", maxWidth: '210px' }} />
                                         <div>
                                             <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
                                                 <div>Film photography / Пленочная фотография</div>
                                             </div>
                                             <br />
-                                            <div style={{ fontWeight: 'bold' }}>My film cameras: </div>
-                                            <ul>
-                                                <li>Zenit TTL | Зенит TTL (1979)</li>
-                                                <li>Rekam BF-300 (~2000)</li>
-                                            </ul>
+                                            <div>
+                                                <img src={require('../../resources/images/milnitsa.png')}
+                                                    style={{ float: "right", maxWidth: '110px' }} />
+                                                <div style={{ fontWeight: 'bold' }}>My film cameras: </div>
+                                                <ul>
+                                                    <li>Zenit TTL | Зенит TTL (1979)</li>
+                                                    <li>Rekam BF-300 (~2000)</li>
+                                                </ul>
+                                            </div>
                                             <br />
                                             One day in 2021, I found an old soviet camera at my grandfather's house, which my family used in the 80s and 90s.
                                             I wondered if it worked, bought a film and tried to shoot and I did it!
                                             Since then, I've been taking film photos with this camera for several years now, and sometimes it shoots better than a phone.
-                                            Also, one day I was given another camera from 00x (мыльница),
+                                            Also, one day I was given another camera from 00x - Rekam BF-300(мыльница),
                                             I also take pictures with it periodically, but it is automated, so it is too boring to shoot without settings.
                                             <br />
-                                            <div style={{ fontWeight: 'bold' }}>check my film insta @floral.35mm</div>
+                                            <div style={{ fontWeight: 'bold' }}>check my film insta @floral.35mm and vk group <a href='https://vk.com/floralfilm' target="_blank" rel="noreferrer" style={{ color: 'black', textDecorationLine: 'underline' }}>floral.film</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -239,17 +243,21 @@ export function FilmLofiPage() {
                             <div className="box-center">
                                 <div className="box-inner">
                                     <div>
-                                        <img src='https://dl.glitter-graphics.com/pub/760/760422uovmn3ng0u.gif'
-                                            style={{ width: '15%', float: 'right' }} />
+                                        <img src={require('../../resources/images/angel.png')}
+                                            style={{ float: "right", maxWidth: '230px', margin: 0 }} />
+
                                         <div>
+                                            <img src={require('../../resources/images/knopki.png')}
+                                                style={{ float: "left", maxWidth: '110px', margin: 0 }} />
                                             <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                                <div>Lofi photography / всратые фотки</div>
+                                                <div>Lo-fi photography</div>
                                             </div>
                                             <br />
-                                            I also have a button phone, which I use for taking shitty pictures, shitty videos and playing old java games.
+                                            As a 00s culture enjoyer I have 3 button phones, 2 of which I had in my childhood
+                                            and I use them for making shitty pictures, shitty videos and playing old java games. Sometimes I take pictures on my laptop's webcam, which also turns out to be cool and lo-fi.
+                                            I also shoot with old digital cameras that I found at my grandfather's house and I really like their effect and sometimes I don't even use my modern phone for photo sessions.
                                             <br />
-                                            <br />
-                                            <br />
+                                            <div style={{ fontWeight: 'bold' }}>check my lo-fi vk group <a href='https://vk.com/florallow' target="_blank" rel="noreferrer" style={{ color: 'black', textDecorationLine: 'underline' }}>all this shitty pics</a></div>
                                         </div>
                                     </div>
                                 </div>

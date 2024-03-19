@@ -5,6 +5,7 @@ import MusicPlayer from "./music-player/MusicPlayer";
 import {updates} from "./updates-list";
 import "../../common/styles/crt-lines.css"
 import "./loading-text.css"
+import yum from "../resources/tabs_dividers_pixels/yum-soot.gif"
 export function LeftSideBar() {
     const updatesList = updates.map(item =>
         <li>
@@ -20,19 +21,19 @@ export function LeftSideBar() {
                 <h3>Socials</h3>
                 <div className='inner' >
                     <ol className="image-list">
-                        <li><img src='https://artwork.neocities.org/toybox/mine/yum-soot.gif' style={{width: "15px"}}
+                        <li><img src={yum} title="https://artwork.neocities.org" style={{width: "15px"}}
                         /> <Link to="https://vk.com/floralunit" target="_blank" rel="noopener noreferrer">VKontakte</Link>
                         </li>
-                        <li><img src='https://artwork.neocities.org/toybox/mine/yum-soot.gif' style={{width: "15px"}}
+                        <li><img src={yum} title="https://artwork.neocities.org" style={{width: "15px"}}
                         /> <Link to="https://t.me/floralunit" target="_blank" rel="noopener noreferrer">Telegram</Link>
                         </li>
-                        <li><img src='https://artwork.neocities.org/toybox/mine/yum-soot.gif' style={{width: "15px"}}
+                        <li><img src={yum} title="https://artwork.neocities.org" style={{width: "15px"}}
                         /> <Link to="https://www.instagram.com/floral.unit" target="_blank" rel="noopener noreferrer">Instagram</Link>
                         </li>
-                        <li><img src='https://artwork.neocities.org/toybox/mine/yum-soot.gif' style={{width: "15px"}}
+                        <li><img src={yum} title="https://artwork.neocities.org" style={{width: "15px"}}
                         /> <Link to="https://steamcommunity.com/id/floralunit" target="_blank" rel="noopener noreferrer">Steam</Link>
                         </li>
-                        <li><img src='https://artwork.neocities.org/toybox/mine/yum-soot.gif' style={{width: "15px"}}
+                        <li><img src={yum} title="https://artwork.neocities.org" style={{width: "15px"}}
                         /> <Link to="https://github.com/floralunit" target="_blank" rel="noopener noreferrer">GitHub</Link>
                         </li>
                     </ol>

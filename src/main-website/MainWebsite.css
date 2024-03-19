@@ -56,8 +56,11 @@ aside {
     order: 2;
     max-width: '60%';
 }
+.links {
+    margin-top: 1em;
+}
 
-.main-container, .links a {
+.main-container {
     color: var(--box-text-color);
 }
 
@@ -93,10 +96,6 @@ aside {
 .box img {
     max-width: 100%;
     height: auto;
-}
-
-.links {
-    margin-top: 1em;
 }
 
 .title { /*suppress title, since we're putting the title as text in the header box*/

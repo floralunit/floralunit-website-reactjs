@@ -239,7 +239,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2022
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img rc={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -277,7 +277,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2021
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img rc={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -311,11 +311,11 @@ export function MyPhotosPage() {
           <div className="box-top">
             <div className="u01"></div>
           </div>
-          <div className="box-center">
+          <div className="box-center"> 
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2020
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img rc={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
