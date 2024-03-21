@@ -72,7 +72,8 @@ export function WebStuffPage() {
                         <li><a href="https://ps1.tumblr.com/smolpxl" target="_blank" rel="noreferrer">ps1.tumblr.com/smolpxl</a>- pixels collection</li>
                         <li><a href="https://www.gjtorikian.com/Earthbound-Battle-Backgrounds-JS/" target="_blank" rel="noreferrer">Earthbound-Battle-Backgrounds-JS</a> - Earthbound background generator</li>
                         <li><a href="http://www.freebackgrounds.com/" target="_blank" rel="noreferrer">freebackgrounds.com</a> - old backgrounds</li>
-                    </ul>
+                        <li><a href="https://codesharing.neocities.org/" target="_blank" rel="noreferrer">codesharing.neocities.org</a> - some useful layouts</li>
+                   </ul>
                     <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.0em', padding: '1em' }}>Sites with cool backgrounds, icons, etc archives</div>
                     <div className="buttons">
                         <a href="https://sadgrl.online/" target="_blank" rel="noreferrer"><img
@@ -155,6 +156,8 @@ export function WebStuffPage() {
                             alt="" /></a>
                         <a href="https://zanarkand.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://zanarkand.neocities.org/mybuttons/BANNER9.gif" alt="" /></a>
+                                                    <a href="https://solaria.neocities.org/" target="_blank" rel="noreferrer"><img
+                            src="https://solaria.neocities.org/buttons/sites/solaria.png" alt="" /></a>
 
                     </div>
                 </div>

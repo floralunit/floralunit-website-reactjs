@@ -60,6 +60,7 @@ aside {
     margin-top: 1em;
 }
 
+
 .main-container {
     color: var(--box-text-color);
 }
@@ -125,10 +126,9 @@ aside {
 }
 
 .pupa {
- 
-    grid-gap: 0px;
     display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pupa img {

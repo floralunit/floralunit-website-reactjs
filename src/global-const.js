@@ -30,5 +30,13 @@ export const ROSES_BACKGROUND = require('./common/images/backgrounds/ppl-roses.p
 export const GREEN_BACKGROUND = require('./common/images/backgrounds/bgif023.gif');
 export const LEAVE_BACKGROUND = require('./common/images/backgrounds/leavesbg.gif');
 export const HYDRAGEA_BACKGROUND = require('./common/images/backgrounds/j02-bg-hydrangea.gif');
+export const MEIMAID_SEA_BACKGROUND = require('./common/images/backgrounds/mermaid_sea.gif');
+export const STARDEWVALLEY_BACKGROUND = require('./common/images/backgrounds/stardewvalley.png');
+export const BUBBLES_BACKGROUND = require('./common/images/backgrounds/bubbles1.gif');
+export const BUBBLES2_BACKGROUND = require('./common/images/backgrounds/bubbles2.gif');
+export const DAISY_BACKGROUND = require('./common/images/backgrounds/daisy.gif');
+export const BEARS_BACKGROUND = require('./common/images/backgrounds/1229525wbe0rbeii7.jpg');
+export const PINKCLOUDS_BACKGROUND = require('./common/images/backgrounds/pink-clouds.gif');
+export const DARKGRASS_BACKGROUND = require('./common/images/backgrounds/darkgrass2.png');
 
 export const API_URL = 'https://floral-unit.is-probably.gay';

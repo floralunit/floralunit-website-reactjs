@@ -1,36 +1,38 @@
-.box08 {
+.box-f-kado {
     margin:1em 0;
 }
-.u01 {
+.u01-f-kado {
     background:url("../images/f-ue.gif") repeat-x;
     height:32px;
-    margin:0 32px
+    margin:0 30px
 }
-.s01 {
+.s01-f-kado {
     background:url("../images/f-sita.gif") repeat-x;
     height:32px;
-    margin:0 32px
+    margin:0 30px
 }
-.box-top {
+.box-top-f-kado {
     background-image:url("../images/f-kado1.gif"), url("../images/f-kado2.gif");
     background-position:top left, top right;
     background-repeat:no-repeat, no-repeat;
     height:32px
 }
-.box-center {
+.box-center-f-kado {
     background-image:url("../images/f-migi.gif"), url("../images/f-hidari.gif");
     background-position:top right, top left;
     background-repeat:repeat-y, repeat-y
 }
-.box-inner {
+.box-inner-f-kado {
     background:#fff; /* 背景色 */
-    margin:0 32px
+    margin:0 32px;
+    padding: 0;
 }
-.box-bottom {
+.box-bottom-f-kado {
     background-image:url("../images/f-kado3.gif"), url("../images/f-kado4.gif");
     background-position:top left, top right;
     background-repeat:no-repeat, no-repeat;
-    height:32px
+    height:32px;
+    margin:-5px 0px
 }
 
 /*
