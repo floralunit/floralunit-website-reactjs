@@ -80,7 +80,7 @@ export function GamesPage() {
                         <div style={{ textAlign: 'center', fontFamily: 'LCD5', display: 'flex', justifyContent: 'center', flexDirection: 'row', margin: '0 32px', padding: 0 }}>
                             <div>
                                 <div style={{ color: '#002c3d', fontWeight: 'bold', textAlign: 'center', fontSize: '18px' }}> click on game icon to play!</div>
-                                <div style={{ color: '#002c3d', fontWeight: 'bold', textAlign: 'center', fontSize: '15px' }}> check my friend's art in tg
+                                <div style={{ color: '#002c3d', fontWeight: 'bold', textAlign: 'center', fontSize: '15px' }}> check my friend's art in tg <a href="https://t.me/klopovnik6996" target="_blank" rel="noreferrer">priton+priklopovnik</a>
                                 </div>
                             </div>
                             <div style={{ justifyContent: 'center', display: 'flex' }}>
