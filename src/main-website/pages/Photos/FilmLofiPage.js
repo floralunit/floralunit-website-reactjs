@@ -3,37 +3,10 @@ import "../../../common/styles/simple-tabs.scss"
 import React, { useState, useCallback, useEffect } from "react";
 import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
-import ImageGallery from "react-photo-gallery";
+import "../../../common/styles/gallery.css";
 import { LoadingComponent } from "../../components/LoadingComponent"
 
-import {
-    CLOUD1_BACKGROUND,
-    CLOUD_BACKGROUND,
-    COPPER_BACKGROUND, EMO1_BACKGROUND, EMO_BACKGROUND,
-    FLOWER1_BACKGROUND,
-    FLOWER2_BACKGROUND,
-    FLOWER3_BACKGROUND,
-    FLOWER_BACKGROUND, HINDU1_BACKGROUND,
-    HINDU_BACKGROUND,
-    MAIN_BACKGROUND,
-    MARBLE1_BACKGROUND,
-    MARBLE_BACKGROUND,
-    PINK_BACKGROUND,
-    RED_BACKGROUND,
-    SKY1_BACKGROUND,
-    SKY_BACKGROUND,
-    SUN_BACKGROUND,
-    TRIPPY_BACKGROUND,
-    WATER1_BACKGROUND,
-    WATER_BACKGROUND,
-    WHITE_BACKGROUND,
-    CLOTH_BACKGROUND,
-    BLUEDOTS_BACKGROUND,
-    SEXY_BACKGROUND,
-    FRILL_BACKGROUND,
-    HYDRAGEA_BACKGROUND,
-    API_URL
-} from '../../../global-const';
+import { TRIPPY_BACKGROUND, API_URL, FLOWER7_BACKGROUND, CD_BACKGROUND } from '../../../global-const';
 
 export function FilmLofiPage() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -44,14 +17,14 @@ export function FilmLofiPage() {
     const [currentImageLofi, setCurrentImageLofi] = useState(0);
     const [viewerIsOpenLofi, setViewerIsOpenLofi] = useState(false);
 
-    const openLightboxFilm = useCallback((event, { photo, index }) => {
+    const openLightboxFilm = (index) => {
         setCurrentImageFilm(index);
         setViewerIsOpenFilm(true);
-    }, []);
-    const openLightboxLofi = useCallback((event, { photo, index }) => {
+    };
+    const openLightboxLofi = (index) => {
         setCurrentImageLofi(index);
         setViewerIsOpenLofi(true);
-    }, []);
+    };
 
     const closeLightbox = () => {
         setCurrentImageFilm(0);
@@ -128,13 +101,13 @@ export function FilmLofiPage() {
     document.documentElement.style.removeProperty('--box-text-color');
     if (toggleState === 1) {
         document.documentElement.style.setProperty('--box-header-color', '#614A44');
-        document.documentElement.style.setProperty('--main-background', `url(https://dl.glitter-graphics.com/pub/1738/1738462w0m5wg8xzs.gif)`);
+        document.documentElement.style.setProperty('--main-background', `url(${FLOWER7_BACKGROUND})`);
         document.documentElement.style.setProperty('--box-background', `#F3E6D7`);
     }
     else if (toggleState === 2) {
         document.documentElement.style.setProperty('--box-header-color', '#212529');
         document.documentElement.style.setProperty('--main-background', `url(${TRIPPY_BACKGROUND})`);
-        document.documentElement.style.setProperty('--box-background', `url(https://sadhost.neocities.org/images/tiles/cdbg.gif)`);
+        document.documentElement.style.setProperty('--box-background', `url(${CD_BACKGROUND})`);
     }
     else {
         document.documentElement.style.removeProperty('--box-header-color');
@@ -150,10 +123,10 @@ export function FilmLofiPage() {
                     <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
                         <div className="simple-tab-bar radius">
                             <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)} style={{ fontSize: '10px' }}>
-                                <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/Camera.gif')} style={{ height: "20px" }} /></span>films
+                                <span className="icon"><img src={require('../../resources/pixels/Camera.gif')} style={{ height: "20px" }} /></span>films
                             </button>
                             <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)} style={{ fontSize: '10px' }}>
-                                <span className="icon"><img src={require('../../resources/tabs_dividers_pixels/cdrom.gif')}
+                                <span className="icon"><img src={require('../../resources/pixels/cdrom.gif')}
                                     title="https://artwork.neocities.org"
                                     style={{ width: "20px" }} /></span>lofi
                             </button>
@@ -213,15 +186,16 @@ export function FilmLofiPage() {
                                         style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                 </div>
                                 <br />
-                                <div className='pupa' id="section2">
-                                    <ImageGallery photos={photosFilm} onClick={openLightboxFilm} />
+                                <div className='photo-gallery'>
+                                    {photosFilm.map((image, index) => (
+                                        <img key={index} src={image.src} onClick={() => openLightboxFilm(index)} />))}
                                     <ModalGateway>
                                         {viewerIsOpenFilm ? (
                                             <Modal onClose={closeLightbox}>
                                                 <Carousel
                                                     images={photosFilm}
                                                     index={currentImageFilm}
-                                                    style={{ height: '25em', width: '25em' }}
+                                                    style={{ height: 'auto', maxWidth: '25em' }}
                                                     hasMediaButton={false}
                                                     hasIndexBoard={false}
                                                 />
@@ -276,15 +250,16 @@ export function FilmLofiPage() {
                                         style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                 </div>
                                 <br />
-                                <div className='pupa' id="section2">
-                                    <ImageGallery photos={photosLofi} onClick={openLightboxLofi} />
+                                <div className='photo-gallery'>
+                                    {photosLofi.map((image, index) => (
+                                        <img key={index} src={image.src} onClick={() => openLightboxLofi(index)} />))}
                                     <ModalGateway>
                                         {viewerIsOpenLofi ? (
                                             <Modal onClose={closeLightbox}>
                                                 <Carousel
                                                     images={photosLofi}
                                                     index={currentImageLofi}
-                                                    style={{ height: '20em', width: '20em' }}
+                                                    style={{ height: 'auto', maxWidth: '25em' }}
                                                     hasMediaButton={false}
                                                     hasIndexBoard={false}
                                                 />

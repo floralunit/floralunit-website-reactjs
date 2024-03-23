@@ -10,7 +10,9 @@ import {CatsFroggiesPage} from "./pages/Photos/CatsFroggiesPage";
 import {AestheticsPage} from "./pages/Aesthetics/AestheticsPage";
 import {FilmLofiPage} from "./pages/Photos/FilmLofiPage";
 import {MyPhotosPage} from "./pages/Photos/MyPhotosPage";
+import {VideosPage} from "./pages/Photos/VideosPage";
 import {WebStuffPage} from "./pages/WebStuff/WebStuffPage";
+import {IconsPage} from "./pages/WebStuff/IconsPage";
 import {GamesPage} from "./pages/GamesPage";
 
 export function MainRoutes() {
@@ -26,8 +28,11 @@ export function MainRoutes() {
                         <Route path='aesthetics' element={<AestheticsPage/>}/>
                         <Route path='films-lofi' element={<FilmLofiPage/>}/>
                         <Route path='photos' element={<MyPhotosPage/>}/>
+                        <Route path='videos' element={<VideosPage/>}/>
                         <Route path='web' element={<WebStuffPage/>}/>
                         <Route path='games' element={<GamesPage/>}/>
+                        <Route path='movies' element={<MoviesPage/>}/>
+                        <Route path='bgs-icons' element={<IconsPage/>}/>
                     </Routes>
                     <RightSideBar/>
                 </div>

@@ -125,25 +125,7 @@ aside {
     font-size: 1.075em;
 }
 
-.pupa {
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.pupa img {
-    min-height: 110px;
-    max-height: 150px;
-    min-width:100px;
-    width: 19.5%;
-    object-fit: cover;
-    margin: 0 auto;
-}
-.pupa::before img {
-    content: "";
-    display: block;
-    padding-top: 100%; /* Соотношение сторон 1:1 (100% от ширины фотографии) */
-  }
 
 @media only screen and (max-width: 900px) {
     .flex-container {
@@ -167,10 +149,6 @@ aside {
     .sidebar-right {
         flex-basis: 52%;
         margin: 0;
-    }
-
-    .pupa img {
-        width: 32%;
     }
 }
 
@@ -201,3 +179,4 @@ footer {
     width: 88px;
     height: 31px;
 }
+

@@ -1,19 +1,16 @@
 import React from "react";
-import Background from '../../../common/images/backgrounds/main-background.png';
-import Background1 from '../../resources/Frog_Croaking.gif';
-import Background2 from '../../resources/ppl-roses.png';
-import { CLOUD_BACKGROUND, SUN_BACKGROUND, EMO1_BACKGROUND } from "../../../global-const";
-import { Helmet } from "react-helmet";
+import { ABSTRACT8_BACKGROUND, SHINE_BACKGROUND, ABSTRACT7_BACKGROUND } from "../../../global-const";
+import { Link } from "react-router-dom";
 
 export function WebStuffPage() {
     /*    document.documentElement.style.removeProperty('--box-header-color');
         document.documentElement.style.removeProperty('--main-background');
         document.documentElement.style.removeProperty('--box-background');*/
 
-    document.documentElement.style.setProperty('--box-header-color', `url(https://dl.glitter-graphics.com/pub/115/115869iceyhof3yd.gif)`);
-    document.documentElement.style.setProperty('--main-background', `url(https://dl.glitter-graphics.com/pub/3650/3650018mbys5bgddk.gif)`);
+    document.documentElement.style.setProperty('--box-header-color', `url(${ABSTRACT7_BACKGROUND})`);
+    document.documentElement.style.setProperty('--main-background', `url(${SHINE_BACKGROUND})`);
     // document.documentElement.style.setProperty('--main-background',  `url(https://dl.glitter-graphics.com/pub/3650/3650018mbys5bgddk.gif)`);
-    document.documentElement.style.setProperty('--box-background', `url(https://sadhost.neocities.org/images/tiles/bck-crackle.gif)`);
+    document.documentElement.style.setProperty('--box-background', `url(${ABSTRACT8_BACKGROUND})`);
     document.documentElement.style.setProperty('--box-text-color', '#fff2b2');
     return (
         <div className='main' style={{ maxWidth: '610px' }}>
@@ -54,8 +51,8 @@ export function WebStuffPage() {
                 <figure>
                     <img src={require('../../../common/my-button/floralunit-button.gif')}
                         style={{ width: '88px', height: '31px' }} />
-                    <textarea
-                        className="copy-button">&lt;a href="https://neocities.org/site/floralunit" target="_blank"&gt;&lt;img src="https://sadgrl.online/assets/images/buttons/sadgrlonline.gif"&gt;&lt;/a&gt;</textarea>
+                    {/* <textarea
+                        className="copy-button">&lt;a href="https://neocities.org/site/floralunit" target="_blank"&gt;&lt;img src="https://sadgrl.online/assets/images/buttons/sadgrlonline.gif"&gt;&lt;/a&gt;</textarea> */}
                 </figure>
             </div>
             <div className="box" >
@@ -73,7 +70,8 @@ export function WebStuffPage() {
                         <li><a href="https://www.gjtorikian.com/Earthbound-Battle-Backgrounds-JS/" target="_blank" rel="noreferrer">Earthbound-Battle-Backgrounds-JS</a> - Earthbound background generator</li>
                         <li><a href="http://www.freebackgrounds.com/" target="_blank" rel="noreferrer">freebackgrounds.com</a> - old backgrounds</li>
                         <li><a href="https://codesharing.neocities.org/" target="_blank" rel="noreferrer">codesharing.neocities.org</a> - some useful layouts</li>
-                   </ul>
+                        <li><Link to="/bgs-icons">backgrounds, icons, pixels I found + my website color constructor <img src={require("../../resources/pixels/tEJ5Dt8.gif")} style={{ width: '15px', margin: '2px 0 0 2px' }} /></Link></li>
+                    </ul>
                     <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.0em', padding: '1em' }}>Sites with cool backgrounds, icons, etc archives</div>
                     <div className="buttons">
                         <a href="https://sadgrl.online/" target="_blank" rel="noreferrer"><img
@@ -156,8 +154,11 @@ export function WebStuffPage() {
                             alt="" /></a>
                         <a href="https://zanarkand.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://zanarkand.neocities.org/mybuttons/BANNER9.gif" alt="" /></a>
-                                                    <a href="https://solaria.neocities.org/" target="_blank" rel="noreferrer"><img
+                        <a href="https://solaria.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://solaria.neocities.org/buttons/sites/solaria.png" alt="" /></a>
+                        <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img
+                            src="https://www.lejlart.com/flist/ad_skullsprinkles.gif"
+                            alt="" /></a>
 
                     </div>
                 </div>

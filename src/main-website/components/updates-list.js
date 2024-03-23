@@ -1,11 +1,15 @@
 export const updates = [{
+    id: 8,
+    date: '2024-03-23',
+    note: 'Create bgs, icons page',
+},{
     id: 7,
     date: '2024-03-21',
     note: 'Create games page',
 },{
     id: 6,
     date: '2024-03-19',
-    note: 'Finish with photo pages',
+    note: 'Finished with photo pages',
 },{
     id: 5,
     date: '2024-01-09',

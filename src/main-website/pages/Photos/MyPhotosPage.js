@@ -2,45 +2,16 @@ import React, { useState, useCallback, useEffect } from "react";
 import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
-import ImageGallery from "react-photo-gallery";
 import { LoadingComponent } from "../../components/LoadingComponent"
-import {
-  CLOUD1_BACKGROUND,
-  CLOUD_BACKGROUND,
-  COPPER_BACKGROUND, EMO1_BACKGROUND, EMO_BACKGROUND,
-  FLOWER1_BACKGROUND,
-  FLOWER2_BACKGROUND,
-  FLOWER3_BACKGROUND,
-  FLOWER_BACKGROUND, HINDU1_BACKGROUND,
-  HINDU_BACKGROUND,
-  MAIN_BACKGROUND,
-  MARBLE1_BACKGROUND,
-  MARBLE_BACKGROUND,
-  PINK_BACKGROUND,
-  RED_BACKGROUND, SEXY_BACKGROUND,
-  SKY1_BACKGROUND,
-  SKY_BACKGROUND,
-  SUN_BACKGROUND,
-  TRIPPY_BACKGROUND,
-  WATER1_BACKGROUND,
-  WATER_BACKGROUND,
-  WHITE_BACKGROUND,
-  CLOTH_BACKGROUND,
-  BLUEDOTS_BACKGROUND,
-  FRILL_BACKGROUND,
-  ROSES_BACKGROUND,
-  GREEN_BACKGROUND,
-  LEAVE_BACKGROUND,
-  HYDRAGEA_BACKGROUND,
-  API_URL
-} from '../../../global-const';
+import { API_URL, PIG_BACKGROUND } from '../../../global-const';
+import "../../../common/styles/gallery.css";
 
 export function MyPhotosPage() {
 
   const [isLoaded, setIsLoaded] = useState(false);
   document.documentElement.style.removeProperty('--box-text-color');
   document.documentElement.style.setProperty('--box-header-color', `#c6506d`);
-  document.documentElement.style.setProperty('--main-background', `url(http://dl10.glitter-graphics.net/pub/2850/2850860nb1sevkfva.gif)`);
+  document.documentElement.style.setProperty('--main-background', `url(${PIG_BACKGROUND})`);
   document.documentElement.style.setProperty('--box-background', `#f1eaed`);
 
   // #region LightBox
@@ -59,34 +30,34 @@ export function MyPhotosPage() {
   const [currentImage2018, setCurrentImage2018] = useState(0);
   const [viewerIsOpen2018, setViewerIsOpen2018] = useState(false);
 
-  const openLightbox2024 = useCallback((event, { photo, index }) => {
+  const openLightbox2024 = (index) => {
     setCurrentImage2024(index);
     setViewerIsOpen2024(true);
-  }, []);
-  const openLightbox2023 = useCallback((event, { photo, index }) => {
+  };
+  const openLightbox2023 = (index) => {
     setCurrentImage2023(index);
     setViewerIsOpen2023(true);
-  }, []);
-  const openLightbox2022 = useCallback((event, { photo, index }) => {
+  };
+  const openLightbox2022 = (index) => {
     setCurrentImage2022(index);
     setViewerIsOpen2022(true);
-  }, []);
-  const openLightbox2021 = useCallback((event, { photo, index }) => {
+  };
+  const openLightbox2021 = (index) => {
     setCurrentImage2021(index);
     setViewerIsOpen2021(true);
-  }, []);
-  const openLightbox2020 = useCallback((event, { photo, index }) => {
+  };
+  const openLightbox2020 = (index) => {
     setCurrentImage2020(index);
     setViewerIsOpen2020(true);
-  }, []);
-  const openLightbox2019 = useCallback((event, { photo, index }) => {
+  };
+  const openLightbox2019 = (index) => {
     setCurrentImage2019(index);
     setViewerIsOpen2019(true);
-  }, []);
-  const openLightbox2018 = useCallback((event, { photo, index }) => {
+  };
+  const openLightbox2018 = (index) => {
     setCurrentImage2018(index);
     setViewerIsOpen2018(true);
-  }, []);
+  };
 
   const closeLightbox = () => {
     setCurrentImage2024(0);
@@ -175,15 +146,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2024} onClick={openLightbox2024} />
+            <div className='photo-gallery'>
+              {photos2024.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2024(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2024 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2024}
                       index={currentImage2024}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />
@@ -191,6 +163,7 @@ export function MyPhotosPage() {
                 ) : null}
               </ModalGateway>
             </div>
+
           </div>
         </div>
         <div className="box08">
@@ -213,15 +186,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2023} onClick={openLightbox2023} />
+            <div className='photo-gallery'>
+              {photos2023.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2023(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2023 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2023}
                       index={currentImage2023}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />
@@ -251,15 +225,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2022} onClick={openLightbox2022} />
+            <div className='photo-gallery'>
+              {photos2022.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2022(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2022 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2022}
                       index={currentImage2022}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />
@@ -289,15 +264,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2021} onClick={openLightbox2021} />
+            <div className='photo-gallery'>
+              {photos2021.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2021(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2021 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2021}
                       index={currentImage2021}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />
@@ -311,7 +287,7 @@ export function MyPhotosPage() {
           <div className="box-top">
             <div className="u01"></div>
           </div>
-          <div className="box-center"> 
+          <div className="box-center">
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2020
               <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -327,15 +303,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2020} onClick={openLightbox2020} />
+            <div className='photo-gallery'>
+              {photos2020.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2020(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2020 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2020}
                       index={currentImage2020}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />
@@ -365,15 +342,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2019} onClick={openLightbox2019} />
+            <div className='photo-gallery'>
+              {photos2019.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2019(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2019 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2019}
                       index={currentImage2019}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />
@@ -403,15 +381,16 @@ export function MyPhotosPage() {
         </div>
         <div className='box'>
           <div className='inner'>
-            <div className='pupa' id="section2">
-              <ImageGallery photos={photos2018} onClick={openLightbox2018} />
+            <div className='photo-gallery'>
+              {photos2018.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2018(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2018 ? (
                   <Modal onClose={closeLightbox}>
                     <Carousel
                       images={photos2018}
                       index={currentImage2018}
-                      style={{ height: '25em', width: '25em' }}
+                      style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}
                     />

@@ -1,12 +1,15 @@
-.image-list ul, .image-list ol, .image-list li {
+.image-list ul,
+.image-list ol,
+.image-list li {
     list-style-type: none;
 }
+
 ul {
     margin: 0 0 0 25px;
 }
 
 .image-list li img {
-    width: 22px;
+    width: 20px;
     padding: 2px;
     margin-left: auto;
     margin-right: 3px;
@@ -17,6 +20,7 @@ ul {
     color: var(--box-text-color);
     font-weight: bolder;
 }
+
 .image-list a:hover {
     color: #E86A33;
     text-decoration: underline;

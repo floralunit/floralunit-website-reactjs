@@ -1,0 +1,195 @@
+.photo-gallery,
+.bgs,
+.icons,
+.big-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-gallery img {
+    display: flex;
+    flex: 0.9;
+    justify-content: flex-start;
+    max-width: 230px;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 900px) {
+    .photo-gallery img {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+.bgs img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.big-icons img {
+    max-height: 120px;
+    width: auto;
+    margin: 2px;
+}
+
+.icons img {
+    max-height: 40px;
+    width: auto;
+    margin: 2px;
+}
+
+.photo-gallery img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+
+.tti {
+    font-size: 26px;
+}
+
+.tli {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: inline-block;
+    float: right;
+}
+
+.tli a {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.tli a:hover {
+    color: #f4e909;
+}
+
+#sb {
+    border: 1px solid #111;
+    color: #111;
+}
+
+#sb:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.tent {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    background-size: cover;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+}
+
+@media only screen and (max-width: 900px) {
+    .tent {
+        width: 190px;
+        height: 190px;
+    }
+}
+
+.tent:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.tsub {
+    color: #222;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 250px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ti {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    line-height: 110%;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+}
+
+.tent:hover .ti {
+    opacity: 0.0;
+}
+
+.hhover {
+    opacity: 0.0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    color: #fff;
+    text-align: center;
+    margin: 50px 0;
+    transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+}
+
+.tent:hover .hhover {
+    opacity: 1;
+}
+
+
+.tent:hover .hhover {
+    background-color: auto;
+    color: auto;
+}
+
+.htent {
+    display: auto;
+}
+
+.hti {
+    font-family: dot;
+    line-height: normal;
+}
+
+.dat {
+    font-family: dot;
+    line-height: normal;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+
+}
+
+/* change date font family */
+
+.dat strong {
+    font-weight: normal;
+    color: auto;
+}
+
+/* change gold text color */

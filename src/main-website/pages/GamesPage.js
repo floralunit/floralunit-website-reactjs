@@ -1,5 +1,5 @@
 import "../MainWebsite.css"
-import "../../common/styles/movies-page.css"
+import "../../common/styles/gallery.css"
 import "../../common/styles/cute-white-frame.css"
 
 import React, { useEffect, useState } from 'react'

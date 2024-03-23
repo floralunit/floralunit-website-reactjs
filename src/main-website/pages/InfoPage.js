@@ -54,18 +54,20 @@ export function InfoPage() {
                         </div>
                         <div className="box-center">
                             <div className="box-inner">
-                                <img src={require('../resources/images/IMG_20230731_165019.png')}
-                                    style={{ float: "right", width: '40%', height: '40%' }} />
+                                <img src={require('../resources/images/we.png')}
+                                    style={{ float: "right", width: '200px', margin: '15px 15px 0px 0px' }} />
                                 <p>Some things I like:</p>
                                 <ul>
                                     <li>programming</li>
                                     <li>collecting flowers for my herbarium</li>
                                     <li>music!!!</li>
                                     <li>taking pictures</li>
-                                    <li>film cameras and audio cassettes</li>
+                                    <li>film and old digital cameras</li>
+                                    <li>audio cassettes and vinyl</li>
                                     <li>90s and 00s stuff</li>
                                     <li>mountains and fog</li>
                                     <li>soviet architecture</li>
+                                    <li>coffee</li>
                                     <li>witch and goth aesthetics, but I also enjoy cute things</li>
                                     <li>my froggies and cats</li>
                                 </ul>
