@@ -1,7 +1,12 @@
 export const updates = [
     {
-        id: 9,
+        id: 10,
         date: '2024-03-24',
+        note: 'Create movies page',
+    },
+    {
+        id: 9,
+        date: '2024-03-23',
         note: 'Create video gallery page',
     }, {
         id: 8,

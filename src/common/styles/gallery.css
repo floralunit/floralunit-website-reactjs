@@ -101,14 +101,59 @@
     -o-transition-duration: 0.6s;
 }
 
+.movie-card {
+    width: 260px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:white;
+}
+.movie-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 150px;
+}
+
+.movie-title {
+    margin-top: -10px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
 @media only screen and (max-width: 900px) {
     .tent {
         width: 190px;
         height: 190px;
     }
+    .movie-card {
+        width: 180px;
+    }
+    .movie-image {
+        height: 100px;
+    }
+    .movie-title {
+        margin-top: -7px;
+        font-size: 7px;
+    }
+
 }
 
 .tent:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.tent-h:hover {
     -webkit-filter: brightness(60%);
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -157,7 +202,22 @@
     -o-transition-duration: 0.6s;
 }
 
-.tent:hover .hhover {
+.hhover-h {
+    opacity: 0.0;
+    position: absolute;
+    width: 260px;
+    height: 160px;
+    left: 0px;
+    color: #fff;
+    text-align: center;
+    margin: 50px 0;
+    transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+}
+
+.tent:hover .hhover,.hhover-h {
     opacity: 1;
 }
 

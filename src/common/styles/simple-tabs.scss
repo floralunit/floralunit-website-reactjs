@@ -3,6 +3,50 @@ $border: 1px;
 $border-radius: 5px;
 $chip-color: #FCF97AFF;
 
+.simple-tab-list {
+  font-size: 20px;
+
+  li {
+    text-align: left;
+    font-size: 16px;
+    font-family: "LCD5";
+    cursor: pointer;
+  }
+
+  &.selected .icon {
+    opacity: 1;
+  }
+
+  .icon {
+    opacity: 0;
+  }
+}
+
+.simple-tab-bar-line {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  .simple-tab-line {
+    display: table-cell;
+    text-align: center;
+    background-color: #2b003d;
+    color: white;
+    border-left: solid 1px gray;
+    letter-spacing: -3px;
+    font-size: smaller;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.selected {
+      text-decoration: underline;
+    }
+  }
+}
+
 .simple-tab-bar {
   display: flex;
   color: var(--box-header-text-color);
@@ -33,8 +77,8 @@ $chip-color: #FCF97AFF;
       opacity: 0;
     }
 
-    &:hover img{
-      box-shadow:0 0 25px white,0 0 25px white;
+    &:hover img {
+      box-shadow: 0 0 25px white, 0 0 25px white;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
@@ -42,8 +86,8 @@ $chip-color: #FCF97AFF;
       cursor: pointer;
     }
 
-    &.selected img{
-      box-shadow:0 0 25px white,0 0 25px white;
+    &.selected img {
+      box-shadow: 0 0 25px white, 0 0 25px white;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
@@ -78,13 +122,13 @@ button {
   border: none;
 }
 
-@media (max-width: 1000px) {
-}
+@media (max-width: 1000px) {}
 
 @-webkit-keyframes glowing {
   from {
     box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
+
   to {
     box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }

@@ -137,7 +137,7 @@ export function IconsPage() {
         </div>
         <div className="box-center">
           <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-            Pixels I founds
+            Pixels I found
             <div style={{ fontSize: '0.6em' }}>
               click to open the source
             </div>
@@ -189,7 +189,7 @@ export function IconsPage() {
                 <a><img src={require("../../resources/pixels/wings.gif")} /></a>
                 <a><img src={require("../../resources/pixels/casette-1.png")} /></a>
                 <a><img src={require("../../resources/pixels/snapa3.gif")} /></a>
-                <a><img src={require("../../resources/pixels/tape_pastel.gif")} /></a>
+                <a href="https://www.thefrugalgamer.net/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/tape_pastel.gif")} /></a>
                 <a><img src={require("../../resources/pixels/tv_16.gif")} /></a>
                 <a><img src={require("../../resources/pixels/PVHECEE.png")} /></a>
                 <a href="https://dollarchive.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/3spanishmoon_sm.png")} /></a>

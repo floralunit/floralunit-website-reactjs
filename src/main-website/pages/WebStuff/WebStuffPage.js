@@ -159,6 +159,9 @@ export function WebStuffPage() {
                         <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img
                             src="https://www.lejlart.com/flist/ad_skullsprinkles.gif"
                             alt="" /></a>
+                                                    <a href="https://www.censorine.com/" target="_blank" rel="noreferrer"><img
+                            src="https://censorine.com/images/censoria.png"
+                            alt="" /></a>
 
                     </div>
                 </div>

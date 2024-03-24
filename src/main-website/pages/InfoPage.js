@@ -54,8 +54,12 @@ export function InfoPage() {
                         </div>
                         <div className="box-center">
                             <div className="box-inner">
-                                <img src={require('../resources/images/we.png')}
-                                    style={{ float: "right", width: '200px', margin: '15px 15px 0px 0px' }} />
+                                <div style={{ direction: 'column', display: 'flex', flexDirection: 'column', float: "right", width: '40%' }}>
+                                    <img src={require('../resources/images/we.png')}
+                                        style={{ width: '100%', margin: '15px 15px 0px 0px' }} />
+                                    <img src={require('../../common/my-button/big-icon.gif')}
+                                        style={{ width: '40px', margin: '0 auto' }} />
+                                </div>
                                 <p>Some things I like:</p>
                                 <ul>
                                     <li>programming</li>

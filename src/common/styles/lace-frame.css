@@ -33,6 +33,31 @@
     height:22px
 }
 
+
+.s_box32{
+    background:#fff;
+    border:2px solid #33194d;
+    box-sizing:border-box;
+    margin:1em 0; /* 中央寄せは0をautoに変更 */
+    padding:1em;
+    position:relative;
+    width:80%
+    }
+    .s_box32::before,.s_box32::after{
+    border:8px solid transparent;
+    content:'';
+    left:30px; /* 三角の位置 */
+    position:absolute;
+    top:100%
+    }
+    .s_box32::before{
+    border-top:8px solid #33194d
+    }
+    .s_box32::after{
+    border-top:8px solid #fff;
+    margin-top:-3px
+    }
+
 /*
 <div class="box08">
 <div class="box-top">
