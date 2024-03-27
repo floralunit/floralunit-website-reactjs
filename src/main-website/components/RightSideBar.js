@@ -22,44 +22,41 @@ export function RightSideBar() {
         <aside className='sidebar-right'>
             <div className='box' style={{ height: "429px" }}>
                 <h3>My world</h3>
-                <div className='inner' style={{ display: "flex", alignItems: "center", height: "92%" }}>
-                    <ol className="image-list">
+                <div className='inner' style={{ padding: '0 5px', margin: '0px', width: '100%' }}>
+                    <ol className="image-list" style={{ display: "table", alignItems: "center", width: '100%' }}>
                         <li><img src={require("../resources/pixels/pixelplant3anim.gif")} />
-                            <Link to="/">about</Link></li>
-                        <li className="icon-link"><img src={require('../resources/pixels/jZvzhTA.gif')} />music
-                            {/* <Link to="/witch-house">music</Link> */}
-                            <ul>
-                                <li><img src={require('../resources/pixels/398Yet2.gif')}
-                                /> <Link to="/witch-house" target="_blank" rel="noreferrer">witch-house</Link>
-                                </li>
-                                <li><img src={require('../resources/pixels/zJZuQV8.gif')}
-                                /> <Link to="/emo" target="_blank" rel="noreferrer">emo</Link>
-                                </li>
-                                <li><img src={require('../resources/images/doomer.png')} />post-punk
-                                    {/* <Link to="/post-punk" target="_blank" rel="noreferrer">post-punk</Link> */}
-                                </li>
-                            </ul>
+                            <Link to="/" style={{ verticalAlign: '4px' }}>about</Link></li>
+                        <li className="icon-link"><img src={require('../resources/pixels/jZvzhTA.gif')} />music</li>
+                        {/* <Link to="/witch-house">music</Link> */}
+                        <li style={{ margin: '0 20px' }}><img src={require('../resources/pixels/398Yet2.gif')}
+                        /> <Link to="/witch-house" target="_blank" rel="noreferrer" style={{ verticalAlign: '3px', margin: '0 0 0 -3px' }}>witch-house</Link>
+                        </li>
+                        <li style={{ margin: '0 20px' }}><img src={require('../resources/pixels/zJZuQV8.gif')}
+                        /> <Link to="/emo" target="_blank" rel="noreferrer" style={{ verticalAlign: '4px', margin: '0 0 0 -3px' }}>emo</Link>
+                        </li>
+                        <li style={{ margin: '0 20px' }}><img src={require('../resources/images/doomer.png')} />post-punk
+                            {/* <Link to="/post-punk" target="_blank" rel="noreferrer">post-punk</Link> */}
                         </li>
                         <li><img src={require('../resources/pixels/1dfntQp.gif')} />
-                            <Link to="/movies">fav movies</Link></li>
+                            <Link to="/movies" style={{ verticalAlign: '5px' }}>fav movies</Link></li>
                         <li><img src={require('../resources/pixels/Animals_Icon.webp')} />
-                            <Link to="/games">games</Link></li>
+                            <Link to="/games" style={{ verticalAlign: '4px' }}>games</Link></li>
                         <li><img src={require('../resources/pixels/eye.png')} />
-                            <Link to="https://ancient-egyptian-dictionary.vercel.app/" target="_blank" rel="noreferrer">egyptian dictionary</Link></li>
+                            <Link to="https://ancient-egyptian-dictionary.vercel.app/" target="_blank" rel="noreferrer" style={{ verticalAlign: '3px' }}>egyptian dictionary</Link></li>
                         <li><img src={require('../resources/pixels/puff_froggy.gif')} />
-                            <Link to="/cats-frogs">my cats & froggies</Link></li>
+                            <Link to="/cats-frogs" style={{ verticalAlign: '4px' }}>my cats & froggies</Link></li>
                         <li><img src={require('../resources/pixels/skellygreen.gif')} style={{ width: '18px', margin: '0 5px 0 0' }} />
-                            <Link to="/aesthetics">my aesthetics</Link></li>
+                            <Link to="/aesthetics" style={{ verticalAlign: '4px', margin: '0 0 0 3px' }}>my aesthetics</Link></li>
                         <li><img src={require('../resources/pixels/whv7P5w.gif')} />
-                            <Link to="/films-lofi">films & lofi</Link></li>
+                            <Link to="/films-lofi" style={{ verticalAlign: '3px' }}>films & lofi</Link></li>
                         <li><img src={require('../resources/pixels/tumblr_inline_ml15w1FyIN1qz4rgp.gif')} />
-                            <Link to="/photos">my photo gallery</Link></li>
+                            <Link to="/photos" style={{ verticalAlign: '5px' }}>my photo gallery</Link></li>
                         <li><img src={require("../resources/pixels/wXsrEGT.gif")} />
-                            <Link to="/videos">my video gallery</Link></li>
+                            <Link to="/videos" style={{ verticalAlign: '4px' }}>my video gallery</Link></li>
                         <li><img src={require('../resources/pixels/windows.gif')} />
-                            <Link to="/web">web stuff</Link></li>
-                        <li><img src={require("../resources/pixels/tEJ5Dt8.gif")} style={{ width: '15px', margin: '2px 0 0 2px' }}
-                        /> <Link to="/bgs-icons" style={{ fontSize: '12px' }}>bgs, icons collection</Link>
+                            <Link to="/web" style={{ verticalAlign: '4px' }}>web stuff</Link></li>
+                        <li><img src={require("../resources/pixels/tEJ5Dt8.gif")} style={{ width: '15px', margin: '2px 0 0 3px' }}
+                        /> <Link to="/bgs-icons" style={{ fontSize: '12px', verticalAlign: '1.5px' }}>bgs, icons collection</Link>
                         </li>
 
                     </ol>

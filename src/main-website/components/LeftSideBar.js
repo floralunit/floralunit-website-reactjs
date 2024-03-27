@@ -21,19 +21,19 @@ export function LeftSideBar() {
                 <h3>Socials</h3>
                 <div className='inner' >
                     <ol className="image-list">
-                        <li><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px" }}
+                        <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto'  }}
                         /> <Link to="https://vk.com/floralunit" target="_blank" rel="noopener noreferrer">VKontakte</Link>
                         </li>
-                        <li><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px" }}
+                        <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto'  }}
                         /> <Link to="https://t.me/floralunit" target="_blank" rel="noopener noreferrer">Telegram</Link>
                         </li>
-                        <li><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px" }}
+                        <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto'  }}
                         /> <Link to="https://www.instagram.com/floral.unit" target="_blank" rel="noopener noreferrer">Instagram</Link>
                         </li>
-                        <li><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px" }}
+                        <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto' }}
                         /> <Link to="https://steamcommunity.com/id/floralunit" target="_blank" rel="noopener noreferrer">Steam</Link>
                         </li>
-                        <li><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px" }}
+                        <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto'  }}
                         /> <Link to="https://github.com/floralunit" target="_blank" rel="noopener noreferrer">GitHub</Link>
                         </li>
                     </ol>
