@@ -4,6 +4,7 @@
     --box-background: #dad7cd;
     --box-text-color: #132a13;
     --main-background: url("common/images/backgrounds/main-background.png");
+    --witch-main-background: url("common//images/backgrounds/nurple-static-bright.gif");
 }
 
 body {
@@ -38,6 +39,14 @@ body {
 @font-face {
     font-family: LCD5;
     src: url("common/fonts/LCD5x8HRU.ttf");
+}
+@font-face {
+    font-family: Abbadon;
+    src: url("common/fonts/Abaddon.ttf");
+}
+@font-face {
+    font-family: Better VCR;
+    src: url("common/fonts/Better\ VCR\ 6.1.ttf");
 }
 /*
 @font-face {

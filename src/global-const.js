@@ -57,7 +57,7 @@ export const ANGEL_BACKGROUND = require('./common/images/backgrounds/2975252hy7m
 export const BUBBLES3_BACKGROUND = require('./common/images/backgrounds/2777078z64rruqskq.jpg');
 export const DOLPHIN_BACKGROUND = require('./common/images/backgrounds/2779570o8xvnpm76f.jpg');
 export const KOSMOS_BACKGROUND = require('./common/images/backgrounds/kosmos.gif');
-export const DARK_BACKGROUND = require('./common/images/backgrounds/2001633sgs6k1j42e.gif');
+export const NOISE_BACKGROUND = require('./common/images/backgrounds/2001633sgs6k1j42e.gif');
 export const CD_BACKGROUND = require('./common/images/backgrounds/cdbg.gif');
 export const RABBIT_BACKGROUND = require('./common/images/backgrounds/rabbits.jpg');
 export const FLOWER7_BACKGROUND = require('./common/images/backgrounds/1738462w0m5wg8xzs.gif');
@@ -66,5 +66,11 @@ export const FLY_BACKGROUND = require('./common/images/backgrounds/4A81833E-184F
 export const ABSTRACT7_BACKGROUND = require('./common/images/backgrounds/abstract.gif');
 export const ABSTRACT8_BACKGROUND = require('./common/images/backgrounds/abstract1.gif');
 export const SHINE_BACKGROUND = require('./common/images/backgrounds/shine.gif');
+
+export const WITCH_BACKGROUND = require('./common/images/backgrounds/nurple-static-bright.gif');
+export const WITCH1_BACKGROUND = require('./common/images/backgrounds/background038.gif');
+export const WITCH2_BACKGROUND = require('./common/images/backgrounds/black.jpg');
+export const RED1_BACKGROUND = require('./common/images/backgrounds/red.gif');
+export const STARS_BACKGROUND = require('./common/images/backgrounds/stars5.gif');
 
 export const API_URL = 'https://floral-unit.is-probably.gay';

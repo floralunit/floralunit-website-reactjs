@@ -1,9 +1,18 @@
 import Webamp from "webamp"; // eslint-disable-line import/no-unresolved
 // This import gives us a URL to llama.mp3
-import salem from "./music/1997✝  - Shigoto no ato ni.mp3";
-import whatami from "./music/SUICIDEWΛVЕ - Люблю Тебя.mp3";
+import salem from "./music/Salem - Sick.mp3";
+import suicidewave from "./music/SUICIDEWΛVЕ - IN ʏour ΣYΣS.mp3";
+import cain from "./music/† CΛIN † - I ƉΩNŦ NΣΣƉ ΨΩƱ.mp3";
+import whatami from "./music/†▼BF▼CK - WH▲T ▲M I.mp3";
+import young from "./music/BLVCK CEILING - Young.mp3";
+import sadist from "./music/Crystal Castles - Sadist[re_uploadマンモス].mp3";
+import affection from "./music/fraunhofer diffraction - affection.mp3";
+import ether from "./music/Ic3peak - Ether.mp3";
+import radost from "./music/Радость Моя - Суицид.mp3";
+import crim3s from "./music/Crim3s - Still Goin.mp3";
 import krishna from "./skins/hare_krishna.wsz";
 import react from "react";
+import "../../witch-main-page/WitchHousePage.css"
 
 if (!Webamp.browserIsSupported()) {
     alert("Oh no! Webamp does not work in this browser!");
@@ -14,14 +23,77 @@ const webamp = new Webamp({
     initialTracks: [
         {
             metaData: {
-                artist: "SUICIDEWΛVЕ",
-                title: "Люблю Тебя"
+                artist: "†▼BF▼CK",
+                title: "WH▲T ▲M I"
             },
             // NOTE: Your audio file must be served from the same domain as your HTML
             // file, or served with permissive CORS HTTP headers:
             // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
             url: whatami,
             /*duration: 5.322286*/
+        },
+        {
+            metaData: {
+                artist: "BLVCK CEILING",
+                title: "Young"
+            },
+            url: young,
+        },
+        {
+            metaData: {
+                artist: "Salem",
+                title: "Sick"
+            },
+            url: salem,
+        },
+        {
+            metaData: {
+                artist: "Радость Моя",
+                title: "Суицид"
+            },
+            url: radost,
+        },
+        {
+            metaData: {
+                artist: "IC3PEAK",
+                title: "Ether"
+            },
+            url: ether,
+        },
+        {
+            metaData: {
+                artist: "Crystal Castles",
+                title: "Sadist"
+            },
+            url: sadist,
+        },
+        {
+            metaData: {
+                artist: "† CΛIN †",
+                title: "I ƉΩNŦ NΣΣƉ ΨΩƱ"
+            },
+            url: cain,
+        },
+        {
+            metaData: {
+                artist: "fraunhofer diffraction",
+                title: "affection"
+            },
+            url: affection,
+        },
+        {
+            metaData: {
+                artist: "SUICIDEWΛVЕ",
+                title: "IN ʏour ΣYΣS"
+            },
+            url: suicidewave,
+        },
+        {
+            metaData: {
+                artist: "Crim3s",
+                title: "Still Goin"
+            },
+            url: crim3s,
         },
     ],
     availableSkins: [
@@ -59,6 +131,6 @@ export default class WebampMusic extends react.Component {
     }
 
     render() {
-        return <div ref={this.webampRef} style={{right: 0, top: 0, position: "absolute" }}/>;
+        return <div ref={this.webampRef} className='webamp-witch' style={{ top: 0, right: '10%', position: 'fixed' }} />;
     }
 }

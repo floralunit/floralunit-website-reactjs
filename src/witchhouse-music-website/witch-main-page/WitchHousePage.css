@@ -1,16 +1,62 @@
 html, body {
-    background-image: url("resources/nurple-static-bright.gif");
     height: 100%;
     width: 100%;
+    background-image: var(--witch-main-background);
 }
+* {
+   /* outline: 1px solid #f00 !important;*/
+  }
 
-.witch-house-page
-{
-    background-image: url("resources/nurple-static-bright.gif");
+
+/* W3C standard
+   сейчас только для Firefox */
+   .witch-house-page {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+    height: 100%;
+    background-image: var(--witch-main-background);
     background-repeat: repeat;
-    overflow-x: hidden;
     background-attachment:fixed;
-}
+  }
+  
+  /* для Chrome/Edge/Safari */
+  .witch-house-page::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+  }
+  .witch-house-page::-webkit-scrollbar-track {
+    background: orange;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 5px;
+    border: 3px solid orange;
+  }
+
+  .witch-link{
+    text-align: center;
+    color: white;
+    font-family: Abbadon;
+    font-size: large;
+    text-decoration: underline;
+
+  }
+  
+  .witch-link-small{
+    text-align: center;
+    color: white;
+    font-family: LCD5;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 3px;
+
+  }
+  .witch-link:hover:hover,.witch-link-small:hover{
+    text-decoration: underline;
+    color: #8a0303;
+    cursor: pointer;
+    
+  }
 
 
 .info {
@@ -32,11 +78,19 @@ html, body {
 }
 
 .info-text {
-    font-family: dot, serif;
-    font-size: 18px;
+    font-family: LCD5;
+    font-size: 15px;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: justify;
+
+}
+
+.info-text h1 {
+    font-family: LCD5;
+    font-size: 30px;
+    text-align: center;
+
 }
 
 
@@ -56,13 +110,15 @@ div.vv17ch {
     text-align: center;
     justify-content: center;
     width: 120px;
-    margin:auto;
+    margin:6px;
+    vertical-align: 'center';
 }
 .vv17chImg {
     display: block;
     width: 100px;
     height: 100px;
     margin:auto;
+    object-fit: contain;
 }
 .vv17ch-caption {
     display: block;
@@ -82,7 +138,6 @@ div.vv17ch {
 
 .info-container{
     background: black;
-    margin: 50px 0px;
     box-shadow: 0 0 20px black;
 }
 
@@ -93,8 +148,4 @@ div.vv17ch {
 }
 
 .header-section{
-}
-
-a:hover{
-    color: #8a0303;
 }
