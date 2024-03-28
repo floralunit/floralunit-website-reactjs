@@ -5,6 +5,8 @@ import React, { useEffect, useState } from 'react'
 
 export function VideosPage() {
     document.documentElement.style.removeProperty('--box-text-color');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     document.documentElement.style.setProperty('--box-header-color', `#3d2b1f`);
     document.documentElement.style.setProperty('--main-background', `url(${ANGEL_BACKGROUND})`);
     document.documentElement.style.setProperty('--box-background', `url(${CLOTH_BACKGROUND})`);

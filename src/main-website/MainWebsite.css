@@ -9,7 +9,10 @@
     font-size: 15px;
     font-family: dot, serif;
     box-sizing: border-box;
+}
 
+a, Link{
+    cursor: var(--pointer-cursor), pointer;
 }
 
 center {
@@ -178,5 +181,6 @@ footer {
 .buttons img{
     width: 88px;
     height: 31px;
+    cursor: var(--pointer-cursor), pointer;
 }
 

@@ -10,7 +10,7 @@ $chip-color: #FCF97AFF;
     text-align: left;
     font-size: 16px;
     font-family: "LCD5";
-    cursor: pointer;
+    cursor: var(--pointer-cursor), pointer;
   }
 
   &.selected .icon {
@@ -35,10 +35,10 @@ $chip-color: #FCF97AFF;
     border-left: solid 1px gray;
     letter-spacing: -3px;
     font-size: smaller;
-    cursor: pointer;
 
     &:hover {
       text-decoration: underline;
+      cursor: var(--pointer-cursor), pointer;
     }
 
     &.selected {
@@ -52,7 +52,7 @@ $chip-color: #FCF97AFF;
   color: var(--box-header-text-color);
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  cursor: var(--pointer-cursor), pointer;
 
   .simple-tab {
     box-sizing: border-box;
@@ -77,13 +77,16 @@ $chip-color: #FCF97AFF;
       opacity: 0;
     }
 
+    &:hover{
+      cursor: var(--pointer-cursor), pointer;
+    }
+
     &:hover img {
       box-shadow: 0 0 25px white, 0 0 25px white;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
       background: rgba(255, 255, 255, 0.5);
-      cursor: pointer;
     }
 
     &.selected img {

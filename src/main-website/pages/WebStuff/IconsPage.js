@@ -11,6 +11,8 @@ export function IconsPage() {
   document.documentElement.style.removeProperty('--main-background');
   document.documentElement.style.removeProperty('--box-background');
   document.documentElement.style.removeProperty('--box-text-color');
+  document.documentElement.style.removeProperty('--main-cursor');
+  document.documentElement.style.removeProperty('--pointer-cursor');
 
   const bgs = [
     SUN_BACKGROUND,

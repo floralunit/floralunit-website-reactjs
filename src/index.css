@@ -5,12 +5,38 @@
     --box-text-color: #132a13;
     --main-background: url("common/images/backgrounds/main-background.png");
     --witch-main-background: url("common//images/backgrounds/nurple-static-bright.gif");
+    --main-cursor: url("common/cursors/oth639.cur");
+    --pointer-cursor: url("common/cursors/oth150.cur");
+    --scrollbar-color: var(--box-header-color) var(--box-header-text-color);
 }
-
-body {
+* {
+    /* outline: 1px solid #f00 !important;*/
+   }
+body{
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
+* {
+    /* W3C standard сейчас только для Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-color);
+    cursor: var(--main-cursor), pointer;
+}
+*::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+  }
+ /* для Chrome/Edge/Safari
 
+  *::-webkit-scrollbar-track {
+    background: black;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 5px;
+    border: 3px solid orange;
+  } */
 @font-face {
     font-family: "deadwax-font";
     src: local("deadwax-font"),

@@ -73,4 +73,12 @@ export const WITCH2_BACKGROUND = require('./common/images/backgrounds/black.jpg'
 export const RED1_BACKGROUND = require('./common/images/backgrounds/red.gif');
 export const STARS_BACKGROUND = require('./common/images/backgrounds/stars5.gif');
 
+
+export const MAIN_CURSOR = require('./common/cursors/oth639.cur');
+export const POINTER_CURSOR = require('./common/cursors/oth43.cur');
+export const WITCH_MAIN_CURSOR = require('./common/cursors/red.cur');
+export const WITCH_POINTER_CURSOR = require('./common/cursors/red_select.cur');
+export const MEME_CURSOR = require('./common/cursors/smi211.cur');
+export const HINDU_CURSOR = require('./common/cursors/sym442.cur');
+
 export const API_URL = 'https://floral-unit.is-probably.gay';

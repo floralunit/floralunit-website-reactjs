@@ -99,6 +99,8 @@ export function FilmLofiPage() {
     };
 
     document.documentElement.style.removeProperty('--box-text-color');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     if (toggleState === 1) {
         document.documentElement.style.setProperty('--box-header-color', '#614A44');
         document.documentElement.style.setProperty('--main-background', `url(${FLOWER7_BACKGROUND})`);

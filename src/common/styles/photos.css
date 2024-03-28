@@ -11,12 +11,14 @@
     max-width: 450px;
     height: auto;
     object-fit: contain;
+    cursor: var(--pointer-cursor), pointer;
 }
 
 .l img{
     max-width: 350px;
     height: auto;
     object-fit: contain;
+    cursor: var(--pointer-cursor), pointer;
 }
 
 /* Create four equal columns that sits next to each other */

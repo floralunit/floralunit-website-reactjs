@@ -1,36 +1,14 @@
 html, body {
-    height: 100%;
-    width: 100%;
     background-image: var(--witch-main-background);
 }
-* {
-   /* outline: 1px solid #f00 !important;*/
-  }
 
-
-/* W3C standard
-   сейчас только для Firefox */
+ 
    .witch-house-page {
-    scrollbar-width: thin;
-    scrollbar-color: blue orange;
     height: 100%;
     background-image: var(--witch-main-background);
     background-repeat: repeat;
     background-attachment:fixed;
-  }
-  
-  /* для Chrome/Edge/Safari */
-  .witch-house-page::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-  }
-  .witch-house-page::-webkit-scrollbar-track {
-    background: orange;
-  }
-  *::-webkit-scrollbar-thumb {
-    background-color: blue;
-    border-radius: 5px;
-    border: 3px solid orange;
+    cursor: var(--main-cursor), pointer;
   }
 
   .witch-link{
@@ -38,7 +16,7 @@ html, body {
     color: white;
     font-family: Abbadon;
     font-size: large;
-    text-decoration: underline;
+    cursor: var(--pointer-cursor), pointer;
 
   }
   
@@ -47,14 +25,14 @@ html, body {
     color: white;
     font-family: LCD5;
     font-size: 12px;
-    cursor: pointer;
+    cursor: var(--pointer-cursor), pointer;
     margin: 3px;
 
   }
-  .witch-link:hover:hover,.witch-link-small:hover{
+ .witch-link:hover,.witch-link-small:hover{
     text-decoration: underline;
     color: #8a0303;
-    cursor: pointer;
+    cursor: var(--pointer-cursor), pointer;
     
   }
 
@@ -119,6 +97,7 @@ div.vv17ch {
     height: 100px;
     margin:auto;
     object-fit: contain;
+    cursor: var(--pointer-cursor), pointer;
 }
 .vv17ch-caption {
     display: block;
@@ -149,3 +128,4 @@ div.vv17ch {
 
 .header-section{
 }
+

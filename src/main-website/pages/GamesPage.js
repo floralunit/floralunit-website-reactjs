@@ -10,6 +10,8 @@ import {
 
 export function GamesPage() {
     document.documentElement.style.removeProperty('--box-text-color');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     document.documentElement.style.setProperty('--box-header-color', `url(${DARKGRASS_BACKGROUND})`);
     document.documentElement.style.setProperty('--main-background', `url(${STARDEWVALLEY_BACKGROUND})`);
     document.documentElement.style.setProperty('--box-background', `#ffebee`);

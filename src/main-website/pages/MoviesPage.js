@@ -13,6 +13,8 @@ import {
 
 export function MoviesPage() {
     document.documentElement.style.removeProperty('--box-text-color');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     document.documentElement.style.setProperty('--box-header-color', `url(${WATER_BACKGROUND})`);
     document.documentElement.style.setProperty('--main-background', `url(${BUBBLES3_BACKGROUND})`);
     document.documentElement.style.setProperty('--box-background', `#ede1ed`);

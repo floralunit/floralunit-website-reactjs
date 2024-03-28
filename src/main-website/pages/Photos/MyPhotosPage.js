@@ -10,6 +10,8 @@ export function MyPhotosPage() {
 
   const [isLoaded, setIsLoaded] = useState(false);
   document.documentElement.style.removeProperty('--box-text-color');
+  document.documentElement.style.removeProperty('--main-cursor');
+  document.documentElement.style.removeProperty('--pointer-cursor');
   document.documentElement.style.setProperty('--box-header-color', `#c6506d`);
   document.documentElement.style.setProperty('--main-background', `url(${PIG_BACKGROUND})`);
   document.documentElement.style.setProperty('--box-background', `#f1eaed`);

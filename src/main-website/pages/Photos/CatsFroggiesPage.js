@@ -98,6 +98,8 @@ export function CatsFroggiesPage() {
     document.documentElement.style.removeProperty('--box-text-color');
     document.documentElement.style.removeProperty('--box-header-color');
     document.documentElement.style.removeProperty('--box-background');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     if (toggleState === 1) {
         document.documentElement.style.setProperty('--main-background', `url(${GREEN_BACKGROUND})`);
     }

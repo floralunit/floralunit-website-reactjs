@@ -1,5 +1,5 @@
 import React from "react";
-import { ABSTRACT8_BACKGROUND, SHINE_BACKGROUND, ABSTRACT7_BACKGROUND } from "../../../global-const";
+import { ABSTRACT8_BACKGROUND, SHINE_BACKGROUND, ABSTRACT7_BACKGROUND, MEME_CURSOR } from "../../../global-const";
 import { Link } from "react-router-dom";
 
 export function WebStuffPage() {
@@ -9,6 +9,8 @@ export function WebStuffPage() {
 
     document.documentElement.style.setProperty('--box-header-color', `url(${ABSTRACT7_BACKGROUND})`);
     document.documentElement.style.setProperty('--main-background', `url(${SHINE_BACKGROUND})`);
+    document.documentElement.style.setProperty('--main-cursor', `url(${MEME_CURSOR})`);
+    document.documentElement.style.removeProperty('--pointer-cursor');
     // document.documentElement.style.setProperty('--main-background',  `url(https://dl.glitter-graphics.com/pub/3650/3650018mbys5bgddk.gif)`);
     document.documentElement.style.setProperty('--box-background', `url(${ABSTRACT8_BACKGROUND})`);
     document.documentElement.style.setProperty('--box-text-color', '#fff2b2');
@@ -49,13 +51,13 @@ export function WebStuffPage() {
             </div>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <figure>
-                    <img src={require('../../../common/my-button/floralunit-button.gif')}
+                    <img src="https://floralunit.neocities.org/my-button/floralunit-button.gif"
                         style={{ width: '88px', height: '31px' }} />
-                    {/* <textarea
-                        className="copy-button">&lt;a href="https://neocities.org/site/floralunit" target="_blank"&gt;&lt;img src="https://sadgrl.online/assets/images/buttons/sadgrlonline.gif"&gt;&lt;/a&gt;</textarea> */}
+                    <textarea
+                        className="copy-button">&lt;a href="https://floralunit.neocities.org/" target="_blank"&gt;&lt;img src="https://floralunit.neocities.org/my-button/floralunit-button.gif"&gt;&lt;/a&gt;</textarea>
                 </figure>
             </div>
-            <div className="box" >
+            <div className="box">
                 <div className="inner">
                     <div>
                         The Internet currently feels <a href="https://www.imood.com/imood"><img
@@ -70,6 +72,8 @@ export function WebStuffPage() {
                         <li><a href="https://www.gjtorikian.com/Earthbound-Battle-Backgrounds-JS/" target="_blank" rel="noreferrer">Earthbound-Battle-Backgrounds-JS</a> - Earthbound background generator</li>
                         <li><a href="http://www.freebackgrounds.com/" target="_blank" rel="noreferrer">freebackgrounds.com</a> - old backgrounds</li>
                         <li><a href="https://codesharing.neocities.org/" target="_blank" rel="noreferrer">codesharing.neocities.org</a> - some useful layouts</li>
+                        <li><a href="https://www.cursors-4u.com/" target="_blank" rel="noreferrer">cursors-4u.com</a> - cool cursors collection</li>
+                        <li><a href="http://www.rw-designer.com/cursor-library/set-0/" target="_blank" rel="noreferrer">rw-designer.com</a> - another cursors collection</li>
                         <li><Link to="/bgs-icons">backgrounds, icons, pixels I found + my website color constructor <img src={require("../../resources/pixels/tEJ5Dt8.gif")} style={{ width: '15px', margin: '2px 0 0 2px' }} /></Link></li>
                     </ul>
                     <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.0em', padding: '1em' }}>Sites with cool backgrounds, icons, etc archives</div>
@@ -159,9 +163,11 @@ export function WebStuffPage() {
                         <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img
                             src="https://www.lejlart.com/flist/ad_skullsprinkles.gif"
                             alt="" /></a>
-                                                    <a href="https://www.censorine.com/" target="_blank" rel="noreferrer"><img
+                        <a href="https://www.censorine.com/" target="_blank" rel="noreferrer"><img
                             src="https://censorine.com/images/censoria.png"
                             alt="" /></a>
+                        <a href="https://pumpkin-ninja.neocities.org" target="_blank" rel="noreferrer"><img src="https://pumpkin-ninja.neocities.org/images/88X31.gif" alt="" /></a>
+                        <a href="https://kidwiththechemicalz.neocities.org/" target="_blank" rel="noreferrer"><img src="https://kidwiththechemicalz.neocities.org/88x31.gif" alt="" /> </a>
 
                     </div>
                 </div>

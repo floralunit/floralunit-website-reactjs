@@ -9,6 +9,8 @@ import {
     EMO1_BACKGROUND, EMO_BACKGROUND,
     FLOWER1_BACKGROUND,
     HINDU_BACKGROUND,
+    HINDU_CURSOR,
+    MEME_CURSOR,
     SUN_BACKGROUND,
 } from '../../../global-const';
 import { angel_photos } from "./angel-photos/angel-photos";
@@ -27,6 +29,8 @@ export function AestheticsPage() {
     };
 
     document.documentElement.style.removeProperty('--box-text-color');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     if (toggleState === 1) {
         document.documentElement.style.setProperty('--box-header-color', '#272829');
         document.documentElement.style.setProperty('--main-background', `url(${SUN_BACKGROUND})`);
@@ -41,11 +45,13 @@ export function AestheticsPage() {
         document.documentElement.style.setProperty('--box-header-color', '#850000');
         document.documentElement.style.setProperty('--main-background', `url(${HINDU_BACKGROUND})`);
         document.documentElement.style.setProperty('--box-background', '#FFDBAA');
+        document.documentElement.style.setProperty('--main-cursor', `url(${HINDU_CURSOR})`);
     }
     else if (toggleState === 4) {
         document.documentElement.style.setProperty('--box-header-color', '#000000');
         document.documentElement.style.setProperty('--main-background', `url(${EMO_BACKGROUND})`);
         document.documentElement.style.setProperty('--box-background', `url(${EMO1_BACKGROUND})`);
+        document.documentElement.style.setProperty('--main-cursor', `url(${MEME_CURSOR})`);
     }
     else {
         document.documentElement.style.removeProperty('--box-header-color');

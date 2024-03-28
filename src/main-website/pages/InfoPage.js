@@ -9,6 +9,8 @@ export function InfoPage() {
     document.documentElement.style.removeProperty('--main-background');
     document.documentElement.style.removeProperty('--box-background');
     document.documentElement.style.removeProperty('--box-text-color');
+    document.documentElement.style.removeProperty('--main-cursor');
+    document.documentElement.style.removeProperty('--pointer-cursor');
     return (
         <div className='main' style={{ maxWidth: "650px", fontSize: 'smaller' }}>
             <div className='box'>
