@@ -4,7 +4,7 @@ import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import { LoadingComponent } from "../../components/LoadingComponent"
 import { API_URL, PIG_BACKGROUND } from '../../../global-const';
-import myphotos from './myphotos.json'
+import myphotos from '../../../common/jsons/MyPhotos.json';
 import "../../../common/styles/gallery.css";
 
 export function MyPhotosPage() {
@@ -91,23 +91,23 @@ export function MyPhotosPage() {
   const [photos2024, setPhotos2024] = useState([]);
 
   useEffect(() => {
-        setIsLoaded(true);
-        const photos = myphotos.response.items.map(photo => ({
-          src: photo.sizes.find(size => size.type === "z").url,
-          width: 4, // замените на нужную ширину фотографии
-          height: 3, // замените на нужную высоту фотографии
-          title: photo.text,
-          comments: photo.comments,
-        }));
-        setPhotosData(photos);
-        setPhotos2018(photos.filter(x => x.title === '2018'));
-        setPhotos2019(photos.filter(x => x.title === '2019'));
-        setPhotos2020(photos.filter(x => x.title === '2020'));
-        setPhotos2021(photos.filter(x => x.title === '2021'));
-        setPhotos2022(photos.filter(x => x.title === '2022'));
-        setPhotos2023(photos.filter(x => x.title === '2023'));
-        setPhotos2024(photos.reverse().filter(x => x.title === '2024'));
-      })
+    setIsLoaded(true);
+    const photos = myphotos.response.items.map(photo => ({
+      src: photo.sizes.find(size => size.type === "z").url,
+      width: 4, // замените на нужную ширину фотографии
+      height: 3, // замените на нужную высоту фотографии
+      title: photo.text,
+      comments: photo.comments,
+    }));
+    setPhotosData(photos);
+    setPhotos2018(photos.filter(x => x.title === '2018'));
+    setPhotos2019(photos.filter(x => x.title === '2019'));
+    setPhotos2020(photos.filter(x => x.title === '2020'));
+    setPhotos2021(photos.filter(x => x.title === '2021'));
+    setPhotos2022(photos.filter(x => x.title === '2022'));
+    setPhotos2023(photos.filter(x => x.title === '2023'));
+    setPhotos2024(photos.reverse().filter(x => x.title === '2024'));
+  })
 
   // #endregion
 

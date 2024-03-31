@@ -5,7 +5,8 @@ import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
 import "../../../common/styles/gallery.css";
 import { LoadingComponent } from "../../components/LoadingComponent"
-
+import catsPhotos from '../../../common/jsons/CatsPhotos.json';
+import frogsPhotos from '../../../common/jsons/FrogsPhotos.json';
 import { GREEN_BACKGROUND, API_URL, RABBIT_BACKGROUND } from '../../../global-const';
 
 export function CatsFroggiesPage() {
@@ -38,55 +39,29 @@ export function CatsFroggiesPage() {
     const [photosCat, setPhotosCat] = useState([]);
 
     useEffect(() => {
-        fetch(`${API_URL}/getFrogsPhotos`) // замените на ваш URL API
-            .then(response => {
-                setIsLoaded(true);
-                if (!response.ok) {
-                    throw new Error('Ошибка HTTP: ' + response.status);
-                }
-                return response.json();
-            })
-            .then(data => {
-                setIsLoaded(true);
-                const photos = data.response.items.reverse().map(photo => ({
-                    src: photo.sizes.find(size => size.type === "z").url,
-                    width: 4, // замените на нужную ширину фотографии
-                    height: 3, // замените на нужную высоту фотографии
-                    title: photo.text,
-                    comments: photo.comments,
-                }));
-                setPhotosFrog(photos);
-            })
-            .catch(error => {
-                console.error('Ошибка при получении фотографий', error);
-            });
-    }, []);
+        setIsLoaded(true);
+        const photos = frogsPhotos.response.items.map(photo => ({
+            src: photo.sizes.find(size => size.type === "z").url,
+            width: 4, // замените на нужную ширину фотографии
+            height: 3, // замените на нужную высоту фотографии
+            title: photo.text,
+            comments: photo.comments,
+        }));
+        setPhotosFrog(photos.reverse());
+    })
 
 
     useEffect(() => {
-        fetch(`${API_URL}/getCatsPhotos`) // замените на ваш URL API
-            .then(response => {
-                setIsLoaded(true);
-                if (!response.ok) {
-                    throw new Error('Ошибка HTTP: ' + response.status);
-                }
-                return response.json();
-            })
-            .then(data => {
-                setIsLoaded(true);
-                const photos = data.response.items.reverse().map(photo => ({
-                    src: photo.sizes.find(size => size.type === "y").url,
-                    width: 1, // замените на нужную ширину фотографии
-                    height: 1, // замените на нужную высоту фотографии
-                    title: photo.text,
-                    comments: photo.comments,
-                }));
-                setPhotosCat(photos);
-            })
-            .catch(error => {
-                console.error('Ошибка при получении фотографий', error);
-            });
-    }, []);
+        setIsLoaded(true);
+        const photos = catsPhotos.response.items.map(photo => ({
+            src: photo.sizes.find(size => size.type === "y").url,
+            width: 1, // замените на нужную ширину фотографии
+            height: 1, // замените на нужную высоту фотографии
+            title: photo.text,
+            comments: photo.comments,
+        }));
+        setPhotosCat(photos.reverse());
+    })
 
     // #endregion
 

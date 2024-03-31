@@ -5,7 +5,8 @@ import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
 import "../../../common/styles/gallery.css";
 import { LoadingComponent } from "../../components/LoadingComponent"
-
+import FilmPhotos from '../../../common/jsons/FilmPhotos.json';
+import LOFIPhotos from '../../../common/jsons/LOFIPhotos.json';
 import { TRIPPY_BACKGROUND, API_URL, FLOWER7_BACKGROUND, CD_BACKGROUND } from '../../../global-const';
 
 export function FilmLofiPage() {
@@ -39,56 +40,29 @@ export function FilmLofiPage() {
     const [photosLofi, setPhotosLofi] = useState([]);
 
     useEffect(() => {
-        fetch(`${API_URL}/getFilmPhotos`) // замените на ваш URL API
-            .then(response => {
-                setIsLoaded(true);
-                if (!response.ok) {
-                    throw new Error('Ошибка HTTP: ' + response.status);
-                }
-                return response.json();
-            })
-            .then(data => {
-                setIsLoaded(true);
-                const photos = data.response.items.map(photo => ({
-                    src: photo.sizes.find(size => size.type === "z").url,
-                    width: 4, // замените на нужную ширину фотографии
-                    height: 3, // замените на нужную высоту фотографии
-                    title: photo.text,
-                    comments: photo.comments,
-                }));
-                setPhotosFilm(photos);
-            })
-            .catch(error => {
-                console.error('Ошибка при получении фотографий', error);
-            });
-    }, []);
+        setIsLoaded(true);
+        const photos = FilmPhotos.response.items.map(photo => ({
+            src: photo.sizes.find(size => size.type === "z").url,
+            width: 4, // замените на нужную ширину фотографии
+            height: 3, // замените на нужную высоту фотографии
+            title: photo.text,
+            comments: photo.comments,
+        }));
+        setPhotosFilm(photos);
+    })
 
 
     useEffect(() => {
-        fetch(`${API_URL}/getLofiPhotos`) // замените на ваш URL API
-            .then(response => {
-                setIsLoaded(true);
-                if (!response.ok) {
-                    setIsLoaded(true);
-                    throw new Error('Ошибка HTTP: ' + response.status);
-                }
-                return response.json();
-            })
-            .then(data => {
-                setIsLoaded(true);
-                const photos = data.response.items.map(photo => ({
-                    src: photo.sizes.find(size => size.type === "y").url,
-                    width: 4, // замените на нужную ширину фотографии
-                    height: 3, // замените на нужную высоту фотографии
-                    title: photo.text,
-                    comments: photo.comments,
-                }));
-                setPhotosLofi(photos);
-            })
-            .catch(error => {
-                console.error('Ошибка при получении фотографий', error);
-            });
-    }, []);
+        setIsLoaded(true);
+        const photos = LOFIPhotos.response.items.map(photo => ({
+            src: photo.sizes.find(size => size.type === "y").url,
+            width: 4, // замените на нужную ширину фотографии
+            height: 3, // замените на нужную высоту фотографии
+            title: photo.text,
+            comments: photo.comments,
+        }));
+        setPhotosLofi(photos.reverse());
+    })
 
     // #endregion
 

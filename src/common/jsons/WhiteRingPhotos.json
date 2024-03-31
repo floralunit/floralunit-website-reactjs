@@ -1,0 +1,1 @@
+{"error":{"error_code":200,"error_msg":"Access denied","request_params":[{"key":"owner_id","value":"-150736684"},{"key":"album_id","value":"303399462"},{"key":"extended","value":"1"},{"key":"count","value":"300"},{"key":"fields","value":"last_seen"},{"key":"v","value":"5.95"},{"key":"method","value":"photos.get"},{"key":"oauth","value":"1"}]}}
