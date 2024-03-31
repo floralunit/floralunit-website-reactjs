@@ -4,6 +4,7 @@ import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import { LoadingComponent } from "../../components/LoadingComponent"
 import { API_URL, PIG_BACKGROUND } from '../../../global-const';
+import myphotos from './myphotos.json'
 import "../../../common/styles/gallery.css";
 
 export function MyPhotosPage() {
@@ -90,17 +91,8 @@ export function MyPhotosPage() {
   const [photos2024, setPhotos2024] = useState([]);
 
   useEffect(() => {
-    fetch(`${API_URL}/getMyPhotos`) // замените на ваш URL API
-      .then(response => {
-
-        if (!response.ok) {
-          throw new Error('Ошибка HTTP: ' + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
         setIsLoaded(true);
-        const photos = data.response.items.map(photo => ({
+        const photos = myphotos.response.items.map(photo => ({
           src: photo.sizes.find(size => size.type === "z").url,
           width: 4, // замените на нужную ширину фотографии
           height: 3, // замените на нужную высоту фотографии
@@ -116,10 +108,6 @@ export function MyPhotosPage() {
         setPhotos2023(photos.filter(x => x.title === '2023'));
         setPhotos2024(photos.reverse().filter(x => x.title === '2024'));
       })
-      .catch(error => {
-        console.error('Ошибка при получении фотографий', error);
-      });
-  }, []);
 
   // #endregion
 
