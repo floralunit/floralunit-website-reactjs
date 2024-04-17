@@ -1,5 +1,10 @@
 export const updates = [
     {
+        id: 12,
+        date: '2024-04-18',
+        note: 'Update photos and video pages',
+    },
+    {
         id: 11,
         date: '2024-03-28',
         note: 'Finish main witch-house page',

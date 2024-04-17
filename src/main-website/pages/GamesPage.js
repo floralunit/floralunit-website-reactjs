@@ -184,7 +184,19 @@ export function GamesPage() {
                 <div class="tent" style={{ backgroundImage: `url(${require("../resources/games/lifeisstrange.jpg")})` }}>
                     <div class="hhover"><div class="htent">
                         <div class="hti">Life is Strange (2015)</div>
-                        <span class="dat">An episodic graphic adventure game with a focus on storytelling, time manipulation, and moral choices that affect the narrative</span>
+                        <span class="dat">An episodic graphic adventure game with a focus on storytelling, time manipulation, and moral choices that affect the narrative.</span>
+                    </div></div>
+                </div>
+                <div class="tent" style={{ backgroundImage: `url(${require("../resources/games/catlady.jpg")})` }}>
+                    <div class="hhover"><div class="htent">
+                        <div class="hti">The Cat Lady (2012)</div>
+                        <span class="dat">A psychological horror adventure game that follows the story of Susan Ashworth, a lonely woman who battles depression and faces supernatural challenges.</span>
+                    </div></div>
+                </div>
+                <div class="tent" style={{ backgroundImage: `url(${require("../resources/games/minecraft.webp")})` }}>
+                    <div class="hhover"><div class="htent">
+                        <div class="hti">Minecraft (2011) </div>
+                        <span class="dat">A sandbox video game that allows players to build and explore virtual worlds made up of blocks. Players can gather resources, craft items, and engage in various activities like building structures, exploring caves, and fighting mobs.</span>
                     </div></div>
                 </div>
             </div>

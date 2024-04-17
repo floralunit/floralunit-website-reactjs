@@ -32,6 +32,10 @@ export function MyPhotosPage() {
   const [viewerIsOpen2019, setViewerIsOpen2019] = useState(false);
   const [currentImage2018, setCurrentImage2018] = useState(0);
   const [viewerIsOpen2018, setViewerIsOpen2018] = useState(false);
+  const [currentImage2017, setCurrentImage2017] = useState(0);
+  const [viewerIsOpen2017, setViewerIsOpen2017] = useState(false);
+  const [currentImage2016, setCurrentImage2016] = useState(0);
+  const [viewerIsOpen2016, setViewerIsOpen2016] = useState(false);
 
   const openLightbox2024 = (index) => {
     setCurrentImage2024(index);
@@ -61,6 +65,14 @@ export function MyPhotosPage() {
     setCurrentImage2018(index);
     setViewerIsOpen2018(true);
   };
+  const openLightbox2017 = (index) => {
+    setCurrentImage2017(index);
+    setViewerIsOpen2017(true);
+  };
+  const openLightbox2016 = (index) => {
+    setCurrentImage2016(index);
+    setViewerIsOpen2016(true);
+  };
 
   const closeLightbox = () => {
     setCurrentImage2024(0);
@@ -70,6 +82,8 @@ export function MyPhotosPage() {
     setCurrentImage2020(0);
     setCurrentImage2019(0);
     setCurrentImage2018(0);
+    setCurrentImage2017(0);
+    setCurrentImage2016(0);
     setViewerIsOpen2024(false);
     setViewerIsOpen2023(false);
     setViewerIsOpen2022(false);
@@ -77,11 +91,15 @@ export function MyPhotosPage() {
     setViewerIsOpen2020(false);
     setViewerIsOpen2019(false);
     setViewerIsOpen2018(false);
+    setViewerIsOpen2017(false);
+    setViewerIsOpen2016(false);
   };
   // #endregion
 
   // #region GetPhotos
   const [photosData, setPhotosData] = useState([]);
+  const [photos2016, setPhotos2016] = useState([]);
+  const [photos2017, setPhotos2017] = useState([]);
   const [photos2018, setPhotos2018] = useState([]);
   const [photos2019, setPhotos2019] = useState([]);
   const [photos2020, setPhotos2020] = useState([]);
@@ -93,13 +111,15 @@ export function MyPhotosPage() {
   useEffect(() => {
     setIsLoaded(true);
     const photos = myphotos.response.items.map(photo => ({
-      src: photo.sizes.find(size => size.type === "z").url,
+      src: photo.sizes.find(size => size.type === "z" || size.type === "r").url,
       width: 4, // замените на нужную ширину фотографии
       height: 3, // замените на нужную высоту фотографии
       title: photo.text,
       comments: photo.comments,
     }));
     setPhotosData(photos);
+    setPhotos2016(photos.filter(x => x.title === '2016'));
+    setPhotos2017(photos.filter(x => x.title === '2017'));
     setPhotos2018(photos.filter(x => x.title === '2018'));
     setPhotos2019(photos.filter(x => x.title === '2019'));
     setPhotos2020(photos.filter(x => x.title === '2020'));
@@ -380,6 +400,84 @@ export function MyPhotosPage() {
                     <Carousel
                       images={photos2018}
                       index={currentImage2018}
+                      style={{ height: 'auto', maxWidth: '25em' }}
+                      hasMediaButton={false}
+                      hasIndexBoard={false}
+                    />
+                  </Modal>
+                ) : null}
+              </ModalGateway>
+            </div>
+          </div>
+        </div>
+        <div className="box08">
+          <div className="box-top">
+            <div className="u01"></div>
+          </div>
+          <div className="box-center">
+            <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+              2017
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                  style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
+                  title='https://foollovers.com' />
+              </div>
+            </div>
+          </div>
+          <div className="box-bottom">
+            <div className="s01"></div>
+          </div>
+        </div>
+        <div className='box'>
+          <div className='inner'>
+            <div className='photo-gallery'>
+              {photos2017.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2017(index)} />))}
+              <ModalGateway>
+                {viewerIsOpen2017 ? (
+                  <Modal onClose={closeLightbox}>
+                    <Carousel
+                      images={photos2017}
+                      index={currentImage2017}
+                      style={{ height: 'auto', maxWidth: '25em' }}
+                      hasMediaButton={false}
+                      hasIndexBoard={false}
+                    />
+                  </Modal>
+                ) : null}
+              </ModalGateway>
+            </div>
+          </div>
+        </div>
+        <div className="box08">
+          <div className="box-top">
+            <div className="u01"></div>
+          </div>
+          <div className="box-center">
+            <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+              2016
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                  style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
+                  title='https://foollovers.com' />
+              </div>
+            </div>
+          </div>
+          <div className="box-bottom">
+            <div className="s01"></div>
+          </div>
+        </div>
+        <div className='box'>
+          <div className='inner'>
+            <div className='photo-gallery'>
+              {photos2016.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2016(index)} />))}
+              <ModalGateway>
+                {viewerIsOpen2016 ? (
+                  <Modal onClose={closeLightbox}>
+                    <Carousel
+                      images={photos2016}
+                      index={currentImage2016}
                       style={{ height: 'auto', maxWidth: '25em' }}
                       hasMediaButton={false}
                       hasIndexBoard={false}

@@ -17,7 +17,7 @@ export function LeftSideBar() {
     );
     return (
         <aside className='sidebar-left' >
-            <div className='box' style={{ height: "140px" }}>
+            <div className='box' style={{ height: "165px" }}>
                 <h3>Socials</h3>
                 <div className='inner' >
                     <ol className="image-list">
@@ -30,6 +30,9 @@ export function LeftSideBar() {
                         <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto'  }}
                         /> <Link to="https://www.instagram.com/floral.unit" target="_blank" rel="noopener noreferrer">Instagram</Link>
                         </li>
+                        <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto'  }}
+                        /> <Link to="https://www.youtube.com/@floralunit" target="_blank" rel="noopener noreferrer">YouTube</Link>
+                        </li>
                         <li style={{height:'auto'}}><img src={yum} title="https://artwork.neocities.org" style={{ width: "15px", marginRight:'auto' }}
                         /> <Link to="https://steamcommunity.com/id/floralunit" target="_blank" rel="noopener noreferrer">Steam</Link>
                         </li>
@@ -39,7 +42,7 @@ export function LeftSideBar() {
                     </ol>
                 </div>
             </div>
-            <div className='box' style={{ height: "190px" }}>
+            <div className='box' style={{ height: "171px" }}>
                 <div className='inner' >
                     <div id="preloader">
                         <div id="text">Now Playing</div>
@@ -61,7 +64,7 @@ export function LeftSideBar() {
                     </div>
                 </div>
             </div>
-            <div className='box' style={{ height: "165px" }}>
+            <div className='box' style={{ height: "162px" }}>
                 <h3>Updates</h3>
                 <div className='inner' >
                     <ol className="updates-list">{updatesList}</ol>

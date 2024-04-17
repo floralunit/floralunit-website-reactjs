@@ -263,7 +263,10 @@ export function MoviesPage() {
                                 <img src={require("../resources/movies/короли.webp")} alt="Movie Image" className="movie-image" />
                                 <div className="movie-title">Короли Догтауна (2005)</div>
                             </div>
-
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/уженедети.webp")} alt="Movie Image" className="movie-image" />
+                                <div className="movie-title">Уже не дети (2012)</div>
+                            </div>
                             <div class="movie-card">
                                 <img src={require("../resources/movies/500днейлета.jpeg")} alt="Movie Image" className="movie-image" />
                                 <div className=" movie-title "> 500 дней лета (2009) </ div>
@@ -414,7 +417,10 @@ export function MoviesPage() {
                             <img src={require("../resources/movies/школа.jpg")} alt="Изображение фильма" className="movie-image" />
                             <div className="movie-title">Школа (2010)</div>
                         </div>
-
+                        <div className="movie-card">
+                            <img src={require("../resources/movies/мертвецы.jpeg")} alt="Изображение фильма" className="movie-image" />
+                            <div className="movie-title">Ходячие мертвецы (2010-2022)</div>
+                        </div>
                         <div className="movie-card">
                             <img src={require("../resources/movies/остатьсявживых.webp")} alt="Изображение фильма" className="movie-image" />
                             <div className="movie-title">Остаться в живых (2004-2010)</div>
@@ -440,6 +446,10 @@ export function MoviesPage() {
                         <div class="movie-card">
                             <img src={require("../resources/movies/марни.jpg")} alt="Movie Image" className="movie-image" />
                             <div className="movie-title">Воспоминания о Марни (2014)</div>
+                        </div>
+                        <div class="movie-card">
+                            <img src={require("../resources/movies/sailormoon.jpg")} alt="Movie Image" className="movie-image" />
+                            <div className="movie-title">Сейлор Мун (1992-1997)</div>
                         </div>
                         <div class="movie-card">
                             <img src={require("../resources/movies/daria.jpg")} alt="Movie Image" className="movie-image" />

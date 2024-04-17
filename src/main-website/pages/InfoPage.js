@@ -74,6 +74,7 @@ export function InfoPage() {
                                     <li>mountains and fog</li>
                                     <li>soviet architecture</li>
                                     <li>coffee</li>
+                                    <li>asian religions and cultures</li>
                                     <li>witch and goth aesthetics, but I also enjoy cute things</li>
                                     <li>my froggies and cats</li>
                                 </ul>
