@@ -45,6 +45,7 @@ export function WitchHousePage() {
 
     return (
         <div className="witch-house-page">
+            <div className='crt'/>
             <Helmet>
                 <meta
                     name="viewport"

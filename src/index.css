@@ -75,6 +75,18 @@ body{
     font-family: Better VCR;
     src: url("common/fonts/Better\ VCR\ 6.1.ttf");
 }
+@font-face {
+    font-family: Kremlin;
+    src: url("common/fonts/KremlinSamovarLite.ttf");
+}
+@font-face {
+    font-family: Molot;
+    src: url("common/fonts/Molot.otf");
+}
+@font-face {
+    font-family: Arkhip;
+    src: url("common/fonts/Arkhip_font.ttf");
+}
 /*
 @font-face {
   font-family: homicide;

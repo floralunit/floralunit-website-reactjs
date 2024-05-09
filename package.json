@@ -16,6 +16,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.10.1",
     "react-images": "^1.2.0-beta.7",
+    "react-loading-iframe": "^1.1.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "sass": "^1.66.1",

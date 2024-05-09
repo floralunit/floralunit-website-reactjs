@@ -1,0 +1,70 @@
+.text-background p {
+    background-image: url("blood-forest.gif");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue', 
+                    helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .text-background p {
+        font-size: 80px;
+    }
+}
+
+
+social-icons-2 {
+    padding: 0;
+    list-style: none;
+    margin: 10px;
+}
+.social-icons-2 li {
+    display: inline-block;
+    position: relative;
+}
+.social-icons-2 li a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+}
+.social-icons-2 li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    color: #000;
+}
+.social-icons-2 li a i {
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 24px;
+    color: #969696;
+    transition: .5s;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    box-sizing: content-box;
+}
+.social-icons-2 li a:hover i {
+    color: #337AB7;
+}
+.social-icons-2 li a img {
+    width: 24px;
+    height: 24px;
+}

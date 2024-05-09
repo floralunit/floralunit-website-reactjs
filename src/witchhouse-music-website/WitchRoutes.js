@@ -8,7 +8,7 @@ import "../common/styles/crt-lines.css"
 export function WitchRoutes() {
 
     return (
-        <div className="crt">
+        <div>
             <Routes>
                 <Route path='' element={<WitchHousePage/>}/>
                 <Route path='radost-moja' element={<RadostMojaPage/>}/>
