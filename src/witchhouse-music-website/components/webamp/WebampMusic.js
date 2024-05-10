@@ -13,13 +13,15 @@ import crim3s from "./music/Crim3s - Still Goin.mp3";
 import krishna from "./skins/hare_krishna.wsz";
 import react from "react";
 import "../../witch-main-page/WitchHousePage.css"
+import React from "react";
+import {ReactDOM} from "react";
 
 if (!Webamp.browserIsSupported()) {
     alert("Oh no! Webamp does not work in this browser!");
     throw new Error("What's the point of anything?");
 }
 
-const webamp = new Webamp({
+export const webamp = new Webamp({
     initialTracks: [
         {
             metaData: {
@@ -107,22 +109,32 @@ const webamp = new Webamp({
 webamp.onClose(() => {
     const open = document.createElement("button");
     open.innerText = "Reopen";
-    document.getElementById("controls").appendChild(open);
+    //document.getElementById("controls").appendChild(open);
     function handleClick() {
-        webamp.reopen();
-        open.remove();
-        open.removeEventListener("click", handleClick);
+      webamp.reopen();
+      open.remove();
+      open.removeEventListener("click", handleClick);
     }
     open.addEventListener("click", handleClick);
-});
-
-// Example of adding a confirmation button before Webamp can be closed.
-webamp.onWillClose((cancel) => {
-    if (!window.confirm("Are you sure you want to close Webamp?")) {
-        cancel();
-    }
-});
+  });
+  
+  // Example of adding a confirmation button before Webamp can be closed.
+  webamp.onWillClose((cancel) => {
+    // if (!window.confirm("Are you sure you want to close Webamp?")) {
+    //   cancel();
+    // }
+  });
 export default class WebampMusic extends react.Component {
+    constructor(props) {
+        super(props);
+        this.webampRef = React.createRef();
+      }
+      removeElement = () => {
+        const element = ReactDOM.findDOMNode(this.webampRef.current);
+        if (element) {
+          element.parentNode.removeChild(element);
+        }
+      };
 
     webampRef = react.createRef();
 

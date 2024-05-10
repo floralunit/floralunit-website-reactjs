@@ -1,0 +1,14 @@
+.links-block {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.links-block a:visited { color:white; } /* visited link */
+.links-block a:hover { 
+    text-decoration: underline;
+    color: #8a0303;
+    cursor: var(--pointer-cursor), pointer;
+} /* mouse over link */ 

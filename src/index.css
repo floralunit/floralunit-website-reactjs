@@ -24,6 +24,12 @@ body{
     scrollbar-color: var(--scrollbar-color);
     cursor: var(--main-cursor), pointer;
 }
+iframe{
+     background: url('./common/images/loading.gif');
+     background-size: 100px;
+     background-repeat: no-repeat;
+     background-position: center;
+}
 *::-webkit-scrollbar {
     height: 12px;
     width: 12px;

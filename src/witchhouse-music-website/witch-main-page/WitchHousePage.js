@@ -42,10 +42,16 @@ export function WitchHousePage() {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+    const [showWebamp, setShowWebamp] = useState(true);
+
+    const disableWebamp = () => {
+        setShowWebamp(false);
+    };
+
 
     return (
         <div className="witch-house-page">
-            <div className='crt'/>
+            <div className='crt' />
             <Helmet>
                 <meta
                     name="viewport"
@@ -53,7 +59,7 @@ export function WitchHousePage() {
                 />
             </Helmet>
 
-            <WebampMusic />
+            {showWebamp && <WebampMusic />}
             <section className="info-section" id='section1'>
                 <div className="container">
                     <div className="head-container">
@@ -84,16 +90,16 @@ export function WitchHousePage() {
                         <div className="vv17ch-container">
                             <GlitchText>
                                 <div className="vv17ch">
-                                    <img src={require('./resources/angel-right.png')} loading="lazy"
+                                    <img src={require('../resources/angel-right.png')} loading="lazy"
                                         className="vv17chImg" />
                                 </div>
                                 <div className="vv17ch">
                                     <Link>
                                         <GlitchClip onHover={true} style={{ margin: '0', padding: '0' }}>
-                                        <GlitchSquiggly onHover={false}>
-                                            <img src={require('./resources/artist-icons/vedmindom.png')} loading="lazy"
-                                                className="vv17chImg" />
-                                                </GlitchSquiggly>
+                                            <GlitchSquiggly onHover={false}>
+                                                <img src={require('../resources/artist-icons/vedmindom.png')} loading="lazy"
+                                                    className="vv17chImg" />
+                                            </GlitchSquiggly>
                                         </GlitchClip>
                                         <a><div className='witch-link-small'> Ведьмин дом</div></a>
                                     </Link>
@@ -101,10 +107,10 @@ export function WitchHousePage() {
                                 <div className="vv17ch">
                                     <Link>
                                         <GlitchClip onHover={true}>
-                                        <GlitchSquiggly onHover={false}>
-                                            <img src={require('./resources/artist-icons/vv17chou7.jpg')} loading="lazy"
-                                                className="vv17chImg" />
-                                                </GlitchSquiggly>
+                                            <GlitchSquiggly onHover={false}>
+                                                <img src={require('../resources/artist-icons/vv17chou7.jpg')} loading="lazy"
+                                                    className="vv17chImg" />
+                                            </GlitchSquiggly>
                                         </GlitchClip>
                                         <a><div className='witch-link-small'>VV17CH<pupa style={{ fontFamily: 'arial' }}>Ø</pupa>U7</div></a>
                                     </Link>
@@ -113,9 +119,9 @@ export function WitchHousePage() {
                                     <Link>
                                         <GlitchClip onHover={true}>
                                             <GlitchSquiggly>
-                                            <img src={require('./resources/artist-icons/gate.jpg')} loading="lazy"
-                                                className="vv17chImg" />
-                                                </GlitchSquiggly>
+                                                <img src={require('../resources/artist-icons/gate.jpg')} loading="lazy"
+                                                    className="vv17chImg" />
+                                            </GlitchSquiggly>
                                         </GlitchClip>
                                         <a><div className='witch-link-small'>Gáte</div></a>
                                     </Link>
@@ -123,16 +129,16 @@ export function WitchHousePage() {
                                 <div className="vv17ch">
                                     <Link>
                                         <GlitchClip onHover={true}>
-                                        <GlitchSquiggly>
-                                            <img src={require('./resources/artist-icons/nedo.jpg')} loading="lazy"
-                                                className="vv17chImg" />
-                                                </GlitchSquiggly>
+                                            <GlitchSquiggly>
+                                                <img src={require('../resources/artist-icons/nedo.jpg')} loading="lazy"
+                                                    className="vv17chImg" />
+                                            </GlitchSquiggly>
                                         </GlitchClip>
                                         <a><div className='witch-link-small'>NEDOSTUPNOSTЬ</div></a>
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
-                                    <img src={require('./resources/angel-left.png')} loading="lazy"
+                                    <img src={require('../resources/angel-left.png')} loading="lazy"
                                         className="vv17chImg" />
                                 </div>
                             </GlitchText>
@@ -142,8 +148,8 @@ export function WitchHousePage() {
                 </div>
             </section>
             <div className='container'>
-                <div className='info-text' style={{ color: 'red', textAlign: 'center' }}>Здесь будут мои любимые и культовые исполнители. Добавлять их и оформлять странички буду по мере возможностей. 
-                <br />Last upd:</div>
+                <div className='info-text' style={{ color: 'red', textAlign: 'center' }}>Здесь будут мои любимые и культовые исполнители. Добавлять их и оформлять странички буду по мере возможностей.
+                    <br />Last upd: 09.05.24 - добавлена страница по Радость Моя</div>
             </div>
 
             <section className="music-section" id='section2'>
@@ -153,10 +159,10 @@ export function WitchHousePage() {
                             <div className='row'>
                                 <div className="row">
                                     <div className="column">
-                                        <Link to="radost-moja">
+                                        <Link to="radost-moja" onClick={disableWebamp}>
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/radostmoja.png')} loading="lazy" className="s" />
+                                                    <img src={require('../resources/artist-icons/radostmoja.png')} loading="lazy" className="s" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link'>Радость Моя</div>
@@ -166,7 +172,7 @@ export function WitchHousePage() {
                                         <Link >
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/cain.png')} loading="lazy" className="l" />
+                                                    <img src={require('../resources/artist-icons/cain.png')} loading="lazy" className="l" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link' style={{ fontFamily: 'arial' }}>† CΛIN †</div>
@@ -177,7 +183,7 @@ export function WitchHousePage() {
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
                                                     <br /><br /><br />
-                                                    <img src={require('./resources/artist-icons/suicidewave.png')} loading="lazy" className="l" />
+                                                    <img src={require('../resources/artist-icons/suicidewave.png')} loading="lazy" className="l" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <br />
@@ -187,10 +193,20 @@ export function WitchHousePage() {
                                 </div>
                                 <div className="row">
                                     <div className="column">
+                                        <Link to="tvbfvck">
+                                            <GlitchClip onHover={true} className="s">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/tabfuck.jpg')} loading="lazy" className="l" style={{ maxHeight: '250px' }} />
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link' style={{ fontFamily: 'arial' }}>†▼BF▼CK</div>
+                                        </Link>
+                                    </div>
+                                    <div className="column">
                                         <Link >
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/sco.png')} loading="lazy" className="s" />
+                                                    <img src={require('../resources/artist-icons/sco.png')} loading="lazy" className="s" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link' style={{ fontFamily: 'arial' }}>△Sco△</div>
@@ -200,7 +216,19 @@ export function WitchHousePage() {
                                         <Link >
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/summer.png')} loading="lazy" className="s" />
+                                                    <img src={require('../resources/artist-icons/tenebrae.png')} loading="lazy" className="s" />
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link' style={{ fontFamily: 'arial' }}>†ENEBRÆ</div>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="column">
+                                        <Link >
+                                            <GlitchClip onHover={true} className="s">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/summer.png')} loading="lazy" className="s" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link'>Summer of Haze</div>
@@ -210,39 +238,17 @@ export function WitchHousePage() {
                                         <Link >
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/mugl.png')} loading="lazy" className="s" style={{ maxHeight: '250px' }} />
+                                                    <img src={require('../resources/artist-icons/mugl.png')} loading="lazy" className="s" style={{ maxHeight: '250px' }} />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link'>Mugl</div>
                                         </Link>
                                     </div>
-                                </div>
-                                <div className="row">
-                                    <div className="column">
-                                        <Link >
-                                            <GlitchClip onHover={true} className="s">
-                                                <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/ic3peak.png')} loading="lazy" className="s" style={{ maxHeight: '300px' }} />
-                                                </GlitchSquiggly>
-                                            </GlitchClip>
-                                            <div className='witch-link'>IC3PEAK</div>
-                                        </Link>
-                                    </div>
                                     <div className="column">
                                         <Link >
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/crim3s.png')} loading="lazy" className="l" />
-                                                </GlitchSquiggly>
-                                            </GlitchClip>
-                                            <div className='witch-link'>Crim3s</div>
-                                        </Link>
-                                    </div>
-                                    <div className="column">
-                                        <Link >
-                                            <GlitchClip onHover={true} className="l">
-                                                <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/fd.png')} loading="lazy" className="l" />
+                                                    <img src={require('../resources/artist-icons/fd.png')} loading="lazy" className="l" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link'>Fraunhofer Diffraction</div>
@@ -252,12 +258,22 @@ export function WitchHousePage() {
                                 <div className="row">
                                     <div className="column">
                                         <Link >
-                                            <GlitchClip onHover={true} className="s">
+                                            <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('./resources/artist-icons/tenebrae.png')} loading="lazy" className="s" />
+                                                    <img src={require('../resources/artist-icons/crim3s.png')} loading="lazy" className="l" />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
-                                            <div className='witch-link' style={{ fontFamily: 'arial' }}>†ENEBRÆ</div>
+                                            <div className='witch-link'>Crim3s</div>
+                                        </Link>
+                                    </div>
+                                    <div className="column">
+                                        <Link >
+                                            <GlitchClip onHover={true} className="s">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/ic3peak.png')} loading="lazy" className="s" style={{ maxHeight: '300px' }} />
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link'>IC3PEAK</div>
                                         </Link>
                                     </div>
                                 </div>

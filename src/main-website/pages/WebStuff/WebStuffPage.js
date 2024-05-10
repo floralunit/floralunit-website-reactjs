@@ -71,6 +71,7 @@ export function WebStuffPage() {
                         <li><a href="https://ps1.tumblr.com/smolpxl" target="_blank" rel="noreferrer">ps1.tumblr.com/smolpxl</a>- pixels collection</li>
                         <li><a href="https://www.gjtorikian.com/Earthbound-Battle-Backgrounds-JS/" target="_blank" rel="noreferrer">Earthbound-Battle-Backgrounds-JS</a> - Earthbound background generator</li>
                         <li><a href="http://www.freebackgrounds.com/" target="_blank" rel="noreferrer">freebackgrounds.com</a> - old backgrounds</li>
+                        <li><a href="https://gifer.com/" target="_blank" rel="noreferrer">gifer.com</a> - big gifs collection</li>
                         <li><a href="https://codesharing.neocities.org/" target="_blank" rel="noreferrer">codesharing.neocities.org</a> - some useful layouts</li>
                         <li><a href="https://www.cursors-4u.com/" target="_blank" rel="noreferrer">cursors-4u.com</a> - cool cursors collection</li>
                         <li><a href="http://www.rw-designer.com/cursor-library/set-0/" target="_blank" rel="noreferrer">rw-designer.com</a> - another cursors collection</li>
@@ -92,7 +93,7 @@ export function WebStuffPage() {
                         <a href="https://gifypet.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://gifypet.neocities.org/images/badge.gif" alt='' /></a>
                         <a href="https://murderscene.neocities.org/" target="_blank" rel="noreferrer"><img
-                            src="https://i.imgur.com/XqHNuji.png" alt='' /></a>
+                            src="https://files.catbox.moe/9kd628.gif" alt='' /></a>
                         <a href="https://shishka.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://shishka.neocities.org/shishka/img/shishka-decarabia.gif" alt='' /></a>
                         <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img

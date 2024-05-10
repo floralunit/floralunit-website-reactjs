@@ -121,7 +121,7 @@ div.vv17ch {
 }
 
 .head-container{
-    background-image: url("resources/smoke.gif");
+    background-image: url("../resources/images/smoke.gif");
     background-repeat: repeat;
     box-shadow: 0 0 20px black;
 }

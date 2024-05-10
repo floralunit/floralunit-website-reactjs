@@ -4,16 +4,20 @@ import "../../../common/styles/gallery.css";
 import { GalleryWithMusic, shuffle } from "../../../common/components/PhotoMusicGallery.js"
 import RadostMojaPhotos from '../../../common/jsons/RadostMojaPhotos.json';
 import "../../../common/styles/text-background.scss"
-import forest from './PVnW.gif'
-import {Pomnim} from "./pomnim.js"
-import { Thissadnesswilllastforever } from '../../components/thissadnesswilllastforever.js';
+import forest from '../../resources/images/dark-forest.jpg'
+import pain from '../../resources/images/PVnW.gif'
+import flowers from '../../resources/images/8_.gif'
+import { Pomnim } from "./pomnim.js"
 import Mrachneemrachnogo from './mrachneemrachnogo.js';
-import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
-import GlitchText from 'react-glitch-effect/core/GlitchText';
+import { UseScriptText } from '../../../common/components/UseScript.js';
+import { webamp } from '../../components/webamp/WebampMusic.js';
+import "../../styles/links-block.css"
+import { Link } from 'react-router-dom';
 
 export function RadostMojaPage() {
-    const [isLoaded, setIsLoaded] = useState(false);
+    UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_57', 283385573, 57,'ca51d3f2bdf4685776')");
+    webamp.close();
     const [photosRadost, setPhotosRadost] = useState([]);
     const musics = [
         { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146296601' },
@@ -76,11 +80,13 @@ export function RadostMojaPage() {
             const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight) {
-                document.documentElement.style.setProperty('--witch-main-background', `url(${forest})`);
+                document.documentElement.style.setProperty('--witch-main-background', `url(${pain})`);
             } else if (window.scrollY <= section1.offsetHeight + section2.offsetHeight / 3) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${WITCH_BACKGROUND})`);
+            } else if (window.scrollY <= section1.offsetHeight + section2.offsetHeight + section3.offsetHeight / 3) {
+                document.documentElement.style.setProperty('--witch-main-background', `url(${forest})`);
             } else {
-                document.documentElement.style.setProperty('--witch-main-background', `url(${WITCH2_BACKGROUND})`);
+                document.documentElement.style.setProperty('--witch-main-background', `url(${flowers})`);
             }
         };
 
@@ -94,371 +100,95 @@ export function RadostMojaPage() {
     return (
         <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
             <div className="crt"></div>
-            <section id='section1' style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
-            <hr />
-            <Pomnim />
-            <hr />
-            <br/>
+            <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <hr />
+                <Pomnim />
+                <hr />
+                <br />
                 <div className='text-background'>
-                    <p style={{ backgroundImage: `url(require("../../../common/styles/blood-forest.jpg"))`, fontFamily: 'Abbadon', letterSpacing: '25px' }}>Радость моя</p>
+                    <p style={{ backgroundImage: `url(require("../../resources/images/blood-forest.jpg"))`, fontFamily: 'Abbadon', letterSpacing: '25px' }}>Радость моя</p>
                 </div>
-                <br/>
-                <div style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
-                <GlitchSquiggly onHover={false}>
-                <img src={require('./radost.png')}
-                    style={{ width: '100px', margin: '0 auto' }} /> 
-                </GlitchSquiggly>
-                <Mrachneemrachnogo/>
-                <GlitchSquiggly onHover={false} >
-                <img src={require('./radostmoja-norm.png')}
-                    style={{ width: '100px', margin: '0 auto' }} /> 
-                </GlitchSquiggly>
+                <br />
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+                    <GlitchSquiggly onHover={false}>
+                        <img src={require('./radost.png')}
+                            style={{ width: '100px', margin: '0 auto' }} />
+                    </GlitchSquiggly>
+                    <Mrachneemrachnogo />
+                    <GlitchSquiggly onHover={false} >
+                        <img src={require('./radostmoja-norm.png')}
+                            style={{ width: '100px', margin: '0 auto' }} />
+                    </GlitchSquiggly>
                 </div>
-                <br/>
+                <Link style={{ textAlign: 'center', color: '#8a0303', fontSize: '15px' }} to="/witch-house">
+                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} />
+                    <span>&nbsp;back to witch page&nbsp;</span>
+                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} />
+                </Link>
+                <br />
             </section>
             <section id='section2' style={{ margin: '0 20px' }}>
                 <div className='photo-gallery'>
                     <GalleryWithMusic items={photosRadost} className='photo-gallery'></GalleryWithMusic>
                 </div>
             </section>
-<br/>
-            <section id='section3' style={{ margin: '0 50px', textAlign:'center' }}>
+            <br />
+            <section id='section3' style={{ margin: '0 50px', textAlign: 'center' }} >
                 <GlitchSquiggly>
-            <h5 style={{ color: 'white' }}>Прими́ за́писи неизве́стные,</h5>
-                <h5 style={{ color: 'white' }}>му́зыку отве́рженную,</h5>
-                <h5 style={{ color: 'white' }}>слова́ отречённые,</h5>
-                <h5 style={{color: 'white' }}>вечера́ потаённые.</h5>
+                    <h5 style={{ color: 'white' }}>Прими́ за́писи неизве́стные,</h5>
+                    <h5 style={{ color: 'white' }}>му́зыку отве́рженную,</h5>
+                    <h5 style={{ color: 'white' }}>слова́ отречённые,</h5>
+                    <h5 style={{ color: 'white' }}>вечера́ потаённые.</h5>
                 </GlitchSquiggly>
-                <div style={{display:'flex', flexDirection:'row', justifyContent:'center', color:'white', textDecoration:'none'}}>
-                    <a style={{margin:'0 10px'}} href="https://vk.com/radostmoja" target="_blank" rel="noreferrer">вконтакте</a>
-                    <a style={{margin:'0 10px'}} href="https://soundcloud.com/radostmoya" target="_blank" rel="noreferrer">soundcloud</a>
-                    <a style={{margin:'0 10px'}} href="https://radostimoja.tumblr.com/" target="_blank" rel="noreferrer">tumblr</a>
+                <div className='links-block'>
+                    <hr />
+                    <a style={{ margin: '0 10px' }} href="https://vk.com/radostmoja" target="_blank" rel="noreferrer">вконтакте</a>
+                    <hr />
+                    <a style={{ margin: '0 10px' }} href="https://soundcloud.com/radostmoya" target="_blank" rel="noreferrer">soundcloud</a>
+                    <hr />
+                    <a style={{ margin: '0 10px' }} href="https://radostmoja.bandcamp.com/" target="_blank" rel="noreferrer">bandcamp</a>
+                    <hr />
+                    <a style={{ margin: '0 10px' }} href="https://radostimoja.tumblr.com/" target="_blank" rel="noreferrer">tumblr</a>
+                    <hr />
                 </div>
-                <br/>
-                <div style={{display:'flex', flexDirection:'row', justifyContent:'center', flexWrap:'wrap'}}>
-                <>
-  <iframe
-    width={300}
-    height={300}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/14894453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoya"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoya/sets/tmh"
-      title="TMH"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      TMH
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={300}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/17922124&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoya"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoya/sets/nasheed"
-      title="Nasheed"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Nasheed
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={300}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/24255867&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoya"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoya/sets/volchok"
-      title="Volcok"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Volcok
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={300}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/38800757&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoya"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoya/sets/dryoma"
-      title="Drjoma"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Drjoma
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={450}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2466872&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoja"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoja/sets/wild-lovvers"
-      title="Wild lovvers"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Wild lovvers
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={450}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/3627373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoja"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoja/sets/vibe-girl"
-      title="Vibe girl"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Vibe girl
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={450}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/5817551&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoja"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoja/sets/vibe-boy"
-      title="Vibe boy"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Vibe boy
-    </a>
-  </div>
-  <iframe
-    width={300}
-    height={450}
-    scrolling="no"
-    frameBorder="no"
-    allow="autoplay"
-    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9190387&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-  />
-  <div
-    style={{
-      fontSize: 10,
-      color: "#cccccc",
-      lineBreak: "anywhere",
-      wordBreak: "normal",
-      overflow: "hidden",
-      whiteSpace: "nowrap",
-      textOverflow: "ellipsis",
-      fontFamily:
-        "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-      fontWeight: 100
-    }}
-  >
-    <a
-      href="https://soundcloud.com/radostmoja"
-      title="Radost Moja"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      Radost Moja
-    </a>{" "}
-    ·{" "}
-    <a
-      href="https://soundcloud.com/radostmoja/sets/wave"
-      title="V moih glazah"
-      target="_blank"
-      style={{ color: "#cccccc", textDecoration: "none" }}
-    >
-      V moih glazah
-    </a>
-  </div>
-</>
-
+                <br />
+                <div style={{ width: '500px', margin: '0 auto' }}>
+                    <div id="vk_playlist_283385573_57" style={{ width: '500px', margin: '0 auto' }}></div>
+                </div>
+                <br />
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <iframe width="500" height="300" style={{ margin: '10px' }} src="https://www.youtube.com/embed/YDYoWCIzlSM?si=Uiwi1TLxCAwg_Xhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239695&hd=2" width="500" height="300" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="500" height="300" style={{ margin: '10px' }} src="https://www.youtube.com/embed/Tkg7BgN-PSc?si=L7IZkgwQ3xNX9H-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+            <br />
+            <section id='section4' style={{ margin: '0 50px', textAlign: 'center' }} >
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2466872&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/3627373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/5817551&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9190387&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/14894453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/17922124&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/24255867&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/38800757&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                    />
                 </div>
             </section>
         </div>

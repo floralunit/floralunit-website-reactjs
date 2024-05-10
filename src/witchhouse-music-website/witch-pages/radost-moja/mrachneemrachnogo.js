@@ -53,7 +53,6 @@ const Mrachneemrachnogo = () => {
         <span className="fl y6" data-speed="0.6">т</span>
         <span className="fl y1" data-speed="0.15">е</span>
         <span className="fl y4" data-speed="0.4">м</span>
-        <span className="fl y2" data-speed="0.25">н</span>
         <span className="fl y5" data-speed="0.5">н</span>
         <span className="fl y2" data-speed="0.25">о</span>
         <span className="fl y3" data-speed="0.3">г</span>
@@ -109,7 +108,7 @@ const Mrachneemrachnogo = () => {
         <span className="fl y2" data-speed="0.25">с</span>
         <span className="fl y4" data-speed="0.4">с</span>
         <span className="fl y3" data-speed="0.3">и</span>
-        <span className="fl y3" data-speed="0.3">и</span>
+        <span className="fl y3" data-speed="0.6">и</span>
       </span>
   );
 };
