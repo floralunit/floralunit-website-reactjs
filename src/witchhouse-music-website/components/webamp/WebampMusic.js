@@ -14,7 +14,7 @@ import krishna from "./skins/hare_krishna.wsz";
 import react from "react";
 import "../../witch-main-page/WitchHousePage.css"
 import React from "react";
-import {ReactDOM} from "react";
+import ReactDOM from 'react-dom';
 
 if (!Webamp.browserIsSupported()) {
     alert("Oh no! Webamp does not work in this browser!");
