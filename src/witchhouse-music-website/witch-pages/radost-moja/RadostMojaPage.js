@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { GREEN_BACKGROUND, API_URL, RABBIT_BACKGROUND, WITCH1_BACKGROUND, WITCH2_BACKGROUND, WITCH_BACKGROUND, WITCH_MAIN_CURSOR, WITCH_POINTER_CURSOR } from '../../../global-const';
+import { WITCH_BACKGROUND, WITCH_MAIN_CURSOR, WITCH_POINTER_CURSOR } from '../../../global-const';
 import "../../../common/styles/gallery.css";
 import { GalleryWithMusic, shuffle } from "../../../common/components/PhotoMusicGallery.js"
 import RadostMojaPhotos from '../../../common/jsons/RadostMojaPhotos.json';
 import "../../../common/styles/text-background.scss"
 import forest from '../../resources/images/dark-forest.jpg'
 import pain from '../../resources/images/PVnW.gif'
-import flowers from '../../resources/images/8_.gif'
+import girls from '../../resources/images/girls.gif'
 import { Pomnim } from "./pomnim.js"
 import Mrachneemrachnogo from './mrachneemrachnogo.js';
 import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
@@ -86,7 +86,7 @@ export function RadostMojaPage() {
             } else if (window.scrollY <= section1.offsetHeight + section2.offsetHeight + section3.offsetHeight / 3) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${forest})`);
             } else {
-                document.documentElement.style.setProperty('--witch-main-background', `url(${flowers})`);
+                document.documentElement.style.setProperty('--witch-main-background', `url(${girls})`);
             }
         };
 
@@ -106,24 +106,24 @@ export function RadostMojaPage() {
                 <hr />
                 <br />
                 <div className='text-background'>
-                    <p style={{ backgroundImage: `url(require("../../resources/images/blood-forest.jpg"))`, fontFamily: 'Abbadon', letterSpacing: '25px' }}>Радость моя</p>
+                    <p className='text-background-radost' style={{ fontFamily: 'Abbadon', letterSpacing: '25px' }}>Радость моя</p>
                 </div>
                 <br />
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
                     <GlitchSquiggly onHover={false}>
                         <img src={require('./radost.png')}
-                            style={{ width: '100px', margin: '0 auto' }} />
+                            style={{ width: '100px', margin: '0 auto' }} alt='' />
                     </GlitchSquiggly>
                     <Mrachneemrachnogo />
                     <GlitchSquiggly onHover={false} >
                         <img src={require('./radostmoja-norm.png')}
-                            style={{ width: '100px', margin: '0 auto' }} />
+                            style={{ width: '100px', margin: '0 auto' }} alt='' />
                     </GlitchSquiggly>
                 </div>
                 <Link style={{ textAlign: 'center', color: '#8a0303', fontSize: '15px' }} to="/witch-house">
-                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} />
+                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} alt='' />
                     <span>&nbsp;back to witch page&nbsp;</span>
-                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} />
+                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} alt='' />
                 </Link>
                 <br />
             </section>
@@ -157,36 +157,36 @@ export function RadostMojaPage() {
                 </div>
                 <br />
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
-                    <iframe width="500" height="300" style={{ margin: '10px' }} src="https://www.youtube.com/embed/YDYoWCIzlSM?si=Uiwi1TLxCAwg_Xhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239695&hd=2" width="500" height="300" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="500" height="300" style={{ margin: '10px' }} src="https://www.youtube.com/embed/Tkg7BgN-PSc?si=L7IZkgwQ3xNX9H-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="500" height="300" style={{ margin: '10px' }} title='youtube' src="https://www.youtube.com/embed/YDYoWCIzlSM?si=Uiwi1TLxCAwg_Xhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239695&hd=2" title='vk' width="500" height="300" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="500" height="300" style={{ margin: '10px' }} title='youtube' src="https://www.youtube.com/embed/Tkg7BgN-PSc?si=L7IZkgwQ3xNX9H-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
                 </div>
             </section>
             <br />
             <section id='section4' style={{ margin: '0 50px', textAlign: 'center' }} >
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2466872&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/3627373&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/5817551&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="no" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9190387&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/14894453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/17922124&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/24255867&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
-                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay"
+                    <iframe width={300} height={300} style={{ margin: '10px' }} scrolling="yes" frameBorder="no" allow="autoplay" title='soundcloud'
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/38800757&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                     />
                 </div>

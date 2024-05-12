@@ -1,5 +1,5 @@
 .text-background p {
-    background-image: url("../../witchhouse-music-website/resources/images/blood-forest.gif");
+    //background-image: url("../../witchhouse-music-website/resources/images/blood-forest.gif");
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -12,6 +12,13 @@
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
     margin: 0 20px;
+}
+
+.text-background-radost {
+    background-image: url("../../witchhouse-music-website/resources/images/blood-forest.gif");
+}
+.text-background-tubfuck {
+    background-image: url("../../witchhouse-music-website/resources/images/blood.gif");
 }
 
 @media only screen and (max-width: 900px) {
