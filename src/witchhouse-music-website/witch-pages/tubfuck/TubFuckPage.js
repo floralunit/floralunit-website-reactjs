@@ -38,7 +38,6 @@ export function TubfuckPage() {
                 <span>&nbsp;back to witch page&nbsp;</span>
                 <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
             </Link>
-            <br />
             <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
                 <img className="remove-on-mobile" src={require("../../resources/images/angel2_l.png")} style={{ height: '450px', width: 'auto' }} alt='' />
                 <div style={{ width: '500px', margin: '20px' }}>
@@ -46,7 +45,6 @@ export function TubfuckPage() {
                 </div>
                 <img className="remove-on-mobile" src={require("../../resources/images/angel2.png")} style={{ height: '450px', width: 'auto' }} alt='' />
             </div>
-            <br />
             <div className='links-block'>
                 <hr />
                 <a style={{ margin: '0 10px' }} href="https://vk.com/xtubfuckx" target="_blank" rel="noreferrer">вконтакте</a>
