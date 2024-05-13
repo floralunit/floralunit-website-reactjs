@@ -44,12 +44,6 @@ export function WitchHousePage() {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-    const [showWebamp, setShowWebamp] = useState(true);
-
-    const disableWebamp = () => {
-        setShowWebamp(false);
-    };
-
 
     return (
         <div className="witch-house-page">
@@ -61,7 +55,7 @@ export function WitchHousePage() {
                 />
             </Helmet>
             <div className='crt'></div>
-            {showWebamp && <WebampMusic />}
+            <WebampMusic />
             <section className="info-section" id='section1'>
                 <div className="container">
                     <div className="head-container">
@@ -152,7 +146,7 @@ export function WitchHousePage() {
             <div className='container'>
 
                 <div className='info-text' style={{ color: 'red', textAlign: 'center', fontSize: '13px' }}>Здесь будут мои любимые и культовые исполнители. Добавлять их и оформлять странички буду по мере возможностей.
-                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 11.05.24 - добавлена страница по tvbfvck</span></div>
+                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 12.05.24 - добавлена страница по suicidewave</span></div>
 
             </div>
 
@@ -163,7 +157,7 @@ export function WitchHousePage() {
                             <div className='row'>
                                 <div className="row">
                                     <div className="column">
-                                        <Link to="radost-moja" onClick={disableWebamp}>
+                                        <Link to="radost-moja">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/radostmoja.png')} loading="lazy" className="s" alt='' />
@@ -183,7 +177,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="suicidewave">
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
                                                     <br /><br /><br />

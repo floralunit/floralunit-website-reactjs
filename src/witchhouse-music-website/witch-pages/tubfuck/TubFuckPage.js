@@ -33,14 +33,18 @@ export function TubfuckPage() {
                 <h5 style={{ color: 'white' }}>D R V G</h5>
                 <h5 style={{ color: 'white' }}>S H I T</h5>
             </GlitchSquiggly>
-            <Link style={{ textAlign: 'center', color: '#8a0303', fontSize: '15px' }} to="/witch-house">
-                <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} alt='' />
-                <span style={{ color: 'white' }}>&nbsp;back to witch page&nbsp;</span>
-                <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} alt='' />
+            <Link className='link-back' to="/witch-house">
+                <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ height: '15px' }} alt='' />
+                <span>&nbsp;back to witch page&nbsp;</span>
+                <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
             </Link>
             <br />
-            <div style={{ width: '500px', margin: '0 auto' }}>
-                <div id="vk_playlist_283385573_78" style={{ width: '500px', margin: '0 auto' }}></div>
+            <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
+                <img className="remove-on-mobile" src={require("../../resources/images/angel2_l.png")} style={{ height: '450px', width: 'auto' }} alt='' />
+                <div style={{ width: '500px', margin: '20px' }}>
+                    <div id="vk_playlist_283385573_78"></div>
+                </div>
+                <img className="remove-on-mobile" src={require("../../resources/images/angel2.png")} style={{ height: '450px', width: 'auto' }} alt='' />
             </div>
             <br />
             <div className='links-block'>

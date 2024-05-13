@@ -1,0 +1,1 @@
+export const photos = [{src:require('./1.webp')},{src:require('./2.webp')},{src:require('./3.webp')},{src:require('./4.webp')},{src:require('./5.webp')},{src:require('./6.webp')},{src:require('./7.webp')}];

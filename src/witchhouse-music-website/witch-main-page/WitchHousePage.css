@@ -129,3 +129,17 @@ div.vv17ch {
 .header-section{
 }
 
+.link-back{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.link-back img{
+    height: 15px;
+    width: auto;
+}
+.link-back:visited { color:white; } /* visited link */
+.link-back span:hover { 
+    color: #8a0303;
+    cursor: var(--pointer-cursor), pointer;
+} /* mouse over link */ 

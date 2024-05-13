@@ -100,7 +100,7 @@ export function RadostMojaPage() {
     return (
         <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
             <div className="crt"></div>
-            <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign:'center' }}>
                 <hr />
                 <Pomnim />
                 <hr />
@@ -120,10 +120,10 @@ export function RadostMojaPage() {
                             style={{ width: '100px', margin: '0 auto' }} alt='' />
                     </GlitchSquiggly>
                 </div>
-                <Link style={{ textAlign: 'center', color: '#8a0303', fontSize: '15px' }} to="/witch-house">
-                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} alt='' />
+                <Link className='link-back' style={{color: '#8a0303'}} to="/witch-house">
+                    <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ height: '15px' }} alt='' />
                     <span>&nbsp;back to witch page&nbsp;</span>
-                    <img src={require("../../../main-website/resources/pixels/HahVxiQ.gif")} style={{ width: '15px' }} alt='' />
+                    <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
                 </Link>
                 <br />
             </section>
