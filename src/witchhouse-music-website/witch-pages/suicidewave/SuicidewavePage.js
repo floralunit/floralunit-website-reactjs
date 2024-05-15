@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { WITCH_BACKGROUND, WITCH_MAIN_CURSOR, WITCH_POINTER_CURSOR } from '../../../global-const';
+import { WITCH_MAIN_CURSOR, WITCH_POINTER_CURSOR } from '../../../global-const';
 import "../../../common/styles/gallery.css";
 import { GalleryWithMusic, shuffle } from "../../../common/components/PhotoMusicGallery.js"
 import { photos } from './photos/photos.js';
 import "../../../common/styles/text-background.scss"
 import flowers from '../../resources/images/8_.gif'
 import anna from '../../resources/images/19_.gif'
-import pain from '../../resources/images/PVnW.gif'
-import girls from '../../resources/images/girls.gif'
 import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
 import { UseScriptText } from '../../../common/components/UseScript.js';
 import { webamp } from '../../components/webamp/WebampMusic.js';
@@ -61,7 +59,7 @@ export function SuicidewavePage() {
     }, []);
 
     return (
-        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', minWidth: '900px' }}>
             <div className="crt"></div>
             <br />
             <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
@@ -89,12 +87,12 @@ export function SuicidewavePage() {
                     <span>&nbsp;back to witch page&nbsp;</span>
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
                 </Link>
-                <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', maxWidth: '800px', margin: '0 auto' }}>
-                    <img className="remove-on-mobile" src={require("../../resources/images/angel3_l.png")} style={{ height: '450px', width: 'auto' }} alt='' />
-                    <div style={{ width: '500px', margin: '20px' }}>
+                <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
+                    <img src={require("../../resources/images/angel3_l.png")} style={{ height: '450px', width: 'auto' }} alt='' />
+                    <div style={{ width: '400px', margin: '20px' }}>
                         <div id="vk_playlist_283385573_67"></div>
                     </div>
-                    <img className="remove-on-mobile" src={require("../../resources/images/angel3.png")} style={{ height: '450px', width: 'auto' }} alt='' />
+                    <img src={require("../../resources/images/angel3.png")} style={{ height: '450px', width: 'auto' }} alt='' />
                 </div>
             </section>
             <section id='section2' style={{ textAlign: 'center' }} >

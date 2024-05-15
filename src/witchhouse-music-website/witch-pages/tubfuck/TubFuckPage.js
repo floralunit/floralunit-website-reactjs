@@ -39,11 +39,11 @@ export function TubfuckPage() {
                 <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
             </Link>
             <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
-                <img className="remove-on-mobile" src={require("../../resources/images/angel2_l.png")} style={{ height: '450px', width: 'auto' }} alt='' />
-                <div style={{ width: '500px', margin: '20px' }}>
+                <img src={require("../../resources/images/angel2_l.png")} style={{ width: '15%' }} alt='' />
+                <div style={{ width: '40%', margin: '20px' }}>
                     <div id="vk_playlist_283385573_78"></div>
                 </div>
-                <img className="remove-on-mobile" src={require("../../resources/images/angel2.png")} style={{ height: '450px', width: 'auto' }} alt='' />
+                <img src={require("../../resources/images/angel2.png")} style={{ width: '15%' }} alt='' />
             </div>
             <div className='links-block'>
                 <hr />
