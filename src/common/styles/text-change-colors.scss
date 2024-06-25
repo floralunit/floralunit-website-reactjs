@@ -1,25 +1,41 @@
-.animate-charcter
+.animate-charcter, .sco-animate, .back-to-witch
 {
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 190px;
 }
+
+.sco-animate {
+  background-image: linear-gradient(
+    -225deg,
+    #ffffff 0%,
+    #eb6e63 29%,
+    #8b0000 45%,
+    #eb6e63 67%,
+    #ffffff 100%,
+  );
+  color: #fff;
+  font-size: 150px;
+  text-transform: uppercase;
+}
+
+.back-to-witch {
+  background-image: linear-gradient(
+    -225deg,
+    #8b0000 0%,
+    white 50%,
+    #8b0000 100%,
+  );
+  color: #fff;
+  font-size: 15px;
+}
+
 
 @keyframes textclip {
   to {

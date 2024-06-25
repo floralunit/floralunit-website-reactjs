@@ -18,6 +18,7 @@ import {
 import { UseScriptText } from '../../common/components/UseScript';
 
 export function WitchHousePage() {
+    document.documentElement.style.setProperty('--witch-main-background', `url(${WITCH_BACKGROUND})`);
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#4d0000');
@@ -29,7 +30,7 @@ export function WitchHousePage() {
             const section1 = document.getElementById("section1");
             const section2 = document.getElementById("section2");
 
-            if (window.scrollY <= section1.offsetHeight + section2.offsetHeight) {
+            if (window.scrollY <= section1.offsetHeight + section2.offsetHeight - section2.offsetHeight / 3) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${WITCH_BACKGROUND})`);
             } else {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${NOISE_BACKGROUND})`);
@@ -144,7 +145,7 @@ export function WitchHousePage() {
             <div className='container'>
 
                 <div className='info-text' style={{ color: 'red', textAlign: 'center', fontSize: '13px' }}>Здесь будут мои любимые и культовые исполнители. Добавлять их и оформлять странички буду по мере возможностей.
-                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 14.05.24 - добавлена страница по etalybovb и tebenrae</span></div>
+                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 25.06.24 - добавлена страница по cain и sco</span></div>
 
             </div>
 
@@ -165,7 +166,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="cain">
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/cain.png')} loading="lazy" className="l" alt='' />
@@ -209,7 +210,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="scowitchboy">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/sco.png')} loading="lazy" className="s" alt='' />

@@ -152,9 +152,13 @@ export function RadostMojaPage() {
                     <hr />
                 </div>
                 <br />
-                <div style={{ width: '500px', margin: '0 auto' }}>
-                    <div id="vk_playlist_283385573_57" style={{ width: '500px', margin: '0 auto' }}></div>
+                <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row' }}>
+                <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '200px', width: 'auto', margin:'100px 0' }} alt='' />
+                <div style={{ width: '400px', margin: '20px' }}>
+                    <div id="vk_playlist_283385573_57"></div>
                 </div>
+                <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '200px', width: 'auto', margin:'100px 0',transform: 'rotate(180deg)'}} alt='' />
+            </div>
                 <br />
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
                     <iframe width="500" height="300" style={{ margin: '10px' }} title='youtube' src="https://www.youtube.com/embed/YDYoWCIzlSM?si=Uiwi1TLxCAwg_Xhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

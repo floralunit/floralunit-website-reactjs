@@ -12,3 +12,20 @@
     color: #8a0303;
     cursor: var(--pointer-cursor), pointer;
 } /* mouse over link */ 
+
+.links-block-background {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+.links-block-background a{
+    background-color: white;
+}
+.links-block-background a:visited { color:black; } /* visited link */
+.links-block-background a:hover { 
+    text-decoration: underline;
+    color: #8a0303;
+    cursor: var(--pointer-cursor), pointer;
+} /* mouse over link */ 

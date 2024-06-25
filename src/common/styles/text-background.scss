@@ -32,9 +32,19 @@
     background-image: url("../../witchhouse-music-website/resources/images/blood.gif");
     font-size: 120px;
 }
+.text-background-cain {
+    background-image: url("../../witchhouse-music-website/resources/images/water.gif");
+    font-size: 220px;
+}
 @media only screen and (max-width: 900px) {
-    .text-background p {
+    .text-background-radost, .text-background-tubfuck {
         font-size: 60px;
+    }
+    .text-background-cain {
+        font-size: 130px;
+    }
+    .text-background-cain .text-rotated{
+        font-size: 130px;
     }
     .text-rotated{
         font-size: 60px;

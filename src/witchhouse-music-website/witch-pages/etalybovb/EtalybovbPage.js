@@ -44,10 +44,10 @@ export function EtalybovbPage() {
             </div>
             <br />
             <Link className='link-back' to="/witch-house">
-                <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ height: '15px' }} alt='' />
-                <span>&nbsp;back to witch page&nbsp;</span>
-                <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
-            </Link>
+                    <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ height: '15px' }} alt='' />
+                    <span>&nbsp;back to witch page&nbsp;</span>
+                    <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
+                </Link>
             <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row' }}>
                 <img src={require("../../resources/images/fairy_l.png")} style={{ height: '400px', width: 'auto' }} alt='' />
                 <div style={{ width: '400px', margin: '20px' }}>
