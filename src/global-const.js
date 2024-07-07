@@ -80,5 +80,7 @@ export const WITCH_MAIN_CURSOR = require('./common/cursors/red.cur');
 export const WITCH_POINTER_CURSOR = require('./common/cursors/red_select.cur');
 export const MEME_CURSOR = require('./common/cursors/smi211.cur');
 export const HINDU_CURSOR = require('./common/cursors/sym442.cur');
+export const FACE1_CURSOR = require('./common/cursors/smi310.cur');
+export const FACE2_CURSOR = require('./common/cursors/smi213.cur');
 
 export const API_URL = 'https://floral-unit.is-probably.gay';

@@ -9,6 +9,9 @@ import {TbArrowBackUp} from 'react-icons/tb';
 import {SongLyrics} from "../../components/SongLyrics"
 import songsData from './songs-lyrics.json';
 import {NavLink} from "react-router-dom";
+import "../../styles/tabs.scss"
+import "../../styles/list.css"
+import "../../styles/columns.css"
 
 
 export function BobTilton() {

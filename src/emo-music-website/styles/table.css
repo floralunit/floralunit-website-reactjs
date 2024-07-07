@@ -1,12 +1,8 @@
 .table{
-    display: table;
-    margin: 0 auto;
     font-family: Georgia, serif;
-    font-size: 14px;
+    font-size: 11px;
 }
-div>table {
-    float: left;
-}
+
 /*Заголовок*/
 .tdUp{
     text-align: left;
@@ -25,12 +21,24 @@ div>table {
     font-family: Verdana, serif;
     color: #000000;
 }
+.text-under-table{
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 200px;
+    font-family: dot;
+}
+
+.image-container img {
+    width: 200px;
+    height: 60px;
+}
+
 @media (max-width: 1400px) {
-    .table-view{
+    /* .table-view{
         position: relative;
-    }
+    } */
     .table{
-        width: 400px;
+        width: 250px;
         margin:0 auto;
         text-align: center;
         top: 0px;
@@ -40,14 +48,18 @@ div>table {
     }
     div>table {
         margin-bottom: 5%;
-        font-size: 20px;
+        font-size: 13px;
     }
     /*Заголовок*/
     .tdUp{
-        width: 400px;
+        width: 250px;
     }
     /*Обычные ячейки*/
     .tdLow {
-        width: 400px;
+        width: 250px;
+    }
+    .image-container img {
+        width: 250px;
+        height: 75px;
     }
 }

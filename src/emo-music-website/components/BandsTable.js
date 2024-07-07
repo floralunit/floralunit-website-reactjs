@@ -1,16 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/table.css';
 import {NavLink} from "react-router-dom";
 
 export function BandsTable() {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const images = [
+      require('../resources/1075635dgyffglujq.gif'),
+      require('../resources/2262901rwibupnb4y.jpg')
+    ];
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+      }, 1000);
+  
+      return () => clearInterval(interval);
+    }, [images]);
     return (
-        <div className="table-view">
+        <div className="table-view" style={{margin:'0 7px'}}>
         <div className="table">
+            <div style={{display:'flex', flexDirection:'column'}}>
+            <br/>
+            <br/>
+            <img src={require('../resources/1075632lcq9x9tnqv.jpg')} alt={''} style={{margin:'0 auto', width:'200px', textAlign:'center' }} />
+            </div>
             <table>
                 <tbody>
                 <tr>
                     <td className="tdUp">
-                        <p align="center"><b>Эмо 90-х</b></p></td>
+                        <p align="center"><b>emo 90s</b></p></td>
                 </tr>
                 <tr>
                     <td className="tdLow">
@@ -19,112 +37,144 @@ export function BandsTable() {
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>I Hate Myself</NavLink>
+                        <NavLink >Everyone Asked About You</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Mineral</NavLink>
+                        <NavLink >I Hate Myself</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Kolya</NavLink>
+                        <NavLink >Neil Perry</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Sleeping for Sunrise</NavLink>
+                        <NavLink >Strictly Ballroom</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Neil Perry</NavLink>
+                        <NavLink >Sunny Day Real Estate</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>You And I</NavLink>
-                    </td>
-                </tr>
-                <tr>
-                    <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Yaphet Kotto</NavLink>
+                        <NavLink >Yaphet Kotto</NavLink>
                     </td>
                 </tr>
                 </tbody>
             </table>
+            <br/>
             <table>
                 <tbody>
                 <tr>
                     <td className="tdUp">
-                        <p align="center"><b>Мидвест-эмо</b></p></td>
+                        <p align="center"><b>midwest emo</b></p></td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>American Football</NavLink>
+                        <NavLink >American Football</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Camping in Alaska</NavLink>
+                        <NavLink >Camping in Alaska</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Marietta</NavLink>
+                        <NavLink >I Hate Sex</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Tiny Moving Parts</NavLink>
+                        <NavLink >Old Gray</NavLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="tdLow">
+                        <NavLink >Reasons</NavLink>
                     </td>
                 </tr>
                 </tbody>
             </table>
+            <br/>
             <table>
                 <tbody>
                 <tr>
                     <td className="tdUp">
-                        <p align="center"><b>Русское эмо</b></p></td>
+                        <p align="center"><b>russian emo</b></p></td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Bird Bone</NavLink>
+                        <NavLink >30 дней февраля</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>botanichesky sad</NavLink>
+                        <NavLink >6000000000себя</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>hay king</NavLink>
+                        <NavLink >Bird Bone</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>состояние птиц</NavLink>
+                        <NavLink >botanichesky sad</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>это</NavLink>
+                        <NavLink >Kashtanka</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>флорист</NavLink>
+                        <NavLink >EORA</NavLink>
                     </td>
                 </tr>
                 </tbody>
             </table>
+            <br/>
             <table>
                 <tbody>
                 <tr>
                     <td className="tdUp">
-                        <p align="center"><b>Остальное</b></p></td>
+                        <p align="center"><b>skramz</b></p></td>
+                </tr>
+                <tr>
+                    <td className="tdLow">
+                        <NavLink >Asthenia</NavLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="tdLow">
+                        <NavLink >Orchid</NavLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="tdLow">
+                        <NavLink >Daïtro</NavLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="tdLow">
+                        <NavLink >Love Lost But Not Forgotten</NavLink>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <br/>
+            {/* <table>
+                <tbody>
+                <tr>
+                    <td className="tdUp">
+                        <p align="center"><b>other</b></p></td>
                 </tr>
                 <tr>
                     <td className="tdLow">
@@ -137,7 +187,17 @@ export function BandsTable() {
                     </td>
                 </tr>
                 </tbody>
-            </table>
+            </table> */}
+            <div className="image-container">
+      <img src={images[currentImageIndex]} alt="Current Image" />
+      <br/><br/>
+    </div>
+    <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column' }}>
+                        <img src={require('../../common/my-button/floralunit-button.gif')}
+                            style={{ width: '88px', height: '31px', margin: '0 auto' }} alt='' />
+
+                            <a href='https://floralunit.vercel.app/' target="_blank" rel="noreferrer"><div className='witch-link-small'>floralunit world <br /><pupa style={{ fontFamily: 'arial' }}> 𓆩♡𓆪</pupa></div></a>
+                    </div>
         </div>
         </div>
     );

@@ -1,0 +1,142 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainPage, .bands {
+  background-image: url("../emo-main-page/images/background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #000;
+  font-size: 13px;
+}
+.mainPage {
+  background-image: url("../emo-main-page/images/background.jpg");
+}
+.bands {
+  background-image: url("../emo-bands/back_band.jpeg");
+/*  background-image: url("https://fauux.neocities.org/LainLove.gif");*/
+}
+.stickers-block img{
+width: 75px;
+height: 75px;
+margin: 4px;
+margin-bottom: 0;
+}
+
+
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #8a0303;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.albumList {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+.albumList:hover{
+  transform: scale(1.1);
+}
+
+
+
+:root {
+  --text-color: #222222;
+  --surface: #c0c0c0;
+  --button-highlight: #ffffff;
+  --button-face: #dfdfdf;
+  --button-shadow: #808080;
+  --window-frame: #0a0a0a;
+  --dialog-blue: #000;
+  --dialog-blue-light: #808080;
+  --dialog-gray: #808080;
+  --dialog-gray-light: #b5b5b5;
+  --link-blue: #0000ff;
+
+  /* Borders */
+  --border-width: 1px;
+
+  /* Window borders flip button-face and button-highlight */
+  --border-window-outer: inset -1px -1px var(--window-frame),
+    inset 1px 1px var(--button-face);
+  --border-window-inner: inset -2px -2px var(--button-shadow),
+    inset 2px 2px var(--button-highlight);
+
+  /* Field borders (checkbox, input, etc) flip window-frame and button-shadow */
+  --border-field: inset -1px -1px var(--button-highlight),
+    inset 1px 1px var(--button-shadow), inset -2px -2px var(--button-face),
+    inset 2px 2px var(--window-frame);
+}
+
+.window {
+  box-shadow: var(--border-window-outer), var(--border-window-inner);
+  background: var(--surface);
+  padding: 3px;
+  font-family: "Pixel Sans Serif Condensed", Arial;
+  font-size: 11px;
+}
+
+.title-bar {
+  background: linear-gradient(
+    90deg,
+    var(--dialog-blue),
+    var(--dialog-blue-light)
+  );
+  padding: 3px 2px 3px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar.inactive {
+  background: linear-gradient(
+    90deg,
+    #808080,
+    #b5b5b5
+  );
+}
+
+.title-bar-text {
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0;
+  margin-right: 24px;
+}
+
+.window-body {
+  margin: 8px;
+}
+
+@media (max-width: 1000px) {
+  .data {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .header {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .back-link {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+  }
+}
