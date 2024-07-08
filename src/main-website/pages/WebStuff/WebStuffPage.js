@@ -26,7 +26,7 @@ export function WebStuffPage() {
                     src="https://spiritcellar.neocities.org/images/badges/aseprite.png" alt="" /></a>
                 <img src="https://dimden.dev/images/buttons/win95.gif" alt='' />
                 <img src="https://zanarkand.neocities.org/foryou/fubutton27.gif" alt='' />
-                <img src="https://zanarkand.neocities.org/foryou/fubutton39.gif" alt='' />
+                <img src="https://zanarkand.neocities.org/foryou/fubutton39.gif" alt='' /> 
             </marquee>
             <div
                 style={{ fontSize: "xx-small", margin: '0', padding: '0', textAlign: 'center' }}>
