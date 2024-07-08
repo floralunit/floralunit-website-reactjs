@@ -24,9 +24,11 @@ export function EmoPage() {
                 <div style={{ width: '520px' }}>
                     <br />
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/168.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '7px' }} />
-                        <img src={require('../resources/1487294y2xy3722r9.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '7px' }} />
-                        <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '7px' }} />
+                        <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
+                        <img src={require('../resources/168.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
+                        <img src={require('../resources/1487294y2xy3722r9.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
+                        <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
+                        <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
                     <div class="window" style={{ width: '520px', height: '500px', overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
@@ -71,7 +73,7 @@ export function EmoPage() {
                                 <b>Screamo</b><br />
                                 Screamo (также известный как skramz) - это агрессивный поджанр emocore, который возник в начале 1990-х годов и подчеркивает «умышленно экспериментальный диссонанс и динамику».
                                 Screamo находится под сильным влиянием хардкор-панка и характеризуется использованием кричащего вокала. Лирические темы обычно включают эмоциональную боль, смерть, романтику и права человека.
-                                <br></br><br/>
+                                <br></br><br />
                                 <p style={{ color: '#8a0303' }}>
                                     (\____/) This is my emo bunny!<br />
                                     (=//_'=) Fuck the normal bunny (eh,he's still cool), use this one!<br />
@@ -83,7 +85,7 @@ export function EmoPage() {
                                 <br />
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
                                     <div style={{ width: '400px', margin: '0 auto', textAlign: 'center' }}>
-                                    <div id="vk_playlist_283385573_50" ></div>
+                                        <div id="vk_playlist_283385573_50" ></div>
                                     </div>
                                     <img src={require('../resources/674953ulnnugdq1c.gif')} alt={''} style={{ width: '170px', margin: '0 auto', textAlign: 'center' }} />
                                 </div>

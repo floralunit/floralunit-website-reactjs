@@ -1,0 +1,82 @@
+.bands {
+    background-image: url("../emo-main-page/images/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 13px;
+    min-height: 100vh;
+    min-width: 1000px;
+    color:#cccccc;
+    font-family: "Comic Sans MS", serif;
+  }
+
+  .bob-tilton {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+    ),url("../resources/backgrounds/779178s6a463k6o1.jpg")
+  }
+  .bands-container{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .bands-data {
+    background: #141414;
+    border-style: groove;
+    border-color: black;
+    border-width: 3px;
+   text-align: justify;
+  }
+
+  .bands-data h3 {
+    font-family: "Arial Black", serif;
+    text-decoration:underline;
+  }
+  .header {
+    text-align: justify;
+    background: #141414;
+    border-style: groove;
+    border-color: black;
+    border-width: 3px;
+    padding: 20px;
+    color:#cccccc;
+  }
+  #head{
+    font-family: "Arial Black", serif;
+    font-size: 25px;
+    color: #FCF97AFF;
+  }
+
+  .albumList {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .image-gallery-bands{
+    width: 500px;
+    margin: 20px auto;
+  }
+  .albumList:hover{
+    transform: scale(1.01);
+  }
+
+  .Parent {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .child1 {
+    width: 50%;
+  }
+  
+  .child2 {
+    width: 50%;
+    padding: 20px;
+  }
+
+  @media (max-width: 1000px) {
+    .image-gallery-bands{
+      width: 400px;
+      margin: 40px auto;
+    }
+  }

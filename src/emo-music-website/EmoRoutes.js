@@ -6,7 +6,7 @@ import {EmoPage} from "./emo-main-page/EmoPage";
 export function EmoRoutes() {
 
     return (
-        <div className="">
+        <div>
             <Routes>
                 <Route path='' element={<EmoPage/>}/>
                 <Route path='bob-tilton' element={<BobTilton/>}/>

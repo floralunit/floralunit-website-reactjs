@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.mainPage, .bands {
+.mainPage {
   background-image: url("../emo-main-page/images/background.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
@@ -14,10 +14,6 @@
 }
 .mainPage {
   background-image: url("../emo-main-page/images/background.jpg");
-}
-.bands {
-  background-image: url("../emo-bands/back_band.jpeg");
-/*  background-image: url("https://fauux.neocities.org/LainLove.gif");*/
 }
 .stickers-block img{
 width: 75px;
@@ -44,16 +40,6 @@ a:hover {
 a:active {
   color: #ffffff;
   text-decoration: none;
-}
-
-.albumList {
-  display: flex;
-  align-items: center;
-  margin: 5px;
-  cursor: pointer;
-}
-.albumList:hover{
-  transform: scale(1.1);
 }
 
 
