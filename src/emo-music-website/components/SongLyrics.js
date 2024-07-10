@@ -20,10 +20,10 @@ export const SongLyrics = ({ song }) => {
             {song && (
                 <>
                     <div>
-                        <h3 className={'albumList'}>
+                        <h2 className={'albumList'}>
                             <img src={'https://dannarchy.com/misc/anim/1366.gif'} style={{ height: "auto", width: '20px' }} alt={''} />
                             &nbsp;{song.name}
-                        </h3>
+                        </h2>
                         <span style={{ marginLeft: '33px' }}>{song.artist}</span>
                         <br /> <br />
                         <iframe width="100%" height="80" title='soundcloud' frameborder="no" allow="autoplay" src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${song.soundcloudId}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}></iframe>

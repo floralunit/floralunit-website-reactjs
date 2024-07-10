@@ -30,7 +30,7 @@ export function EmoPage() {
                         <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
-                    <div class="window" style={{ width: '520px', height: '500px', overflowY: 'scroll', textAlign: 'justify' }}>
+                    <div class="window" style={{ width: '520px', height: '550px', overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
                             <div class="title-bar-text">О жанре</div>
                         </div>
@@ -88,9 +88,10 @@ export function EmoPage() {
                                         <div id="vk_playlist_283385573_50" ></div>
                                     </div>
                                     <img src={require('../resources/674953ulnnugdq1c.gif')} alt={''} style={{ width: '170px', margin: '0 auto', textAlign: 'center' }} />
+                                    <br/>
+                                    <iframe style={{margin:'0 auto'}} width="460" height="280" src="https://www.youtube.com/embed/82MityMc0zw?si=EBuEofJ3VCg_N8pL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <br></br>
-
                             </div>
                         </div>
                     </div>

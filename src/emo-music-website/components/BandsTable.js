@@ -35,32 +35,32 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Everyone Asked About You</NavLink>
+                                <NavLink to="everyone-asked-about-you">Everyone Asked About You</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >I Hate Myself</NavLink>
+                                <NavLink to="i-hate-myself">I Hate Myself</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Neil Perry</NavLink>
+                                <NavLink >Neil Perry (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Strictly Ballroom</NavLink>
+                                <NavLink >Strictly Ballroom (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Sunny Day Real Estate</NavLink>
+                                <NavLink >Sunny Day Real Estate (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Yaphet Kotto</NavLink>
+                                <NavLink >Yaphet Kotto (x)</NavLink>
                             </td>
                         </tr>
                     </tbody>
@@ -74,27 +74,27 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >American Football</NavLink>
+                                <NavLink >American Football (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Camping in Alaska</NavLink>
+                                <NavLink >Camping in Alaska (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >I Hate Sex</NavLink>
+                                <NavLink >I Hate Sex (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Old Gray</NavLink>
+                                <NavLink >Old Gray (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Reasons</NavLink>
+                                <NavLink >Reasons (x)</NavLink>
                             </td>
                         </tr>
                     </tbody>
@@ -108,32 +108,32 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >30 дней февраля</NavLink>
+                                <NavLink to="30-dnej-fevralya">30 дней февраля</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >6000000000себя</NavLink>
+                                <NavLink to="6000000000sebya">6000000000себя</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Bird Bone</NavLink>
+                                <NavLink >Bird Bone (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >botanichesky sad</NavLink>
+                                <NavLink >botanichesky sad (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Kashtanka</NavLink>
+                                <NavLink >Kashtanka (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >EORA</NavLink>
+                                <NavLink >EORA (x)</NavLink>
                             </td>
                         </tr>
                     </tbody>
@@ -147,22 +147,22 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Asthenia</NavLink>
+                                <NavLink >Asthenia (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Orchid</NavLink>
+                                <NavLink >Orchid (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Daïtro</NavLink>
+                                <NavLink >Daïtro (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Love Lost But Not Forgotten</NavLink>
+                                <NavLink >Love Lost But Not Forgotten (x)</NavLink>
                             </td>
                         </tr>
                     </tbody>
@@ -185,7 +185,7 @@ export function BandsTable() {
                 </tr>
                 </tbody>
             </table> */}
-                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#8a0303' }}>Last upd: 09.07.24</span>
+                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{fontWeight:'bold'}}>Last upd: 10.07.24</span> - добавлены I Hate Myself, Everyone Asked About You, 30 дней февраля, 6000000000себя</span>
                 <br /><br />
                 <div className="image-container">
                     <img src={images[currentImageIndex]} alt="Current Image" />

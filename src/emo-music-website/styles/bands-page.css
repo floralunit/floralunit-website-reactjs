@@ -15,6 +15,31 @@
         rgba(0, 0, 0, 0.8)
     ),url("../resources/backgrounds/779178s6a463k6o1.jpg")
   }
+  .everyone-asked{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+  ),url("../resources/backgrounds/2925363ceetq52go8.jpg")
+  }
+  .thirty-days{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+  ),url("../resources/backgrounds/1326210mmth24etwa.jpg")
+  }
+  .sixsebya{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+  ),url("../resources/backgrounds/1583992inyi70a6gb.jpg")
+  }
+  .i-hate-myself{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+  ),url("../resources/backgrounds/back_band.jpeg")
+  }
+
   .bands-container{
     width: 1000px;
     margin: 0 auto;
