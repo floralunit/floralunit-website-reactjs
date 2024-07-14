@@ -12,7 +12,7 @@ import { SongLyrics } from "../../components/SongLyrics"
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 
-export function EveryoneAskedAboutYou() {
+export function OldGray() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
@@ -49,36 +49,44 @@ export function EveryoneAskedAboutYou() {
         setIsShownSongs4(current => !current);
         setOpen4(open => !open);
     };
+    const [isShownSongs5, setIsShownSongs5] = useState(false);
+    const [open5, setOpen5] = useState(false);
+    const handleClickShowSongs5 = () => {
+        setIsShownSongs5(current => !current);
+        setOpen5(open => !open);
+    };
+    const [isShownSongs6, setIsShownSongs6] = useState(false);
+    const [open6, setOpen6] = useState(false);
+    const handleClickShowSongs6 = () => {
+        setIsShownSongs6(current => !current);
+        setOpen6(open => !open);
+    };
 
     const images = [
         {
-            original: require('./images/everyoneasked1.webp'),
-            thumbnail: require('./images/everyoneasked1.webp'),
+            original: require('./images/oldgray2.webp'),
+            thumbnail: require('./images/oldgray2.webp'),
         },
         {
-            original: require('./images/everyoneasked2.webp'),
-            thumbnail: require('./images/everyoneasked2.webp'),
+            original: require('./images/oldgray3.webp'),
+            thumbnail: require('./images/oldgray3.webp'),
         },
         {
-            original: require('./images/everyoneasked3.webp'),
-            thumbnail: require('./images/everyoneasked3.webp'),
+            original: require('./images/oldgray1.webp'),
+            thumbnail: require('./images/oldgray1.webp'),
         },
         {
-            original: require('./images/everyoneasked4.webp'),
-            thumbnail: require('./images/everyoneasked4.webp'),
+            original: require('./images/oldgray4.webp'),
+            thumbnail: require('./images/oldgray4.webp'),
         },
         {
-            original: require('./images/everyoneasked5.webp'),
-            thumbnail: require('./images/everyoneasked5.webp'),
-        },
-        {
-            original: require('./images/everyoneasked6.webp'),
-            thumbnail: require('./images/everyoneasked6.webp'),
+            original: require('./images/oldgray5.webp'),
+            thumbnail: require('./images/oldgray5.webp'),
         },
     ];
 
     return (
-        <div className="bands everyone-asked">
+        <div className="bands old-gray">
             <div className='bands-container'>
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
@@ -89,12 +97,14 @@ export function EveryoneAskedAboutYou() {
                     </Link>
                 </div>
                 <div className="header">
-                    <h id="head">Everyone Asked About You</h>
+                    <h id="head">Old Gray</h>
                     <br />
                     <hr />
-                    <b> Жанры: </b> emo, emo 90s, midwest emo, indie rock <br />
-                    <b> Годы активности: </b> 1996–2000 (4 года), 2022-present <br />
-                    <b> Место основания: </b> Little Rock, Arkansas, U.S <br />
+                    <b> Жанры: </b> emo, midwest emo, twinkly <br />
+                    <b> Годы активности: </b> 2011-2018 (7 лет) <br />
+                    <b> Место основания: </b> Hooksett, New Hampshire, U.S. <br />
+                    <b> Лейбл: </b> Flower Girl Records <br />
+                    <b><a style={{ textDecoration: 'underline' }} href="https://oldgray.bandcamp.com/" target="_blank" rel="noreferrer">bandcamp</a></b>
                 </div>
                 <div className="data">
                     <br />
@@ -123,12 +133,9 @@ export function EveryoneAskedAboutYou() {
                                         <div>
                                             <h3> Состав </h3>
                                             <ol className="rectangle">
-                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Hannah Vogan</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Chris Sheppard</li>
-                                                <li> <img src={require('../../resources/instruments-images/synthesizer.png')} className={'instrument-image'} alt={''} /> John Beachboard</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Collins Kilgore</li>
-                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Matt Bradley</li>
-                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Lee Buford</li>
+                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Cameron Boucher</li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Adam Ackerman</li>
+                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Charlie Singer</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -140,13 +147,12 @@ export function EveryoneAskedAboutYou() {
                                 </div>
                                 <h3> Биография </h3>
                                 <br />
-                                "Everyone Asked About You" - американская эмо-группа из Литл Рок, Арканзас. Они были образованы в 1996 году. Название группы происходит из детской книги с таким же названием, написанной Теодором Фаро Гроссом и Шейлой Уайт Сэмтон. Группа воссоединилась в 2022 году после переиздания материала группы через Numero Group, за которым последовал выпуск их первого нового альбома за 25 лет - альбома "Never Leave".
+                                Old Gray - американская эмо-группа из Хуксетта и Оберна, штат Нью-Гэмпшир.
                                 <br /><br />
-                                Группа записала только один альбом и три EP (один из которых был совместным с The Shyness Clinic) в 1997 и 1998 годах. В первые годы существования они были малоизвестны, но привлекли внимание позже благодаря успеху их дебютного самоназванного EP, который отличался своим уникальным звучанием от других эмо-групп благодаря смешению с инди-попом. Во время своего первоначального существования они отправились в тур летом 1999 года. Их последнее выступление в первоначальном составе состоялось 26 февраля 2000 года в Clunk Music Hall в Фейетвилле, Арканзас, вместе с Les Savy Fav.
+                                Old Gray начали свою деятельность в 2011 году. Группа была образована Кэмероном Баучером, Чарли Сингером, Зейном Макдэниелом и Рафаэлем Бастеком. В 2013 году Баучер сформировал панк-группу Sorority Noise, в которой позже появился Сингер. Из-за заметного роста популярности Sorority Noise, Old Gray часто приходилось подолгу бездействовать, чтобы дать несколько разовых концертов. С тех пор они выпустили два полноформатных альбома, три мини-альбома, шесть сплитов и два сингла. Их дебютный альбом An Autobiography был выпущен в 2013 году. Их второй полноформатный альбом Slow Burn был выпущен 9 декабря 2016 года на лейбле Boucher's Flower Girl Records.
                                 <br /><br />
-                                После распада группы Ли Буфорд, игравший на ударных, создал группу The Body. Джон Бичборд и Коллинс Килгор основали группу American Princes.
-                                <br /><br />
-                                В 2022 году Numero Group объявили о переиздании дискографии группы. Материал был выпущен в виде двойного альбома в 2023 году под названием "Paper Airplanes, Paper Hearts", названного в честь песни из их дебютного EP. Группа также начала давать концерты, начав с официального родного города и выступления на фестивале Numero Twenty. 3 июня 2024 года группа представила новую песню из пост-воссоединенческих сессий под названием "We're All Losing It", написанную во время солнечного затмения и записанную в ту же неделю. 25 июня была анонсирована вторая песня "A Vigil", а также формальное объявление о выпуске EP "Never Leave" 5 августа.
+                                В апреле 2018 года группа объявила о своих финальных концертах, но отменила их из-за психологического состояния Буше после того, как третья сторона заявила, что их друг подвергся сексуальному насилию. В декабре 2018 года эти утверждения были опровергнуты в совместном сообщении как Баучера, так и заинтересованного лица, заявив, что "на них было оказано давление, чтобы они сделали это заявление" и что "все, что произошло, не было целенаправленным или злонамеренным".
+
                             </div>
                         </div>
                         <div
@@ -158,13 +164,13 @@ export function EveryoneAskedAboutYou() {
                                     <ul type="none">
                                         <li>
                                             <div onClick={handleClickShowSongs1} className={'albumList'}><img
-                                                src={require('./images/Everyone Asked About You.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Everyone Asked About You (1997) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/demo.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Demo (2011) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs1 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('1997')
+                                                            item => (item.album || '').includes('Demo')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -177,13 +183,13 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs2} className={'albumList'}><img
-                                                src={require('./images/singles.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Singles (1998) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/Do I Dare Disturb the Universe.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Do I Dare Disturb the Universe (2011) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs2 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Singles')
+                                                            item => (item.album || '').includes('Universe')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -196,14 +202,14 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs3} className={'albumList'}><img
-                                                src={require('./images/Sometimes Memory Fails Me Sometimes.png')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Sometimes Memory Fails Me Sometimes (1998) {open3 ?
+                                                src={require('./images/Everything I Let Go & The Things I Refuse To.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />Everything I Let Go & The Things I Refuse To (2012) {open3 ?
                                                     <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs3 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Sometimes')
+                                                            item => (item.album || '').includes('Refuse')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -216,13 +222,51 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs4} className={'albumList'}><img
-                                                src={require('./images/Lets Be Enemies.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Let's Be Enemies (1999) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/An Autobiography.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />An Autobiography (2013) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs4 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Enemies')
+                                                            item => (item.album || '').includes('Autobiography')
+                                                        ).map(u => (
+                                                            <>
+                                                                <li key={u.key}
+                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
+                                                            </>
+                                                        ))}
+                                                    </div>
+                                                </ol>
+                                            )}
+                                        </li>
+                                        <li>
+                                            <div onClick={handleClickShowSongs5} className={'albumList'}><img
+                                                src={require('./images/slow burn.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />slow burn (2016) {open5 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                            {isShownSongs5 && (
+                                                <ol className="rectangle">
+                                                    <div>
+                                                        {songsData.filter(
+                                                            item => (item.album || '').includes('burn')
+                                                        ).map(u => (
+                                                            <>
+                                                                <li key={u.key}
+                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
+                                                            </>
+                                                        ))}
+                                                    </div>
+                                                </ol>
+                                            )}
+                                        </li>
+                                        <li>
+                                            <div onClick={handleClickShowSongs6} className={'albumList'}><img
+                                                src={require('./images//singles.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />singles/split {open6 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                            {isShownSongs6 && (
+                                                <ol className="rectangle">
+                                                    <div>
+                                                        {songsData.filter(
+                                                            item => (item.album || '').includes('singles')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -248,13 +292,17 @@ export function EveryoneAskedAboutYou() {
                             className={toggleState === 3 ? "content  active-content" : "content"}
                         >
                             <div style={{ textAlign: 'center' }}>
-                                <h4>Everyone Asked About You - Live in Columbus, OH 6/25/1999</h4>
+                                <h4>Old Gray - "I Still Think About Who I Was Last Summer" Live at Little Elephant (1/3)</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/XmEciIQb2Z8?si=ce7RBU2wqSTR-aBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/BrMz4Jm1Dss?si=fiG_xhSZ-4RGHGQm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <br /><br />
-                                <h4>Everyone Asked About You reunion show 2022 12 28 9 pm @ White Water Tavern, Little Rock, AR</h4>
+                                <h4>Old Gray - "Wolves" Live @ BLED Fest 2014</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/olANHFOUD5k?si=f4vuvyaCbEbp052E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/O5EBvZdyBgU?si=w8JkOrze_Siqy3S6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <br /><br />
+                                <h4>Old Gray - Live at Little Man's Garage 7/25/12</h4>
+                                <br />
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/41MS8-lN3Cs?si=1Vo6npD-nk56vExu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

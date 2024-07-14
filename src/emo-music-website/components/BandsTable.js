@@ -65,7 +65,6 @@ export function BandsTable() {
                         </tr>
                     </tbody>
                 </table>
-                <br />
                 <table>
                     <tbody>
                         <tr>
@@ -84,12 +83,7 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >I Hate Sex (x)</NavLink>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="tdLow">
-                                <NavLink >Old Gray (x)</NavLink>
+                                <NavLink to="old-gray">Old Gray </NavLink>
                             </td>
                         </tr>
                         <tr>
@@ -99,7 +93,6 @@ export function BandsTable() {
                         </tr>
                     </tbody>
                 </table>
-                <br />
                 <table>
                     <tbody>
                         <tr>
@@ -138,7 +131,6 @@ export function BandsTable() {
                         </tr>
                     </tbody>
                 </table>
-                <br />
                 <table>
                     <tbody>
                         <tr>
@@ -152,22 +144,22 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
+                                <NavLink to="daitro">Daïtro</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink to="love-lost-but-not-forgotten">Love Lost But Not Forgotten</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
                                 <NavLink >Orchid (x)</NavLink>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="tdLow">
-                                <NavLink >Daïtro (x)</NavLink>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="tdLow">
-                                <NavLink >Love Lost But Not Forgotten (x)</NavLink>
                             </td>
                         </tr>
                     </tbody>
                 </table>
-                {/* <table>
+                <table>
                 <tbody>
                 <tr>
                     <td className="tdUp">
@@ -175,17 +167,17 @@ export function BandsTable() {
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Reasons</NavLink>
+                        <NavLink >Saetia (x)</NavLink>
                     </td>
                 </tr>
                 <tr>
                     <td className="tdLow">
-                        <NavLink to={"bob-tilton"}>Oakwood</NavLink>
+                        <NavLink >The Rabbit Theory (x)</NavLink>
                     </td>
                 </tr>
                 </tbody>
-            </table> */}
-                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{fontWeight:'bold'}}>Last upd: 10.07.24</span> - добавлены I Hate Myself, Everyone Asked About You, 30 дней февраля, 6000000000себя</span>
+            </table>
+                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{fontWeight:'bold'}}>Last upd: 13.07.24</span> - добавлены Old Gray, Love Lot But Not Forgotten, Daitro</span>
                 <br /><br />
                 <div className="image-container">
                     <img src={images[currentImageIndex]} alt="Current Image" />

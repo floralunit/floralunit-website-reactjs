@@ -116,11 +116,11 @@ export function IHateMyself() {
                                         <div>
                                             <h3> Состав </h3>
                                             <ol className="rectangle">
-                                                <li> <img src={require('../instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Jim Marburger</li>
-                                                <li> <img src={require('../instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Jim Marburger</li>
-                                                <li> <img src={require('../instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Jon Marburger</li>
-                                                <li> <img src={require('../instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Steve Jin</li>
-                                                <li> <img src={require('../instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Jason Dooley</li>
+                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Jim Marburger</li>
+                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Jim Marburger</li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Jon Marburger</li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Steve Jin</li>
+                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Jason Dooley</li>
                                             </ol>
                                         </div>
                                     </div>
