@@ -93,7 +93,7 @@ export function WebStuffPage() {
                         <a href="https://gifypet.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://gifypet.neocities.org/images/badge.gif" alt='' /></a>
                         <a href="https://murderscene.neocities.org/" target="_blank" rel="noreferrer"><img
-                            src="https://files.catbox.moe/9kd628.gif" alt='' /></a>
+                            src="https://files.catbox.moe/e5my34.gif" alt='' /></a>
                         <a href="https://shishka.neocities.org/" target="_blank" rel="noreferrer"><img
                             src="https://shishka.neocities.org/shishka/img/shishka-decarabia.gif" alt='' /></a>
                         <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img
