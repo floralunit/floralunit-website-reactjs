@@ -15,7 +15,7 @@ import { ScoPage } from "./witch-pages/sco/ScoPage.js";
 export function WitchRoutes() {
 
     return (
-        <div>
+        <div className="witch-page">
             <Routes>
                 <Route path='' element={<WitchHousePage/>}/>
                 <Route path='radost-moja' element={<RadostMojaPage/>}/>

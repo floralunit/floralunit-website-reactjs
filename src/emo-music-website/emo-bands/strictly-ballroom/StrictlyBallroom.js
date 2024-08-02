@@ -12,7 +12,7 @@ import { SongLyrics } from "../../components/SongLyrics"
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 
-export function EveryoneAskedAboutYou() {
+export function StrictlyBallroom() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
@@ -43,42 +43,44 @@ export function EveryoneAskedAboutYou() {
         setIsShownSongs3(current => !current);
         setOpen3(open => !open);
     };
-    const [isShownSongs4, setIsShownSongs4] = useState(false);
-    const [open4, setOpen4] = useState(false);
-    const handleClickShowSongs4 = () => {
-        setIsShownSongs4(current => !current);
-        setOpen4(open => !open);
-    };
 
     const images = [
         {
-            original: require('./images/everyoneasked1.webp'),
-            thumbnail: require('./images/everyoneasked1.webp'),
+            original: require('./images/strictly6.webp'),
+            thumbnail: require('./images/strictly6.webp'),
         },
         {
-            original: require('./images/everyoneasked2.webp'),
-            thumbnail: require('./images/everyoneasked2.webp'),
+            original: require('./images/strictly1.webp'),
+            thumbnail: require('./images/strictly1.webp'),
         },
         {
-            original: require('./images/everyoneasked3.webp'),
-            thumbnail: require('./images/everyoneasked3.webp'),
+            original: require('./images/strictly2.webp'),
+            thumbnail: require('./images/strictly2.webp'),
         },
         {
-            original: require('./images/everyoneasked4.webp'),
-            thumbnail: require('./images/everyoneasked4.webp'),
+            original: require('./images/strictly3.webp'),
+            thumbnail: require('./images/strictly3.webp'),
         },
         {
-            original: require('./images/everyoneasked5.webp'),
-            thumbnail: require('./images/everyoneasked5.webp'),
+            original: require('./images/strictly4.webp'),
+            thumbnail: require('./images/strictly4.webp'),
         },
         {
-            original: require('./images/everyoneasked6.webp'),
-            thumbnail: require('./images/everyoneasked6.webp'),
+            original: require('./images/strictly5.webp'),
+            thumbnail: require('./images/strictly5.webp'),
+        },
+        {
+            original: require('./images/strictly7.webp'),
+            thumbnail: require('./images/strictly7.webp'),
+        },
+        {
+            original: require('./images/strictly8.webp'),
+            thumbnail: require('./images/strictly8.webp'),
         },
     ];
 
     return (
-        <div className="bands everyone-asked">
+        <div className="bands strictly-ballroom">
             <div className='bands-container'>
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
@@ -89,12 +91,12 @@ export function EveryoneAskedAboutYou() {
                     </Link>
                 </div>
                 <div className="header">
-                    <h id="head">Everyone Asked About You</h>
+                    <h id="head">Strictly Ballroom</h>
                     <br />
                     <hr />
-                    <b> Жанры: </b> emo, emo 90s, midwest emo, indie rock <br />
-                    <b> Годы активности: </b> 1996–2000 (4 года), 2022-present <br />
-                    <b> Место основания: </b> Little Rock, Arkansas, U.S <br />
+                    <b> Жанры: </b> emo, emo 90s, indie emo, post rock, screamo <br />
+                    <b> Годы активности: </b> 1994-1999, 2001 (5 лет) <br />
+                    <b> Место основания: </b> Los Angeles, California, U.S <br />
                 </div>
                 <div className="data">
                     <br />
@@ -123,12 +125,11 @@ export function EveryoneAskedAboutYou() {
                                         <div>
                                             <h3> Состав </h3>
                                             <ol className="rectangle">
-                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Hannah Vogan</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Chris Sheppard</li>
-                                                <li> <img src={require('../../resources/instruments-images/synthesizer.png')} className={'instrument-image'} alt={''} /> John Beachboard</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Collins Kilgore</li>
-                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Matt Bradley</li>
-                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Lee Buford</li>
+                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Chris Gunst, <br />Jimmy Tamborello </li>
+                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Chris Gunst, <br />Koji Motonishi (1995-96), <br />Paul Larson (1996-99)</li>
+                                                <li> <img src={require('../../resources/instruments-images/synthesizer.png')} className={'instrument-image'} alt={''} /> Jimmy LaValle (1998-99)</li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Jimmy Tamborello </li>
+                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Brian Tamborello (1994-95), <br />Ian MacKinnon (1995-98), <br />Chris Hathwell (1998-99), Jimi Hey (1997-99)</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -140,13 +141,24 @@ export function EveryoneAskedAboutYou() {
                                 </div>
                                 <h3> Биография </h3>
                                 <br />
-                                "Everyone Asked About You" - американская эмо-группа из Литл Рок, Арканзас. Они были образованы в 1996 году. Название группы происходит из детской книги с таким же названием, написанной Теодором Фаро Гроссом и Шейлой Уайт Сэмтон. Группа воссоединилась в 2022 году после переиздания материала группы через Numero Group, за которым последовал выпуск их первого нового альбома за 25 лет - альбома "Never Leave".
-                                <br /><br />
-                                Группа записала только один альбом и три EP (один из которых был совместным с The Shyness Clinic) в 1997 и 1998 годах. В первые годы существования они были малоизвестны, но привлекли внимание позже благодаря успеху их дебютного самоназванного EP, который отличался своим уникальным звучанием от других эмо-групп благодаря смешению с инди-попом. Во время своего первоначального существования они отправились в тур летом 1999 года. Их последнее выступление в первоначальном составе состоялось 26 февраля 2000 года в Clunk Music Hall в Фейетвилле, Арканзас, вместе с Les Savy Fav.
-                                <br /><br />
-                                После распада группы Ли Буфорд, игравший на ударных, создал группу The Body. Джон Бичборд и Коллинс Килгор основали группу American Princes.
-                                <br /><br />
-                                В 2022 году Numero Group объявили о переиздании дискографии группы. Материал был выпущен в виде двойного альбома в 2023 году под названием "Paper Airplanes, Paper Hearts", названного в честь песни из их дебютного EP. Группа также начала давать концерты, начав с официального родного города и выступления на фестивале Numero Twenty. 3 июня 2024 года группа представила новую песню из пост-воссоединенческих сессий под названием "We're All Losing It", написанную во время солнечного затмения и записанную в ту же неделю. 25 июня была анонсирована вторая песня "A Vigil", а также формальное объявление о выпуске EP "Never Leave" 5 августа.
+                                Strictly Ballroom - андеграундная эмо/хардкор панк/инди рок группа из Лос-Анджелеса, штат Калифорния, существовавшая с 1994 по 1999 год.
+                                <br />
+                                <br />
+                                Группа была образована в 1994 году Крисом Гунстом (гитара/вокал) и Джимми Тамборелло (бас/вокал), которые встретились, когда оба работали диджеями на студенческом радио KXLU в Лос-Анджелесе. Звук группы был описан прессой и некоторыми фанатами как "Enocore" из-за их использования звуковых ландшафтов, напоминающих Брайана Ино, смешанных с звуками хардкор панка. Strictly Ballroom была связана с эмо хардкор сценой середины и конца 1990-х годов и выступала в известных клубах, таких как Jabberjaw в Лос-Анджелесе. Гунст позже основал группу Beachwood Sparks, а Тамборелло — Postal Service. Оба проекта впоследствии выпустили альбомы на лейбле Sub Pop Records, последний из которых получил платиновую сертификацию от Ассоциации звукозаписывающей индустрии Америки.
+                                <br />
+                                <br />
+                                По словам Тони Киуэла, президента Sub Pop Records, "Strictly Ballroom не очень часто покидали Калифорнию, но они были довольно влиятельной частью местной музыкальной сцены, пока существовали. Достаточно сказать, что есть странная группа людей, которые были очень близки и активно участвовали в этой маленькой сцене и все они продолжили заниматься относительно интересными вещами."
+                                <br />
+                                <br />
+                                Первоначальный состав включал младшего брата Тамборелло, Брайана Тамборелло, на ударных. Иан Макиннон (также диджей KXLU в то время) позже заменил младшего Тамборелло. Кодзи Мотониши присоединился на гитаре в 1995 году. Мотониши ушел в 1996 году, его заменил Пол Ларсон. Около 1997 года Хосе Сальгеро (также диджей KXLU в то время) присоединился на вертушках, а Джими Хей — на ударных и клавишах. В 1998 году к группе присоединился Джимми Лаваль на клавишах, а Макиннон ушел, его заменил Крис Хэтвелл. Strictly Ballroom распалась в 1999 году, но участники продолжили сотрудничать и присоединяться к другим музыкальным проектам.
+                                <br />
+                                <br />
+                                <h4>Использование песен в других медиа</h4>
+                                <br />
+                                В 2022 году Vans использовала две песни Strictly Ballroom — "Fire (Remix) (1997)" и "New Angels (1995)" в короткометражном фильме по сноуборду "It's Love". Короткометражка, снятая Таннером Пендлтоном и частично отснятая в Исландии, демонстрирует стильное уличное катание на сноуборде.
+                                <br />
+                                <br />
+                                В 2023 году журнал Thrasher использовал песню Strictly Ballroom "New Angels (1995)" в видеоролике о скейтбординге "Lad is Pro as", который представляет новоиспеченного профессионального австралийского скейтбордиста Роуэна Дэвиса в его дебютной профессиональной части для Girl Skateboards.
                             </div>
                         </div>
                         <div
@@ -158,13 +170,13 @@ export function EveryoneAskedAboutYou() {
                                     <ul type="none">
                                         <li>
                                             <div onClick={handleClickShowSongs1} className={'albumList'}><img
-                                                src={require('./images/Everyone Asked About You.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Everyone Asked About You (1997) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/Strictly Ballroom.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Strictly Ballroom (1995) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs1 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('1997')
+                                                            item => (item.album || '').includes('1995')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -177,13 +189,13 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs2} className={'albumList'}><img
-                                                src={require('./images/singles.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Singles (1998) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/7.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />7'' (1996) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs2 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Singles')
+                                                            item => (item.album || '').includes("1996")
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -196,33 +208,14 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs3} className={'albumList'}><img
-                                                src={require('./images/Sometimes Memory Fails Me Sometimes.png')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Sometimes Memory Fails Me Sometimes (1998) {open3 ?
+                                                src={require('./images/Hide Here Forever.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />Hide Here Forever (1997) {open3 ?
                                                     <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs3 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Sometimes')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                        <li>
-                                            <div onClick={handleClickShowSongs4} className={'albumList'}><img
-                                                src={require('./images/Lets Be Enemies.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Let's Be Enemies (1999) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs4 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('Enemies')
+                                                            item => (item.album || '').includes('1997')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -248,13 +241,17 @@ export function EveryoneAskedAboutYou() {
                             className={toggleState === 3 ? "content  active-content" : "content"}
                         >
                             <div style={{ textAlign: 'center' }}>
-                                <h4>Everyone Asked About You - Live in Columbus, OH 6/25/1999</h4>
+                                <h4>Strictly Ballroom Band History</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/XmEciIQb2Z8?si=ce7RBU2wqSTR-aBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/I74lMkfZJeI?si=JhWU5Xtpphg3e2M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <br /><br />
-                                <h4>Everyone Asked About You reunion show 2022 12 28 9 pm @ White Water Tavern, Little Rock, AR</h4>
+                                <h4>Strictly Ballroom (Live at The Smell 3.17.1999)</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/olANHFOUD5k?si=f4vuvyaCbEbp052E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/eU9xa6dxVMQ?si=DIiuApT7EzJXY5TD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <br /><br />
+                                <h4>Strictly Ballroom -live (1/4) 5/22/98 Hollywood Athletic Club, Los Angeles, CA</h4>
+                                <br />
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/IS5y_Wnel1k?si=MF4NHsrgwAfPbckR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ import { SongLyrics } from "../../components/SongLyrics"
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 
-export function EveryoneAskedAboutYou() {
+export function Kashtanka() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
@@ -49,36 +49,42 @@ export function EveryoneAskedAboutYou() {
         setIsShownSongs4(current => !current);
         setOpen4(open => !open);
     };
+    const [isShownSongs5, setIsShownSongs5] = useState(false);
+    const [open5, setOpen5] = useState(false);
+    const handleClickShowSongs5 = () => {
+        setIsShownSongs5(current => !current);
+        setOpen5(open => !open);
+    };
 
     const images = [
         {
-            original: require('./images/everyoneasked1.webp'),
-            thumbnail: require('./images/everyoneasked1.webp'),
+            original: require('./images/kashtanka1.jpg'),
+            thumbnail: require('./images/kashtanka1.jpg'),
         },
         {
-            original: require('./images/everyoneasked2.webp'),
-            thumbnail: require('./images/everyoneasked2.webp'),
+            original: require('./images/kashtanka2.jpg'),
+            thumbnail: require('./images/kashtanka2.jpg'),
         },
         {
-            original: require('./images/everyoneasked3.webp'),
-            thumbnail: require('./images/everyoneasked3.webp'),
+            original: require('./images/kashtanka3.jpg'),
+            thumbnail: require('./images/kashtanka3.jpg'),
         },
         {
-            original: require('./images/everyoneasked4.webp'),
-            thumbnail: require('./images/everyoneasked4.webp'),
+            original: require('./images/kashtanka4.jpg'),
+            thumbnail: require('./images/kashtanka4.jpg'),
         },
         {
-            original: require('./images/everyoneasked5.webp'),
-            thumbnail: require('./images/everyoneasked5.webp'),
+            original: require('./images/kashtanka5.jpg'),
+            thumbnail: require('./images/kashtanka5.jpg'),
         },
         {
-            original: require('./images/everyoneasked6.webp'),
-            thumbnail: require('./images/everyoneasked6.webp'),
+            original: require('./images/kashtanka6.webp'),
+            thumbnail: require('./images/kashtanka6.webp'),
         },
     ];
 
     return (
-        <div className="bands everyone-asked">
+        <div className="bands kashtanka">
             <div className='bands-container'>
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
@@ -89,12 +95,12 @@ export function EveryoneAskedAboutYou() {
                     </Link>
                 </div>
                 <div className="header">
-                    <h id="head">Everyone Asked About You</h>
+                    <h id="head">Kashtanka</h>
                     <br />
                     <hr />
-                    <b> Жанры: </b> emo, emo 90s, midwest emo, indie rock <br />
-                    <b> Годы активности: </b> 1996–2000 (4 года), 2022-present <br />
-                    <b> Место основания: </b> Little Rock, Arkansas, U.S <br />
+                    <b> Жанры: </b> emo, russian emo, screamo, post-hardcore <br />
+                    <b> Годы активности: </b> 2015-present <br />
+                    <b> Место основания: </b> Volgograd, Volgogradskaya oblast', Russia <br />
                 </div>
                 <div className="data">
                     <br />
@@ -123,12 +129,10 @@ export function EveryoneAskedAboutYou() {
                                         <div>
                                             <h3> Состав </h3>
                                             <ol className="rectangle">
-                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Hannah Vogan</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Chris Sheppard</li>
-                                                <li> <img src={require('../../resources/instruments-images/synthesizer.png')} className={'instrument-image'} alt={''} /> John Beachboard</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Collins Kilgore</li>
-                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Matt Bradley</li>
-                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Lee Buford</li>
+                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> ?</li>
+                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> ?</li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> ?</li>
+                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> ?</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -140,13 +144,15 @@ export function EveryoneAskedAboutYou() {
                                 </div>
                                 <h3> Биография </h3>
                                 <br />
-                                "Everyone Asked About You" - американская эмо-группа из Литл Рок, Арканзас. Они были образованы в 1996 году. Название группы происходит из детской книги с таким же названием, написанной Теодором Фаро Гроссом и Шейлой Уайт Сэмтон. Группа воссоединилась в 2022 году после переиздания материала группы через Numero Group, за которым последовал выпуск их первого нового альбома за 25 лет - альбома "Never Leave".
+                                «Итак, наша мёртвая группа заняла третье место с альбомом "Взаимность" 2018-го года в топе десятых по версии подписчиков паблика Boring Emo. Спасибо всем, кто упоминал нас в голосовании.
                                 <br /><br />
-                                Группа записала только один альбом и три EP (один из которых был совместным с The Shyness Clinic) в 1997 и 1998 годах. В первые годы существования они были малоизвестны, но привлекли внимание позже благодаря успеху их дебютного самоназванного EP, который отличался своим уникальным звучанием от других эмо-групп благодаря смешению с инди-попом. Во время своего первоначального существования они отправились в тур летом 1999 года. Их последнее выступление в первоначальном составе состоялось 26 февраля 2000 года в Clunk Music Hall в Фейетвилле, Арканзас, вместе с Les Savy Fav.
+                                Вот вам по этому случаю маленькая история касательно записи этого альбома от барабанщика группы Антона. Возможно, некоторые подумают, что у нас зашкаливает ЧСВ, но, как говорится, из песни слов не выкинешь.
                                 <br /><br />
-                                После распада группы Ли Буфорд, игравший на ударных, создал группу The Body. Джон Бичборд и Коллинс Килгор основали группу American Princes.
+                                "Перед тем, как ехать записывать барабаны, я позвонил Мише, и сказал:"Ты в курсе, что мы сейчас едем записывать один из великих эмо-альбомов?". Он спросил:"Да? Ты это чувствуешь?". И я ответил:"Да, я это чувствую"."
                                 <br /><br />
-                                В 2022 году Numero Group объявили о переиздании дискографии группы. Материал был выпущен в виде двойного альбома в 2023 году под названием "Paper Airplanes, Paper Hearts", названного в честь песни из их дебютного EP. Группа также начала давать концерты, начав с официального родного города и выступления на фестивале Numero Twenty. 3 июня 2024 года группа представила новую песню из пост-воссоединенческих сессий под названием "We're All Losing It", написанную во время солнечного затмения и записанную в ту же неделю. 25 июня была анонсирована вторая песня "A Vigil", а также формальное объявление о выпуске EP "Never Leave" 5 августа.
+                                Поэтому занимайтесь любимым делом, верьте в себя, не отступайте перед трудностями - и всё получится.
+                                <br /><br />
+                                Спасибо за внимание🖤»
                             </div>
                         </div>
                         <div
@@ -158,13 +164,13 @@ export function EveryoneAskedAboutYou() {
                                     <ul type="none">
                                         <li>
                                             <div onClick={handleClickShowSongs1} className={'albumList'}><img
-                                                src={require('./images/Everyone Asked About You.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Everyone Asked About You (1997) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/Ошибки.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} /> ​О​ш​и​б​к​и​ (2016) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs1 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('1997')
+                                                            item => (item.album || '').includes('​О​ш​и​б​к​и​')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -177,13 +183,13 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs2} className={'albumList'}><img
-                                                src={require('./images/singles.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Singles (1998) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/Иже с нами.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />И​ж​е С Н​а​м​и​ (2016) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs2 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Singles')
+                                                            item => (item.album || '').includes('И​ж​е')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -196,14 +202,14 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs3} className={'albumList'}><img
-                                                src={require('./images/Sometimes Memory Fails Me Sometimes.png')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Sometimes Memory Fails Me Sometimes (1998) {open3 ?
+                                                src={require('./images/Взаимность.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />В​з​а​и​м​н​о​с​т​ь​ (2018) {open3 ?
                                                     <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs3 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Sometimes')
+                                                            item => (item.album || '').includes('В​з​а​и​м​н​о​с​т​ь​')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -216,13 +222,32 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs4} className={'albumList'}><img
-                                                src={require('./images/Lets Be Enemies.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Let's Be Enemies (1999) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/Прощай Вернись.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />П​р​о​щ​а​й​. В​е​р​н​и​с​ь (2020) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs4 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Enemies')
+                                                            item => (item.album || '').includes('П​р​о​щ​а​й​')
+                                                        ).map(u => (
+                                                            <>
+                                                                <li key={u.key}
+                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
+                                                            </>
+                                                        ))}
+                                                    </div>
+                                                </ol>
+                                            )}
+                                        </li>
+                                        <li>
+                                            <div onClick={handleClickShowSongs5} className={'albumList'}><img
+                                                src={require('./images/Вечное лето.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />В​е​ч​н​о​е л​е​т​о​ (Cover) (2020) {open5 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                            {isShownSongs5 && (
+                                                <ol className="rectangle">
+                                                    <div>
+                                                        {songsData.filter(
+                                                            item => (item.album || '').includes('В​е​ч​н​о​е')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -248,13 +273,17 @@ export function EveryoneAskedAboutYou() {
                             className={toggleState === 3 ? "content  active-content" : "content"}
                         >
                             <div style={{ textAlign: 'center' }}>
-                                <h4>Everyone Asked About You - Live in Columbus, OH 6/25/1999</h4>
+                                <h4>Kashtanka: Цех live</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/XmEciIQb2Z8?si=ce7RBU2wqSTR-aBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/Fxqsr6DqaLI?si=K6KtG_eafcm0VVfl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <br /><br />
-                                <h4>Everyone Asked About You reunion show 2022 12 28 9 pm @ White Water Tavern, Little Rock, AR</h4>
+                                <h4>Kashtanka – Ошибки (Live, 16.10.2022, Бумажная фабрика, Москва)</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/olANHFOUD5k?si=f4vuvyaCbEbp052E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/JUfk4F-OvBE?si=yEJj2PGTtUkUvny8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <br /><br />
+                                <h4>Прощальный концерт Каштанки (16.10.2022)</h4>
+                                <br />
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/iRt7ufFMHus?si=p9hOXfGrHeMdFP8e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

@@ -50,7 +50,7 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Strictly Ballroom (x)</NavLink>
+                                <NavLink to="strictly-ballroom">Strictly Ballroom</NavLink>
                             </td>
                         </tr>
                         <tr>
@@ -88,7 +88,7 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Reasons (x)</NavLink>
+                                <NavLink to="reasons">Reasons</NavLink>
                             </td>
                         </tr>
                     </tbody>
@@ -121,7 +121,7 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Kashtanka (x)</NavLink>
+                                <NavLink to="kashtanka">Kashtanka</NavLink>
                             </td>
                         </tr>
                         <tr>
@@ -177,7 +177,7 @@ export function BandsTable() {
                 </tr>
                 </tbody>
             </table>
-                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{fontWeight:'bold'}}>Last upd: 13.07.24</span> - добавлены Old Gray, Love Lot But Not Forgotten, Daitro</span>
+                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{fontWeight:'bold'}}>Last upd: 02.08.24</span> - добавлены Strictly Ballroom, Reasons, Kashtanka</span>
                 <br /><br />
                 <div className="image-container">
                     <img src={images[currentImageIndex]} alt="Current Image" />
@@ -187,7 +187,7 @@ export function BandsTable() {
                     <img src={require('../../common/my-button/floralunit-button.gif')}
                         style={{ width: '88px', height: '31px', margin: '0 auto' }} alt='' />
 
-                    <a href='https://floralunit.vercel.app/' target="_blank" rel="noreferrer"><div className='witch-link-small'>floralunit world <br /><pupa style={{ fontFamily: 'arial' }}> 𓆩♡𓆪</pupa></div></a>
+                    <a href='/' target="_blank" rel="noreferrer"><div className='witch-link-small'>floralunit world <br /><pupa style={{ fontFamily: 'arial' }}> 𓆩♡𓆪</pupa></div></a>
                 </div>
             </div>
         </div>

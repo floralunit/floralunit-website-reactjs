@@ -35,8 +35,8 @@
   }
   .i-hate-myself{
     background: linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
+      rgba(0, 0, 0, 0.0), 
+      rgba(0, 0, 0, 0.0)
   ),url("../resources/backgrounds/back_band.jpeg")
   }
   .old-gray{
@@ -58,7 +58,18 @@
       rgba(0, 0, 0, 0.2)
   ),url("../emo-bands/daitro/images/Des\ Cendres\,\ Je\ Me\ Consume.jpg")
   }
-
+  .strictly-ballroom{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+  ),url("../emo-bands/strictly-ballroom/images/strictly7.webp")
+  }
+  .kashtanka{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+  ),url("../emo-bands/kashtanka/images/Прощай\ Вернись.jpg")
+  }
 
   .bands-container{
     width: 1000px;

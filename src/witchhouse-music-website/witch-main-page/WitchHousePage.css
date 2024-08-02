@@ -1,9 +1,11 @@
-html, body {
-    background-image: var(--witch-main-background);
-}
-
- 
    .witch-house-page {
+    height: 100%;
+    background-image: var(--witch-main-background);
+    background-repeat: repeat;
+    background-attachment:fixed;
+    cursor: var(--main-cursor), pointer;
+  }
+  .witch-page{
     height: 100%;
     background-image: var(--witch-main-background);
     background-repeat: repeat;

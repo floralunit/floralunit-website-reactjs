@@ -69,7 +69,7 @@ export function WitchHousePage() {
                             style={{ width: '88px', height: '31px', margin: '0 auto' }} alt='' />
 
                         <GlitchText onHover={false}>
-                            <a href='https://floralunit.vercel.app/' target="_blank" rel="noreferrer"><div className='witch-link-small'>floralunit world <br /><pupa style={{ fontFamily: 'arial' }}> 𓆩♡𓆪</pupa></div></a>
+                            <a href='/' target="_blank" rel="noreferrer"><div className='witch-link-small'>floralunit world <br /><pupa style={{ fontFamily: 'arial' }}> 𓆩♡𓆪</pupa></div></a>
                         </GlitchText>
                     </div>
                     <br />

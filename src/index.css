@@ -18,6 +18,9 @@ body{
     width: 100%;
     font-family: dot, serif;
 }
+html, body {
+    background-image: url("http://dl2.glitter-graphics.net/pub/671/671032k4dba4m3vl.gif");
+}
 * {
     /* W3C standard сейчас только для Firefox */
     scrollbar-width: thin;

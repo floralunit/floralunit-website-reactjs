@@ -9,6 +9,9 @@ import { IHateMyself } from "./emo-bands/i-hate-myself/IHateMyself";
 import { Daitro } from "./emo-bands/daitro/Daitro";
 import { LoveLostBut } from "./emo-bands/love-lost-but-not-forgotten/LoveLostBut";
 import { OldGray } from "./emo-bands/old-gray/OldGray";
+import { StrictlyBallroom } from "./emo-bands/strictly-ballroom/StrictlyBallroom";
+import { Kashtanka } from "./emo-bands/kashtanka/Kashtanka";
+import { Reasons } from "./emo-bands/reasons/Reasons";
 
 export function EmoRoutes() {
 
@@ -24,6 +27,9 @@ export function EmoRoutes() {
                 <Route path='old-gray' element={<OldGray/>}/>
                 <Route path='love-lost-but-not-forgotten' element={<LoveLostBut/>}/>
                 <Route path='daitro' element={<Daitro/>}/>
+                <Route path='kashtanka' element={<Kashtanka/>}/>
+                <Route path='strictly-ballroom' element={<StrictlyBallroom/>}/>
+                <Route path='reasons' element={<Reasons/>}/>
             </Routes>
         </div>
     );

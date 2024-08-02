@@ -63,9 +63,9 @@ export function DnejFevralya() {
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
                     <Link className='link-back' to="/emo">
-                        <img src={require("../../../main-website/resources/pixels/rYgMZnK.gif")} style={{ height: '15px' }} alt='' />
+                        <img src={require("../../../main-website/resources/pixels/zJZuQV8.gif")} style={{ height: '15px' }} alt='' />
                         <span >&nbsp;back to emo page&nbsp;</span>
-                        <img src={require("../../../main-website/resources/pixels/rYgMZnK.gif")} style={{ width: '15px' }} alt='' />
+                        <img src={require("../../../main-website/resources/pixels/zJZuQV8.gif")} style={{ width: '15px' }} alt='' />
                     </Link>
                 </div>
                 <div className="header">
@@ -103,13 +103,9 @@ export function DnejFevralya() {
                                         <div>
                                             <h3> Состав </h3>
                                             <ol className="rectangle">
-                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> (2004-2005) Стас</li>
-                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> (2005-2007) Алексей</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} />(2004-2005) Паша </li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} />(2005-2007) Александр (Газон)</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} />Вадим</li>
-                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} />(2004-2005) Александр (Псих)</li>
-                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} />(2005-2007) Антон (Клем)</li>
+                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> (2004-2005) Стас, (2005-2007) Алексей</li>
+                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} />(2004-2005) Паша, (2005-2007) Александр (Газон), Вадим </li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} />(2004-2005) Александр (Псих), (2005-2007) Антон (Клем)</li>
                                                 <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} />Александр</li>
                                             </ol>
                                         </div>

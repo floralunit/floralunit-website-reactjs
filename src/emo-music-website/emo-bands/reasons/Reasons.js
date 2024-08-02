@@ -12,7 +12,7 @@ import { SongLyrics } from "../../components/SongLyrics"
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 
-export function EveryoneAskedAboutYou() {
+export function Reasons() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
@@ -49,36 +49,26 @@ export function EveryoneAskedAboutYou() {
         setIsShownSongs4(current => !current);
         setOpen4(open => !open);
     };
+    const [isShownSongs5, setIsShownSongs5] = useState(false);
+    const [open5, setOpen5] = useState(false);
+    const handleClickShowSongs5 = () => {
+        setIsShownSongs5(current => !current);
+        setOpen5(open => !open);
+    };
 
     const images = [
         {
-            original: require('./images/everyoneasked1.webp'),
-            thumbnail: require('./images/everyoneasked1.webp'),
+            original: require('./images/i promise.png'),
+            thumbnail: require('./images/i promise.png'),
         },
         {
-            original: require('./images/everyoneasked2.webp'),
-            thumbnail: require('./images/everyoneasked2.webp'),
-        },
-        {
-            original: require('./images/everyoneasked3.webp'),
-            thumbnail: require('./images/everyoneasked3.webp'),
-        },
-        {
-            original: require('./images/everyoneasked4.webp'),
-            thumbnail: require('./images/everyoneasked4.webp'),
-        },
-        {
-            original: require('./images/everyoneasked5.webp'),
-            thumbnail: require('./images/everyoneasked5.webp'),
-        },
-        {
-            original: require('./images/everyoneasked6.webp'),
-            thumbnail: require('./images/everyoneasked6.webp'),
-        },
+            original: require('./images/branapan.jpg'),
+            thumbnail: require('./images/branapan.jpg'),
+        }
     ];
 
     return (
-        <div className="bands everyone-asked">
+        <div className="bands i-hate-myself">
             <div className='bands-container'>
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
@@ -89,12 +79,12 @@ export function EveryoneAskedAboutYou() {
                     </Link>
                 </div>
                 <div className="header">
-                    <h id="head">Everyone Asked About You</h>
+                    <h id="head">Reasons</h>
                     <br />
                     <hr />
-                    <b> Жанры: </b> emo, emo 90s, midwest emo, indie rock <br />
-                    <b> Годы активности: </b> 1996–2000 (4 года), 2022-present <br />
-                    <b> Место основания: </b> Little Rock, Arkansas, U.S <br />
+                    <b> Жанры: </b> emo, midwest emo <br />
+                    <b> Годы активности: </b> 2012-2017 (5 лет) <br />
+                    <b> Место основания: </b> New York, U.S <br />
                 </div>
                 <div className="data">
                     <br />
@@ -123,12 +113,10 @@ export function EveryoneAskedAboutYou() {
                                         <div>
                                             <h3> Состав </h3>
                                             <ol className="rectangle">
-                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> Hannah Vogan</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Chris Sheppard</li>
-                                                <li> <img src={require('../../resources/instruments-images/synthesizer.png')} className={'instrument-image'} alt={''} /> John Beachboard</li>
-                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> Collins Kilgore</li>
-                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> Matt Bradley</li>
-                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> Lee Buford</li>
+                                                <li> <img src={require('../../resources/instruments-images/singer.png')} className={'instrument-image'} alt={''} /> ?</li>
+                                                <li> <img src={require('../../resources/instruments-images/guitar.png')} className={'instrument-image'} alt={''} /> ?</li>
+                                                <li> <img src={require('../../resources/instruments-images/bass-guitar.png')} className={'instrument-image'} alt={''} /> ?</li>
+                                                <li> <img src={require('../../resources/instruments-images/drums.png')} className={'instrument-image'} alt={''} /> ?</li>
                                             </ol>
                                         </div>
                                     </div>
@@ -140,13 +128,12 @@ export function EveryoneAskedAboutYou() {
                                 </div>
                                 <h3> Биография </h3>
                                 <br />
-                                "Everyone Asked About You" - американская эмо-группа из Литл Рок, Арканзас. Они были образованы в 1996 году. Название группы происходит из детской книги с таким же названием, написанной Теодором Фаро Гроссом и Шейлой Уайт Сэмтон. Группа воссоединилась в 2022 году после переиздания материала группы через Numero Group, за которым последовал выпуск их первого нового альбома за 25 лет - альбома "Never Leave".
+                                Reasons - emo-команда из Нью-Йорка, образовавшаяся в 2012 году.
                                 <br /><br />
-                                Группа записала только один альбом и три EP (один из которых был совместным с The Shyness Clinic) в 1997 и 1998 годах. В первые годы существования они были малоизвестны, но привлекли внимание позже благодаря успеху их дебютного самоназванного EP, который отличался своим уникальным звучанием от других эмо-групп благодаря смешению с инди-попом. Во время своего первоначального существования они отправились в тур летом 1999 года. Их последнее выступление в первоначальном составе состоялось 26 февраля 2000 года в Clunk Music Hall в Фейетвилле, Арканзас, вместе с Les Savy Fav.
-                                <br /><br />
-                                После распада группы Ли Буфорд, игравший на ударных, создал группу The Body. Джон Бичборд и Коллинс Килгор основали группу American Princes.
-                                <br /><br />
-                                В 2022 году Numero Group объявили о переиздании дискографии группы. Материал был выпущен в виде двойного альбома в 2023 году под названием "Paper Airplanes, Paper Hearts", названного в честь песни из их дебютного EP. Группа также начала давать концерты, начав с официального родного города и выступления на фестивале Numero Twenty. 3 июня 2024 года группа представила новую песню из пост-воссоединенческих сессий под названием "We're All Losing It", написанную во время солнечного затмения и записанную в ту же неделю. 25 июня была анонсирована вторая песня "A Vigil", а также формальное объявление о выпуске EP "Never Leave" 5 августа.
+                                Имеет три релиза:<br />
+                                - Reasons EP (2013)<br />
+                                - Hate Everything (2014)<br />
+                                - i promised i'd be okay, but when october comes i won't know what to do. (2014)
                             </div>
                         </div>
                         <div
@@ -158,13 +145,13 @@ export function EveryoneAskedAboutYou() {
                                     <ul type="none">
                                         <li>
                                             <div onClick={handleClickShowSongs1} className={'albumList'}><img
-                                                src={require('./images/Everyone Asked About You.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Everyone Asked About You (1997) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/hate everything.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Hate Everything (2014) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs1 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('1997')
+                                                            item => (item.album || '').includes('Hate')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -177,13 +164,13 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs2} className={'albumList'}><img
-                                                src={require('./images/singles.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Singles (1998) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/i promise.png')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />i promised i'd be okay, but when october comes i won't know what to do. (2014) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs2 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Singles')
+                                                            item => (item.album || '').includes('promised')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -196,14 +183,14 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs3} className={'albumList'}><img
-                                                src={require('./images/Sometimes Memory Fails Me Sometimes.png')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Sometimes Memory Fails Me Sometimes (1998) {open3 ?
+                                                src={require('./images/,.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />, (2015) {open3 ?
                                                     <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs3 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Sometimes')
+                                                            item => (item.album || '').includes(', (2015)')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -216,13 +203,32 @@ export function EveryoneAskedAboutYou() {
                                         </li>
                                         <li>
                                             <div onClick={handleClickShowSongs4} className={'albumList'}><img
-                                                src={require('./images/Lets Be Enemies.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Let's Be Enemies (1999) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                                src={require('./images/;.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />; (2016) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
                                             {isShownSongs4 && (
                                                 <ol className="rectangle">
                                                     <div>
                                                         {songsData.filter(
-                                                            item => (item.album || '').includes('Enemies')
+                                                            item => (item.album || '').includes(';')
+                                                        ).map(u => (
+                                                            <>
+                                                                <li key={u.key}
+                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
+                                                            </>
+                                                        ))}
+                                                    </div>
+                                                </ol>
+                                            )}
+                                        </li>
+                                        <li>
+                                            <div onClick={handleClickShowSongs5} className={'albumList'}><img
+                                                src={require('./images/branapan.jpg')}
+                                                style={{ width: "50px", margin: '5px' }} alt={''} />branapan (2017) {open5 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
+                                            {isShownSongs5 && (
+                                                <ol className="rectangle">
+                                                    <div>
+                                                        {songsData.filter(
+                                                            item => (item.album || '').includes('branapan')
                                                         ).map(u => (
                                                             <>
                                                                 <li key={u.key}
@@ -248,13 +254,9 @@ export function EveryoneAskedAboutYou() {
                             className={toggleState === 3 ? "content  active-content" : "content"}
                         >
                             <div style={{ textAlign: 'center' }}>
-                                <h4>Everyone Asked About You - Live in Columbus, OH 6/25/1999</h4>
+                                <h4>Reasons live 7/12/16 [FINAL SHOW]</h4>
                                 <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/XmEciIQb2Z8?si=ce7RBU2wqSTR-aBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <br /><br />
-                                <h4>Everyone Asked About You reunion show 2022 12 28 9 pm @ White Water Tavern, Little Rock, AR</h4>
-                                <br />
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/olANHFOUD5k?si=f4vuvyaCbEbp052E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="500" height="300" src="https://www.youtube.com/embed/xrXhiLzBBkQ?si=2pgasb8hj4vhU_V5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>

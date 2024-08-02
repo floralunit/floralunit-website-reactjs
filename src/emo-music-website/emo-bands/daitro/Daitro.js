@@ -91,9 +91,9 @@ export function Daitro() {
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
                     <Link className='link-back' to="/emo">
-                        <img src={require("../../../main-website/resources/pixels/rYgMZnK.gif")} style={{ height: '15px' }} alt='' />
+                        <img src={require("../../../main-website/resources/pixels/zJZuQV8.gif")} style={{ height: '15px' }} alt='' />
                         <span >&nbsp;back to emo page&nbsp;</span>
-                        <img src={require("../../../main-website/resources/pixels/rYgMZnK.gif")} style={{ width: '15px' }} alt='' />
+                        <img src={require("../../../main-website/resources/pixels/zJZuQV8.gif")} style={{ width: '15px' }} alt='' />
                     </Link>
                 </div>
                 <div className="header">
