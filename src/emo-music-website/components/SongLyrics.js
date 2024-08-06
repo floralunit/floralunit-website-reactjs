@@ -31,8 +31,12 @@ export const SongLyrics = ({ song }) => {
                                 <iframe width="100%" height="80" title='soundcloud' frameborder="no" allow="autoplay" src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${song.soundcloudId}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}></iframe>
                             </>
                         )}
-                        <br /><br />
-                        <a style={{ textDecoration:'underline' }} href={song.albumVKLink} target="_blank" rel="noreferrer">Ссылка на альбом в VK</a>
+                        {song.albumVKLink && (
+                            <>
+                                <br /> <br />
+                                <a style={{ textDecoration:'underline' }} href={song.albumVKLink} target="_blank" rel="noreferrer">Ссылка на альбом в VK</a>
+                            </>
+                        )}
                     </div>
                     <br />
                     {/* <audio src={require(`../emo-bands/${song.path}`)} controls="autoplay" className={"audio"}

@@ -70,6 +70,48 @@
       rgba(0, 0, 0, 0.4)
   ),url("../emo-bands/kashtanka/images/Прощай\ Вернись.jpg")
   }
+  .eora{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+  ),url("../emo-bands/eora/images/У​т​е​ш​е​н​и​е.jpg")
+  }
+  .botanichesky-sad{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+  ),url("../emo-bands/botanichesky-sad/images/с​е​г​о​д​н​я\ п​р​о​с​т​о\ не\ м​о​й\ д​е​н​ь.jpg")
+  }
+  .americ-anfootball{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+  ),url("../emo-bands/americ-anfootball/images/americ.jpg")
+  }
+  .asthenia{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+  ),url("../resources/backgrounds/2426316p984fo4s5o.gif")
+  }
+  .rabbit-theory{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+  ),url("../resources/backgrounds/3548013ux04r3ehsj.gif")
+  }
+  .camping-in-alaska{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+  ),url("../emo-bands/camping-in-alaska/images/camping6.jpg")
+  }
+  .sleeping-for-sunrise{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+  ),url("../resources/backgrounds/brat.jpg")
+  }
 
   .bands-container{
     width: 1000px;

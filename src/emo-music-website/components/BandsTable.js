@@ -45,7 +45,17 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
+                                <NavLink >Mineral (x)</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
                                 <NavLink >Neil Perry (x)</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink to="sleeping-for-sunrise">Sleeping for Sunrise</NavLink>
                             </td>
                         </tr>
                         <tr>
@@ -73,12 +83,17 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >American Football (x)</NavLink>
+                                <NavLink to="american-football">American Football</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Camping in Alaska (x)</NavLink>
+                                <NavLink to="camping-in-alaska">Camping in Alaska</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink >Oakwood (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
@@ -111,22 +126,27 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
+                                <NavLink >это (x)</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
                                 <NavLink >Bird Bone (x)</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >botanichesky sad (x)</NavLink>
+                                <NavLink to="eora">EORA</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink to="botanichesky-sad">botanichesky sad</NavLink>
                             </td>
                         </tr>
                         <tr>
                             <td className="tdLow">
                                 <NavLink to="kashtanka">Kashtanka</NavLink>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="tdLow">
-                                <NavLink >EORA (x)</NavLink>
                             </td>
                         </tr>
                     </tbody>
@@ -139,7 +159,7 @@ export function BandsTable() {
                         </tr>
                         <tr>
                             <td className="tdLow">
-                                <NavLink >Asthenia (x)</NavLink>
+                                <NavLink to="asthenia">Asthenia</NavLink>
                             </td>
                         </tr>
                         <tr>
@@ -160,24 +180,34 @@ export function BandsTable() {
                     </tbody>
                 </table>
                 <table>
-                <tbody>
-                <tr>
-                    <td className="tdUp">
-                        <p align="center"><b>other</b></p></td>
-                </tr>
-                <tr>
-                    <td className="tdLow">
-                        <NavLink >Saetia (x)</NavLink>
-                    </td>
-                </tr>
-                <tr>
-                    <td className="tdLow">
-                        <NavLink >The Rabbit Theory (x)</NavLink>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{fontWeight:'bold'}}>Last upd: 02.08.24</span> - добавлены Strictly Ballroom, Reasons, Kashtanka</span>
+                    <tbody>
+                        <tr>
+                            <td className="tdUp">
+                                <p align="center"><b>other</b></p></td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink >Ensslin (x)</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink >La Dispute (x)</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink >Saetia (x)</NavLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="tdLow">
+                                <NavLink to="the-rabbit-theory">The Rabbit Theory</NavLink>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 05.08.24</span> - добавлены American Football, Camping In Alaska, asthenia, botanichesky sad, EORA, The Rabbit Theory, Sleeping For Sunrise</span>
                 <br /><br />
                 <div className="image-container">
                     <img src={images[currentImageIndex]} alt="Current Image" />

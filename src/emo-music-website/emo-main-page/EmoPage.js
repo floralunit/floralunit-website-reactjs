@@ -30,7 +30,7 @@ export function EmoPage() {
                         <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
-                    <div class="window" style={{ width: '520px', height: '550px', overflowY: 'scroll', textAlign: 'justify' }}>
+                    <div class="window" style={{ width: '520px', height: '570px', overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
                             <div class="title-bar-text">О жанре</div>
                         </div>
