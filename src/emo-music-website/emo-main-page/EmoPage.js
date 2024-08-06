@@ -26,11 +26,20 @@ export function EmoPage() {
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                         <img src={require('../resources/168.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
-                        <img src={require('../resources/1487294y2xy3722r9.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
+                        <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column' }}>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                                <pupa style={{ fontFamily: 'arial', color: 'white' }}> 𓆩♡𓆪</pupa>
+                                <img src={require('../../common/my-button/floralunit-button.gif')}
+                                    style={{ width: '65px', height: '25px', margin: '0 auto' }} alt='' />
+                                <pupa style={{ fontFamily: 'arial', color: 'white' }}> 𓆩♡𓆪</pupa>
+                            </div>
+
+                            <a href='/' target="_blank" rel="noreferrer"><div className='witch-link-small' style={{ fontSize: '11px' }}>floralunit world</div></a>
+                        </div>
                         <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
-                    <div class="window" style={{ width: '520px', height: '570px', overflowY: 'scroll', textAlign: 'justify' }}>
+                    <div class="window" style={{ width: '520px', height: '550px', overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
                             <div class="title-bar-text">О жанре</div>
                         </div>
@@ -88,8 +97,8 @@ export function EmoPage() {
                                         <div id="vk_playlist_283385573_50" ></div>
                                     </div>
                                     <img src={require('../resources/674953ulnnugdq1c.gif')} alt={''} style={{ width: '170px', margin: '0 auto', textAlign: 'center' }} />
-                                    <br/>
-                                    <iframe style={{margin:'0 auto'}} width="460" height="280" src="https://www.youtube.com/embed/82MityMc0zw?si=EBuEofJ3VCg_N8pL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <br />
+                                    <iframe style={{ margin: '0 auto' }} width="460" height="280" src="https://www.youtube.com/embed/82MityMc0zw?si=EBuEofJ3VCg_N8pL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <br></br>
                             </div>

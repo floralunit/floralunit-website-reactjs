@@ -213,12 +213,6 @@ export function BandsTable() {
                     <img src={images[currentImageIndex]} alt="Current Image" />
                     <br /><br />
                 </div>
-                <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column' }}>
-                    <img src={require('../../common/my-button/floralunit-button.gif')}
-                        style={{ width: '88px', height: '31px', margin: '0 auto' }} alt='' />
-
-                    <a href='/' target="_blank" rel="noreferrer"><div className='witch-link-small'>floralunit world <br /><pupa style={{ fontFamily: 'arial' }}> 𓆩♡𓆪</pupa></div></a>
-                </div>
             </div>
         </div>
     );
