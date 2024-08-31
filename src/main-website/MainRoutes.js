@@ -14,6 +14,7 @@ import {VideosPage} from "./pages/Photos/VideosPage";
 import {WebStuffPage} from "./pages/WebStuff/WebStuffPage";
 import {IconsPage} from "./pages/WebStuff/IconsPage";
 import {GamesPage} from "./pages/GamesPage";
+import { NotFoundPage } from "../common/components/NotFoundPage";
 
 export function MainRoutes() {
     return (
@@ -33,6 +34,8 @@ export function MainRoutes() {
                         <Route path='games' element={<GamesPage/>}/>
                         <Route path='movies' element={<MoviesPage/>}/>
                         <Route path='bgs-icons' element={<IconsPage/>}/>
+                        <Route path='post-punk/*' element={<NotFoundPage/>}/>
+                        <Route path='nu-metal/*' element={<NotFoundPage/>}/>
                     </Routes>
                     <RightSideBar/>
                 </div>
