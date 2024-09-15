@@ -249,6 +249,18 @@ export function MoviesPage() {
                                 <img src={require("../resources/movies/краш.jpg")} alt="Movie Image" className="movie-image" />
                                 <div class="movie-title">Краш (2013)</div>
                             </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/перед рассветом.webp")} alt="Movie Image" className="movie-image" />
+                                <div class="movie-title">Перед рассветом (1995)</div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/перед закатом.jpg")} alt="Movie Image" className="movie-image" />
+                                <div class="movie-title">Перед закатом (2004)</div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/перед полуночью.jpg")} alt="Movie Image" className="movie-image" />
+                                <div class="movie-title">Перед полуночью (2013)</div>
+                            </div>
 
                             <div class="movie-card">
                                 <img src={require("../resources/movies/3метра.jpg")} alt="Movie Image" className="movie-image" />
@@ -280,6 +292,10 @@ export function MoviesPage() {
                                 <img src={require("../resources/movies/чумоваяпятница.webp")} alt="Movie Image" className="movie-image " />
                                 <div className=" movie-title "> Чумовая пятница (2003) </ div>
                             </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/дряные девчонки.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Дрянные девчонки (2004) </ div>
+                            </div>
 
                         </div>
                     </div>
@@ -305,6 +321,14 @@ export function MoviesPage() {
                             <div className="movie-card">
                                 <img src={require("../resources/movies/родн.webp")} alt="Изображение фильма" className="movie-image" />
                                 <div className="movie-title">Родня (1981)</div>
+                            </div>
+                            <div className="movie-card">
+                                <img src={require("../resources/movies/куколка.jpg")} alt="Изображение фильма" className="movie-image" />
+                                <div className="movie-title">Куколка (1988)</div>
+                            </div>
+                            <div className="movie-card">
+                                <img src={require("../resources/movies/интердевочка.jpg")} alt="Изображение фильма" className="movie-image" />
+                                <div className="movie-title">Интердевочка (1989)</div>
                             </div>
                         </div>
                     </div>
@@ -424,6 +448,10 @@ export function MoviesPage() {
                         <div className="movie-card">
                             <img src={require("../resources/movies/остатьсявживых.webp")} alt="Изображение фильма" className="movie-image" />
                             <div className="movie-title">Остаться в живых (2004-2010)</div>
+                        </div>
+                        <div className="movie-card">
+                            <img src={require("../resources/movies/the last of us.webp")} alt="Изображение фильма" className="movie-image" />
+                            <div className="movie-title">The Last Of Us (2023-?)</div>
                         </div>
                     </div>
                 </div>

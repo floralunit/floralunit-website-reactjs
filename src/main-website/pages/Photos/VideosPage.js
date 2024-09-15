@@ -37,28 +37,31 @@ export function VideosPage() {
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239675" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239684" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239682" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239703" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239686" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239685" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239691" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239704" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239705" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239666&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
-            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239678&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239683&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239681&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239694&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239712&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239692" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-          <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239698&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-          <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239701&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239711&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239710&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-          <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239699&hd=2" width="265" height="540" style={{ margin: '10px' }}  allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-          <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239700&hd=2" width="265" height="540" style={{ margin: '10px' }}  allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239709&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239708&hd=2" width="265" height="540" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
