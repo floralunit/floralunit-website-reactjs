@@ -20,7 +20,7 @@ export function RightSideBar() {
     }, [weatherApiUrl]);
     return (
         <aside className='sidebar-right'>
-            <div className='box' style={{ height: "429px" }}>
+            <div className='box' style={{ height: "454px" }}>
                 <h3>My world</h3>
                 <div className='inner' style={{ padding: '0 5px', margin: '0px', width: '100%' }}>
                     <ol className="image-list" style={{ display: "table", alignItems: "center", width: '100%' }}>
@@ -53,6 +53,8 @@ export function RightSideBar() {
                             <Link to="/photos" style={{ verticalAlign: '5px' }}>my photo gallery</Link></li>
                         <li><img src={require("../resources/pixels/wXsrEGT.gif")} />
                             <Link to="/videos" style={{ verticalAlign: '4px' }}>my video gallery</Link></li>
+                        <li><img src={require("../resources/pixels/AedbD8l.gif")} />
+                            <Link to="/poetry" style={{ verticalAlign: '4px', fontSize: '12px', letterSpacing: '-2px' }}>моя 'поэзия'</Link></li>
                         <li><img src={require('../resources/pixels/windows.gif')} />
                             <Link to="/web" style={{ verticalAlign: '4px' }}>web stuff</Link></li>
                         <li><img src={require("../resources/pixels/tEJ5Dt8.gif")} style={{ width: '15px', margin: '2px 0 0 3px' }}

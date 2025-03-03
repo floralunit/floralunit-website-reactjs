@@ -5,7 +5,9 @@ function NewlineText(props) {
     return <div>{text}</div>;
 }
 
-export const SongLyrics = ({ song }) => {
+export const SongLyrics = ({ song, album }) => {
+    const { artist, album: albumVKLink } = album;
+
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
         setToggleState(index);
@@ -24,17 +26,17 @@ export const SongLyrics = ({ song }) => {
                             <img src={'https://dannarchy.com/misc/anim/1366.gif'} style={{ height: "auto", width: '20px' }} alt={''} />
                             &nbsp;{song.name}
                         </h2>
-                        <span style={{ marginLeft: '33px' }}>{song.artist}</span>
+                        <span style={{ marginLeft: '33px' }}>{artist}</span>
                         {song.soundcloudId && (
                             <>
                                 <br /> <br />
                                 <iframe width="100%" height="80" title='soundcloud' frameborder="no" allow="autoplay" src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${song.soundcloudId}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}></iframe>
                             </>
                         )}
-                        {song.albumVKLink && (
+                        {albumVKLink && (
                             <>
                                 <br /> <br />
-                                <a style={{ textDecoration:'underline' }} href={song.albumVKLink} target="_blank" rel="noreferrer">Ссылка на альбом в VK</a>
+                                <a style={{ textDecoration:'underline' }} href={albumVKLink} target="_blank" rel="noreferrer">Ссылка на альбом в VK</a>
                             </>
                         )}
                     </div>

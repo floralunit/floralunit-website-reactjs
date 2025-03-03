@@ -6,11 +6,9 @@ import { FACE1_CURSOR, FACE2_CURSOR } from '../../../global-const';
 import songsData from './songs-lyrics.json';
 
 import React, { useState } from 'react'
-import { FiChevronDown } from 'react-icons/fi';
-import { FiChevronUp } from 'react-icons/fi';
-import { SongLyrics } from "../../components/SongLyrics"
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
+import AlbumListPage from "../../components/AlbumListPage";
 
 export function OldGray() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
@@ -18,48 +16,9 @@ export function OldGray() {
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
 
-    const [selectedSong, setSelectedSong] = useState(null);
-
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
         setToggleState(index);
-    };
-
-    const [isShownSongs1, setIsShownSongs1] = useState(false);
-    const [open1, setOpen1] = useState(false);
-    const handleClickShowSongs1 = () => {
-        setIsShownSongs1(current => !current);
-        setOpen1(open => !open);
-    };
-    const [isShownSongs2, setIsShownSongs2] = useState(false);
-    const [open2, setOpen2] = useState(false);
-    const handleClickShowSongs2 = () => {
-        setIsShownSongs2(current => !current);
-        setOpen2(open => !open);
-    };
-    const [isShownSongs3, setIsShownSongs3] = useState(false);
-    const [open3, setOpen3] = useState(false);
-    const handleClickShowSongs3 = () => {
-        setIsShownSongs3(current => !current);
-        setOpen3(open => !open);
-    };
-    const [isShownSongs4, setIsShownSongs4] = useState(false);
-    const [open4, setOpen4] = useState(false);
-    const handleClickShowSongs4 = () => {
-        setIsShownSongs4(current => !current);
-        setOpen4(open => !open);
-    };
-    const [isShownSongs5, setIsShownSongs5] = useState(false);
-    const [open5, setOpen5] = useState(false);
-    const handleClickShowSongs5 = () => {
-        setIsShownSongs5(current => !current);
-        setOpen5(open => !open);
-    };
-    const [isShownSongs6, setIsShownSongs6] = useState(false);
-    const [open6, setOpen6] = useState(false);
-    const handleClickShowSongs6 = () => {
-        setIsShownSongs6(current => !current);
-        setOpen6(open => !open);
     };
 
     const images = [
@@ -158,135 +117,7 @@ export function OldGray() {
                         <div
                             className={toggleState === 2 ? "content  active-content" : "content"}
                         >
-                            <div className={"Parent"}>
-                                <div className={"child1"}>
-                                    <h3 style={{ textAlign: 'center' }}>Альбомы</h3>
-                                    <ul type="none">
-                                        <li>
-                                            <div onClick={handleClickShowSongs1} className={'albumList'}><img
-                                                src={require('./images/demo.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Demo (2011) {open1 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs1 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('Demo')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                        <li>
-                                            <div onClick={handleClickShowSongs2} className={'albumList'}><img
-                                                src={require('./images/Do I Dare Disturb the Universe.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} /> Do I Dare Disturb the Universe (2011) {open2 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs2 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('Universe')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                        <li>
-                                            <div onClick={handleClickShowSongs3} className={'albumList'}><img
-                                                src={require('./images/Everything I Let Go & The Things I Refuse To.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />Everything I Let Go & The Things I Refuse To (2012) {open3 ?
-                                                    <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs3 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('Refuse')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                        <li>
-                                            <div onClick={handleClickShowSongs4} className={'albumList'}><img
-                                                src={require('./images/An Autobiography.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />An Autobiography (2013) {open4 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs4 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('Autobiography')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                        <li>
-                                            <div onClick={handleClickShowSongs5} className={'albumList'}><img
-                                                src={require('./images/slow burn.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />slow burn (2016) {open5 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs5 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('burn')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                        <li>
-                                            <div onClick={handleClickShowSongs6} className={'albumList'}><img
-                                                src={require('./images//singles.jpg')}
-                                                style={{ width: "50px", margin: '5px' }} alt={''} />singles/split {open6 ? <FiChevronUp size={20} color='white' /> : <FiChevronDown size={20} color='white' />}</div>
-                                            {isShownSongs6 && (
-                                                <ol className="rectangle">
-                                                    <div>
-                                                        {songsData.filter(
-                                                            item => (item.album || '').includes('singles')
-                                                        ).map(u => (
-                                                            <>
-                                                                <li key={u.key}
-                                                                    onClick={() => setSelectedSong(u)}>{u.name}</li>
-                                                            </>
-                                                        ))}
-                                                    </div>
-                                                </ol>
-                                            )}
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className={"child2"} style={{ borderLeft: '1px solid gray' }}>
-                                    {selectedSong ? <SongLyrics song={selectedSong} /> : <div style={{ textAlign: 'center', fontWeight: 'bold' }}>
-                                        Нажми по альбому, чтобы открыть список песен. Нажми по песне, чтобы появился сам трек, текст песни (если он есть) и мой перевод (если он есть).
-                                        <br />
-                                        <img src={require('../../resources/heart-boy-smoking.gif')} style={{ height: "auto", width: '200px', margin: '0 auto', textAlign: 'center' }} alt={''} />
-                                    </div>}
-                                </div>
-                            </div>
+                            <><AlbumListPage albums={songsData} /></>
                         </div>
                         <div
                             className={toggleState === 3 ? "content  active-content" : "content"}

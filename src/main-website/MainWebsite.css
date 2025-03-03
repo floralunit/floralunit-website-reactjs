@@ -166,7 +166,7 @@ footer {
 }
 
 .updates-list {
-    height: 110px;
+    height: 130px;
     overflow-y: scroll;
 }
 
@@ -184,3 +184,14 @@ footer {
     cursor: var(--pointer-cursor), pointer;
 }
 
+.poetry-gallery {
+
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .poetry-block {
+    width: 400px;
+    letter-spacing: -3px;
+    text-align: justify;
+  }

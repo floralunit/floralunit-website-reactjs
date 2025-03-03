@@ -64,7 +64,7 @@ export function LeftSideBar() {
                     </div>
                 </div>
             </div>
-            <div className='box' style={{ height: "162px" }}>
+            <div className='box' style={{ height: "183px" }}>
                 <h3>Updates</h3>
                 <div className='inner' >
                     <ol className="updates-list">{updatesList}</ol>

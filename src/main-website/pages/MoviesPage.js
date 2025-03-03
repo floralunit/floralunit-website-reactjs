@@ -296,6 +296,22 @@ export function MoviesPage() {
                                 <img src={require("../resources/movies/дряные девчонки.jpg")} alt="Movie Image" className="movie-image " />
                                 <div className=" movie-title "> Дрянные девчонки (2004) </ div>
                             </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/подкайфом.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Под кайфом и в смятении (1993) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/бенджамин.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Загадочная история Бенджамина Баттона (2008) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/говори.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Говори (2004) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/ловушкавремени.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Ловушка времени (2017) </ div>
+                            </div>
 
                         </div>
                     </div>
@@ -329,6 +345,10 @@ export function MoviesPage() {
                             <div className="movie-card">
                                 <img src={require("../resources/movies/интердевочка.jpg")} alt="Изображение фильма" className="movie-image" />
                                 <div className="movie-title">Интердевочка (1989)</div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/посетительмузея.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Посетитель музея (1989) </ div>
                             </div>
                         </div>
                     </div>
@@ -410,6 +430,10 @@ export function MoviesPage() {
                                 <img src={require("../resources/movies/девственницы.jpg")} alt="Movie Image" className="movie-image" />
                                 <div className="movie-title">Девственницы самоубийцы (1999)</div>
                             </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/русскийковчег.jpeg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Русский ковчег (2002) </ div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -453,6 +477,22 @@ export function MoviesPage() {
                             <img src={require("../resources/movies/the last of us.webp")} alt="Изображение фильма" className="movie-image" />
                             <div className="movie-title">The Last Of Us (2023-?)</div>
                         </div>
+                        <div class="movie-card">
+                                <img src={require("../resources/movies/выжить_после.webp")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Выжить после (2013-2016) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/чернобыль.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Чернобыль: Зона отчуждения (2014-2017) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/фолыч.jpeg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Fallout (2024) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/корни.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Корни (2016) </ div>
+                            </div>
                     </div>
                 </div>
                 <div
@@ -507,6 +547,14 @@ export function MoviesPage() {
                             <img src={require("../resources/movies/деревоикошка.jpg")} alt="Movie Image" className="movie-image" />
                             <div className="movie-title">Дерево и кошка (1983)</div>
                         </div>
+                        <div class="movie-card">
+                                <img src={require("../resources/movies/ежик.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Ёжик в тумане (1975) </ div>
+                            </div>
+                            <div class="movie-card">
+                                <img src={require("../resources/movies/третья планета.jpg")} alt="Movie Image" className="movie-image " />
+                                <div className=" movie-title "> Тайна третьей планеты (1981) </ div>
+                            </div>
                     </div>
                 </div>
             </div>

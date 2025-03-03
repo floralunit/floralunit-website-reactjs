@@ -1,5 +1,15 @@
 export const updates = [
     {
+        id: 17,
+        date: '2025-03-04',
+        note: 'Added poetry page',
+    },
+    {
+        id: 16,
+        date: '2025-03-03',
+        note: 'Photo and video updates',
+    },
+    {
         id: 15,
         date: '2024-08-05',
         note: 'New pages for emo music website',

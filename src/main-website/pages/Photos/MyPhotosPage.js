@@ -18,6 +18,8 @@ export function MyPhotosPage() {
   document.documentElement.style.setProperty('--box-background', `#f1eaed`);
 
   // #region LightBox
+  const [currentImage2025, setCurrentImage2025] = useState(0);
+  const [viewerIsOpen2025, setViewerIsOpen2025] = useState(false);
   const [currentImage2024, setCurrentImage2024] = useState(0);
   const [viewerIsOpen2024, setViewerIsOpen2024] = useState(false);
   const [currentImage2023, setCurrentImage2023] = useState(0);
@@ -37,6 +39,10 @@ export function MyPhotosPage() {
   const [currentImage2016, setCurrentImage2016] = useState(0);
   const [viewerIsOpen2016, setViewerIsOpen2016] = useState(false);
 
+  const openLightbox2025 = (index) => {
+    setCurrentImage2025(index);
+    setViewerIsOpen2025(true);
+  };
   const openLightbox2024 = (index) => {
     setCurrentImage2024(index);
     setViewerIsOpen2024(true);
@@ -75,6 +81,7 @@ export function MyPhotosPage() {
   };
 
   const closeLightbox = () => {
+    setCurrentImage2025(0);
     setCurrentImage2024(0);
     setCurrentImage2023(0);
     setCurrentImage2022(0);
@@ -84,6 +91,7 @@ export function MyPhotosPage() {
     setCurrentImage2018(0);
     setCurrentImage2017(0);
     setCurrentImage2016(0);
+    setViewerIsOpen2025(false);
     setViewerIsOpen2024(false);
     setViewerIsOpen2023(false);
     setViewerIsOpen2022(false);
@@ -107,6 +115,7 @@ export function MyPhotosPage() {
   const [photos2022, setPhotos2022] = useState([]);
   const [photos2023, setPhotos2023] = useState([]);
   const [photos2024, setPhotos2024] = useState([]);
+  const [photos2025, setPhotos2025] = useState([]);
 
   useEffect(() => {
     setIsLoaded(true);
@@ -127,6 +136,7 @@ export function MyPhotosPage() {
     setPhotos2022(photos.filter(x => x.title === '2022'));
     setPhotos2023(photos.filter(x => x.title === '2023'));
     setPhotos2024(photos.reverse().filter(x => x.title === '2024'));
+    setPhotos2025(photos.reverse().filter(x => x.title === '2025'));
   })
 
   // #endregion
@@ -136,6 +146,46 @@ export function MyPhotosPage() {
   } else {
     return (
       <div className='main' style={{ maxWidth: '1000px' }}>
+                <div className="box08">
+          <div className="box-top">
+            <div className="u01"></div>
+          </div>
+          <div className="box-center">
+            <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
+              2025
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                  style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
+                  title='https://foollovers.com' />
+              </div>
+            </div>
+          </div>
+          <div className="box-bottom">
+            <div className="s01"></div>
+          </div>
+        </div>
+        <div className='box'>
+          <div className='inner'>
+            <div className='photo-gallery'>
+              {photos2025.map((image, index) => (
+                <img key={index} src={image.src} onClick={() => openLightbox2025(index)} />))}
+              <ModalGateway>
+                {viewerIsOpen2025 ? (
+                  <Modal onClose={closeLightbox}>
+                    <Carousel
+                      images={photos2025}
+                      index={currentImage2025}
+                      style={{ height: 'auto', maxWidth: '25em' }}
+                      hasMediaButton={false}
+                      hasIndexBoard={false}
+                    />
+                  </Modal>
+                ) : null}
+              </ModalGateway>
+            </div>
+
+          </div>
+        </div>
         <div className="box08">
           <div className="box-top">
             <div className="u01"></div>

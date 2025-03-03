@@ -43,6 +43,8 @@ export function VideosPage() {
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239691" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239704" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
             <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239705" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vkvideo.ru/video_ext.php?oid=283385573&id=456239742" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vkvideo.ru/video_ext.php?oid=283385573&id=456239729" width="270" height="152" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
