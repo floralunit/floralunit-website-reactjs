@@ -274,7 +274,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="depressed040">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/depressed40.png')} loading="lazy" className="s"  alt='' />
