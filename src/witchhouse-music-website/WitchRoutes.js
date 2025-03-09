@@ -10,6 +10,8 @@ import {TenebraePage} from "./witch-pages/tenebrae/TenebraePage.js";
 import {EtalybovbPage} from "./witch-pages/etalybovb/EtalybovbPage.js";
 import {CainPage} from "./witch-pages/cain/CainPage.js";
 import { ScoPage } from "./witch-pages/sco/ScoPage.js";
+import { Depressed040Page } from "./witch-pages/depressed040/Depressed040Page.js";
+import { PlachzemlyaPage } from "./witch-pages/plachzemlya/PlachzemlyaPage.js";
 
 
 export function WitchRoutes() {
@@ -25,6 +27,8 @@ export function WitchRoutes() {
                 <Route path='etalybovb' element={<EtalybovbPage/>}/>
                 <Route path='cain' element={<CainPage/>}/>
                 <Route path='scowitchboy' element={<ScoPage/>}/>
+                <Route path='depressed040' element={<Depressed040Page/>}/>
+                <Route path='plachzemlya' element={<PlachzemlyaPage/>}/>
             </Routes>
         </div>
     );

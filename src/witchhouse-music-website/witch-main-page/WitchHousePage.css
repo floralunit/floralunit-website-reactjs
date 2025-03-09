@@ -145,3 +145,16 @@ div.vv17ch {
     color: #8a0303;
     cursor: var(--pointer-cursor), pointer;
 } /* mouse over link */ 
+
+.playlist-image{
+    height: 250px;
+    width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .playlist-image{
+        width: 100px;
+        height: auto;
+    }
+    
+}

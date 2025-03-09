@@ -144,8 +144,8 @@ export function WitchHousePage() {
             </section>
             <div className='container'>
 
-                <div className='info-text' style={{ color: 'red', textAlign: 'center', fontSize: '13px' }}>Здесь будут мои любимые и культовые исполнители. Добавлять их и оформлять странички буду по мере возможностей.
-                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 25.06.24 - добавлена страница по cain и sco</span></div>
+                <div className='info-text' style={{ color: 'red', textAlign: 'center', fontSize: '13px' }}>Здесь будут мои любимые исполнители. Добавлять их и оформлять странички буду по мере возможностей.
+                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 08.03.25 - добавлена страница по плачь земля</span></div>
 
             </div>
 
@@ -264,23 +264,45 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="plachzemlya">
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('../resources/artist-icons/crim3s.png')} loading="lazy" className="l" alt='' />
+                                                    <img src={require('../resources/artist-icons/plach.png')} loading="lazy" className="l" alt='' />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
-                                            <div className='witch-link'>Crim3s</div>
+                                            <div className='witch-link' style={{ fontFamily: 'arial' }}>Πлачь Ʒемля</div>
                                         </Link>
                                     </div>
                                     <div className="column">
                                         <Link >
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('../resources/artist-icons/ic3peak.png')} loading="lazy" className="s" style={{ maxHeight: '300px' }} alt='' />
+                                                    <img src={require('../resources/artist-icons/depressed40.png')} loading="lazy" className="s"  alt='' />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
-                                            <div className='witch-link'>IC3PEAK</div>
+                                            <div className='witch-link'>D E P R E S S E D 0 4 0</div>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="column">
+                                        <Link >
+                                            <GlitchClip onHover={true} className="s">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/axius.png')} loading="lazy" className="s" alt='' />
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link' style={{ fontFamily: 'arial' }}>△XIUS LIИK</div>
+                                        </Link>
+                                    </div>
+                                    <div className="column">
+                                        <Link >
+                                            <GlitchClip onHover={true} className="l">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/vsn7.png')} loading="lazy" className="l" alt='' />
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link'>VSN7</div>
                                         </Link>
                                     </div>
                                 </div>
