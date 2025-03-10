@@ -12,6 +12,8 @@ import {CainPage} from "./witch-pages/cain/CainPage.js";
 import { ScoPage } from "./witch-pages/sco/ScoPage.js";
 import { Depressed040Page } from "./witch-pages/depressed040/Depressed040Page.js";
 import { PlachzemlyaPage } from "./witch-pages/plachzemlya/PlachzemlyaPage.js";
+import { AxiusLinkPage } from "./witch-pages/axiuslink/AxiusLinkPage.js";
+import { Vsn7Page } from "./witch-pages/vsn7/Vsn7Page.js";
 
 
 export function WitchRoutes() {
@@ -29,6 +31,8 @@ export function WitchRoutes() {
                 <Route path='scowitchboy' element={<ScoPage/>}/>
                 <Route path='depressed040' element={<Depressed040Page/>}/>
                 <Route path='plachzemlya' element={<PlachzemlyaPage/>}/>
+                <Route path='axiuslink' element={<AxiusLinkPage/>}/>
+                <Route path='vsn7' element={<Vsn7Page/>}/>
             </Routes>
         </div>
     );

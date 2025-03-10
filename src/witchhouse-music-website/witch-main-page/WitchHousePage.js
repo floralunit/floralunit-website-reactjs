@@ -286,7 +286,7 @@ export function WitchHousePage() {
                                 </div>
                                 <div className="row">
                                     <div className="column">
-                                        <Link >
+                                        <Link to="axiuslink">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/axius.png')} loading="lazy" className="s" alt='' />
@@ -296,7 +296,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="vsn7">
                                             <GlitchClip onHover={true} className="l">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/vsn7.png')} loading="lazy" className="l" alt='' />

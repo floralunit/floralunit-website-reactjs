@@ -16,7 +16,6 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 
 export function Depressed040Page() {
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_91', 283385573, 91,'b99a6fe2378f3679c6')");
-    UseScriptText("VK.Widgets.Playlist('vk_playlist_-2000487790_11487790', -2000487790, 11487790,'d1ce817271e68f3863')");
     webamp.close();
     const [photosDepressed, setPhotosDepressed] = useState([]);
     const musics = [
@@ -106,7 +105,6 @@ export function Depressed040Page() {
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/3Q2QWoF7uYk?si=du4op_w5XeQyihf1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
-
             </section>
         </div>
     );

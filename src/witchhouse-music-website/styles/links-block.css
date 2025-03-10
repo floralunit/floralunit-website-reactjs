@@ -22,6 +22,7 @@
 }
 .links-block-background a{
     background-color: white;
+    color: black;
 }
 .links-block-background a:visited { color:black; } /* visited link */
 .links-block-background a:hover { 
