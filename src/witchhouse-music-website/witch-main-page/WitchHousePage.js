@@ -242,7 +242,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="mugl">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/mugl.png')} loading="lazy" className="s" style={{ maxHeight: '250px' }} alt='' />
@@ -254,7 +254,7 @@ export function WitchHousePage() {
                                 </div>
                                 <div className="row">
                                     <div className="column">
-                                        <Link >
+                                        <Link to='fraunhofer-diffraction'>
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/fd.png')} loading="lazy" className="s" alt='' />
