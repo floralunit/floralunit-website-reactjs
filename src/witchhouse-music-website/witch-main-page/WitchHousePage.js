@@ -235,7 +235,7 @@ export function WitchHousePage() {
                                         </Link>
                                     </div>
                                     <div className="column">
-                                        <Link >
+                                        <Link to="summer-of-haze">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
                                                     <img src={require('../resources/artist-icons/summer.png')} loading="lazy" className="s" alt='' />
