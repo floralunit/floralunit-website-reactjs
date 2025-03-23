@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { WITCH_MAIN_CURSOR, WITCH_POINTER_CURSOR } from '../../../global-const';
 import "../../../common/styles/gallery.css";
 import "../../../common/styles/text-background.scss"
@@ -8,6 +9,9 @@ import ave from '../../resources/images/5EjD.gif'
 import { Link } from 'react-router-dom';
 
 export function TubfuckPage() {
+    useEffect(() => {
+        document.title = `†▼BF▼CK | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_78', 283385573, 78,'05c48c40d79915851b')");
     webamp.close();
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
@@ -20,7 +24,7 @@ export function TubfuckPage() {
       ),url(${ave})`);
 
     return (
-        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', textAlign: 'center' }}>
+        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', textAlign: 'center', minHeight:'100vh' }}>
             <div className="crt"></div>
             <div className='text-background'>
                 <p className="text-background-tubfuck"
@@ -39,11 +43,11 @@ export function TubfuckPage() {
                 <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
             </Link>
             <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
-                <img src={require("../../resources/images/angel2_l.png")} style={{ width: '15%' }} alt='' />
-                <div style={{ width: '40%', margin: '20px' }}>
+                <img src={require("../../resources/images/angel2_l.png")} className='playlist-image' style={{ height: '350px', margin: '20px 0' }} alt='' />
+                <div style={{ margin: '20px', width: '400px' }}>
                     <div id="vk_playlist_283385573_78"></div>
                 </div>
-                <img src={require("../../resources/images/angel2.png")} style={{ width: '15%' }} alt='' />
+                <img src={require("../../resources/images/angel2.png")} className='playlist-image' style={{ height: '350px', margin: '20px 0' }} alt='' />
             </div>
             <div className='links-block'>
                 <hr />

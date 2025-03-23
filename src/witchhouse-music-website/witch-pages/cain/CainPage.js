@@ -16,20 +16,24 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { Cvltcain } from './cvltcain.js';
 
 export function CainPage() {
+    useEffect(() => {
+        document.title = `† CΛIN † | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_70', 283385573, 70,'3ca40709ba88a6341f')");
     UseScriptText("VK.Widgets.Playlist('vk_playlist_-2000487790_11487790', -2000487790, 11487790,'d1ce817271e68f3863')");
     webamp.close();
     const [photosCain, setPhotosCain] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228061492' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217579506' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217579501' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217579495' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208423346' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212120482' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228061501' },
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228061492' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217579506' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217579501' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/217579495' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208423346' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212120482' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228061501' },
+        ];
+
         if (photosCain.length === 0) {
             const photos = CainPhotos.map(photo => ({
                 src: photo.src,
@@ -41,7 +45,7 @@ export function CainPage() {
             const shuffledArray = [...array];
             setPhotosCain(shuffle(shuffledArray));
         }
-    });
+    }, [photosCain.length]);
 
     document.documentElement.style.setProperty('--witch-main-background', `url(${main_background})`);
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);

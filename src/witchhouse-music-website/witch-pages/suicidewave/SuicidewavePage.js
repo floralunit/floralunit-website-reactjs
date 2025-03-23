@@ -12,26 +12,30 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { Link } from 'react-router-dom';
 
 export function SuicidewavePage() {
+    useEffect(() => {
+        document.title = `SUICIDEWAVЕ | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_67', 283385573, 67,'d689d653b6d03c3ef3')");
     UseScriptText("VK.Widgets.Playlist('vk_playlist_-150736684_196', -150736684, 196,'208bde7723fb38faf7')");
     webamp.close();
     const [photosSuicide, setPhotosSuicide] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187986' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187308' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187251' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187281' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187317' },
-
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187986' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187308' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187251' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187281' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480187317' },
+
+        ];
+
         if (photosSuicide.length === 0) {
             const photosS = photos.map((obj) => ({ ...obj, type: "photo" }));
             const array = photosS.concat(musics);
             const shuffledArray = [...array];
             setPhotosSuicide(shuffle(shuffledArray));
         }
-    });
+    }, [photosSuicide.length]);
 
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
@@ -41,8 +45,6 @@ export function SuicidewavePage() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-            const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${flowers})`);
@@ -59,7 +61,7 @@ export function SuicidewavePage() {
     }, []);
 
     return (
-        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', minWidth: '900px' }}>
+        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
             <div className="crt"></div>
             <br />
             <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
@@ -88,11 +90,11 @@ export function SuicidewavePage() {
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
                 </Link>
                 <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
-                    <img src={require("../../resources/images/angel3_l.png")} style={{ height: '450px', width: 'auto' }} alt='' />
+                    <img src={require("../../resources/images/angel3_l.png")} className='playlist-image' style={{ height: '450px', width: 'auto' }} alt='' />
                     <div style={{ width: '400px', margin: '20px' }}>
                         <div id="vk_playlist_283385573_67"></div>
                     </div>
-                    <img src={require("../../resources/images/angel3.png")} style={{ height: '450px', width: 'auto' }} alt='' />
+                    <img src={require("../../resources/images/angel3.png")} className='playlist-image' style={{ height: '450px', width: 'auto' }} alt='' />
                 </div>
             </section>
             <section id='section2' style={{ textAlign: 'center' }} >

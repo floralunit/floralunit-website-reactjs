@@ -10,21 +10,24 @@ import { DepressedPhotos } from './photos/photos.js';
 import main_background from '../../resources/images/Ote.gif'
 import second_background from '../../resources/images/dabc.gif'
 
-import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
 import { UseScriptText } from '../../../common/components/UseScript.js';
 import { webamp } from '../../components/webamp/WebampMusic.js';
 
 export function Depressed040Page() {
+    useEffect(() => {
+        document.title = `D e p r e s s e d 0 4 0 | floralunit world ?`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_91', 283385573, 91,'b99a6fe2378f3679c6')");
     webamp.close();
     const [photosDepressed, setPhotosDepressed] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1023242209' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237060749' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/941322226' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237061011' }
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1023242209' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237060749' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/941322226' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237061011' }
+        ];
+
         if (photosDepressed.length === 0) {
             const photos = DepressedPhotos.map(photo => ({
                 src: photo.src,
@@ -36,7 +39,7 @@ export function Depressed040Page() {
             const shuffledArray = [...array];
             setPhotosDepressed(shuffle(shuffledArray));
         }
-    });
+    }, [photosDepressed.length]);
 
     document.documentElement.style.setProperty('--witch-main-background', `url(${main_background})`);
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
@@ -46,7 +49,6 @@ export function Depressed040Page() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
 
             if (window.scrollY <= section1.offsetHeight - 100) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${main_background})`);

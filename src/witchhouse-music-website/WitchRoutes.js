@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from "react";
-import {Link, Outlet, Route, Routes} from "react-router-dom";
+import React from "react";
+import {Route, Routes} from "react-router-dom";
 import {WitchHousePage} from "./witch-main-page/WitchHousePage";
 import "../common/styles/crt-lines.css"
 

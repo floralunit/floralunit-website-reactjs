@@ -16,44 +16,48 @@ import "../../styles/links-block.css"
 import { Link } from 'react-router-dom';
 
 export function RadostMojaPage() {
+    useEffect(() => {
+        document.title = `радость моя | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_57', 283385573, 57,'ca51d3f2bdf4685776')");
     webamp.close();
     const [photosRadost, setPhotosRadost] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146296601' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136815635' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100073656' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/97733282' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/95891674' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/93806159' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/85851188' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89783906' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84421056' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84420798' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73476919' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71575408' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/54515925' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198072149' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209861704' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209863388' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159272833' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159289964' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165725952' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143898802' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143021984' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136066484' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136068924' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136064086' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120655619' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126082769' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120655490' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120654976' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/114081143' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/109373326' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/108868711' },
-
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146296601' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136815635' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100073656' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/97733282' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/95891674' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/93806159' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/85851188' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89783906' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84421056' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84420798' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73476919' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71575408' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/54515925' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198072149' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209861704' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209863388' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159272833' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159289964' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165725952' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143898802' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/143021984' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136066484' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136068924' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/136064086' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120655619' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126082769' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120655490' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120654976' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/114081143' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/109373326' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/108868711' },
+
+        ];
+
         if (photosRadost.length === 0) {
             const photos = RadostMojaPhotos.response.items.map(photo => ({
                 src: photo.sizes.find(size => size.type === "x").url,
@@ -67,7 +71,7 @@ export function RadostMojaPage() {
             const shuffledArray = [...array];
             setPhotosRadost(shuffle(shuffledArray));
         }
-    });
+    }, [photosRadost.length]);
 
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
@@ -100,7 +104,7 @@ export function RadostMojaPage() {
     return (
         <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
             <div className="crt"></div>
-            <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign:'center' }}>
+            <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
                 <hr />
                 <Pomnim />
                 <hr />
@@ -120,7 +124,7 @@ export function RadostMojaPage() {
                             style={{ width: '100px', margin: '0 auto' }} alt='' />
                     </GlitchSquiggly>
                 </div>
-                <Link className='link-back' style={{color: '#8a0303'}} to="/witch-house">
+                <Link className='link-back' style={{ color: '#8a0303' }} to="/witch-house">
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ height: '15px' }} alt='' />
                     <span>&nbsp;back to witch page&nbsp;</span>
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
@@ -153,17 +157,17 @@ export function RadostMojaPage() {
                 </div>
                 <br />
                 <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row' }}>
-                <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '200px', width: 'auto', margin:'100px 0' }} alt='' />
-                <div style={{ width: '400px', margin: '20px' }}>
-                    <div id="vk_playlist_283385573_57"></div>
+                    <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '200px', width: 'auto', margin: '100px 0' }} alt='' />
+                    <div style={{ width: '400px', margin: '20px' }}>
+                        <div id="vk_playlist_283385573_57"></div>
+                    </div>
+                    <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '200px', width: 'auto', margin: '100px 0', transform: 'rotate(180deg)' }} alt='' />
                 </div>
-                <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '200px', width: 'auto', margin:'100px 0',transform: 'rotate(180deg)'}} alt='' />
-            </div>
                 <br />
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap' }}>
-                    <iframe width="500" height="300" style={{ margin: '10px' }} title='youtube' src="https://www.youtube.com/embed/YDYoWCIzlSM?si=Uiwi1TLxCAwg_Xhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="500" height="300" style={{ margin: '10px' }} src="https://www.youtube.com/embed/YDYoWCIzlSM?si=Uiwi1TLxCAwg_Xhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <iframe src="https://vk.com/video_ext.php?oid=283385573&id=456239695&hd=2" title='vk' width="500" height="300" style={{ margin: '10px' }} allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="500" height="300" style={{ margin: '10px' }} title='youtube' src="https://www.youtube.com/embed/Tkg7BgN-PSc?si=L7IZkgwQ3xNX9H-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                    <iframe width="500" height="300" style={{ margin: '10px' }} src="https://www.youtube.com/embed/Tkg7BgN-PSc?si=L7IZkgwQ3xNX9H-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
                 </div>
             </section>
             <br />

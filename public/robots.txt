@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://floralunit.vercel.app/sitemap.xml

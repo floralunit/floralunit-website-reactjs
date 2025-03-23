@@ -17,25 +17,29 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { RakDushi } from './rakdushi.js';
 
 export function ScoPage() {
+    useEffect(() => {
+        document.title = `△Sco△ | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_71', 283385573, 71,'a6aa52abbd4abc7bb3')");
     UseScriptText("VK.Widgets.Playlist('vk_playlist_-150736684_196', -150736684, 196,'208bde7723fb38faf7')");
     webamp.close();
     const [photosSco, setPhotosSco] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236858194' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204101978' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261410697' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204106900' },
-
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236858194' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204101978' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261410697' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204106900' },
+
+        ];
+
         if (photosSco.length === 0) {
             const photosS = photos.map((obj) => ({ ...obj, type: "photo" }));
             const array = photosS.concat(musics);
             const shuffledArray = [...array];
             setPhotosSco(shuffle(shuffledArray));
         }
-    });
+    }, [photosSco.length]);
 
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
@@ -45,8 +49,6 @@ export function ScoPage() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-            const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight / 2) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${main_background})`);
@@ -63,7 +65,7 @@ export function ScoPage() {
     }, []);
 
     return (
-        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', minWidth: '900px' }}>
+        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
             <div className="crt"></div>
             <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
                 <hr />
@@ -81,7 +83,6 @@ export function ScoPage() {
                     padding: '0 20px',
                     lineHeight: '183px',
                     margin: '0 auto',
-                    minWidth: '700px',
                     fontWeight: 'bold',
                     letterSpacing: '15px'
                 }}>
@@ -104,7 +105,7 @@ export function ScoPage() {
                     </div>
                     <div>
                         <br /><br /><br /><br />
-                        <img src={require("../../resources/images/heart-boy.gif")} style={{ height: '250px', width: 'auto' }} alt='' />
+                        <img src={require("../../resources/images/heart-boy.gif")} className='playlist-image' style={{ height: '250px', width: 'auto' }} alt='' />
                     </div>
                 </div>
             </section>

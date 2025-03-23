@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { WITCH_MAIN_CURSOR, WITCH_POINTER_CURSOR } from '../../../global-const.js';
 import "../../../common/styles/gallery.css";
 import "../../../common/styles/text-background.scss"
@@ -10,6 +10,10 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { Link } from 'react-router-dom';
 
 export function EtalybovbPage() {
+    useEffect(() => {
+        document.title = `ǝțâ ΛЮƂǪɃЬ | floralunit world ❤`;
+    });
+
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_80', 283385573, 80,'bfe1f760189520551a')");
     webamp.close();
 
@@ -20,7 +24,7 @@ export function EtalybovbPage() {
     document.documentElement.style.setProperty('--witch-main-background', `url(${flowers})`);
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', textAlign: 'center', minWidth: '900px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', textAlign: 'center', minHeight:'100vh' }}>
             <div className="crt"></div>
             <br />
             <div className="header-with-bg" style={{
@@ -49,11 +53,11 @@ export function EtalybovbPage() {
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
                 </Link>
             <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row' }}>
-                <img src={require("../../resources/images/fairy_l.png")} style={{ height: '400px', width: 'auto' }} alt='' />
+                <img src={require("../../resources/images/fairy_l.png")} className='playlist-image' style={{ height: '400px', width: 'auto' }} alt='' />
                 <div style={{ width: '400px', margin: '20px' }}>
                     <div id="vk_playlist_283385573_80"></div>
                 </div>
-                <img src={require("../../resources/images/fairy.png")} style={{ height: '400px', width: 'auto' }} alt='' />
+                <img src={require("../../resources/images/fairy.png")} className='playlist-image' style={{ height: '400px', width: 'auto' }} alt='' />
             </div>
             <div className='links-block'>
                 <hr />
@@ -66,7 +70,7 @@ export function EtalybovbPage() {
             </div>
             <br />
             <div style={{ margin: '0 auto', width: "400px", background: 'rgb(0,0,0,0.5)' }}>
-                <iframe width="400px" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199375719&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe width="400px" height="80" scrolling="no" frameborder="no" allow="autoplay" title="soundcloud" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199375719&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 <GlitchSquiggly>
                     <h5 style={{ color: 'white', padding: '0', margin: '0' }}>Освободи себя от холода в сердце</h5>
                     <h5 style={{ color: 'white', padding: '0', margin: '0' }}>Разбуди в душе ураган страстей</h5>

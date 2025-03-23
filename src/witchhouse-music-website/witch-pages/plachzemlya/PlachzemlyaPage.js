@@ -10,6 +10,9 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { Link } from 'react-router-dom';
 
 export function PlachzemlyaPage() {
+    useEffect(() => {
+        document.title = `Плачь Ʒемля | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_90', 283385573, 90,'6d9f5d5bee86c27f0c')");
     UseScriptText("VK.Widgets.Playlist('vk_playlist_-150736684_153', -150736684, 153,'ea7662c3c9b902967d')");
     webamp.close();
@@ -21,8 +24,6 @@ export function PlachzemlyaPage() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-            const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${girl})`);
@@ -90,9 +91,9 @@ export function PlachzemlyaPage() {
                     <div style={{ width: '500px', margin: '0 auto' }}>
                         <br />
 
-                        <iframe src="https://vkvideo.ru/video_ext.php?oid=-115494169&id=456239150&hd=2" width="560" height="315" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://vkvideo.ru/video_ext.php?oid=-115494169&id=456239150&hd=2" width="560" height="315" title="VK video player" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
                         <br /><br />
-                        <iframe src="https://vkvideo.ru/video_ext.php?oid=283385573&id=456239743&hd=2" width="360" height="640" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://vkvideo.ru/video_ext.php?oid=283385573&id=456239743&hd=2" width="360" height="640" title="VK video player" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
                         <br /><br />
                         <div style={{ width: '400px' }}>
                             <div id="vk_playlist_-150736684_153"></div>

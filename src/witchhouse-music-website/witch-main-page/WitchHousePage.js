@@ -1,6 +1,6 @@
 import './WitchHousePage.css';
 import '../../common/styles/photos.css';
-import React, { useState, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
 import GlitchText from 'react-glitch-effect/core/GlitchText';
@@ -18,6 +18,9 @@ import {
 import { UseScriptText } from '../../common/components/UseScript';
 
 export function WitchHousePage() {
+        useEffect(() => {
+            document.title = `Witch House | floralunit world ❤`;
+        });
     document.documentElement.style.setProperty('--witch-main-background', `url(${WITCH_BACKGROUND})`);
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);

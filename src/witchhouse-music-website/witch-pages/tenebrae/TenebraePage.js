@@ -10,26 +10,30 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { Link } from 'react-router-dom';
 
 export function TenebraePage() {
+    useEffect(() => {
+        document.title = `†ENEBRÆ | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_79', 283385573, 79,'83ce6026d49f549acb')");
     webamp.close();
     const [photosTenebrae, setPhotosTenebrae] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182757750' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177343010' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89892279' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/88073326' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177338941' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/70652443' },
-
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182757750' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177343010' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89892279' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/88073326' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177338941' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/70652443' },
+
+        ];
+
         if (photosTenebrae.length === 0) {
             const photosS = photos.map((obj) => ({ ...obj, type: "photo" }));
             const array = photosS.concat(musics);
             const shuffledArray = [...array];
             setPhotosTenebrae(shuffle(shuffledArray));
         }
-    });
+    }, [photosTenebrae.length]);
 
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
@@ -39,8 +43,6 @@ export function TenebraePage() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-            const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight + section1.offsetHeight) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${men})`);
@@ -57,7 +59,7 @@ export function TenebraePage() {
     }, []);
 
     return (
-        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', minWidth: '900px' }}>
+        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
             <div className="crt"></div>
             <br />
             <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
@@ -65,19 +67,19 @@ export function TenebraePage() {
                 <br />
                 <Link className='link-back' to="/witch-house">
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ height: '15px' }} alt='' />
-                    <span>&nbsp;back to witch page&nbsp;</span>
+                    <span style={{ background: 'white', color: 'black' }}>&nbsp;back to witch page&nbsp;</span>
                     <img src={require("../../../main-website/resources/pixels/cj2PLXc.gif")} style={{ width: '15px' }} alt='' />
                 </Link>
                 <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row', margin: '0 auto' }}>
-                    <img src={require("./women.png")} style={{ width: '18%', height: 'auto' }} alt='' />
+                    <img src={require("./women.png")} className='playlist-image' style={{ width: '18%', height: 'auto' }} alt='' />
                     <div style={{ width: '40%', margin: '20px' }}>
                         <div id="vk_playlist_283385573_79"></div>
                     </div>
-                    <img src={require("./men.png")} style={{ width: '18%', height: 'auto' }} alt='' />
+                    <img src={require("./men.png")} className='playlist-image' style={{ width: '18%', height: 'auto' }} alt='' />
                 </div>
             </section>
             <section id='section2' style={{ textAlign: 'center' }} >
-                <div className='links-block'>
+                <div className='links-block-background'>
                     <hr />
                     <a style={{ margin: '0 10px' }} href="https://www.facebook.com/whatistenebrae" target="_blank" rel="noreferrer">facebook</a>
                     <hr />

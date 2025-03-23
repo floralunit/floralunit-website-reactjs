@@ -13,17 +13,21 @@ import { Link } from 'react-router-dom';
 import { Vesna } from './vesna.js';
 
 export function Vsn7Page() {
+    useEffect(() => {
+        document.title = `VSN7 | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_92', 283385573, 92,'0d5cb9f444966c0979')");
     webamp.close();
 
     const [photosVesna, setPhotosVesna] = useState([]);
-    const musics = [
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294311776' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294314385' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251419418' },
-        { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1557526753' }
-    ];
     useEffect(() => {
+        const musics = [
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294311776' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294314385' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251419418' },
+            { type: "music", src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1557526753' }
+        ];
+
         if (photosVesna.length === 0) {
             const photos = Vsn7Photos.map(photo => ({
                 src: photo.src,
@@ -35,7 +39,7 @@ export function Vsn7Page() {
             const shuffledArray = [...array];
             setPhotosVesna(shuffle(shuffledArray));
         }
-    });
+    }, [photosVesna.length]);
 
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
@@ -45,8 +49,6 @@ export function Vsn7Page() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-            const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${main_background})`);

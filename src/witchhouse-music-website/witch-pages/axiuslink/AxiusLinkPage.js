@@ -10,6 +10,9 @@ import { webamp } from '../../components/webamp/WebampMusic.js';
 import { Link } from 'react-router-dom';
 
 export function AxiusLinkPage() {
+    useEffect(() => {
+        document.title = `∆XIUS LIИK | floralunit world ❤`;
+    });
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_93', 283385573, 93,'a2dfc4be30b700b46e')");
     webamp.close();
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
@@ -20,8 +23,6 @@ export function AxiusLinkPage() {
     useEffect(() => {
         const handleScroll = () => {
             const section1 = document.getElementById("section1");
-            const section2 = document.getElementById("section2");
-            const section3 = document.getElementById("section3");
 
             if (window.scrollY <= section1.offsetHeight) {
                 document.documentElement.style.setProperty('--witch-main-background', `url(${main_background})`);
@@ -38,7 +39,7 @@ export function AxiusLinkPage() {
     }, []);
 
     return (
-        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', minHeight:'100vh' }}>
             <div className="crt"></div>
             <br />
             <section id='section1' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>

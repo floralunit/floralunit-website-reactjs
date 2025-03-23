@@ -90,10 +90,6 @@ iframe{
     src: url("common/fonts/Better\ VCR\ 6.1.ttf");
 }
 @font-face {
-    font-family: Kremlin;
-    src: url("common/fonts/KremlinSamovarLite.ttf");
-}
-@font-face {
     font-family: Molot;
     src: url("common/fonts/Molot.otf");
 }
