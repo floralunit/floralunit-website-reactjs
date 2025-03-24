@@ -17,6 +17,7 @@ import { Vsn7Page } from "./witch-pages/vsn7/Vsn7Page.js";
 import { FraunhoferPage } from "./witch-pages/fraunhofer/FraunhoferPage.js";
 import { MuglPage } from "./witch-pages/mugl/MuglPage.js";
 import { SummerOfHazePage } from "./witch-pages/summerofhaze/SummerOfHazePage.js";
+import { VV17CHOU7Page } from "./witch-pages/community-pages/VV17CHOU7Page.js";
 
 
 export function WitchRoutes() {
@@ -38,7 +39,8 @@ export function WitchRoutes() {
                 <Route path='vsn7' element={<Vsn7Page/>}/>
                 <Route path='fraunhofer-diffraction' element={<FraunhoferPage/>}/>
                 <Route path='mugl' element={<MuglPage/>}/>
-                <Route path='summer-of-haze' element={<SummerOfHazePage/>}/> 
+                <Route path='summer-of-haze' element={<SummerOfHazePage/>}/>
+                <Route path='vv17chou7' element={<VV17CHOU7Page/>}/>
             </Routes>
         </div>
     );

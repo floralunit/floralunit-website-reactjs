@@ -50,6 +50,11 @@
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: #ffffff;
 }
+.text-stroke-black {
+    color: transparent;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #000000;
+}
 
 @keyframes marqueeAnimation {
     100% {

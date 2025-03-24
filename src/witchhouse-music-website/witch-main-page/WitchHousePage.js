@@ -103,14 +103,14 @@ export function WitchHousePage() {
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
-                                    <Link>
+                                    <Link to="vv17chou7">
                                         <GlitchClip onHover={true}>
                                             <GlitchSquiggly onHover={false}>
                                                 <img src={require('../resources/artist-icons/vv17chou7.jpg')} loading="lazy"
                                                     className="vv17chImg" alt='' />
                                             </GlitchSquiggly>
                                         </GlitchClip>
-                                        <a><div className='witch-link-small'>VV17CH<pupa style={{ fontFamily: 'arial' }}>Ø</pupa>U7</div></a>
+                                        <a ><div className='witch-link-small'>VV17CH<pupa style={{ fontFamily: 'arial' }}>Ø</pupa>U7</div></a>
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
