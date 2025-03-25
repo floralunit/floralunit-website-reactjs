@@ -92,7 +92,7 @@ export function WitchHousePage() {
                                         className="vv17chImg" alt='' />
                                 </div>
                                 <div className="vv17ch">
-                                    <Link>
+                                    <Link to="vedmin-dom">
                                         <GlitchClip onHover={true} style={{ margin: '0', padding: '0' }}>
                                             <GlitchSquiggly onHover={false}>
                                                 <img src={require('../resources/artist-icons/vedmindom.png')} loading="lazy"
