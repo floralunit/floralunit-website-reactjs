@@ -958,8 +958,10 @@ export function VedminDomPage() {
 
                 </div>
                 <br />
-                <div style={{ width: '400px', margin: '20px' }}>
-                    <div id="vk_playlist_-150736684_149"></div>
+                <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', margin: '0 auto' }}>
+                    <div style={{ width: '400px', margin: '20px' }}>
+                        <div id="vk_playlist_-150736684_149"></div>
+                    </div>
                 </div>
             </section>
             <br />

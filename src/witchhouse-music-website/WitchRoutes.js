@@ -19,6 +19,7 @@ import { MuglPage } from "./witch-pages/mugl/MuglPage.js";
 import { SummerOfHazePage } from "./witch-pages/summerofhaze/SummerOfHazePage.js";
 import { VV17CHOU7Page } from "./witch-pages/community-pages/VV17CHOU7Page.js";
 import { VedminDomPage } from "./witch-pages/community-pages/VedminDomPage.js";
+import { GatePage } from "./witch-pages/community-pages/GatePage.js";
 
 
 export function WitchRoutes() {
@@ -43,6 +44,7 @@ export function WitchRoutes() {
                 <Route path='summer-of-haze' element={<SummerOfHazePage/>}/>
                 <Route path='vv17chou7' element={<VV17CHOU7Page/>}/>
                 <Route path='vedmin-dom' element={<VedminDomPage/>}/>
+                <Route path='gate' element={<GatePage/>}/>
             </Routes>
         </div>
     );

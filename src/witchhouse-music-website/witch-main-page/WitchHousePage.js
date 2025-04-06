@@ -1,6 +1,6 @@
 import './WitchHousePage.css';
 import '../../common/styles/photos.css';
-import React, {  useEffect } from 'react'
+import React, { useEffect } from 'react'
 import GlitchClip from 'react-glitch-effect/core/GlitchClip';
 import GlitchSquiggly from 'react-glitch-effect/core/GlitchSquiggly';
 import GlitchText from 'react-glitch-effect/core/GlitchText';
@@ -18,9 +18,9 @@ import {
 import { UseScriptText } from '../../common/components/UseScript';
 
 export function WitchHousePage() {
-        useEffect(() => {
-            document.title = `Witch House | floralunit world ❤`;
-        });
+    useEffect(() => {
+        document.title = `Witch House | floralunit world ❤`;
+    });
     document.documentElement.style.setProperty('--witch-main-background', `url(${WITCH_BACKGROUND})`);
     document.documentElement.style.setProperty('--main-cursor', `url(${WITCH_MAIN_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${WITCH_POINTER_CURSOR})`);
@@ -99,7 +99,7 @@ export function WitchHousePage() {
                                                     className="vv17chImg" alt='' />
                                             </GlitchSquiggly>
                                         </GlitchClip>
-                                        <a><div className='witch-link-small'> Ведьмин дом</div></a>
+                                        <div className='witch-link-small' style={{ textDecoration:'underline' }}> Ведьмин дом</div>
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
@@ -110,18 +110,18 @@ export function WitchHousePage() {
                                                     className="vv17chImg" alt='' />
                                             </GlitchSquiggly>
                                         </GlitchClip>
-                                        <a ><div className='witch-link-small'>VV17CH<pupa style={{ fontFamily: 'arial' }}>Ø</pupa>U7</div></a>
+                                        <div className='witch-link-small' style={{ textDecoration:'underline' }}>VV17CH<pupa style={{ fontFamily: 'arial' }}>Ø</pupa>U7</div>
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
-                                    <Link>
+                                    <Link to="gate">
                                         <GlitchClip onHover={true}>
                                             <GlitchSquiggly>
                                                 <img src={require('../resources/artist-icons/gate.jpg')} loading="lazy"
                                                     className="vv17chImg" alt='' />
                                             </GlitchSquiggly>
                                         </GlitchClip>
-                                        <a><div className='witch-link-small'>Gáte</div></a>
+                                        <div className='witch-link-small' style={{ textDecoration:'underline' }}>Gáte</div>
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
@@ -132,7 +132,7 @@ export function WitchHousePage() {
                                                     className="vv17chImg" alt='' />
                                             </GlitchSquiggly>
                                         </GlitchClip>
-                                        <a><div className='witch-link-small'>NEDOSTUPNOSTЬ</div></a>
+                                        <div className='witch-link-small' style={{ textDecoration:'underline' }}>NEDOSTUPNOSTЬ</div>
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
@@ -148,7 +148,7 @@ export function WitchHousePage() {
             <div className='container'>
 
                 <div className='info-text' style={{ color: 'red', textAlign: 'center', fontSize: '13px' }}>Здесь будут мои любимые исполнители. Добавлять их и оформлять странички буду по мере возможностей.
-                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 08.03.25 - добавлена страница по плачь земля</span></div>
+                    <br /><span style={{ fontWeight: 'bold' }}>Last upd: 06.04.25 - добавлены страницы по vv17chou7, ведьмин дом, gate</span></div>
 
             </div>
 
@@ -280,7 +280,7 @@ export function WitchHousePage() {
                                         <Link to="depressed040">
                                             <GlitchClip onHover={true} className="s">
                                                 <GlitchSquiggly onHover={false}>
-                                                    <img src={require('../resources/artist-icons/depressed40.png')} loading="lazy" className="s"  alt='' />
+                                                    <img src={require('../resources/artist-icons/depressed40.png')} loading="lazy" className="s" alt='' />
                                                 </GlitchSquiggly>
                                             </GlitchClip>
                                             <div className='witch-link'>D E P R E S S E D 0 4 0</div>
