@@ -136,6 +136,17 @@ export function WitchHousePage() {
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
+                                    <Link to="crimewave">
+                                        <GlitchClip onHover={true}>
+                                            <GlitchSquiggly>
+                                                <img src={require('../resources/artist-icons/crimewave.jpg')} loading="lazy"
+                                                    className="vv17chImg" alt='' />
+                                            </GlitchSquiggly>
+                                        </GlitchClip>
+                                        <div className='witch-link-small' style={{ textDecoration:'underline' }}>CRIMEWAVE</div>
+                                    </Link>
+                                </div>
+                                <div className="vv17ch">
                                     <img src={require('../resources/angel-left.png')} loading="lazy"
                                         className="vv17chImg" alt='' />
                                 </div>

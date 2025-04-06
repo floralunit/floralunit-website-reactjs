@@ -21,6 +21,7 @@ import { VV17CHOU7Page } from "./witch-pages/community-pages/VV17CHOU7Page.js";
 import { VedminDomPage } from "./witch-pages/community-pages/VedminDomPage.js";
 import { GatePage } from "./witch-pages/community-pages/GatePage.js";
 import { NedostupnostPage } from "./witch-pages/community-pages/NedostupnostPage.js";
+import { CrimewavePage } from "./witch-pages/community-pages/CrimewavePage.js";
 
 
 export function WitchRoutes() {
@@ -47,6 +48,7 @@ export function WitchRoutes() {
                 <Route path='vedmin-dom' element={<VedminDomPage/>}/>
                 <Route path='gate' element={<GatePage/>}/>
                 <Route path='nedostupnost' element={<NedostupnostPage/>}/>
+                <Route path='crimewave' element={<CrimewavePage/>}/>
             </Routes>
         </div>
     );
