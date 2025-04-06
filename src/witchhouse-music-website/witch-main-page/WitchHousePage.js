@@ -125,7 +125,7 @@ export function WitchHousePage() {
                                     </Link>
                                 </div>
                                 <div className="vv17ch">
-                                    <Link>
+                                    <Link to="nedostupnost">
                                         <GlitchClip onHover={true}>
                                             <GlitchSquiggly>
                                                 <img src={require('../resources/artist-icons/nedo.jpg')} loading="lazy"

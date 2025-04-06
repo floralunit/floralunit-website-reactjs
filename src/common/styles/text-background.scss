@@ -55,10 +55,13 @@
 .text-background-gate {
     background-image: url("../../witchhouse-music-website/resources/images/ffb0f8140d20a8c6c434ba4c185cf43d.gif");
     font-size: 80px;
+}.text-background-nedostupnost {
+    background-image: 'white';
+    font-size: 60px;
 }
 @media only screen and (max-width: 900px) {
     .text-background-radost, .text-background-tubfuck {
-        font-size: 60px;
+        font-size: 50px;
     }
     .text-background-cain {
         font-size: 130px;
