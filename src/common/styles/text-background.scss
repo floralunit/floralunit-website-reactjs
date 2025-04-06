@@ -59,9 +59,16 @@
     background-image: 'white';
     font-size: 60px;
 }
+.text-background-marazm {
+    background-image: url("../../witchhouse-music-website/resources/images/giphy2.gif");
+    font-size: 100px;
+}
 @media only screen and (max-width: 900px) {
-    .text-background-radost, .text-background-tubfuck {
+    .text-background-radost, .text-background-tubfuck, .text-background-marazm {
         font-size: 50px;
+    }
+    .text-background-marazm {
+        font-size: 70px;
     }
     .text-background-cain {
         font-size: 130px;

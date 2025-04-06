@@ -160,27 +160,39 @@
        width: auto;
    }
 
+   .vk-playlist {
+       margin: 20px;
+       width: 400px;
+   }
+
    @media only screen and (max-width: 900px) {
        .playlist-image {
            max-width: 100px !important;
            height: auto;
        }
+
+       .vk-playlist {
+           margin: 20px;
+           width: 300px;
+       }
+
        div.vv17ch {
-        vertical-align: top;
-        display: inline-block;
-        text-align: center;
-        justify-content: center;
-        width: 100px;
-        margin: 6px;
-        vertical-align: 'center';
-    }
+           vertical-align: top;
+           display: inline-block;
+           text-align: center;
+           justify-content: center;
+           width: 100px;
+           margin: 6px;
+           vertical-align: 'center';
+       }
+
        .vv17chImg {
-        display: block;
-        width: 80px;
-        height: 80px;
-        margin: auto;
-        object-fit: contain;
-        cursor: var(--pointer-cursor), pointer;
-    }
+           display: block;
+           width: 80px;
+           height: 80px;
+           margin: auto;
+           object-fit: contain;
+           cursor: var(--pointer-cursor), pointer;
+       }
 
    }

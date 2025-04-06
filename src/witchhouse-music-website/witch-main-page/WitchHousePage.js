@@ -319,6 +319,28 @@ export function WitchHousePage() {
                                             <div className='witch-link'>VSN7</div>
                                         </Link>
                                     </div>
+                                    <div className="column">
+                                        <Link to='blame-venus'>
+                                            <GlitchClip onHover={true} className="s">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/blamevenus.png')} loading="lazy" className="s" alt='' style={{ maxHeight: '250px' }}/>
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link'>BLAME VENUS</div>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="column">
+                                        <Link to="m4r4zm">
+                                            <GlitchClip onHover={true} className="s">
+                                                <GlitchSquiggly onHover={false}>
+                                                    <img src={require('../resources/artist-icons/marazm.png')} loading="lazy" className="s" alt='' />
+                                                </GlitchSquiggly>
+                                            </GlitchClip>
+                                            <div className='witch-link' style={{ fontFamily: 'arial' }}>ΛΛ4Я4ZΛΛ</div>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
