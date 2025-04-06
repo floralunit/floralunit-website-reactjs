@@ -93,8 +93,8 @@
        display: inline-block;
        text-align: center;
        justify-content: center;
-       width: 120px;
-       margin: 6px;
+       width: 100px;
+       margin: 10px;
        vertical-align: 'center';
    }
 
@@ -165,5 +165,22 @@
            max-width: 100px !important;
            height: auto;
        }
+       div.vv17ch {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        width: 100px;
+        margin: 6px;
+        vertical-align: 'center';
+    }
+       .vv17chImg {
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        object-fit: contain;
+        cursor: var(--pointer-cursor), pointer;
+    }
 
    }
