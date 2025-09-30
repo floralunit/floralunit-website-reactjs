@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/emo-page.css';
 import { BandsTable } from "../components/BandsTable";
 import { Helmet } from 'react-helmet';
@@ -11,6 +11,20 @@ export function EmoPage() {
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_50', 283385573, 50,'4d1ec601201a7cf1e3')");
+
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const images = [
+        require('../resources/1075635dgyffglujq.gif'),
+        require('../resources/2262901rwibupnb4y.jpg')
+    ];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, [images]);
     return (
 
         <div className="mainPage">
@@ -39,7 +53,7 @@ export function EmoPage() {
                         <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
-                    <div class="window" style={{ width: '520px', height: '550px', overflowY: 'scroll', textAlign: 'justify' }}>
+                    <div class="window" style={{ width: '520px', height: '600px', overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
                             <div class="title-bar-text">О жанре</div>
                         </div>
@@ -117,6 +131,12 @@ export function EmoPage() {
                         <img src={require('../resources/448448uslw9ao63s.gif')} alt={''} />
                         <img src={require('../resources/2607023pd48pdt8iy.gif')} alt={''} />
                         <img src={require('../resources/2706085n1v2xdphye.gif')} alt={''} />
+                    </div>
+                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 05.08.24</span> - добавлены American Football, Camping In Alaska, asthenia, botanichesky sad, EORA, The Rabbit Theory, Sleeping For Sunrise</span>
+                    <br /><br />
+                    <div className="image-container">
+                        <img src={images[currentImageIndex]} alt="Current Image" />
+                        <br /><br />
                     </div>
                 </div>
 
