@@ -1,14 +1,14 @@
 .table {
     font-family: Georgia, serif;
     font-size: 10px;
-    width: 200px
+    width: 210px
 }
 
 /*Заголовок*/
 .tdUp {
     text-align: left;
     background: #FFFFFF;
-    width: 200px;
+    width: 210px;
     vertical-align: top;
     font-family: Verdana, serif;
     color: #000000;
@@ -18,7 +18,7 @@
 .tdLow {
     text-align: left;
     background: #333333;
-    width: 200px;
+    width: 210px;
     vertical-align: top;
     font-family: Verdana, serif;
     color: #000000;
@@ -27,12 +27,12 @@
 .text-under-table {
     color: #FFFFFF;
     font-size: 15px;
-    width: 200px;
+    width: 210px;
     font-family: dot;
 }
 
 .image-container img {
-    width: 200px;
+    width: 210px;
     height: 60px;
 }
 

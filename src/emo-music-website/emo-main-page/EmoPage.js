@@ -11,6 +11,9 @@ export function EmoPage() {
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
     UseScriptText("VK.Widgets.Playlist('vk_playlist_283385573_50', 283385573, 50,'4d1ec601201a7cf1e3')");
 
+    document.documentElement.style.setProperty('--window-width', '520px');
+    document.documentElement.style.setProperty('--window-height', '540px');
+
     return (
 
         <div className="mainPage">
@@ -39,7 +42,7 @@ export function EmoPage() {
                         <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
-                    <div class="window" style={{ width: '520px', height: '540px', overflowY: 'scroll', textAlign: 'justify' }}>
+                    <div class="window" style={{overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
                             <div class="title-bar-text">О жанре</div>
                         </div>

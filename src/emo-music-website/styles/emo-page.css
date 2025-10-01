@@ -78,6 +78,8 @@ a:active {
   padding: 3px;
   font-family: "Pixel Sans Serif Condensed", Arial;
   font-size: 11px;
+  width: var(--window-width, 520px); /* значение по умолчанию */
+  height: var(--window-height, 540px); /* значение по умолчанию */
 }
 
 .title-bar {
@@ -124,5 +126,8 @@ a:active {
     margin-right: 10%;
     margin-left: 10%;
     font-size: 18px;
+  }
+  .window:not(.window-desktop) {
+    height: 900px;
   }
 }
