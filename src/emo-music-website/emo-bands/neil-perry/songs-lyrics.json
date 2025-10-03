@@ -2,91 +2,289 @@
   {
     "key": 0,
     "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "The Last Sip Is 90% Spit",
-    "lyrics": "You will never/n{?}/nYou will never/n{?}/n/n[?][?][?]",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "Short-Haired Metal",
-    "lyrics": "",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "Oh Shit",
-    "lyrics": "",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "Catalyst",
-    "lyrics": "",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "Moira",
-    "lyrics": "You're not nothing/nYou're not nothing/nBut then, in a second, then we all die!",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "Elvis [Wears Nike]",
-    "lyrics": "",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "Fuck You",
-    "lyrics": "",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "There Was Definitely a Point When the Victim Passed Out... Then the Killer Kicked Him",
-    "lyrics": "",
-    "translation": "",
-    "soundcloudId": ""
-  },
-  {
-    "key": 0,
-    "artist": "Neil Perry",
-    "album": "Neil Perry (1999)",
-    "albumVKLink": "",
-    "name": "I'm Sad for You",
-    "lyrics": "I forgave you when you said that you did try... well I'm lying/nI forgot the way it felt alright/nNo more words will fill the spots in (what you did to me) for the way you left me here (inside). Forget what you said to me/nFor the way you left me here/n...to me",
-    "translation": "",
-    "soundcloudId": ""
-  },
+    "album": "Lineage Situation (2003)",
+    "albumVKLink": "https://vk.com/music/playlist/-219248453_811",
+    "songs": [
+      {
+        "key": 0,
+        "name": "Nine Minutes of Non-Fiction",
+        "lyrics": "It's the same. Be prepared for this end! (inside of??) Could you be everything? Could you ever? (in spite/inside of??/This battle??)",
+        "translation": "",
+        "soundcloudId": "612821094"
+      },
+      {
+        "key": 1,
+        "name": "Kicked",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1468272298"
+      },
+      {
+        "key": 2,
+        "name": "Seeping Through the Cracks",
+        "lyrics": "When you see through [???]\nCan you see you will never be the same when will this end?\nWhen will you ever see?\nAnd I hurt myself for you\nAnd I saw right through you\nNow I am no one\n\n[???]\n\nTurn away its all you fucking do\nWhen will you choose to end this",
+        "translation": "",
+        "soundcloudId": "1153375207"
+      },
+      {
+        "key": 3,
+        "name": "What Is in the Making",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1267867105"
+      },
+      {
+        "key": 4,
+        "name": "Looking Back at the Way You Want to Be in the Future",
+        "lyrics": "[Verse 1: Jon Marinari]\nThink back\nTo when you were a child\nThink back\nTo when you were a child\nSet sail\nFor the sky\n\n[Verse 2: Chris Smith]\nYou know there's something that everyone takes\nAnd you've been known to leave a trace\n\n[Outro: Jon Marinari]\nIt’s prophecy",
+        "translation": "",
+        "soundcloudId": "1169646190"
+      },
+      {
+        "key": 5,
+        "name": "Fading Away Like the Rest of Them",
+        "lyrics": "[Verse: Jon Marinari, Josh Jakubowski, Chris Smith]\nSympathy\nIt's a dream\nI guess we're just\nDifferent\nWhat made me fade\n(Oh)\n\n[Bridge: Josh Jakubowski, Josh Jakubowski and Chris Smith]\nI guess we're\nJust different\nIn the same way\nIn the same way\n\n[Outro: Jon Marinari, Josh Jakubowski and Chris Smith]\nIn the same way\nWhat you're trained to see\nIt's erased\nYou could be everything",
+        "translation": "Neil Perry — Fading Away Like The Rest Of Them (Угасающий как и все остальные)\n\nПринятие -\nЭто мечта,\n(я думаю, что мы)\nИз-за которой я погас.\n(отличаемся)\n\nЯ думаю, что мы отличаемся одинаковым способом (*)\n\nТо, что ты привык видеть -\nОно стёрто.\nТы бы мог стать всем.\n\n(*) Здесь sympathy переводится как 'принятие, понимание'. I guess we're just different in the same way (мы отличаемся одинаковым способом) - при желании обладать уникальностью мы все равно хотим оставаться принятыми в обществе, тем самым подстраиваясь и продолжая быть как все, заставляя собственное 'я' погаснуть и исчезнуть ради принятия среди людей.",
+        "soundcloudId": "223277699"
+      },
+      {
+        "key": 6,
+        "name": "Sorry for the Misunderstanding Mr. Watts... It Won’t Happen Again",
+        "lyrics": "[Verse 1: Jon Marinari]\nWhat you expect from me\nIs what I do\nWe'll wait and see\nWords they blind, forget\n\n[Verse 2: Chris Smith]\nIf only I'd held you closer\nI wouldn't have had to clutch the past\nIf only I'd held you closer\nThought I did\nIf only I'd held you closer\nI wouldn't be covered in the story of us\n\n[Break: Chris Smith]\nAnd you said with your eyes\nAnd you said with your eyes\n\n[Outro: Jon Marinari]\nWhat was here left unsaid\nIt's the truth\nWith these games we all play\nNo one wins",
+        "translation": "Neil Perry – Sorry For The Misunderstanding Mr. Watts... It Won't Happen Again\n(Прошу прощения за недоразумение, мистер Уотс... Это больше не повторится)\n\nЯ делаю то, что ты от меня ожидаешь.\nМы подождем и посмотрим, (потому что) слова ослепляют.\n\nЕсли бы только я прижимал тебя крепче, мне бы не пришлось цепляться за прошлое. Если бы только я отвернулся, я бы не вляпался в эту историю про нас. Если бы только я прижимал тебя крепче... Мне казалось, что я так и делал. Если бы только я прижимал тебя крепче. Я бы не вляпался в эту историю про нас. И твой взгляд сказал за тебя: 'Я была здесь всё это время.'\n\nЗабудь. Что здесь было, осталось невысказанным. Это правда.\nОт этих игр, в которые все мы играем, никто не выигрывает.\n\nПеревод взят с emo translations",
+        "soundcloudId": "885675970"
+      },
+      {
+        "key": 7,
+        "name": "Millions Lost at the Penny Arcade",
+        "lyrics": "Separation\nWhy can't you see we always end up on sides\nAlone?\n(Hate the man without a plan who stole the chance I never took)\nPull the strings and pray\nAnd you see through me\nAnd we've spoken on deaf ears\nAnd your closed eyes could see me\nThere is no use\nYou're the reason i live my life\nWith my eyes\nClosed\nBoxed in the fuse is lit\nLight the fuse",
+        "translation": "",
+        "soundcloudId": "1239419815"
+      },
+      {
+        "key": 8,
+        "name": "I Wanna Talk to Samson",
+        "lyrics": "Everything is everything\nAnd you know I'll meet you there\nAnd I know you'll try\n\nNow that you know\nEverything will be the\nSame",
+        "translation": "",
+        "soundcloudId": "1567952227"
+      },
+      {
+        "key": 9,
+        "name": "Yes Officer, My Name Is Mr Hermitiowitch and I Did Sell These Boys a Gazebo",
+        "lyrics": "It could be the thought\nThat you can't see\nThe answer to a question\nYou forgot to ask",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 10,
+        "name": "Shit Blows Up... It's So Good",
+        "lyrics": "Even if you decide not to come\nI will never lose you\nHow can you expect me to go with you\nWhen i don't know\nWho i am\nWho we are\nWhere i am\nWhere we are?\nCan't you see where i'm coming from?\nI don't want to be the way i've always been\nI guess i never knew you\nI guess it's no use i can't stay here\nIs this what you had in mind?\nTell me something:\nDo you care?\nDo you even know i'm fucking here?\nYou have betrayed me\nWhere will we be when there's nothing left?\nNOTHING\nWhere will we be when there's nothing left?\nYou have become me\nYou are all of me\nThat's what you said",
+        "translation": "",
+        "soundcloudId": "1430461315"
+      },
+      {
+        "key": 11,
+        "name": "Becoming What You Hate",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1730692989"
+      },
+      {
+        "key": 12,
+        "name": "Another Trip to Baltimore",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 13,
+        "name": "Igor, My Girlfriend Dumped Me... Let's Write Sad Songs",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 14,
+        "name": "So Tom Cruise Turns to Me and Says",
+        "lyrics": "This is the last time i hang my head and decide i won't forget you\nEverywhere you put me. what've i done? its sad we'll never see this light of day. and so when you had spoke to me lies. and so you separate from me",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 15,
+        "name": "Breathing With One Bad Lung",
+        "lyrics": "Faults are for the faulted, so what's become?\nLet me show you, just what you've done\n\nAnd we die here with our thoughts\nI thought this from the start\nI thought this from the start\n\nWhen you look for me, when those sheets are pulled away\nWhen you look for me\n\nI don't want to say those words again\n\nYou burned my insides to a crisp\nYou burned my insides to a crisp\nYou burned my insides to a crisp",
+        "translation": "",
+        "soundcloudId": "977554777"
+      },
+      {
+        "key": 16,
+        "name": "There's a Fine Line Between Thriftstore and Whitetrash",
+        "lyrics": "Tell me what's the difference from hurting me on purpose?\nTell me that you can feel\nDon't tell me that you care when it's time to walk away\nDon't tell me, show it you fuck",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 17,
+        "name": "A Friend Is a Lesson to Be Learned",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "271054202"
+      },
+      {
+        "key": 18,
+        "name": "September 15th, City Lights, and the Clouds That Suck Them Dry",
+        "lyrics": "Don't think I forgive\nDon't think I forget\nDon't think this ever\nWill be the end\n\nIt's all I've ever cried for\nPlease don't do this to me\nYou're the dreams I used to wish for\nPlease don't do this to me\n\nUsed to wish for\nUsed to wish for\n\nFeel this\nRush through me\nFeel\nEverything\n\nI know you'll never be the one to do this to me\nI know you'll never be the one to do this to me",
+        "translation": "",
+        "soundcloudId": "981379342"
+      },
+      {
+        "key": 19,
+        "name": "I Bought This Southern Rap Compilation and All I Got Was This Lousy Hi-Hat",
+        "lyrics": "This was a face of a man who lived and dreamed\nThis was a face of a man who lived and dreamed of you\n\nLet's end this from the start\nLet's end this from the start\n\nRemember? You promised\nRemember? You promised me",
+        "translation": "",
+        "soundcloudId": "1285693780"
+      },
+      {
+        "key": 20,
+        "name": "Josh's Dream Party; Beer, Girls, and a Computer",
+        "lyrics": "We are the same, struck by these decisions\n\nThis time when everything falls apart\n\nDon't tell me when it's over\nDon't tell me when you don't care\nDon't tell me when it's over\nDon't tell me when you don't care\n\nDon't tell me when it's over\nDon't tell me when you don't care",
+        "translation": "",
+        "soundcloudId": "1285686931"
+      },
+      {
+        "key": 21,
+        "name": "Memoirs of an Illiterate Penpal",
+        "lyrics": "This reminds me of the time\nYou said you would not forget\nThis reminds me of the time\nSaid a castaway\n\nClick, click, click, cliche\n\nIn a box-shaped memory\nOn a wall for all to see\nIn a box-shaped memory\nOn a wall for all to see",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 22,
+        "name": "There Will Come Soft Rains",
+        "lyrics": "Build. Kill yourself! And I'll say take your own advice. Open wrists couldn't say enough about what this could be. Tired of asking the sky when I'll be happy",
+        "translation": "",
+        "soundcloudId": "1305411250"
+      },
+      {
+        "key": 23,
+        "name": "You Can't Fight Jose Cuervo and Win",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1305411238"
+      },
+      {
+        "key": 24,
+        "name": "Don't Even Try to Start a Honda Accord If It's in Drive",
+        "lyrics": "Promise... Leaving... Isn't loving... Leaving... Isn't loving... I wish I could tell you with out crying",
+        "translation": "",
+        "soundcloudId": "1305411226"
+      },
+      {
+        "key": 25,
+        "name": "Bluebook Bedtime Story",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1305411214"
+      },
+      {
+        "key": 26,
+        "name": "Trips to Baltimore",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1305411205"
+      },
+      {
+        "key": 27,
+        "name": "Friends That Fuck",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1305411199"
+      },
+      {
+        "key": 28,
+        "name": "Luc Fucked the Prom Queen",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1305411181"
+      },
+      {
+        "key": 29,
+        "name": "When My Favorite Sports Team Loses, It Makes Me Want to Hit My Girlfriend",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1305411169"
+      },
+      {
+        "key": 30,
+        "name": "Mauro, If This Is a Show About God, I’m Going to Kill You",
+        "lyrics": "Give me one good reason I should tell you how I feel... Me one good reason I should tell you how I feel...",
+        "translation": "",
+        "soundcloudId": "1305411157"
+      },
+      {
+        "key": 31,
+        "name": "The Last Sip Is 90% Spit",
+        "lyrics": "You will never\n{?}\nYou will never\n{?}\n\n[?][?][?]",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 32,
+        "name": "Short-Haired Metal",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 33,
+        "name": "Oh Shit",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 34,
+        "name": "Catalyst",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 35,
+        "name": "Moira",
+        "lyrics": "You're not nothing\nYou're not nothing\nBut then, in a second, then we all die!",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 36,
+        "name": "Elvis Wears Nikes",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 37,
+        "name": "Fuck You",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 38,
+        "name": "There Was Definitely a Point When the Victim Passed Out... Then the Killer Kicked Him",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": ""
+      },
+      {
+        "key": 39,
+        "name": "I'm Sad for You",
+        "lyrics": "I forgave you when you said that you did try... well I'm lying\nI forgot the way it felt alright\nNo more words will fill the spots in (what you did to me) for the way you left me here (inside). Forget what you said to me\nFor the way you left me here\n...to me",
+        "translation": "Neil Perry — I'm Sad For You (Я переживаю за тебя)\n\nЯ простил тебя, когда ты сказал, что ты пытался.\nЛадно, я вру.\n\nЯ забыл, как было хорошо.\n\nНикакие слова не заполнят пустоту (что ты сделал со мной) от того, как ты оставил меня здесь (внутри).\n\nЗабудь, что ты сказал мне.\nОт того, как ты оставил меня здесь.\n\n...мне.\n\nПеревод взят с emo translations",
+        "soundcloudId": "1142063722"
+      }
+    ]
+  }
 ]

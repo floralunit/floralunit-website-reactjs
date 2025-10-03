@@ -70,6 +70,7 @@ const albumImages = {
         "Пальцы (2023)": require('../emo-bands/eora/images/пальцы.jpg')
     },
     'это': {
+        "Интро (2020)": require('../emo-bands/eto/images/интро.jpg'),
         "Самый большой (2020)": require('../emo-bands/eto/images/Самый большой.jpg'),
         "Что дальше? (2021)": require('../emo-bands/eto/images/Что дальше.jpg'),
         "Окна (2023)": require('../emo-bands/eto/images/Окна.jpg')
@@ -134,7 +135,23 @@ const albumImages = {
         "Strictly Ballroom (1995)": require('../emo-bands/strictly-ballroom/images/Strictly Ballroom.jpg'),
         "7'' (1996)": require('../emo-bands/strictly-ballroom/images/7.jpg'),
         "Hide Here Forever (1997)": require('../emo-bands/strictly-ballroom/images/Hide Here Forever.jpg')
-    }
+    },
+    'Cerulean': {
+        "Cerulean (1997)": require('../emo-bands/cerulean/images/CeruleanAlbum.jpg'),
+        "Cerulean Is The Delta Connection (1998)": require('../emo-bands/cerulean/images/Cerulean Is The Delta Connection.jpg'),
+        "Azure / Cerulean — split (1997)": require('../emo-bands/cerulean/images/AzureCeruleansplit.jpg'),
+        "Blueprint / Pilots In Paris (split 7'') (1998)": require('../emo-bands/cerulean/images/front.jpg')
+    },
+    'Neil Perry': {
+        "Lineage Situation (2003)": require('../emo-bands/neil-perry/images/Lineage Situation.jpg')
+    },
+    'Merchant Ships': {
+        "LOL Cats Demo (2008)": require('../emo-bands/merchant-ships/images/LOL Cats Demo (2008).jpg'),
+        "I Want To Forget About Everything That Ever Happened, Ever (2008)": require('../emo-bands/merchant-ships/images/I Want To Forget About Everything That Ever Happened Ever (2008).jpg'),
+        "Bummer Times Demo (2009)": require('../emo-bands/merchant-ships/images/Bummer Times Demo (2009).png'),
+        "For Cameron (2010)": require('../emo-bands/merchant-ships/images/For Cameron (2010).jpg'),
+        "Shipsography (2010)": require('../emo-bands/merchant-ships/images/Shipsography (2010).png')
+    },
 
 
 };

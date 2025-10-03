@@ -46,7 +46,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Cerulean (x)</NavLink>
+                                    <NavLink to="cerulean">Cerulean</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -110,12 +110,12 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Neil Perry (x)</NavLink>
+                                    <NavLink to="neil-perry">Neil Perry</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Orchid (x)</NavLink>
+                                    <NavLink to="orchid">Orchid</NavLink>
                                 </td>
                             </tr>
                             {/* <tr>
@@ -252,12 +252,12 @@ export function BandsTable() {
                         </tr> */}
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Merchant Ships (x)</NavLink>
+                                    <NavLink to="merchant-ships">Merchant Ships</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Oakwood (x)</NavLink>
+                                    <NavLink to="oakwood">Oakwood</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -350,7 +350,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >это (x)</NavLink>
+                                    <NavLink to="eto">это</NavLink>
                                 </td>
                             </tr>
                         </tbody>

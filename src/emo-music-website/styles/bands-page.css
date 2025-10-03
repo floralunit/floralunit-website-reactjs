@@ -1,180 +1,197 @@
 .bands {
-    background-image: url("../emo-main-page/images/background.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
-    font-size: 13px;
-    min-height: 100vh;
-    min-width: 1000px;
-    color:#cccccc;
-    font-family: "Comic Sans MS", serif;
-  }
+  background-image: url("../emo-main-page/images/background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-size: 13px;
+  min-height: 100vh;
+  min-width: 1000px;
+  color: #cccccc;
+  font-family: "Comic Sans MS", serif;
+}
 
-  .bob-tilton {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.8), 
-        rgba(0, 0, 0, 0.8)
-    ),url("../resources/backgrounds/779178s6a463k6o1.jpg")
-  }
-  .everyone-asked{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-  ),url("../emo-bands/everyone-asked-about-you/images/Lets\ Be\ Enemies.jpg")
-  }
-  .thirty-days{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-  ),url("../emo-bands/30-dnej-fevralya/images/Твоя\ сестра\ Саши.jpg")
-  }
-  .sixsebya{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-  ),url("../resources/backgrounds/1583992inyi70a6gb.jpg")
-  }
-  .i-hate-myself{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.0), 
-      rgba(0, 0, 0, 0.0)
-  ),url("../resources/backgrounds/back_band.jpeg")
-  }
-  .old-gray{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-  ),url("../emo-bands/old-gray/images/Do\ I\ Dare\ Disturb\ the\ Universe.jpg")
-  }
-  .love-lost{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
-  ),url("../resources/backgrounds/2752313io931rxucw.gif")
-  }
+.bob-tilton {
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)), url("../resources/backgrounds/779178s6a463k6o1.jpg")
+}
 
-  .daitro{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-  ),url("../emo-bands/daitro/images/Des\ Cendres\,\ Je\ Me\ Consume.jpg")
-  }
-  .strictly-ballroom{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-  ),url("../emo-bands/strictly-ballroom/images/strictly7.webp")
-  }
-  .kashtanka{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-  ),url("../emo-bands/kashtanka/images/Прощай\ Вернись.jpg")
-  }
-  .eora{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-  ),url("../emo-bands/eora/images/У​т​е​ш​е​н​и​е.jpg")
-  }
-  .botanichesky-sad{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-  ),url("../emo-bands/botanichesky-sad/images/с​е​г​о​д​н​я\ п​р​о​с​т​о\ не\ м​о​й\ д​е​н​ь.jpg")
-  }
-  .americ-anfootball{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-  ),url("../emo-bands/americ-anfootball/images/americ.jpg")
-  }
-  .asthenia{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-  ),url("../resources/backgrounds/2426316p984fo4s5o.gif")
-  }
-  .rabbit-theory{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-  ),url("../resources/backgrounds/3548013ux04r3ehsj.gif")
-  }
-  .camping-in-alaska{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-  ),url("../emo-bands/camping-in-alaska/images/camping6.jpg")
-  }
-  .sleeping-for-sunrise{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
-  ),url("../resources/backgrounds/brat.jpg")
-  }
+.everyone-asked {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../emo-bands/everyone-asked-about-you/images/Lets\ Be\ Enemies.jpg")
+}
 
-  .bands-container{
-    width: 1000px;
-    margin: 0 auto;
-  }
-  .bands-data {
-    background: #141414;
-    border-style: groove;
-    border-color: black;
-    border-width: 3px;
-   text-align: justify;
-  }
+.thirty-days {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../emo-bands/30-dnej-fevralya/images/Твоя\ сестра\ Саши.jpg")
+}
 
-  .bands-data h3 {
-    font-family: "Arial Black", serif;
-    text-decoration:underline;
-  }
-  .header {
-    text-align: justify;
-    background: #141414;
-    border-style: groove;
-    border-color: black;
-    border-width: 3px;
-    padding: 20px;
-    color:#cccccc;
-  }
-  #head{
-    font-family: "Arial Black", serif;
-    font-size: 25px;
-    color: #FCF97AFF;
-  }
+.sixsebya {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../resources/backgrounds/1583992inyi70a6gb.jpg")
+}
 
-  .albumList {
-    display: flex;
-    align-items: center;
-    margin: 5px;
-    cursor: pointer;
-  }
-  .image-gallery-bands{
-    width: 500px;
-    margin: 20px auto;
-  }
-  .albumList:hover{
-    transform: scale(1.01);
-  }
+.i-hate-myself {
+  background: linear-gradient(rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)), url("../resources/backgrounds/back_band.jpeg")
+}
 
-  .Parent {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .child1 {
-    width: 50%;
-  }
-  
-  .child2 {
-    width: 50%;
-    padding: 20px;
-  }
+.old-gray {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../emo-bands/old-gray/images/Do\ I\ Dare\ Disturb\ the\ Universe.jpg")
+}
 
-  @media (max-width: 1000px) {
-    .image-gallery-bands{
-      width: 400px;
-      margin: 40px auto;
-    }
+.love-lost {
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)), url("../resources/backgrounds/2752313io931rxucw.gif")
+}
+
+.daitro {
+  background: linear-gradient(rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)), url("../emo-bands/daitro/images/Des\ Cendres\,\ Je\ Me\ Consume.jpg")
+}
+
+.strictly-ballroom {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../emo-bands/strictly-ballroom/images/strictly7.webp")
+}
+
+.kashtanka {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/kashtanka/images/Прощай\ Вернись.jpg")
+}
+
+.eora {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/eora/images/У​т​е​ш​е​н​и​е.jpg")
+}
+
+.botanichesky-sad {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/botanichesky-sad/images/с​е​г​о​д​н​я\ п​р​о​с​т​о\ не\ м​о​й\ д​е​н​ь.jpg")
+}
+
+.americ-anfootball {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../emo-bands/americ-anfootball/images/americ.jpg")
+}
+
+.asthenia {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../resources/backgrounds/2426316p984fo4s5o.gif")
+}
+
+.rabbit-theory {
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)), url("../resources/backgrounds/3548013ux04r3ehsj.gif")
+}
+
+.camping-in-alaska {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/camping-in-alaska/images/camping6.jpg")
+}
+
+.sleeping-for-sunrise {
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)), url("../resources/backgrounds/brat.jpg")
+}
+
+.neil-perry {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/neil-perry/images/Lineage\ Situation.jpg")
+}
+
+.orchid {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/orchid/images/Pig\ Destroyer.jpg")
+}
+
+.etoemo {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/eto/images/Окна.jpg")
+}
+
+.cerulean {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/cerulean/images/BlueprintPilots\ In\ Paris.jpg")
+}
+
+.merchant-ships {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/merchant-ships/images/Shipsography\ \(2010\).png")
+}
+
+.oakwood {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/oakwood/images/Oakwood.jpg")
+}
+
+
+.bands-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.bands-data {
+  background: #141414;
+  border-style: groove;
+  border-color: black;
+  border-width: 3px;
+  text-align: justify;
+}
+
+.bands-data h3 {
+  font-family: "Arial Black", serif;
+  text-decoration: underline;
+}
+
+.header {
+  text-align: justify;
+  background: #141414;
+  border-style: groove;
+  border-color: black;
+  border-width: 3px;
+  padding: 20px;
+  color: #cccccc;
+}
+
+#head {
+  font-family: "Arial Black", serif;
+  font-size: 25px;
+  color: #FCF97AFF;
+}
+
+.albumList {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.image-gallery-bands {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.albumList:hover {
+  transform: scale(1.01);
+}
+
+.Parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.child1 {
+  width: 50%;
+}
+
+.child2 {
+  width: 50%;
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+  .image-gallery-bands {
+    width: 400px;
+    margin: 40px auto;
   }
+}

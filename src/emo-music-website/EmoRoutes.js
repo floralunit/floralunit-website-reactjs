@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from "react";
-import {Link, Outlet, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import {BobTilton} from "./emo-bands/bob-tilton/BobTilton";
 import {EmoPage} from "./emo-main-page/EmoPage";
 import { DnejFevralya } from "./emo-bands/30-dnej-fevralya/DnejFevralya";
@@ -19,6 +18,12 @@ import { BotanicheskySad } from "./emo-bands/botanichesky-sad/BotanicheskySad";
 import { SleepingForSunrise } from "./emo-bands/sleeping-for-sunrise/SleepingForSunrise";
 import { CampingAlaska } from "./emo-bands/camping-in-alaska/CampingAlaska";
 import { RabbitTheory } from "./emo-bands/rabbit-theory/RabbitTheory";
+import { Orchid } from "./emo-bands/orchid/Orchid";
+import { Oakwood } from "./emo-bands/oakwood/Oakwood";
+import { NeilPerry } from "./emo-bands/neil-perry/NeilPerry";
+import { MerchantShips } from "./emo-bands/merchant-ships/MerchantShips";
+import { EtoEmo } from "./emo-bands/eto/EtoEmo";
+import { Cerulean } from "./emo-bands/cerulean/Cerulean";
 
 export function EmoRoutes() {
 
@@ -44,6 +49,12 @@ export function EmoRoutes() {
                 <Route path='sleeping-for-sunrise' element={<SleepingForSunrise/>}/>
                 <Route path='camping-in-alaska' element={<CampingAlaska/>}/>
                 <Route path='the-rabbit-theory' element={<RabbitTheory/>}/>
+                <Route path='orchid' element={<Orchid/>}/>
+                <Route path='eto' element={<EtoEmo/>}/>
+                <Route path='oakwood' element={<Oakwood/>}/>
+                <Route path='cerulean' element={<Cerulean/>}/>
+                <Route path='neil-perry' element={<NeilPerry/>}/>
+                <Route path='merchant-ships' element={<MerchantShips/>}/>
             </Routes>
         </div>
     );
