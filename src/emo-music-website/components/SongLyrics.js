@@ -6,7 +6,7 @@ function NewlineText(props) {
 }
 
 export const SongLyrics = ({ song, album }) => {
-    const { artist, album: albumVKLink } = album;
+    const { artist, albumVKLink } = album;
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
