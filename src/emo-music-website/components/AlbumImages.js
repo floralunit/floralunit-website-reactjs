@@ -152,8 +152,43 @@ const albumImages = {
         "For Cameron (2010)": require('../emo-bands/merchant-ships/images/For Cameron (2010).jpg'),
         "Shipsography (2010)": require('../emo-bands/merchant-ships/images/Shipsography (2010).png')
     },
-
-
+    'I Have Dreams': {
+        "New Ethic - Demo (CS) (self-released, 1998)": require('../emo-bands/i-have-dreams/images/New Ethic - Demo.webp'),
+        "Three Days 'Til Christmas (1999)": require('../emo-bands/i-have-dreams/images/Three Days Til Christmas.png'),
+        "A New Kind Of American Saint - Take A Shit (2000)": require('../emo-bands/i-have-dreams/images/A New Kind Of American Saint - Take A Shit.jpg')
+    },
+    'Bird Bone': {
+        "Swimming Bottle (Single) (2018)": require('../emo-bands/bird-bone/images/Swimming Bottle.jpg'),
+        "I am afraid (2018)": require('../emo-bands/bird-bone/images/I am afraid.jpg'),
+        "Тени (2019)": require('../emo-bands/bird-bone/images/Тени.jpg'),
+        "Пока ты помнишь (Acoustic) (2020)": require('../emo-bands/bird-bone/images/Пока ты помнишь.jpg'),
+        "Запутанные (Tangled) (Single) (2021)": require('../emo-bands/bird-bone/images/Запутанные.jpg'),
+        "Ваянг ✕ Bird Bone - Те дни (Single) (2021)": require('../emo-bands/bird-bone/images/Те дни.jpg'),
+        "LoFi Beats To Remember Your Childhood Mistakes To (2023)": require('../emo-bands/bird-bone/images/LoFi Beats To Remember Your Childhood Mistakes To.jpg'),
+        "Вы не можете спать, когда рядом враги (Single) (2023)": require('../emo-bands/bird-bone/images/Вы не можете спать, когда рядом враги.jpg'),
+        "Пустота (Single) (2023)": require('../emo-bands/bird-bone/images/Пустота.jpg'),
+        "Лейтмотив (2024)": require('../emo-bands/bird-bone/images/Лейтмотив.jpg')
+    },
+    'имянепроизносимо': {
+        "пусти мне боль по проводам (2012)": require('../emo-bands/imyaneproiznosimo/images/пусти мне боль по проводам.jpg'),
+        "все осколки разбились в нас (Single) (2013)": require('../emo-bands/imyaneproiznosimo/images/все осколки разбились в нас.jpg')
+    },
+    'seahorsechoke': {
+        "everything went to shit like i thought it would and you didn't believe me (2024)": require('../emo-bands/seahorsechoke/images/everything went to shit like i thought it would and you didnt believe me.jpg'),
+        "Split with journal (2023)": require('../emo-bands/seahorsechoke/images/split.jpg'),
+        "iwish iwas still w u demo (2023)": require('../emo-bands/seahorsechoke/images/iwish iwas still w u.jpg')
+    },
+    'septemberistheonlytimeidontthinkofyou': {
+        "beforeyouleave / septemberistheonlytimeidontthinkofyou (2024)": require('../emo-bands/septemberistheonlytimeidontthinkofyou/images/beforeyouleave.jpg'),
+        "Early Era (2024)": require('../emo-bands/septemberistheonlytimeidontthinkofyou/images/Early Era.jpg'),
+        "How to Make Love Stay (2025)": require('../emo-bands/septemberistheonlytimeidontthinkofyou/images/How to Make Love Stay.jpg')
+    },
+    'You and I': {
+        "Hearts On Paper / The First Seven Inch (1996)": require('../emo-bands/you-and-i/images/Hearts On Paper The First Seven Inch.jpg'),
+        "Saturday's Cab Ride Home (1997)": require('../emo-bands/you-and-i/images/Saturdays Cab Ride Home.jpg'),
+        "Within The Frame (1998)": require('../emo-bands/you-and-i/images/Within The Frame.jpg'),
+        "The Curtain Falls (1999)": require('../emo-bands/you-and-i/images/The Curtain Falls.jpg')
+    }
 };
 
 export default albumImages;

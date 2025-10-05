@@ -100,7 +100,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >I Have Dreams (x)</NavLink>
+                                    <NavLink to="i-have-dreams">I Have Dreams</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -135,7 +135,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >You And I (x)</NavLink>
+                                    <NavLink to="you-and-i">You And I</NavLink>
                                 </td>
                             </tr>
                         </tbody>
@@ -194,12 +194,12 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >seahorsechoke (x)</NavLink>
+                                    <NavLink to="seahorsechoke">seahorsechoke</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow" style={{ fontSize: '9px' }}>
-                                    <NavLink >septemberistheonlytimeidontthinkofyou (x)</NavLink>
+                                    <NavLink to="septemberistheonlytimeidontthinkofyou">septemberistheonlytimeidontthinkofyou</NavLink>
                                 </td>
                             </tr>
                             {/* <tr>
@@ -315,7 +315,7 @@ export function BandsTable() {
                         </tr> */}
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Bird Bone (x)</NavLink>
+                                    <NavLink to="bird-bone">Bird Bone</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -335,7 +335,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >имянепроизносимо (x)</NavLink>
+                                    <NavLink to="imyaneproiznosimo">имянепроизносимо</NavLink>
                                 </td>
                             </tr>
                             {/* <tr>

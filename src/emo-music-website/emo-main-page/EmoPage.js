@@ -121,7 +121,7 @@ export function EmoPage() {
                         <img src={require('../resources/2607023pd48pdt8iy.gif')} alt={''} />
                         <img src={require('../resources/2706085n1v2xdphye.gif')} alt={''} />
                     </div>
-                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 03.10.25</span> - добавлены  Cerulean, Orchid, Merchant Ships, Oakwood, это, Neil Perry</span>
+                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 06.10.25</span> - добавлены  I Have Dreams, You and I, Bird Bone, имянепроизносимо, seahorsechoke, septemberistheonlytimeidontthinkofyou</span>
                     <br /><br />
                 </div>
 

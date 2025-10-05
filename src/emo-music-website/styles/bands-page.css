@@ -124,6 +124,36 @@
       rgba(0, 0, 0, 0.4)), url("../emo-bands/oakwood/images/Oakwood.jpg")
 }
 
+.bird-bone {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/bird-bone/images/Тени.jpg")
+}
+
+.i-have-dreams {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/i-have-dreams/images/Three\ Days\ Til\ Christmas.png")
+}
+
+.you-and-i {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/you-and-i/images/4.webp")
+}
+
+.septemberistheonlytimeidontthinkofyou {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/septemberistheonlytimeidontthinkofyou/images/1.webp")
+}
+
+.seahorsechoke {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/seahorsechoke/images/1.jpg")
+}
+
+.imyaneproiznosimo {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/imyaneproiznosimo/images/внутри\ себя\ я\ рву\ провода.jpg")
+}
+
 
 .bands-container {
   width: 1000px;

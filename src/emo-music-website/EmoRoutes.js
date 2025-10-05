@@ -24,6 +24,12 @@ import { NeilPerry } from "./emo-bands/neil-perry/NeilPerry";
 import { MerchantShips } from "./emo-bands/merchant-ships/MerchantShips";
 import { EtoEmo } from "./emo-bands/eto/EtoEmo";
 import { Cerulean } from "./emo-bands/cerulean/Cerulean";
+import { IHaveDreams } from "./emo-bands/i-have-dreams/IHaveDreams";
+import { BirdBone } from "./emo-bands/bird-bone/BirdBone";
+import { YouAndI } from "./emo-bands/you-and-i/YouAndI";
+import { SeptemberIsTheOnlyTime } from "./emo-bands/septemberistheonlytimeidontthinkofyou/SeptemberIsTheOnlyTime";
+import { Imyaneproiznosimo } from "./emo-bands/imyaneproiznosimo/Imyaneproiznosimo";
+import { Seahorsechoke } from "./emo-bands/seahorsechoke/Seahorsechoke";
 
 export function EmoRoutes() {
 
@@ -55,6 +61,12 @@ export function EmoRoutes() {
                 <Route path='cerulean' element={<Cerulean/>}/>
                 <Route path='neil-perry' element={<NeilPerry/>}/>
                 <Route path='merchant-ships' element={<MerchantShips/>}/>
+                <Route path='bird-bone' element={<BirdBone/>}/>
+                <Route path='i-have-dreams' element={<IHaveDreams/>}/>
+                <Route path='you-and-i' element={<YouAndI/>}/>
+                <Route path='septemberistheonlytimeidontthinkofyou' element={<SeptemberIsTheOnlyTime/>}/>
+                <Route path='seahorsechoke' element={<Seahorsechoke/>}/>
+                <Route path='imyaneproiznosimo' element={<Imyaneproiznosimo/>}/>
             </Routes>
         </div>
     );
