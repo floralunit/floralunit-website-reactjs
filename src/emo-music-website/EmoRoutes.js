@@ -30,6 +30,12 @@ import { YouAndI } from "./emo-bands/you-and-i/YouAndI";
 import { SeptemberIsTheOnlyTime } from "./emo-bands/septemberistheonlytimeidontthinkofyou/SeptemberIsTheOnlyTime";
 import { Imyaneproiznosimo } from "./emo-bands/imyaneproiznosimo/Imyaneproiznosimo";
 import { Seahorsechoke } from "./emo-bands/seahorsechoke/Seahorsechoke";
+import { AlgernonCadwallader } from "./emo-bands/algernon-cadwallader/AlgernonCadwallader";
+import { IHateSex } from "./emo-bands/i-hate-sex/IHateSex";
+import { Kolya } from "./emo-bands/kolya/Kolya";
+import { LaDispute } from "./emo-bands/la-dispute/LaDispute";
+import { Mineral } from "./emo-bands/mineral/Mineral";
+import { YaphetKotto } from "./emo-bands/yaphet-kotto/YaphetKotto";
 
 export function EmoRoutes() {
 
@@ -67,6 +73,12 @@ export function EmoRoutes() {
                 <Route path='septemberistheonlytimeidontthinkofyou' element={<SeptemberIsTheOnlyTime/>}/>
                 <Route path='seahorsechoke' element={<Seahorsechoke/>}/>
                 <Route path='imyaneproiznosimo' element={<Imyaneproiznosimo/>}/>
+                <Route path='algernon-cadwallader' element={<AlgernonCadwallader/>}/>
+                <Route path='i-hate-sex' element={<IHateSex/>}/>
+                <Route path='kolya' element={<Kolya/>}/>
+                <Route path='la-dispute' element={<LaDispute/>}/>
+                <Route path='mineral' element={<Mineral/>}/>
+                <Route path='yaphet-kotto' element={<YaphetKotto/>}/>
             </Routes>
         </div>
     );

@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 import { UseScriptText } from '../../common/components/UseScript';
 import { FACE1_CURSOR, FACE2_CURSOR } from '../../global-const';
 
+import { useEffect } from 'react'
+
 export function EmoPage() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
@@ -13,6 +15,10 @@ export function EmoPage() {
 
     document.documentElement.style.setProperty('--window-width', '520px');
     document.documentElement.style.setProperty('--window-height', '540px');
+
+    useEffect(() => {
+        document.title = `Emo | floralunit world ❤`;
+    });
 
     return (
 
@@ -42,7 +48,7 @@ export function EmoPage() {
                         <img src={require('../resources/0190-hittingfloor.gif')} alt={''} style={{ height: '20px', width: '150px', margin: '3px' }} />
                         <img src={require('../../witchhouse-music-website/resources/images/heart-boy.gif')} alt={''} style={{ width: '30px' }} />
                     </div>
-                    <div class="window" style={{overflowY: 'scroll', textAlign: 'justify' }}>
+                    <div class="window" style={{ overflowY: 'scroll', textAlign: 'justify' }}>
                         <div class="title-bar">
                             <div class="title-bar-text">О жанре</div>
                         </div>
@@ -121,7 +127,7 @@ export function EmoPage() {
                         <img src={require('../resources/2607023pd48pdt8iy.gif')} alt={''} />
                         <img src={require('../resources/2706085n1v2xdphye.gif')} alt={''} />
                     </div>
-                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 06.10.25</span> - добавлены  I Have Dreams, You and I, Bird Bone, имянепроизносимо, seahorsechoke, septemberistheonlytimeidontthinkofyou</span>
+                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 27.10.25</span> - добавлены  Algernon Cadwallader, I Hate Sex, kolya, La Dispute, Mineral, Yaphet Kotto</span>
                     <br /><br />
                 </div>
 

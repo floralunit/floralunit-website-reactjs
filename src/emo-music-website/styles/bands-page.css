@@ -154,6 +154,36 @@
       rgba(0, 0, 0, 0.4)), url("../emo-bands/imyaneproiznosimo/images/внутри\ себя\ я\ рву\ провода.jpg")
 }
 
+.algernon-cadwallader {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/algernon-cadwallader/images/Parrot\ Flies.jpg")
+}
+
+.i-hate-sex {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/i-hate-sex/images/Low\ Level.jpg")
+}
+
+.kolya {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/kolya/images/Iditarod.webp")
+}
+
+.mineral {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/mineral/images/The\ Complete\ Collection.jpg")
+}
+
+.la-dispute {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/la-dispute/images/Somewhere\ at\ the\ Bottom\ of\ the\ River\ Between\ Vega\ and\ Altair.jpg")
+}
+
+.yaphet-kotto {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/yaphet-kotto/images/5.webp")
+}
+
 
 .bands-container {
   width: 1000px;

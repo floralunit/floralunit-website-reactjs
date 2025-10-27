@@ -188,6 +188,63 @@ const albumImages = {
         "Saturday's Cab Ride Home (1997)": require('../emo-bands/you-and-i/images/Saturdays Cab Ride Home.jpg'),
         "Within The Frame (1998)": require('../emo-bands/you-and-i/images/Within The Frame.jpg'),
         "The Curtain Falls (1999)": require('../emo-bands/you-and-i/images/The Curtain Falls.jpg')
+    },
+    'Algernon Cadwallader': {
+        "Demo (2006)": require('../emo-bands/algernon-cadwallader/images/demo.jpg'),
+        "Some Kind of Cadwallader (2008)": require('../emo-bands/algernon-cadwallader/images/Some Kind of Cadwallader.jpg'),
+        "Fun (2009)": require('../emo-bands/algernon-cadwallader/images/Fun.jpg'),
+        "Parrot Flies (2011)": require('../emo-bands/algernon-cadwallader/images/Parrot Flies.jpg'),
+        "Algernon Cadwallader (2018)": require('../emo-bands/algernon-cadwallader/images/Algernon Cadwallader.jpg'),
+        "Mad World (Single) (2023)": require('../emo-bands/algernon-cadwallader/images/Mad World.jpg'),
+        "Trying Not to Have a Thought (2025)": require('../emo-bands/algernon-cadwallader/images/Trying Not to Have a Thought.jpg')
+    },
+    'Kolya': {
+        "Iditarod (1998)": require('../emo-bands/kolya/images/Iditarod.webp'),
+        "The Story Becomes The Vehicle / Conversations And Smokescreens (2000)": require('../emo-bands/kolya/images/The Story Becomes The Vehicle Conversations And Smokescreens.jpg'),
+        "Kolya (2001)": require('../emo-bands/kolya/images/kolya.jpg')
+    },
+    'La Dispute': {
+        "Vancouver (2006)": require('../emo-bands/la-dispute/images/Vancouver.jpg'),
+        "Untitled 7\" (2008)": require('../emo-bands/la-dispute/images/Untitled 7.jpg'),
+        "Here, Hear. (2008)": require('../emo-bands/la-dispute/images/Here, Hear.jpg'),
+        "Winter Tour Holiday CD-R (2008)": require('../emo-bands/la-dispute/images/Winter Tour Holiday.jpg'),
+        "Here, Hear. II (2008)": require('../emo-bands/la-dispute/images/Here, Hear 2.jpg'),
+        "Somewhere at the Bottom of the River Between Vega and Altair (2008)": require('../emo-bands/la-dispute/images/Somewhere at the Bottom of the River Between Vega and Altair.jpg'),
+        "Here, Hear. III (2009)": require('../emo-bands/la-dispute/images/Here, Hear 3.jpg'),
+        "Searching for a Pulse/The Worth of the World (2010)": require('../emo-bands/la-dispute/images/Searching for a Pulse The Worth of the World.jpg'),
+        "Never Come Und (2011)": require('../emo-bands/la-dispute/images/Never Come Undone.jpg'),
+        "Wildlife (2011)": require('../emo-bands/la-dispute/images/Wildlife.jpg'),
+        "Conversations (2012)": require('../emo-bands/la-dispute/images/Conversations.jpg'),
+        "Rooms of the House (2014)": require('../emo-bands/la-dispute/images/Rooms of the House.jpg'),
+        "Thirteen (2016)": require('../emo-bands/la-dispute/images/Thirteen.jpg'),
+        "Tiny Dots (2016)": require('../emo-bands/la-dispute/images/Tiny Dots.jpg'),
+        "Finding Felix (Tales From The Loop RPG) (2017)": require('../emo-bands/la-dispute/images/Finding Felix.jpg'),
+        "Panorama (2019)": require('../emo-bands/la-dispute/images/Panorama.jpg'),
+        "Fifteen (2020)": require('../emo-bands/la-dispute/images/Fifteen.jpg'),
+        "Meantime (2021)": require('../emo-bands/la-dispute/images/Meantime.jpg'),
+        "Strangelight (Fugazi) (2021)": require('../emo-bands/la-dispute/images/Strangelight (Fugazi).jpg'),
+        "Here, Hear. IV (2023)": require('../emo-bands/la-dispute/images/Here, Hear 4.jpg'),
+        "Elster Stares the Desert Down (2024)": require('../emo-bands/la-dispute/images/Elster Stares the Desert Down.jpg'),
+        "No Was Driving The Car (2025)": require('../emo-bands/la-dispute/images/No One Was Driving The Car.jpg')
+    },
+    'I Hate Sex': {
+        "Split Tape w/Low Level (2015)": require('../emo-bands/i-hate-sex/images/Low Level.jpg'),
+        "Circle Thinking (2015)": require('../emo-bands/i-hate-sex/images/Circle Thinking.jpg'),
+        "I Hate Sex / Algae Bloom / Black Knight Satellite Split (2016)": require('../emo-bands/i-hate-sex/images/algae bloom.jpg'),
+        "I Hate Sex / thisismenotthinkingofyou / Yotsuya Kaidan / Ghostlate / Healing Powers Split (2017)": require('../emo-bands/i-hate-sex/images/ghost late.jpg'),
+        "World of Grief (2017)": require('../emo-bands/i-hate-sex/images/World of Grief.jpg')
+    },
+    'Mineral': {
+        "February / M.D. (Single) (1996)": require('../emo-bands/mineral/images/February.jpg'),
+        "The Power of Failing (1996)": require('../emo-bands/mineral/images/The Power of Failing.jpg'),
+        "EndSerenading (1998)": require('../emo-bands/mineral/images/EndSerenading.jpg'),
+        "The Complete Collection (2014)": require('../emo-bands/mineral/images/The Complete Collection.jpg'),
+        "One Day When We Are Young: Mineral at 25 (2019)": require('../emo-bands/mineral/images/One Day When We Are Young.jpg')
+    },
+    'Yaphet Kotto': {
+        "The Killer was in the Government Blankets (1999)": require('../emo-bands/yaphet-kotto/images/The Killer was in the Government Blankets.jpg'),
+        "Syncopated Synthetic Laments for Love (2001)": require('../emo-bands/yaphet-kotto/images/Syncopated Synthetic Laments for Love.jpg'),
+        "We Bury Our Dead Alive (2004)": require('../emo-bands/yaphet-kotto/images/We Bury Our Dead Alive.jpg')
     }
 };
 

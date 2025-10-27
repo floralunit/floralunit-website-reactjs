@@ -56,7 +56,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Kolya (x)</NavLink>
+                                    <NavLink to="kolya">Kolya</NavLink>
                                 </td>
                             </tr>
                             {/* <tr>
@@ -66,7 +66,7 @@ export function BandsTable() {
                         </tr> */}
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Mineral (x)</NavLink>
+                                    <NavLink to="mineral">Mineral</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -130,7 +130,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Yaphet Kotto (x)</NavLink>
+                                    <NavLink to="yaphet-kotto">Yaphet Kotto</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -217,7 +217,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Algernon Cadwallader (x)</NavLink>
+                                    <NavLink to="algernon-cadwallader">Algernon Cadwallader</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -237,12 +237,12 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >I Hate Sex (x)</NavLink>
+                                    <NavLink to="i-hate-sex">I Hate Sex</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >La Dispute (x)</NavLink>
+                                    <NavLink to="la-dispute">La Dispute</NavLink>
                                 </td>
                             </tr>
                             {/* <tr>
