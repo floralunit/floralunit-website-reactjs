@@ -5,10 +5,11 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import { FACE1_CURSOR, FACE2_CURSOR } from '../../../global-const';
 import songsData from './songs-lyrics.json';
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 import AlbumListPage from "../../components/AlbumListPage";
+import { Helmet } from "react-helmet";
 
 export function SleepingForSunrise() {
     document.documentElement.style.setProperty('--main-cursor', `url(${FACE1_CURSOR})`);
@@ -16,9 +17,9 @@ export function SleepingForSunrise() {
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
 
-    useEffect(() => {
-        document.title = `Sleeping for Sunrise | floralunit world ❤`;
-    });
+    // useEffect(() => {
+    //     document.title = `Sleeping for Sunrise | floralunit world ❤`;
+    // });
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
@@ -38,6 +39,16 @@ export function SleepingForSunrise() {
 
     return (
         <div className="bands sleeping-for-sunrise">
+            <Helmet>
+                <title>Sleeping for Sunrise | floralunit world ❤</title>
+                <meta name="description" content={`Информация о группе Sleeping for Sunrise`} />
+                <meta name="keywords" content="Sleeping for Sunrise, floralunit, emo" />
+                <meta property="og:title" content="Sleeping for Sunrise | floralunit world" />
+                <meta property="og:description" content="Информация о группе Sleeping for Sunrise - эмо музыка" />
+                <meta property="og:url" content="https://floralunit.vercel.app/emo/sleeping-for-sunrise" />
+                <meta property="og:type" content="website" />
+                <link rel="canonical" href="https://floralunit.vercel.app/emo/sleeping-for-sunrise" />
+            </Helmet>
             <div className='bands-container'>
                 <br />
                 <div style={{ margin: '0 auto', textAlign: 'center' }}>
