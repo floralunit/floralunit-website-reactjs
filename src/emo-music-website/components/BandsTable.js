@@ -46,7 +46,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink to="cerulean">Cerulean</NavLink>
+                                    <NavLink to="cerulean">Cerulean / Pilots In Paris</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -59,14 +59,19 @@ export function BandsTable() {
                                     <NavLink to="kolya">Kolya</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >Lowercase (x)</NavLink>
-                            </td>
-                        </tr> */}
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Lowercase (x)</NavLink>
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="tdLow">
                                     <NavLink to="mineral">Mineral</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Psara (x)</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -81,7 +86,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Sunny Day Real Estate (x)</NavLink>
+                                    <NavLink to="sunny-day-real-estate">Sunny Day Real Estate</NavLink>
                                 </td>
                             </tr>
                         </tbody>
@@ -118,14 +123,19 @@ export function BandsTable() {
                                     <NavLink to="orchid">Orchid</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >The Khayembii Communiqué (x)</NavLink>
-                            </td>
-                        </tr> */}
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >The Spirit of Versailles (x)</NavLink>
+                                    <NavLink to="saetia">Saetia</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >The Khayembii Communiqué (x)</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink to="the-spirit-of-versailles">The Spirit of Versailles</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -147,21 +157,21 @@ export function BandsTable() {
                                     <p align="center"><b>skramz</b></p>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >Alinah (x)</NavLink>
-                            </td>
-                        </tr> */}
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Alinah (x)</NavLink>
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="tdLow">
                                     <NavLink to="asthenia">Asthenia</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >Bright Lights Always Turn Off (x)</NavLink>
-                            </td>
-                        </tr> */}
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Bright Lights Always Turn Off (x)</NavLink>
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="tdLow">
                                     <NavLink >Burial Etiquette (x)</NavLink>
@@ -177,14 +187,24 @@ export function BandsTable() {
                                     <NavLink to="daitro">Daïtro</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >Foxtails (x)</NavLink>
-                            </td>
-                        </tr> */}
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Foxtails (x)</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow" style={{ fontSize: '8px' }}>
+                                    <NavLink >iwrotehaikusaboutcannibalisminyouryearbook (x)</NavLink>
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="tdLow">
                                     <NavLink >Øjne (x)</NavLink>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td className="tdLow">
+                                    <NavLink >Raein (x)</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -202,11 +222,6 @@ export function BandsTable() {
                                     <NavLink to="septemberistheonlytimeidontthinkofyou">septemberistheonlytimeidontthinkofyou</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >The Khayembii Communiqué (x)</NavLink>
-                            </td>
-                        </tr> */}
                         </tbody>
                     </table>
                     <table>
@@ -232,7 +247,17 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >forfeit (x)</NavLink>
+                                    <NavLink >Fine Before You Came (x)</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink to="forfeit">forfeit</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Funeral for a Friend  (x)</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -245,11 +270,11 @@ export function BandsTable() {
                                     <NavLink to="la-dispute">La Dispute</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink >Marietta (x)</NavLink>
-                            </td>
-                        </tr> */}
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink >Marietta (x)</NavLink>
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="tdLow">
                                     <NavLink to="merchant-ships">Merchant Ships</NavLink>
@@ -272,17 +297,12 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Saetia (x)</NavLink>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className="tdLow">
                                     <NavLink to="the-rabbit-theory">The Rabbit Theory</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Thursday (x)</NavLink>
+                                    <NavLink to="thursday">Thursday</NavLink>
                                 </td>
                             </tr>
                         </tbody>
@@ -303,16 +323,11 @@ export function BandsTable() {
                                     <NavLink to="6000000000sebya">6000000000себя</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow" style={{ fontSize:'9px'}}>
-                                <NavLink >Advertising On The Channel Of Dreams (x)</NavLink>
-                            </td>
-                        </tr> */}
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink to="kashtanka">Atomique</NavLink> в состояние птиц
-                            </td>
-                        </tr> */}
+                            <tr>
+                                <td className="tdLow" style={{ fontSize: '9px' }}>
+                                    <NavLink >Advertising On The Channel Of Dreams (x)</NavLink>
+                                </td>
+                            </tr>
                             <tr>
                                 <td className="tdLow">
                                     <NavLink to="bird-bone">Bird Bone</NavLink>
@@ -335,17 +350,22 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
+                                    <NavLink >veresk (x)</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
                                     <NavLink to="imyaneproiznosimo">имянепроизносимо</NavLink>
                                 </td>
                             </tr>
-                            {/* <tr>
-                            <td className="tdLow">
-                                <NavLink to="kashtanka">Отречение Петра</NavLink>
-                            </td>
-                        </tr> */}
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >состояние птиц (x)</NavLink>
+                                    <NavLink >Отречение Петра (x)</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
+                                    <NavLink to="sostoyanie-ptic">состояние птиц</NavLink>
                                 </td>
                             </tr>
                             <tr>

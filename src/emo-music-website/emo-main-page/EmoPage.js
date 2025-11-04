@@ -127,7 +127,7 @@ export function EmoPage() {
                         <img src={require('../resources/2607023pd48pdt8iy.gif')} alt={''} />
                         <img src={require('../resources/2706085n1v2xdphye.gif')} alt={''} />
                     </div>
-                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 27.10.25</span> - добавлены  Algernon Cadwallader, I Hate Sex, kolya, La Dispute, Mineral, Yaphet Kotto</span>
+                    <span style={{ fontSize: '12px', fontFamily: 'Arial', color: '#C80018' }}><span style={{ fontWeight: 'bold' }}>Last upd: 04.11.25</span> - добавлены  Saetia, состояние птиц, Sunny Day Real Estate, Thursday, forfeit, The Spirit Of Versailles</span>
                     <br /><br />
                 </div>
 

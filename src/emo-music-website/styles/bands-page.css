@@ -184,6 +184,36 @@
       rgba(0, 0, 0, 0.4)), url("../emo-bands/yaphet-kotto/images/5.webp")
 }
 
+.saetia {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/saetia/images/2.jpg")
+}
+
+.forfeit {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/forfeit/images/remains.jpg")
+}
+
+.sostoyanie-ptits {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/sostoyanie-ptits/images/Self-titled\ 2012.jpg")
+}
+
+.sunny-day-real-estate {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/sunny-day-real-estate/images/Diary.png")
+}
+
+.the-spirit-of-versailles {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/the-spirit-of-versailles/images/is\ dead.jpg")
+}
+
+.thursday {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/thursday/images/War\ All\ the\ Time.png")
+}
+
 
 .bands-container {
   width: 1000px;

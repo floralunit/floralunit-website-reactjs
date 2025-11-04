@@ -245,6 +245,65 @@ const albumImages = {
         "The Killer was in the Government Blankets (1999)": require('../emo-bands/yaphet-kotto/images/The Killer was in the Government Blankets.jpg'),
         "Syncopated Synthetic Laments for Love (2001)": require('../emo-bands/yaphet-kotto/images/Syncopated Synthetic Laments for Love.jpg'),
         "We Bury Our Dead Alive (2004)": require('../emo-bands/yaphet-kotto/images/We Bury Our Dead Alive.jpg')
+    },
+    'forfeit': {
+        "Bummer (2014)": require('../emo-bands/forfeit/images/Bummer.jpg'),
+        "Some Things Just Fall Apart (2015)": require('../emo-bands/forfeit/images/Some Things Just Fall Apart.jpg'),
+        "Two Songs (2015)": require('../emo-bands/forfeit/images/Two Songs.jpg'),
+        "Ruination Hymn (Single) (2016)": require('../emo-bands/forfeit/images/Ruination Hymn.jpg'),
+        "Numb (2016)": require('../emo-bands/forfeit/images/Numb.jpg'),
+        "Perennial (2017)": require('../emo-bands/forfeit/images/Perennial.jpg')
+    },
+    'Saetia': {
+        "Saetia (1998)": require('../emo-bands/saetia/images/Saetia.jpg'),
+        "Eronel (1999)": require('../emo-bands/saetia/images/Eronel.jpg'),
+        "A Retrospective (2001)": require('../emo-bands/saetia/images/A Retrospective.jpg'),
+        "Collected (2016)": require('../emo-bands/saetia/images/Collected.jpg'),
+        "Tendrils (2025)": require('../emo-bands/saetia/images/Tendrils.png'),
+    },
+    'состояние птиц': {
+        "Self-titled (2010)": require('../emo-bands/sostoyanie-ptits/images/Self-titled.jpg'),
+        "EP'11 (2011)": require('../emo-bands/sostoyanie-ptits/images/EP.jpg'),
+        "Split'11 (2011)": require('../emo-bands/sostoyanie-ptits/images/Split.jpg'),
+        "Self-titled (2012)": require('../emo-bands/sostoyanie-ptits/images/Self-titled 2012.jpg'),
+        "14 (2014)": require('../emo-bands/sostoyanie-ptits/images/14.jpg')
+    },
+    'Atomique': {
+        "Под одеялом пространства (2019)": require('../emo-bands/sostoyanie-ptits/images/Под одеялом пространства.jpg')
+    },
+    'Серпуховская Драйв': {
+        "Цветы (2022)": require('../emo-bands/sostoyanie-ptits/images/Цветы.jpg'),
+        "Фоновый шум (2024)": require('../emo-bands/sostoyanie-ptits/images/Фоновый шум.jpg')
+    },
+    'Sunny Day Real Estate': {
+        "We Are Constantly Invited to Be What We Are (1992)": require('../emo-bands/sunny-day-real-estate/images/We Are Constantly Invited to Be What We Are.jpg'),
+        "Flatland Spider (1993)": require('../emo-bands/sunny-day-real-estate/images/Flatland Spider.jpg'),
+        "Thief, Steal Me A Peach (1993)": require('../emo-bands/sunny-day-real-estate/images/Thief, Steal Me A Peach.jpg'),
+        "Diary (1994)": require('../emo-bands/sunny-day-real-estate/images/Diary.png'),
+        "LP2 (1995)": require('../emo-bands/sunny-day-real-estate/images/LP2.jpg'),
+        "How It Feels to Be Something On (1998)": require('../emo-bands/sunny-day-real-estate/images/How It Feels to Be Something On.jpg'),
+        "The Rising Tide (2000)": require('../emo-bands/sunny-day-real-estate/images/The Rising Tide.png'),
+        "Diary at London Bridge Studio (2024)": require('../emo-bands/sunny-day-real-estate/images/Diary (Live at London Bridge Studio).jpg')
+    },
+    'The Spirit of Versailles': {
+        "In Line for Halos (1999)": require('../emo-bands/the-spirit-of-versailles/images/In Line for Halos 1.jpg'),
+        "The Confluence of All the Senses (1999)": require('../emo-bands/the-spirit-of-versailles/images/The Confluence of All the Senses.jpg'),
+        "The Spirit of Versailles (2000)": require('../emo-bands/the-spirit-of-versailles/images/The Spirit of Versailles.jpg'),
+        "Discography (2003)": require('../emo-bands/the-spirit-of-versailles/images/Discography.jpg')
+    },
+    'Thursday': {
+        "Summer Tour EP (1999)": require('../emo-bands/thursday/images/Summer Tour.jpg'),
+        "Waiting (1999)": require('../emo-bands/thursday/images/Waiting.jpg'),
+        "Full Collapse (2001)": require('../emo-bands/thursday/images/Full Collapse.png'),
+        "Five Stories Falling (2002)": require('../emo-bands/thursday/images/Five Stories Falling.jpg'),
+        "Live from the Apple Store (2003)": require('../emo-bands/thursday/images/Live from the Apple Store.jpg'),
+        "War All the Time (2003)": require('../emo-bands/thursday/images/War All the Time.png'),
+        "A City by the Light Divided (2006)": require('../emo-bands/thursday/images/A City by the Light Divided.jpg'),
+        "Kill the House Lights (2007)": require('../emo-bands/thursday/images/Kill the House Lights.jpg'),
+        "Thursday / Envy (2008)": require('../emo-bands/thursday/images/Thursday Envy.jpg'),
+        "Common Existence (2009)": require('../emo-bands/thursday/images/Common Existence.jpg'),
+        "No Devolución (2011)": require('../emo-bands/thursday/images/No Devolucion.png'),
+        "Waiting: The 15-Year Anniversary (2015)": require('../emo-bands/thursday/images/Waiting The 15 Year Anniversary.jpg')
     }
 };
 

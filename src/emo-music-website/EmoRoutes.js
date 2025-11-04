@@ -36,6 +36,12 @@ import { Kolya } from "./emo-bands/kolya/Kolya";
 import { LaDispute } from "./emo-bands/la-dispute/LaDispute";
 import { Mineral } from "./emo-bands/mineral/Mineral";
 import { YaphetKotto } from "./emo-bands/yaphet-kotto/YaphetKotto";
+import { Forfeit } from "./emo-bands/forfeit/Forfeit";
+import { Saetia } from "./emo-bands/saetia/Saetia";
+import { SostoyaniePtits } from "./emo-bands/sostoyanie-ptits/SostoyaniePtits";
+import { SunnyDayRealEstate } from "./emo-bands/sunny-day-real-estate/SunnyDayRealEstate";
+import { TheSpiritOfVersailles } from "./emo-bands/the-spirit-of-versailles/TheSpiritOfVersailles";
+import { Thursday } from "./emo-bands/thursday/Thursday";
 
 export function EmoRoutes() {
 
@@ -79,6 +85,12 @@ export function EmoRoutes() {
                 <Route path='la-dispute' element={<LaDispute/>}/>
                 <Route path='mineral' element={<Mineral/>}/>
                 <Route path='yaphet-kotto' element={<YaphetKotto/>}/>
+                <Route path='forfeit' element={<Forfeit/>}/>
+                <Route path='saetia' element={<Saetia/>}/>
+                <Route path='sostoyanie-ptic' element={<SostoyaniePtits/>}/>
+                <Route path='sunny-day-real-estate' element={<SunnyDayRealEstate/>}/>
+                <Route path='the-spirit-of-versailles' element={<TheSpiritOfVersailles/>}/>
+                <Route path='thursday' element={<Thursday/>}/>
             </Routes>
         </div>
     );
