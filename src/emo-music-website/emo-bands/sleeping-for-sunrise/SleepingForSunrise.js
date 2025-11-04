@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import { FACE1_CURSOR, FACE2_CURSOR } from '../../../global-const';
 import songsData from './songs-lyrics.json';
 
-import React, { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 import AlbumListPage from "../../components/AlbumListPage";
@@ -15,6 +15,10 @@ export function SleepingForSunrise() {
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
+
+    useEffect(() => {
+        document.title = `Sleeping for Sunrise | floralunit world ❤`;
+    });
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
@@ -109,7 +113,7 @@ export function SleepingForSunrise() {
                             <div style={{ textAlign: 'center' }}>
                                 <h4>Sleeping For Sunrise – Lafayette БРАТ 2</h4>
                                 <br />
-                                <iframe src="https://vk.com/video_ext.php?oid=-89203441&id=456240517&hd=1&autoplay=1" width="500" height="300" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://vk.com/video_ext.php?oid=-89203441&id=456240517&hd=1&autoplay=1" width="500" height="300" title="VK video player" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
                                 <br /><br />
                                 <h4>Sleeping For Sunrise Live at The Down Under Bar Columbia, MO May 20th 1997</h4>
                                 <br />

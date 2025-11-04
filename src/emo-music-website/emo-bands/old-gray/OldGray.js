@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import { FACE1_CURSOR, FACE2_CURSOR } from '../../../global-const';
 import songsData from './songs-lyrics.json';
 
-import React, { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 import AlbumListPage from "../../components/AlbumListPage";
@@ -15,6 +15,10 @@ export function OldGray() {
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
+
+    useEffect(() => {
+        document.title = `Old Gray | floralunit world ❤`;
+    });
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {

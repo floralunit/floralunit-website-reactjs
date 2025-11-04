@@ -56,6 +56,11 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
+                                    <NavLink >Fugazi (x)</NavLink>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className="tdLow">
                                     <NavLink to="kolya">Kolya</NavLink>
                                 </td>
                             </tr>
@@ -202,7 +207,7 @@ export function BandsTable() {
                                     <NavLink >Øjne (x)</NavLink>
                                 </td>
                             </tr>
-                                                        <tr>
+                            <tr>
                                 <td className="tdLow">
                                     <NavLink >Raein (x)</NavLink>
                                 </td>

@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import { FACE1_CURSOR, FACE2_CURSOR } from '../../../global-const';
 import songsData from './songs-lyrics.json';
 
-import React, { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import ImageGallery from "react-image-gallery";
 import AlbumListPage from "../../components/AlbumListPage";
@@ -15,6 +15,10 @@ export function DnejFevralya() {
     document.documentElement.style.setProperty('--pointer-cursor', `url(${FACE2_CURSOR})`);
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
+
+    useEffect(() => {
+        document.title = `30 дней февраля | floralunit world ❤`;
+    });
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
@@ -129,7 +133,7 @@ export function DnejFevralya() {
                             <div style={{ textAlign: 'center' }}>
                                 <h4>30 Дней Февраля - Live in Red Club 28.04.2005</h4>
                                 <br />
-                                <iframe src="https://vk.com/video_ext.php?oid=-4782435&id=153106958" width="500" height="300" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://vk.com/video_ext.php?oid=-4782435&id=153106958" width="500" height="300" title="VK video player" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
                                 <br /><br />
                                 <h4>30 Дней Февраля - Так страшно за тебя (live at R-Club, 06.11.2005)</h4>
                                 <br />

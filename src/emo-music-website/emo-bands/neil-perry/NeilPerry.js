@@ -20,6 +20,10 @@ export function NeilPerry() {
         document.title = `Neil Perry | floralunit world ❤`;
     });
 
+    useEffect(() => {
+        document.title = `Neil Perry | floralunit world ❤`;
+    });
+
 
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {

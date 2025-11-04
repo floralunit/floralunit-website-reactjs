@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 import { FACE1_CURSOR, FACE2_CURSOR } from '../../../global-const';
 import songsData from './songs-lyrics.json';
 
-import React, { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import AlbumListPage from "../../components/AlbumListPage";
 
@@ -15,17 +15,14 @@ export function RabbitTheory() {
     document.documentElement.style.setProperty('--box-header-color', '#333333');
     document.documentElement.style.setProperty('--box-header-text-color', '#c0c0c0');
 
+    useEffect(() => {
+        document.title = `The Rabbit Theory | floralunit world ❤`;
+    });
+
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
         setToggleState(index);
     };
-
-    const images = [
-        {
-            original: require('./images/logo.gif'),
-            thumbnail: require('./images/logo.gif'),
-        },
-    ];
 
     return (
         <div className="bands rabbit-theory">
@@ -75,7 +72,7 @@ export function RabbitTheory() {
                             >
                                 <h3> Биография </h3>
                                 <br />
-                                <div style={{ display: 'flex', flexDirection: 'column', float:'left' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', float: 'left' }}>
                                     <img src={require('./images/logo1.gif')} style={{ width: '170px', margin: '0 20px' }} alt={''} />
                                     <img src={require('./images/logo.gif')} style={{ width: '170px', margin: '0 20px' }} alt={''} />
                                 </div>
