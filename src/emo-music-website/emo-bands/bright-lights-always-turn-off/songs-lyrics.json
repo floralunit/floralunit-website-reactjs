@@ -1,0 +1,31 @@
+[
+  {
+    "key": 0,
+    "artist": "Bright Lights Always Turn Off",
+    "album": "Demo (2006)",
+    "albumVKLink": "https://vk.com/music/playlist/-219248453_1578",
+    "songs": [
+      {
+        "key": 0,
+        "name": "Briefcases",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1648309392"
+      },
+      {
+        "key": 1,
+        "name": "I Touched A Shark",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1421972305"
+      },
+      {
+        "key": 2,
+        "name": "Short but abrupt Ending",
+        "lyrics": "",
+        "translation": "",
+        "soundcloudId": "1421972305"
+      }
+    ]
+  }
+]

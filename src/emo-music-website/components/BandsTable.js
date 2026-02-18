@@ -66,7 +66,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Lowercase (x)</NavLink>
+                                    <NavLink to="lowercase">Lowercase</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -174,17 +174,17 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Bright Lights Always Turn Off (x)</NavLink>
+                                    <NavLink to="bright-lights-always-turn-off">Bright Lights Always Turn Off</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Burial Etiquette (x)</NavLink>
+                                    <NavLink to="burial-etiquette">Burial Etiquette</NavLink>
                                 </td>
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Catalyst... (x)</NavLink>
+                                    <NavLink to="catalyst">catalyst...</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -194,7 +194,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Foxtails (x)</NavLink>
+                                    <NavLink to="foxtails">Foxtails</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -209,7 +209,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Raein (x)</NavLink>
+                                    <NavLink to="raein">Raein</NavLink>
                                 </td>
                             </tr>
                             <tr>
@@ -365,7 +365,7 @@ export function BandsTable() {
                             </tr>
                             <tr>
                                 <td className="tdLow">
-                                    <NavLink >Отречение Петра (x)</NavLink>
+                                    <NavLink to="otrechenie-petra">Отречение Петра</NavLink>
                                 </td>
                             </tr>
                             <tr>

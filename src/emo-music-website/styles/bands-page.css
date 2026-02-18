@@ -214,6 +214,41 @@
       rgba(0, 0, 0, 0.4)), url("../emo-bands/thursday/images/War\ All\ the\ Time.png")
 }
 
+.bright-lights-always-turn-off {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/bright-lights-always-turn-off/images/Demo.webp")
+}
+
+.burial-etiquette {
+  background: linear-gradient(rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/burial-etiquette/images/Burial\ Etiquette.jpg")
+}
+
+.catalyst {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/catalyst/images/COME\ IN\ AND\ THANK\ GOD.jpg")
+}
+
+.foxtails {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/foxtails/images/III.jpg")
+}
+
+.otrechenie-petra {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/otrechenie-petra/images/Полуденный\ ужас.jpg")
+}
+
+.lowercase {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/lowercase/images/Kill\ The\ Lights.jpg")
+}
+
+.raein {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("../emo-bands/raein/images/st.jpg")
+}
+
 
 .bands-container {
   width: 1000px;
