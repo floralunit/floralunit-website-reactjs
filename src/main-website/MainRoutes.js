@@ -1,6 +1,5 @@
 import "./MainWebsite.css"
-import React, {useEffect, useState} from "react";
-import {Link, Outlet, Route, Routes} from "react-router-dom";
+import {Route, Routes, Navigate} from "react-router-dom";
 import "../global-const"
 import {LeftSideBar} from "./components/LeftSideBar";
 import {RightSideBar} from "./components/RightSideBar";
@@ -16,6 +15,23 @@ import {IconsPage} from "./pages/WebStuff/IconsPage";
 import {GamesPage} from "./pages/GamesPage";
 import { NotFoundPage } from "../common/components/NotFoundPage";
 import { PoetryPage } from "./pages/PoetryPage";
+import { useEffect } from "react";
+
+function EmoRoute() {
+  useEffect(() => {
+    window.location.href = 'https://emo-music.vercel.app';
+  }, []);
+  
+  return null; // или какой-то компонент-заглушка
+}
+
+function WitchRoute() {
+  useEffect(() => {
+    window.location.href = 'https://witch-house.vercel.app';
+  }, []);
+  
+  return null; // или какой-то компонент-заглушка
+}
 
 export function MainRoutes() {
     return (
@@ -38,6 +54,8 @@ export function MainRoutes() {
                         <Route path='poetry' element={<PoetryPage/>}/>
                         <Route path='post-punk/*' element={<NotFoundPage/>}/>
                         <Route path='nu-metal/*' element={<NotFoundPage/>}/>
+                        <Route path="emo/*" element={<EmoRoute />} />
+                        <Route path="witch-house/*" element={<WitchRoute />} />
                     </Routes>
                     <RightSideBar/>
                 </div>

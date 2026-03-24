@@ -4,7 +4,6 @@ import {
   WATER2_BACKGROUND, FLOWER4_BACKGROUND, FLOWER5_BACKGROUND, FLOWER6_BACKGROUND, ABSTRACT_BACKGROUND, ABSTRACT1_BACKGROUND, ABSTRACT2_BACKGROUND, ABSTRACT3_BACKGROUND, ABSTRACT4_BACKGROUND, ABSTRACT5_BACKGROUND, ABSTRACT6_BACKGROUND, ANGEL_BACKGROUND, BUBBLES3_BACKGROUND, DOLPHIN_BACKGROUND, KOSMOS_BACKGROUND, NOISE_BACKGROUND, FLOWER7_BACKGROUND, PIG_BACKGROUND, RABBIT_BACKGROUND, CD_BACKGROUND, FLY_BACKGROUND, ABSTRACT7_BACKGROUND, ABSTRACT8_BACKGROUND, SHINE_BACKGROUND, WITCH_BACKGROUND, WITCH1_BACKGROUND, WITCH2_BACKGROUND, RED1_BACKGROUND, STARS_BACKGROUND
 } from '../../../global-const';
 import { CompactPicker } from 'react-color';
-import React, { useEffect, useState } from 'react'
 
 export function IconsPage() {
   document.documentElement.style.removeProperty('--box-header-color');
@@ -128,7 +127,7 @@ export function IconsPage() {
             <div className="inner">
               <div className="bgs">
                 {bgs.map((image, index) => (
-                  <img key={index} src={image} onMouseEnter={() => changeBackground(image)} />))}
+                  <img alt="floralunit" key={index} src={image} onMouseEnter={() => changeBackground(image)} />))}
               </div>
             </div>
           </div>
@@ -150,76 +149,76 @@ export function IconsPage() {
             </div>
             <div className="inner">
               <div className="icons" style={{ justifyContent: 'left' }}>
-                <a><img src={require("../../resources/pixels/8OiOqRY.gif")} /></a>
-                <a><img src={require("../../resources/pixels/398Yet2.gif")} /></a>
-                <a><img src={require("../../resources/pixels/rYgMZnK.gif")} /></a>
-                <a><img src={require("../../resources/pixels/wXsrEGT.gif")} /></a>
-                <a><img src={require("../../resources/pixels/zJZuQV8.gif")} /></a>
-                <a><img src={require("../../resources/pixels/whv7P5w.gif")} /></a>
-                <a><img src={require("../../resources/pixels/jZvzhTA.gif")} /></a>
-                <a><img src={require("../../resources/pixels/AedbD8l.gif")} /></a>
-                <a><img src={require("../../resources/pixels/D13NasZ.gif")} /></a>
-                <a><img src={require("../../resources/pixels/ALAAFn1.gif")} /></a>
-                <a><img src={require("../../resources/pixels/mGQoCfM.gif")} /></a>
-                <a><img src={require("../../resources/pixels/q8z6JxI.gif")} /></a>
-                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/yum-soot.gif")} /></a>
-                <a><img src={require("../../resources/pixels/cj2PLXc.gif")} /></a>
-                <a><img src={require("../../resources/pixels/music.gif")} /></a>
-                <a><img src={require("../../resources/pixels/4pAzup9.gif")} /></a>
-                <a><img src={require("../../resources/pixels/tEJ5Dt8.gif")} /></a>
-                <a><img src={require("../../resources/pixels/vOv0Dsf.gif")} /></a>
-                <a><img src={require("../../resources/pixels/matryoshka.gif")} /></a>
-                <a><img src={require("../../resources/pixels/sANi3Ri.gif")} /></a>
-                <a><img src={require("../../resources/pixels/cloud.gif")} /></a>
-                <a><img src={require("../../resources/pixels/cry.gif")} /></a>
-                <a><img src={require("../../resources/pixels/normal.gif")} /></a>
-                <a><img src={require("../../resources/pixels/left_right.gif")} /></a>
-                <a><img src={require("../../resources/pixels/kaoani-cat18.gif")} /></a>
-                <a><img src={require("../../resources/pixels/blobshades.gif")} /></a>
-                <a><img src={require("../../resources/pixels/puff_froggy.gif")} /></a>
-                <a><img src={require("../../resources/pixels/blobspin.gif")} /></a>
-                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/pixelplant1anim.gif")} /></a>
-                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/pixelplant2anim.gif")} /></a>
-                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/pixelplant3anim.gif")} /></a>
-                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/lacroixdaisy.gif")} /></a>
-                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/skellygreen.gif")} /></a>
-                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/bowterfleye.gif")} /></a>
-                <a><img src={require("../../resources/pixels/tumblr_inline_ml15w1FyIN1qz4rgp.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/a03-flower-dandelion.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/a06-icon-girl.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/x02-icon-bee.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/x06-icon-bee.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/b06-icon-frog.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/b15-icon-rabbit.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/c07-flower-cherry_blossom.gif")} /></a>
-                <a><img src={require("../../resources/pixels/willothewisp01.gif")} /></a>
-                <a><img src={require("../../resources/pixels/wings.gif")} /></a>
-                <a><img src={require("../../resources/pixels/casette-1.png")} /></a>
-                <a><img src={require("../../resources/pixels/snapa3.gif")} /></a>
-                <a href="https://www.thefrugalgamer.net/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/tape_pastel.gif")} /></a>
-                <a><img src={require("../../resources/pixels/tv_16.gif")} /></a>
-                <a><img src={require("../../resources/pixels/PVHECEE.png")} /></a>
-                <a href="https://dollarchive.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/3spanishmoon_sm.png")} /></a>
-                <a><img src={require("../../resources/pixels/windows.gif")} /></a>
-                <a><img src={require("../../resources/pixels/1dfntQp.gif")} /></a>
-                <a><img src={require("../../resources/pixels/Camera.gif")} /></a>
-                <a><img src={require("../../resources/pixels/cdrom.gif")} /></a>
-                <a><img src={require("../../resources/pixels/Frog_Croaking.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/8OiOqRY.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/398Yet2.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/rYgMZnK.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/wXsrEGT.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/zJZuQV8.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/whv7P5w.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/jZvzhTA.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/AedbD8l.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/D13NasZ.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/ALAAFn1.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/mGQoCfM.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/q8z6JxI.gif")} /></a>
+                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/yum-soot.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/cj2PLXc.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/music.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/4pAzup9.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/tEJ5Dt8.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/vOv0Dsf.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/matryoshka.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/sANi3Ri.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/cloud.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/cry.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/normal.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/left_right.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/kaoani-cat18.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/blobshades.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/puff_froggy.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/blobspin.gif")} /></a>
+                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/pixelplant1anim.gif")} /></a>
+                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/pixelplant2anim.gif")} /></a>
+                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/pixelplant3anim.gif")} /></a>
+                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/lacroixdaisy.gif")} /></a>
+                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/skellygreen.gif")} /></a>
+                <a href="https://www.lejlart.com/apple.html" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/bowterfleye.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/tumblr_inline_ml15w1FyIN1qz4rgp.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/a03-flower-dandelion.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/a06-icon-girl.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/x02-icon-bee.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/x06-icon-bee.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/b06-icon-frog.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/b15-icon-rabbit.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/c07-flower-cherry_blossom.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/willothewisp01.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/wings.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/casette-1.png")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/snapa3.gif")} /></a>
+                <a href="https://www.thefrugalgamer.net/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/tape_pastel.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/tv_16.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/PVHECEE.png")} /></a>
+                <a href="https://dollarchive.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/3spanishmoon_sm.png")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/windows.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/1dfntQp.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/Camera.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/cdrom.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/Frog_Croaking.gif")} /></a>
               </div>
               <div className="big-icons">
-                <a href="https://omfg.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/venusdemilo.gif")} /></a>
-                <a><img src={require("../../resources/pixels/eXgnvmo.png")} /></a>
-                <a><img src={require("../../resources/pixels/dancing-moomin-lostletters.png")} /></a>
-                <a><img src={require("../../resources/pixels/aZuN0R9.png")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/ee03-icon-cat.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/eg03-icon-cat.gif")} /></a>
-                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/f02-icon-girl.gif")} /></a>
-                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/artworkteatotoro.gif")} /></a>
-                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/totoroblink.gif")} /></a>
-                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/totorogroup.gif")} /></a>
-                <a href="https://omfg.neocities.org/" target="_blank" rel="noreferrer"><img src={require("../../resources/pixels/bbirth77.gif")} /></a>
-                <a><img src={require("../../resources/pixels/d25reoy-de4aac38-121c-44cb-acb3-384213496894.gif")} /></a>
-                <a><img src={require("../../resources/pixels/kirby-dancing.gif")} /></a>
+                <a href="https://omfg.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/venusdemilo.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/eXgnvmo.png")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/dancing-moomin-lostletters.png")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/aZuN0R9.png")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/ee03-icon-cat.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/eg03-icon-cat.gif")} /></a>
+                <a href="https://foollovers.com/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/f02-icon-girl.gif")} /></a>
+                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/artworkteatotoro.gif")} /></a>
+                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/totoroblink.gif")} /></a>
+                <a href="https://artwork.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/totorogroup.gif")} /></a>
+                <a href="https://omfg.neocities.org/" target="_blank" rel="noreferrer"><img alt="floralunit" src={require("../../resources/pixels/bbirth77.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/d25reoy-de4aac38-121c-44cb-acb3-384213496894.gif")} /></a>
+                <a href="/bgs-icons"><img alt="floralunit" src={require("../../resources/pixels/kirby-dancing.gif")} /></a>
               </div>
             </div>
           </div>

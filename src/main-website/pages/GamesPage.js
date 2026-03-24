@@ -1,12 +1,12 @@
 import "../MainWebsite.css"
 import "../../common/styles/gallery.css"
 import "../../common/styles/cute-white-frame.css"
-import React, { useEffect, useState } from 'react'
 import {
     MEIMAID_SEA_BACKGROUND,
     STARDEWVALLEY_BACKGROUND,
     DARKGRASS_BACKGROUND
 } from '../../global-const';
+import Marquee from "react-fast-marquee";
 
 export function GamesPage() {
     document.documentElement.style.removeProperty('--box-text-color');
@@ -25,7 +25,7 @@ export function GamesPage() {
                     <div className="box-inner-f-kado" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.4em', fontWeight: 'bold' }}>
                         Games I made by myself or in team
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img src={require('../resources/tabs_dividers_pixels/e13-apple-line.gif')}
+                            <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/e13-apple-line.gif')}
                                 style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                                 title='https://foollovers.com' />
                         </div>
@@ -37,8 +37,8 @@ export function GamesPage() {
             </div>
             <div className="box" style={{ backgroundImage: `url(${MEIMAID_SEA_BACKGROUND})`, backgroundSize: 'cover', minHeight: '250px', padding: '20px' }}>
                 <div className="inner" style={{ textAlign: 'center' }}>
-                    <marquee><img src={require('../resources/games/mermaid_left.gif')}
-                        style={{ width: 'auto', alignSelf: 'center' }} /></marquee>
+                    <Marquee><img alt="floralunit" src={require('../resources/games/mermaid_left.gif')}
+                        style={{ width: 'auto', alignSelf: 'center' }} /></Marquee>
                     <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
                         <div style={{ justifyContent: 'center', display: 'flex', flexDirection: 'row' }}>
                             <a class="tent" style={{ backgroundImage: `url(${require("../resources/games/mermaidvstrash.gif")})`, justifySelf: 'center' }}
@@ -54,22 +54,22 @@ export function GamesPage() {
                                 </div>
                             </div>
                             <div style={{ justifyContent: 'center', display: 'flex' }}>
-                                <img src={require('../resources/games/klop.png')}
+                                <img alt="floralunit" src={require('../resources/games/klop.png')}
                                     style={{ height: '55px', width: 'auto', alignSelf: 'center' }}></img>
                             </div>
                         </div>
                     </div>
 
-                    <marquee direction='right'><img src={require('../resources/games/mermaid_right.gif')}
-                        style={{ width: 'auto', alignSelf: 'center' }} /></marquee>
+                    <Marquee direction='right'><img alt="floralunit" src={require('../resources/games/mermaid_right.gif')}
+                        style={{ width: 'auto', alignSelf: 'center' }} /></Marquee>
                 </div>
             </div>
             <div style={{ textAlign: 'center' }}>
-                <img src={require('../resources/pixels/169621.png')}
+                <img alt="floralunit" src={require('../resources/pixels/169621.png')}
                     style={{ height: '35px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                <img src={require('../resources/pixels/mermaid-stardew.png')}
+                <img alt="floralunit" src={require('../resources/pixels/mermaid-stardew.png')}
                     style={{ height: '85px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                <img src={require('../resources/pixels/169621.png')}
+                <img alt="floralunit" src={require('../resources/pixels/169621.png')}
                     style={{ height: '35px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
             </div>
             <div className="box-f-kado">
@@ -80,7 +80,7 @@ export function GamesPage() {
                     <div className="box-inner-f-kado" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.4em', fontWeight: 'bold' }}>
                         My favourite games
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img src={require('../resources/tabs_dividers_pixels/e13-apple-line.gif')}
+                            <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/e13-apple-line.gif')}
                                 style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                                 title='https://foollovers.com' />
                         </div>
@@ -200,24 +200,24 @@ export function GamesPage() {
                     </div></div>
                 </div>
             </div>
-            <marquee>
-                <img src={require('../resources/pixels/Junimo.gif')}
+            <Marquee>
+                <img alt="floralunit" src={require('../resources/pixels/Junimo.gif')}
                     style={{ height: '45px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                <img src={require('../resources/pixels/Junimo.gif')}
+                <img alt="floralunit" src={require('../resources/pixels/Junimo.gif')}
                     style={{ height: '45px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                <img src={require('../resources/pixels/Junimo.gif')}
+                <img alt="floralunit" src={require('../resources/pixels/Junimo.gif')}
                     style={{ height: '45px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-            </marquee>
+            </Marquee>
             <div className="box-f-kado">
                 <div className="box-top-f-kado">
                     <div className="u01-f-kado"></div>
                 </div>
                 <div className="box-center-f-kado">
                     <div className="box-inner-f-kado" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.4em', fontWeight: 'bold' }}>
-                        <img src={require('../resources/pixels/White_Chicken.png')}
+                        <img alt="floralunit" src={require('../resources/pixels/White_Chicken.png')}
                             style={{ height: '25px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                         &nbsp;My farms in Stardew Valley&nbsp;
-                        <img src={require('../resources/pixels/White_Chicken.png')}
+                        <img alt="floralunit" src={require('../resources/pixels/White_Chicken.png')}
                             style={{ height: '25px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                 </div>

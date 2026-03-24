@@ -1,9 +1,9 @@
-import React, { useState, useCallback, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Modal, ModalGateway } from "react-images";
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import { LoadingComponent } from "../../components/LoadingComponent"
-import { API_URL, PIG_BACKGROUND } from '../../../global-const';
+import { PIG_BACKGROUND } from '../../../global-const';
 import myphotos from '../../../common/jsons/MyPhotos.json';
 import "../../../common/styles/gallery.css";
 
@@ -146,7 +146,7 @@ export function MyPhotosPage() {
   } else {
     return (
       <div className='main' style={{ maxWidth: '1000px' }}>
-                <div className="box08">
+        <div className="box08">
           <div className="box-top">
             <div className="u01"></div>
           </div>
@@ -154,7 +154,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2025
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -168,7 +168,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2025.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2025(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2025(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2025 ? (
                   <Modal onClose={closeLightbox}>
@@ -194,7 +194,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2024
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -208,7 +208,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2024.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2024(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2024(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2024 ? (
                   <Modal onClose={closeLightbox}>
@@ -234,7 +234,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2023
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -248,7 +248,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2023.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2023(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2023(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2023 ? (
                   <Modal onClose={closeLightbox}>
@@ -273,7 +273,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2022
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -287,7 +287,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2022.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2022(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2022(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2022 ? (
                   <Modal onClose={closeLightbox}>
@@ -312,7 +312,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2021
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -326,7 +326,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2021.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2021(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2021(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2021 ? (
                   <Modal onClose={closeLightbox}>
@@ -351,7 +351,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2020
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -365,7 +365,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2020.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2020(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2020(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2020 ? (
                   <Modal onClose={closeLightbox}>
@@ -390,7 +390,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2019
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -404,7 +404,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2019.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2019(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2019(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2019 ? (
                   <Modal onClose={closeLightbox}>
@@ -429,7 +429,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2018
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -443,7 +443,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2018.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2018(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2018(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2018 ? (
                   <Modal onClose={closeLightbox}>
@@ -468,7 +468,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2017
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -482,7 +482,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2017.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2017(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2017(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2017 ? (
                   <Modal onClose={closeLightbox}>
@@ -507,7 +507,7 @@ export function MyPhotosPage() {
             <div className="box-inner" style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
               2016
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
+                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/j06-cherry_blossom-line.gif')}
                   style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                   title='https://foollovers.com' />
               </div>
@@ -521,7 +521,7 @@ export function MyPhotosPage() {
           <div className='inner'>
             <div className='photo-gallery'>
               {photos2016.map((image, index) => (
-                <img key={index} src={image.src} onClick={() => openLightbox2016(index)} />))}
+                <img alt="floralunit" key={index} src={image.src} onClick={() => openLightbox2016(index)} />))}
               <ModalGateway>
                 {viewerIsOpen2016 ? (
                   <Modal onClose={closeLightbox}>

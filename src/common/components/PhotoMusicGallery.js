@@ -3,9 +3,9 @@ export const GalleryWithMusic = ({ items }) => {
       <div className='photo-gallery'>
         {shuffle(items).map((item, index) => {
           if (item.type === 'photo') {
-            return <img key={index} src={item.src} />;
+            return <img alt="floralunit"  key={index} src={item.src} />;
           } else if (item.type === 'music') {
-            return <iframe width={200} height={160} key={index} src={item.src+"&color=%232f2f2f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}  />;
+            return <iframe title="title" width={200} height={160} key={index} src={item.src+"&color=%232f2f2f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}  />;
           }
         })}
       </div>

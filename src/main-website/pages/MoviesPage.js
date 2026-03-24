@@ -2,6 +2,7 @@ import "../MainWebsite.css"
 import "../../common/styles/gallery.css"
 import "../../common/styles/cute-white-frame.css"
 import "../../common/styles/simple-tabs.scss"
+import Marquee from "react-fast-marquee";
 
 import React, { useEffect, useState } from 'react'
 import {
@@ -106,10 +107,10 @@ export function MoviesPage() {
                                             style={{ maxHeight: '25px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                     </div>
                                 </div>
-                                <marquee >
+                                <Marquee >
                                     <img src={require('../resources/pixels/dragon.gif')}
                                         style={{ height: '120px', width: 'auto', alignSelf: 'center', margin: '-15px' }} />
-                                </marquee>
+                                </Marquee>
                             </div>
 
                             :
@@ -478,21 +479,21 @@ export function MoviesPage() {
                             <div className="movie-title">The Last Of Us (2023-?)</div>
                         </div>
                         <div class="movie-card">
-                                <img src={require("../resources/movies/выжить_после.webp")} alt="Movie Image" className="movie-image " />
-                                <div className=" movie-title "> Выжить после (2013-2016) </ div>
-                            </div>
-                            <div class="movie-card">
-                                <img src={require("../resources/movies/чернобыль.jpg")} alt="Movie Image" className="movie-image " />
-                                <div className=" movie-title "> Чернобыль: Зона отчуждения (2014-2017) </ div>
-                            </div>
-                            <div class="movie-card">
-                                <img src={require("../resources/movies/фолыч.jpeg")} alt="Movie Image" className="movie-image " />
-                                <div className=" movie-title "> Fallout (2024) </ div>
-                            </div>
-                            <div class="movie-card">
-                                <img src={require("../resources/movies/корни.jpg")} alt="Movie Image" className="movie-image " />
-                                <div className=" movie-title "> Корни (2016) </ div>
-                            </div>
+                            <img src={require("../resources/movies/выжить_после.webp")} alt="Movie Image" className="movie-image " />
+                            <div className=" movie-title "> Выжить после (2013-2016) </ div>
+                        </div>
+                        <div class="movie-card">
+                            <img src={require("../resources/movies/чернобыль.jpg")} alt="Movie Image" className="movie-image " />
+                            <div className=" movie-title "> Чернобыль: Зона отчуждения (2014-2017) </ div>
+                        </div>
+                        <div class="movie-card">
+                            <img src={require("../resources/movies/фолыч.jpeg")} alt="Movie Image" className="movie-image " />
+                            <div className=" movie-title "> Fallout (2024) </ div>
+                        </div>
+                        <div class="movie-card">
+                            <img src={require("../resources/movies/корни.jpg")} alt="Movie Image" className="movie-image " />
+                            <div className=" movie-title "> Корни (2016) </ div>
+                        </div>
                     </div>
                 </div>
                 <div
@@ -548,13 +549,13 @@ export function MoviesPage() {
                             <div className="movie-title">Дерево и кошка (1983)</div>
                         </div>
                         <div class="movie-card">
-                                <img src={require("../resources/movies/ежик.jpg")} alt="Movie Image" className="movie-image " />
-                                <div className=" movie-title "> Ёжик в тумане (1975) </ div>
-                            </div>
-                            <div class="movie-card">
-                                <img src={require("../resources/movies/третья планета.jpg")} alt="Movie Image" className="movie-image " />
-                                <div className=" movie-title "> Тайна третьей планеты (1981) </ div>
-                            </div>
+                            <img src={require("../resources/movies/ежик.jpg")} alt="Movie Image" className="movie-image " />
+                            <div className=" movie-title "> Ёжик в тумане (1975) </ div>
+                        </div>
+                        <div class="movie-card">
+                            <img src={require("../resources/movies/третья планета.jpg")} alt="Movie Image" className="movie-image " />
+                            <div className=" movie-title "> Тайна третьей планеты (1981) </ div>
+                        </div>
                     </div>
                 </div>
             </div>

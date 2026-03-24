@@ -2,8 +2,6 @@ import "../MainWebsite.css"
 import "../../common/styles/photos.css"
 import "../../common/styles/lace-frame.css"
 
-import React, { useEffect, useState } from 'react'
-
 export function InfoPage() {
     document.documentElement.style.removeProperty('--box-header-color');
     document.documentElement.style.removeProperty('--main-background');
@@ -15,16 +13,16 @@ export function InfoPage() {
         <div className='main' style={{ maxWidth: "650px", fontSize: 'smaller' }}>
             <div className='box'>
                 {/*                <div id='section-1' className="box-header">
-                    <img src={require('../../common/my-button/tears-ico-white1.png')}
+                    <img alt="floralunit"  src={require('../../common/my-button/tears-ico-white1.png')}
                          style={{height: '25px', width: 'auto', padding: '5px 0 0 0'}}/>
                 </div>*/}
                 <div className='inner'>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/tabs_dividers_pixels/l06-ribbon-line.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/l06-ribbon-line.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -47,7 +45,7 @@ export function InfoPage() {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/tabs_dividers_pixels/gray-flower-line.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/gray-flower-line.gif')}
                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -57,9 +55,9 @@ export function InfoPage() {
                         <div className="box-center">
                             <div className="box-inner">
                                 <div style={{ direction: 'column', display: 'flex', flexDirection: 'column', float: "right", width: '40%' }}>
-                                    <img src={require('../resources/images/we.png')}
+                                    <img alt="floralunit" src={require('../resources/images/we.png')}
                                         style={{ width: '100%', margin: '15px 15px 0px 0px' }} />
-                                    <img src={require('../../common/my-button/big-icon.gif')}
+                                    <img alt="floralunit" src={require('../../common/my-button/big-icon.gif')}
                                         style={{ width: '40px', margin: '0 auto' }} />
                                 </div>
                                 <p>Some things I like:</p>
@@ -87,7 +85,7 @@ export function InfoPage() {
                     </div>
 
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/tabs_dividers_pixels/gray-flower-line.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/gray-flower-line.gif')}
                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -105,15 +103,15 @@ export function InfoPage() {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/tabs_dividers_pixels/l06-ribbon-line.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/l06-ribbon-line.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
-                        <img src={require('../resources/tabs_dividers_pixels/lb06.gif')}
+                        <img alt="floralunit" src={require('../resources/tabs_dividers_pixels/lb06.gif')}
                             style={{ height: '36px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     {/* <div style={{display: 'flex', justifyContent: 'center'}}>
-                        <img src={require('../../common/my-button/floralunit-button.gif')}
+                        <img alt="floralunit"  src={require('../../common/my-button/floralunit-button.gif')}
                              style={{width: '88px', height: '31px'}}/>
                     </div> */}
                 </div>

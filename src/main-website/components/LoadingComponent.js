@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 export function LoadingComponent() {
     return (
         <div className='main' style={{maxWidth: '600px', margin: '0 auto'}}>
@@ -8,8 +10,8 @@ export function LoadingComponent() {
         </div>
         <div className="box-center">
           <div className="box-inner">
-          <marquee style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '10px', fontWeight: 'bold' }}>loading</marquee>
-          <img src={require('../../common/my-button/big-icon.gif')} style={{width: '40px', height:  '40px', margin: '0 auto', display: 'flex' }}/>
+          <Marquee style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '10px', fontWeight: 'bold' }}>loading</Marquee>
+          <img alt="floralunit"  src={require('../../common/my-button/big-icon.gif')} style={{width: '40px', height:  '40px', margin: '0 auto', display: 'flex' }}/>
           </div>
         </div>
         <div className="box-bottom">

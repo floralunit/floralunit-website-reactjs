@@ -1,3 +1,9 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .main-page {
     background-image: var(--main-background);
     background-repeat: repeat;
@@ -13,6 +19,10 @@
 
 a, Link{
     cursor: var(--pointer-cursor), pointer;
+}
+a:link {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 center {

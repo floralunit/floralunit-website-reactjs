@@ -99,10 +99,10 @@ export function FilmLofiPage() {
                     <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
                         <div className="simple-tab-bar radius">
                             <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)} style={{ fontSize: '10px' }}>
-                                <span className="icon"><img src={require('../../resources/pixels/Camera.gif')} style={{ height: "20px" }} /></span>films
+                                <span className="icon"><img alt="floralunit" src={require('../../resources/pixels/Camera.gif')} style={{ height: "20px" }} /></span>films
                             </button>
                             <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)} style={{ fontSize: '10px' }}>
-                                <span className="icon"><img src={require('../../resources/pixels/cdrom.gif')}
+                                <span className="icon"><img alt="floralunit" src={require('../../resources/pixels/cdrom.gif')}
                                     title="https://artwork.neocities.org"
                                     style={{ width: "20px" }} /></span>lofi
                             </button>
@@ -120,7 +120,7 @@ export function FilmLofiPage() {
                             <div className="box-center">
                                 <div className="box-inner">
                                     <div>
-                                        <img src={require('../../resources/images/zenit.png')}
+                                        <img alt="floralunit" src={require('../../resources/images/zenit.png')}
                                             style={{ float: "left", maxWidth: '210px' }} />
                                         <div>
                                             <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
@@ -128,7 +128,7 @@ export function FilmLofiPage() {
                                             </div>
                                             <br />
                                             <div>
-                                                <img src={require('../../resources/images/milnitsa.png')}
+                                                <img alt="floralunit" src={require('../../resources/images/milnitsa.png')}
                                                     style={{ float: "right", maxWidth: '110px' }} />
                                                 <div style={{ fontWeight: 'bold' }}>My film cameras: </div>
                                                 <ul>
@@ -155,16 +155,16 @@ export function FilmLofiPage() {
                         <div className="box">
                             <div className="inner">
                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                    <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
                                         style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                     <div>Photo gallery</div>
-                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                    <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
                                         style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                 </div>
                                 <br />
                                 <div className='photo-gallery'>
                                     {photosFilm.map((image, index) => (
-                                        <img key={index} src={image.src} onClick={() => openLightboxFilm(index)} />))}
+                                        <img alt="floralunit" key={index} src={image.src} onClick={() => openLightboxFilm(index)} />))}
                                     <ModalGateway>
                                         {viewerIsOpenFilm ? (
                                             <Modal onClose={closeLightbox}>
@@ -193,11 +193,11 @@ export function FilmLofiPage() {
                             <div className="box-center">
                                 <div className="box-inner">
                                     <div>
-                                        <img src={require('../../resources/images/angel.png')}
+                                        <img alt="floralunit" src={require('../../resources/images/angel.png')}
                                             style={{ float: "right", maxWidth: '230px', margin: 0 }} />
 
                                         <div>
-                                            <img src={require('../../resources/images/knopki.png')}
+                                            <img alt="floralunit" src={require('../../resources/images/knopki.png')}
                                                 style={{ float: "left", maxWidth: '110px', margin: 0 }} />
                                             <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
                                                 <div>Lo-fi photography</div>
@@ -219,16 +219,16 @@ export function FilmLofiPage() {
                         <div className="box">
                             <div className="inner">
                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                    <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
                                         style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                     <div>Photo gallery</div>
-                                    <img src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
+                                    <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/d10-simple-line.gif')} title='https://foollovers.com'
                                         style={{ height: '20px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                                 </div>
                                 <br />
                                 <div className='photo-gallery'>
                                     {photosLofi.map((image, index) => (
-                                        <img key={index} src={image.src} onClick={() => openLightboxLofi(index)} />))}
+                                        <img alt="floralunit" key={index} src={image.src} onClick={() => openLightboxLofi(index)} />))}
                                     <ModalGateway>
                                         {viewerIsOpenLofi ? (
                                             <Modal onClose={closeLightbox}>

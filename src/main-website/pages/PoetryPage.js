@@ -2,10 +2,10 @@ import "../MainWebsite.css"
 import "../../common/styles/photos.css"
 import "../../common/styles/lace-frame.css"
 
-import React, { useEffect, useState, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 import Masonry from 'masonry-layout';
-import { WATER1_BACKGROUND, WATER2_BACKGROUND } from "../../global-const";
+import { WATER1_BACKGROUND } from "../../global-const";
 
 export function PoetryPage() {
     document.documentElement.style.removeProperty('--box-text-color');
@@ -30,7 +30,7 @@ export function PoetryPage() {
     }, []);
 
     return (
-        <div className='main'  style={{display:'flex', justifyContent: 'center', flexWrap:'wrap', maxWidth:'900px'}}>
+        <div className='main' style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', maxWidth: '900px' }}>
             <div className="box" >
                 <div className="inner"  >
                     Какие-то из моих старых стихов. Ловлю максимальный уровень кринжа от них, но и оставить их тоже где-то хочется
@@ -39,7 +39,7 @@ export function PoetryPage() {
             </div>
             <div className="gallery" ref={galleryRef} >
 
-            <div className="poetry-block"  >
+                <div className="poetry-block"  >
                     <div className="box08" >
                         <div className="box-top">
                             <div className="u01"></div>
@@ -352,7 +352,7 @@ export function PoetryPage() {
                     </div>
                 </div>
 
-                
+
                 <div className="poetry-block">
                     <div className="box08">
                         <div className="box-top">

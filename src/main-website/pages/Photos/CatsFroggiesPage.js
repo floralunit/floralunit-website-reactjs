@@ -98,11 +98,11 @@ export function CatsFroggiesPage() {
                     <div className='inner' style={{ backgroundColor: "var(--box-header-color)" }}>
                         <div className="simple-tab-bar radius">
                             <button className={toggleState === 1 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(1)} style={{ fontSize: '10px' }}>
-                                <span className="icon"><img src={require('../../resources/pixels/b06-icon-frog.gif')}
+                                <span className="icon"><img alt="floralunit" src={require('../../resources/pixels/b06-icon-frog.gif')}
                                     title='https://foollovers.com' style={{ width: "19px" }} /></span>frogs
                             </button>
                             <button className={toggleState === 2 ? "simple-tab selected" : "simple-tab"} onClick={() => toggleTab(2)} style={{ fontSize: '10px' }}>
-                                <span className="icon"><img src={require('../../resources/pixels/eg03-icon-cat.gif')}
+                                <span className="icon"><img alt="floralunit" src={require('../../resources/pixels/eg03-icon-cat.gif')}
                                     title='https://foollovers.com' style={{ width: "19px" }} /></span>cats
                             </button>
                         </div>
@@ -120,7 +120,7 @@ export function CatsFroggiesPage() {
                                 <div className="box-center">
                                     <div className="box-inner" style={{ height: '100%' }}>
                                         <div>
-                                            <img src={require('../../resources/images/стасик.png')}
+                                            <img alt="floralunit" src={require('../../resources/images/стасик.png')}
                                                 style={{ float: "left", maxWidth: '140px' }} />
                                             <div>
                                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.2em' }}>
@@ -145,7 +145,7 @@ export function CatsFroggiesPage() {
                                     <div className="box-center">
                                         <div className="box-inner">
                                             <div>
-                                                <img src={require('../../resources/images/лысик.png')}
+                                                <img alt="floralunit" src={require('../../resources/images/лысик.png')}
                                                     style={{ float: "right", maxWidth: '150px' }} />
                                                 <div>
                                                     <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
@@ -168,30 +168,30 @@ export function CatsFroggiesPage() {
                             </div>
                         </div>
                         <div style={{ fontWeight: 'bold', color: '#013220', margin: '0 auto', display: 'table' }}>
-                            <img src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
+                            <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
                                 style={{ height: '7px', width: 'auto', alignSelf: 'center' }}
                                 title='https://foollovers.com' />check frogs insta @floral.frogs
-                            <img src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
+                            <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
                                 style={{ height: '7px', width: 'auto', alignSelf: 'center' }}
                                 title='https://foollovers.com' />
                         </div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img src={require('../../resources/blinkies/0011-frog.gif')}
+                            <img alt="floralunit" src={require('../../resources/blinkies/0011-frog.gif')}
                                 style={{ height: '20px', width: 'auto' }} />
-                            <img src={require('../../resources/blinkies/143973s64ei05ghw.gif')}
+                            <img alt="floralunit" src={require('../../resources/blinkies/143973s64ei05ghw.gif')}
                                 style={{ height: '20px', width: 'auto' }} />
-                            <img src={require('../../resources/blinkies/763765qvfcjt9142.gif')}
+                            <img alt="floralunit" src={require('../../resources/blinkies/763765qvfcjt9142.gif')}
                                 style={{ height: '20px', width: 'auto' }} />
                         </div>
                         <div className='box'>
                             <div className='inner'>
                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                    <img src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
+                                    <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
                                         style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                                         title='https://foollovers.com' />
                                     <div>Frog gallery</div>
                                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                        <img src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
+                                        <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/ga08-heart-line.gif')}
                                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                                             title='https://foollovers.com' />
                                     </div>
@@ -199,7 +199,7 @@ export function CatsFroggiesPage() {
                                 <br />
                                 <div className='photo-gallery'>
                                     {photosFrog.map((image, index) => (
-                                        <img key={index} src={image.src} onClick={() => openLightboxFrog(index)} />))}
+                                        <img alt="floralunit" key={index} src={image.src} onClick={() => openLightboxFrog(index)} />))}
                                     <ModalGateway>
                                         {viewerIsOpenFrog ? (
                                             <Modal onClose={closeLightbox}>
@@ -228,7 +228,7 @@ export function CatsFroggiesPage() {
                                 <div className="box-center">
                                     <div className="box-inner" style={{ height: '100%' }}>
                                         <div>
-                                            <img src={require('../../resources/images/кузя.png')}
+                                            <img alt="floralunit" src={require('../../resources/images/кузя.png')}
                                                 style={{ float: "left", maxWidth: '150px' }} />
                                             <div>
                                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
@@ -246,7 +246,7 @@ export function CatsFroggiesPage() {
                                 <div className="box-bottom">
                                     <div className="s01"></div>
                                 </div>
-                                <img src={require('../../resources/tabs_dividers_pixels/cats_divider.gif')}
+                                <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/cats_divider.gif')}
                                     style={{ float: "left", padding: '10px' }} />
                             </div>
                             <div className="box08" style={{ width: '100%', order: '2' }}>
@@ -256,7 +256,7 @@ export function CatsFroggiesPage() {
                                 <div className="box-center">
                                     <div className="box-inner">
                                         <div>
-                                            <img src={require('../../resources/images/цыпа.png')}
+                                            <img alt="floralunit" src={require('../../resources/images/цыпа.png')}
                                                 style={{ float: "right", width: '30%', height: '30%' }} />
                                             <div>
                                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
@@ -284,12 +284,12 @@ export function CatsFroggiesPage() {
                         <div className="box">
                             <div className="inner">
                                 <div style={{ textAlign: 'center', fontFamily: 'LCD5', fontSize: '1.5em' }}>
-                                    <img src={require('../../resources/tabs_dividers_pixels/ga07-heart-line.gif')}
+                                    <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/ga07-heart-line.gif')}
                                         style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                                         title='https://foollovers.com' />
                                     <div>Cat gallery</div>
                                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                        <img src={require('../../resources/tabs_dividers_pixels/ga07-heart-line.gif')}
+                                        <img alt="floralunit" src={require('../../resources/tabs_dividers_pixels/ga07-heart-line.gif')}
                                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }}
                                             title='https://foollovers.com' />
                                     </div>
@@ -297,7 +297,7 @@ export function CatsFroggiesPage() {
                                 <br />
                                 <div className='photo-gallery'>
                                     {photosCat.map((image, index) => (
-                                        <img key={index} src={image.src} onClick={() => openLightboxCat(index)} />))}
+                                        <img alt="floralunit" key={index} src={image.src} onClick={() => openLightboxCat(index)} />))}
                                     <ModalGateway>
                                         {viewerIsOpenCat ? (
                                             <Modal onClose={closeLightbox}>

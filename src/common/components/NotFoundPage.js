@@ -13,12 +13,12 @@ export function NotFoundPage() {
         <div className='main' style={{ maxWidth: "650px", fontSize: 'smaller' }}>
             <div className='box'>
                 {/*                <div id='section-1' className="box-header">
-                    <img src={require('../../common/my-button/tears-ico-white1.png')}
+                    <img alt="floralunit"  src={require('../../common/my-button/tears-ico-white1.png')}
                          style={{height: '25px', width: 'auto', padding: '5px 0 0 0'}}/>
                 </div>*/}
                 <div className='inner'>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={require('../../main-website/resources/tabs_dividers_pixels/gray-flower-line.gif')}
+                <img alt="floralunit"  src={require('../../main-website/resources/tabs_dividers_pixels/gray-flower-line.gif')}
                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                     <div className="box08">
@@ -30,7 +30,7 @@ export function NotFoundPage() {
                                 Если ты перешел по этой ссылке и видишь это, то значит страница еще в планах/в работе и еще не готова! 
                                 <br/><br/>
                                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center' }}>
-                                    <img src={require('./kuda.jpg')}
+                                    <img alt="floralunit"  src={require('./kuda.jpg')}
                                         style={{ width: '200px', margin: '0 auto' }} />
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ export function NotFoundPage() {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <img src={require('../../main-website/resources/tabs_dividers_pixels/gray-flower-line.gif')}
+                        <img alt="floralunit"  src={require('../../main-website/resources/tabs_dividers_pixels/gray-flower-line.gif')}
                             style={{ height: '15px', width: 'auto', padding: '5px 0 0 0', alignSelf: 'center' }} />
                     </div>
                 </div>
